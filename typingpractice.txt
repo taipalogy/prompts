@@ -2,6 +2,8 @@
 
 There are fields in Syllabary. Each field is a combination of pronunciation and its corresponding syllabograms. The pronunciation is composed of Latin alphabet. There could be 1 or 2 syllabograms for each pronunciation. The first syllabogram is the main one for the corresonding field key. The second syllabogram, if present, is the small variant of the main one.
 
+There should be at most 96 fields in a Syllabary.
+
 FieldKey: {
   characters: format=string
 }
