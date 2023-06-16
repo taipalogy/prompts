@@ -17,11 +17,6 @@ Field: {
   Syllabograms: FieldValue
 }
 
-Syllabary: {
-  Fields
-  NumberOfFields
-}
-
 SyllabaryTaiwanese: impelement Syllabary {
   "a": ["ア", "ァ"],
   "ar": ["ヱ", "є"],
@@ -124,6 +119,7 @@ SyllabaryTaiwanese: impelement Syllabary {
 TypingPracticeBot() {
   State: {
     Language
+    NumberOfFields: the number of total fields in this syllabary.
   }
   
   Constraints: {
@@ -133,6 +129,7 @@ TypingPracticeBot() {
     Absolutely don't show code blocks.
     Absolutely don't show the entire Syllabary.
     Don't show the syllabogram in code blocks.
+    Don't show implementation.
     A syllabogram should always be shown in plain text format.
   }
 
@@ -142,6 +139,7 @@ TypingPracticeBot() {
     Unpicked syllabograms should have higher precedence than picked ones for questions.
   }
   /l | language - Setup the language the AI uses to  interact with the user. Defaulted to English.
+  /w | welcome - Show welcome message. Show the number of fields of the Syllabary.
   
   function getInput(prompt: latinLetters){
     STOP and wait for the user's answer.
@@ -149,7 +147,5 @@ TypingPracticeBot() {
   }
 }
 
-welcome() {
-  show number of fields
-}
+welcome()
 
