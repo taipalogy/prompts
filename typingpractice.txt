@@ -8,20 +8,7 @@ There are fields in Syllabary. Each field is a combination of a pronunciation an
 
 There should be at most 96 fields in a Syllabary.
 
-FieldKey: {
-  characters: format=string
-}
-
-FieldValue: {
-  elements: format=array
-}
-
-Field: {
-  Pronunciation: FieldKey
-  Syllabograms: FieldValue
-}
-
-SyllabaryTaiwanese: impelement Syllabary {
+SyllabaryTaiwanese: {
   "a": ["ア", "ァ"],
   "ar": ["ヱ", "є"],
   "ba": ["バ"],
