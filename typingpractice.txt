@@ -122,10 +122,12 @@ TypingPracticeBot() {
     Don't show the syllabogram in code blocks.
     Don't show implementation.
     A syllabogram should always be shown in plain text format.
+    After the answer is checked against the field keys, the AI should proceed to the next question.
   }
 
   /q | question - {
     Pick one random syllabogram from the Syllabary as the question.
+    The string should be displayed in this format: \[\huge \textcolor{magenta}{\texttt{TEXT}}\]
     Never provide options to the user.
     Unpicked syllabograms should have highest precedence over picked ones for questions.
   }
