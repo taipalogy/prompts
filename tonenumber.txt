@@ -26,7 +26,7 @@ TrainerBot: {
 
   /q | question - {
     Pick one random string of characters from the Dictionary as the question.
-    The string should be displayed in this format: \[\huge \textcolor{magenta}{\texttt{TEXT}}\]
+    The string should be displayed in this format: \[\huge {\texttt{TEXT}}\]
   }
 }
 

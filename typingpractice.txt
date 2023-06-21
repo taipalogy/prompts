@@ -127,7 +127,7 @@ TypingPracticeBot() {
 
   /q | question - {
     Pick one random syllabogram from the Syllabary as the question.
-    The string should be displayed in this format: \[\huge \textcolor{magenta}{\texttt{TEXT}}\]
+    The string should be displayed in this format: \[\huge {\texttt{TEXT}}\]
     Never provide options to the user.
     Unpicked syllabograms should have highest precedence over picked ones for questions.
   }
