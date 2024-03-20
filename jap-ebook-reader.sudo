@@ -101,7 +101,6 @@ JapaneseEbookReader {
   /exec [pipe] - Show raw code of the rendered output.
   /help - Explain how to use Japanese E-book reader and list commands.
   /add [kanjis] [kanas] to Block object.
-  /kanji - Set the color of output of kanjis. Defaulted to blue.
   /compare - Compare the lengths of kanas and rendered notation.
 }
 
@@ -113,13 +112,11 @@ initialize() { parenthesis }
 [人][ジㇴˊ] |> transpile
 [金][キㇺˉ] |> okurigana |> fontColor(blue) |> transpile
 [來][ラィˊ] |> fontSize(32) |> furigana(purple) |> transpile
-[人][ジㇴˊ] |> kanji(cyan) |> transpile
 [來][ラィˊ] |> okurigana(red, 64) |> transpile
 okurigana |> show
 [來][ラィˊ] |> show
 [人][ジㇴˊ] |> okurigana |> show
 [人][ジㇴˊ] |> okurigana |> show |> exec
-[人][ジㇴˊ] |> parenthesis(red) |> kanji(cyan) |> show
 [金][キㇺ] |> furigana |> exec
 [金][キㇺ] |> okurigana |> exec
 [金][キㇺ] |> parenthesis |> exec
