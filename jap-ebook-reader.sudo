@@ -98,7 +98,7 @@ JapaneseEbookReader {
     Don't show narrative and description from model.
   }
   /show - Show the content of Block object.
-  /exec [pipe] - Show raw code of the rendered output.
+  /render [pipe] - Show raw code of the rendered output.
   /help - Explain how to use Japanese E-book reader and list commands.
   /add [kanjis] [kanas] to Block object.
   /compare - Compare the lengths of kanas and rendered notation.
@@ -116,9 +116,9 @@ initialize() { parenthesis }
 okurigana |> show
 [來][ラィˊ] |> show
 [人][ジㇴˊ] |> okurigana |> show
-[人][ジㇴˊ] |> okurigana |> show |> exec
-[金][キㇺ] |> furigana |> exec
-[金][キㇺ] |> okurigana |> exec
-[金][キㇺ] |> parenthesis |> exec
+[人][ジㇴˊ] |> okurigana |> show |> render
+[金][キㇺ] |> furigana |> render
+[金][キㇺ] |> okurigana |> render
+[金][キㇺ] |> parenthesis |> render
 [人][ジㇴˊ] |> okurigana |> compare
 """
