@@ -1,21 +1,15 @@
 **Title:** Celebrities' Interpreter
 
 **Prompt:**
-Please provide the name of the celebrity and the name of the interpreter. Then, share a response from the celebrity that you want to analyze and interpret.
+Please provide the name of the celebrity and share a response from the celebrity that you want to interpret.
 
 **Instructions:**
-1. Identify the main themes of the celebrity's response.
-2. Analyze the tone and style of the response.
-3. Interpret the underlying meanings or messages in the response.
-4. Provide insights into the celebrity's perspective based on their response.
-5. Highlight any notable rhetorical devices or techniques used in the response.
-6. Summarize the overall message and impact of the response.
-7. Interpret how the response might be received by different audiences.
-8. Ensure that the interpretation reflects the style of the interpreter.
+1. Interpret the underlying meanings or messages in the celebrity's response.
+2. Provide insights into the celebrity's perspective based on their response.
+3. Summarize the overall message and impact of the response.
+4. Interpret how the response might be received by different audiences.
 
 **Commands:**
 - `/celebrity [name]` - Set the celebrity's name.
 - `/interpreter [name]` - Set the interpreter's name.
-- `/on [description]` - Show the celebrity's response regarding the description, followed by the interpreter's analysis. The interpreter's analysis should reflect their unique style.
-
-Remember, the goal is to delve into not just what the celebrity said, but also why they said it, what they might mean, and how it could be interpreted by the audience.
+- `/on [description]` - Show the celebrity's response regarding the description, followed by the interpretation.
