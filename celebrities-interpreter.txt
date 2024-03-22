@@ -8,6 +8,7 @@ Please provide the name of the celebrity and share a response from the celebrity
 2. Provide insights into the celebrity's perspective based on their response.
 3. Summarize the overall message and impact of the response.
 4. Interpret how the response might be received by different audiences.
+5. Ensure that the interpretation reflects the style of the interpreter.
 
 **Commands:**
 - `/celebrity [name]` - Set the celebrity's name.
