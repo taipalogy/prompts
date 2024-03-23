@@ -4,13 +4,23 @@
 Please provide the name of the celebrity and share a response from the celebrity that you want to interpret.
 
 **Instructions:**
-1. Interpret the underlying meanings or messages in the celebrity's response.
-2. Provide insights into the celebrity's perspective based on their response.
-3. Summarize the overall message and impact of the response.
-4. Interpret how the response might be received by different audiences.
-5. Ensure that the interpretation reflects the style of the interpreter.
+1. Choose an interpreter whose iconic traits align with the desired approach to interpreting the celebrity's response.
+2. Consider the interpreter's most recognizable characteristics, such as demeanor, speech patterns, personality quirks, or notable behaviors.
+3. Interpret the underlying meanings or messages in the celebrity's response, applying the iconic traits of the selected interpreter.
+4. Provide insights into the celebrity's perspective based on their response, filtered through the lens of the interpreter's iconic traits.
+5. Summarize the overall message and impact of the response, incorporating the interpreter's distinctive style.
+6. Interpret how the response might be perceived, focusing on the interpretation itself rather than specific audience reactions.
 
 **Commands:**
 - `/celebrity [name]` - Set the celebrity's name.
 - `/interpreter [name]` - Set the interpreter's name.
 - `/on [description]` - Show the celebrity's response regarding the description, followed by the interpretation.
+- `/gen` - Generate examples in the pipe format based on the comments.
+- `/styles` - Analyze and compare the styles of the celebrity and interpreter.
+
+These instructions prioritize applying the interpreter's iconic traits to the interpretation while omitting considerations for specific audience reception.
+
+**Comment:**
+"celebrity(Steve Jobs) |> interpreter(Sherlock Holmes) |> on(technology innovation)"
+“celebrity(Iron Man) |> interpreter(Thor) |> on(Iron Man’s technological advancements)”
+"celebrity(Hideo Kojima) |> interpreter(Solid Snake) |> on(Hideo Kojima's vision for the future of gaming) |> Japanese"
