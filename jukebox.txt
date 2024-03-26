@@ -1,0 +1,55 @@
+## Context-Aware Jukebox: Online & Offline Music Magic
+
+**Concept:** Design a software system for a jukebox that utilizes real-time search, user feedback, and external data integration to generate song suggestions tailored to user-specified locations, time ranges, surrounding environment, and user preferences. Additionally, the jukebox should function even when the network is unavailable.
+
+**Data Sources (Online Mode):**
+
+* **Music Streaming Service:** Partner with a music streaming service to access anonymized music play data categorized by location and time.
+* **Local Event Listings:** Integrate with local event databases to retrieve information about concerts, festivals, or other happenings near the user's specified location.
+* **Business Directories:** Collaborate with business directory services to gain insights into the types of shops and venues surrounding the user's location (e.g., cafes, bars, clubs).
+
+**User Interaction:**
+
+* **List of Commands:**
+    * **Location:** Specify your current location using GPS or manual input (e.g., zip code, address).
+    * **Time:** Select your desired time for music suggestions. Choose the system time (pre-populated with current time) or manually select a timeframe (e.g., next few hours, evening).
+    * **Scene:** Describe the situation or activity at your location to provide additional context for music recommendations (e.g., "Sunday Morning at Daan Forest Park").
+    * **Feedback:** Provide feedback on suggested music using "like" or "dislike" options to influence future recommendations.
+    * **Play:** After describing the scene using the "scene" command, enter "play" to instruct the jukebox to generate a music list based on the provided context. You can further refine the suggestions by:
+        * **Changing the Mood:** Describe a slightly different scene within the initial scene description (e.g., "scene: Relaxing conversation with friends at a fundraising gala at Taipei City Hall"). 
+        * **Specifying Genre (Online Mode):** Mention your preferred genre after "play" (e.g., "play (smooth jazz)").
+        * **Discovering New Music (Online Mode):** Enter "play (something new)" to explore music outside your usual preferences.
+
+**Offline Functionality:**
+
+* **Pre-downloaded Music Library:** The jukebox will store a curated selection of music categorized by genre, mood, and location (if relevant) on the device itself. This library would be updated periodically when the network is available to ensure access to fresh music options.
+* **Scene-Based Recommendations (Offline Mode):** The jukebox analyzes the user's scene description using keywords and pre-defined scenarios. Based on this analysis, it recommends music genres and moods likely to fit the situation, even in offline mode.
+* **Mood Selection (Offline Mode):**  In offline mode, the jukebox offers a limited set of user interaction options.  Users can choose a general mood (upbeat, calm, etc.) or genre (classical, jazz, etc.) based on pre-defined selections within the downloaded music library.
+
+**Network Availability:**
+
+* **Online Mode:** When a network connection is available, the jukebox functions as previously described, leveraging real-time search, user feedback, and external data integration to generate highly personalized music suggestions.
+* **Offline Mode:** If the network becomes unavailable, the jukebox seamlessly switches to offline functionality. Users can still enjoy music recommendations based on pre-downloaded content, scene analysis, and limited user interaction options.
+
+**Benefits:**
+
+* **Improved User Experience:**  The jukebox offers a consistent experience even when the network goes down. Users can still enjoy background music or discover new options based on scene-based recommendations and mood selection.
+* **Offline Music Library Management:**  The system allows for periodic updates to the downloaded music library when online, ensuring access to fresh music choices.
+
+**Challenges:**
+
+* **Storage Space:** Accommodating a sizeable music library on the jukebox device requires careful storage management.
+* **Offline Updates:**  Developing a reliable mechanism for updating the music library without disrupting user experience is crucial.
+
+**Example (with Semantic Search Elements):**
+
+Imagine you're in Taipei, Taiwan, and it's Saturday night. You head to the iconic Taipei 101 skyscraper for the breathtaking views and vibrant atmosphere. You can use the jukebox by entering:
+
+* **Location:** Taipei 101 (**Entity Recognition - Location**)
+* **Time:** Evening (**Entity Recognition - Timeframe**)
+* **Scene:** Sightseeing at Taipei 101 on a Saturday Night (**Understanding User Intent and Context**)
+
+Based on this information, the jukebox (in online mode) might suggest a playlist with:
+
+* Upbeat and modern music with a touch of Taiwanese flair, considering the location and time of day (**Understanding Context - Location & Time**).
+* Energetic tracks for the bustling atmosphere of
