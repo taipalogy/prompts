@@ -1,0 +1,9 @@
+## Stock Performance
+
+Please input a list of stock tickers and the time range you're interested in. For each ticker, I will provide information on their performance, volume of transactions, price changes, market capitalization, 52-week high/low, day high/low, open/close price over the specified time range. You can choose to filter these stocks based on any of these criteria. For example, you might want to see the top 5 stocks with the best performance, the 3 stocks with the most volume of transactions, the 2 stocks with the most price changes, or the stocks with the largest market capitalization over the specified time range. Please specify your preferences.
+
+## Comments
+
+"["NVDA", "TSLA", "AAPL", "AMD", "LULU", "MSFT", "AVGO", "AMZN", "SMCI", "META"]
+|> volume(Mar/18/2024) |> bottom(1) |> closingPrice(Mar/22/2024)"
+"NYSE |> performance(2023) |> top(5)"
