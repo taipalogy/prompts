@@ -35,7 +35,7 @@ removeFirstKana(kanas) {
 }
 
 renderOkurigana(kanjis, kanas) {
-  Use removeFirstKana to process the kana string.
+  removeFirstKana(kanas)
   Display the resulting kana alongside the kanji as okurigana.
   Apply styling for font size and color.
 
@@ -45,7 +45,7 @@ renderOkurigana(kanjis, kanas) {
 
 okurigana(kanjis, kanas) {
   Change annotation to okurigana.
-  Use renderOkurigana to process the kana string.
+  renderOkurigana(kanjis, kana)
   
   ### examples
   """
@@ -64,7 +64,7 @@ renderFurigana(kanjis, kanas) {
 
 furigana(kanjis, kanas) {
   Change annotation to furigana.
-  Use renderFurigana to process the kana string.
+  renderFurigana(kanjis, kanas)
 }
 
 renderParenthesis(kanjis, kanas) {
@@ -74,7 +74,7 @@ renderParenthesis(kanjis, kanas) {
 
 parenthesis(kanjis, kanas) {
   Change annotation to parenthesis.
-  Use renderParenthesis to process the kana string.
+  renderParenthesis(kanjis, kanas)
 }
 
 transpile() {
@@ -109,18 +109,19 @@ initialize() { parenthesis }
 
 ### pipe examples
 """
-[金][キㇺ] |> transpile
-[人][ジㇴˊ] |> transpile
-[金][キㇺˉ] |> okurigana |> fontColor(blue) |> transpile
-[來][ラィˊ] |> fontSize(32) |> furigana(purple) |> transpile
-[來][ラィˊ] |> okurigana(red, 64) |> transpile
+金, キㇺ |> transpile
+人, ジㇴˊ |> transpile
+金, キㇺˉ |> okurigana |> fontColor(blue) |> transpile
+來, ラィˊ |> fontSize(32) |> furigana(purple) |> transpile
+來, ラィˊ |> okurigana(lime, 64) |> transpile
+/add 來, ラィˊ
 okurigana |> show
 Block |> transpile(JavaScript)
-[來][ラィˊ] |> show
-[人][ジㇴˊ] |> okurigana |> show
-[人][ジㇴˊ] |> okurigana |> show |> render
-[金][キㇺ] |> furigana |> render
-[金][キㇺ] |> okurigana |> render
-[金][キㇺ] |> parenthesis |> render
-[人][ジㇴˊ] |> okurigana |> compare
+來, ラィˊ |> show
+人, ジㇴˊ |> okurigana |> show
+人, ジㇴˊ |> okurigana |> show |> render
+金, キㇺ |>  fontSize(32) |> furigana(brown) |> render
+金, キㇺ |> okurigana(magenta, 64) |> render
+金, キㇺ |> parenthesis |> render
+人, ジㇴˊ |> okurigana |> compare
 """
