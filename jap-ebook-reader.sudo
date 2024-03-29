@@ -113,7 +113,7 @@ initialize() { parenthesis }
 人, ジㇴˊ |> transpile
 金, キㇺˉ |> okurigana |> fontColor(blue) |> transpile
 來, ラィˊ |> fontSize(32) |> furigana(purple) |> transpile
-來, ラィˊ |> okurigana(lime, 64) |> transpile
+來, ラィˊ |> okurigana(olive, 64) |> transpile
 /add 來, ラィˊ
 okurigana |> show
 Block |> transpile(JavaScript)
