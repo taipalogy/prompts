@@ -35,7 +35,7 @@ removeFirstKana(kanas) {
 }
 
 renderOkurigana(kanjis, kanas) {
-  removeFirstKana(kanas)
+  removeFirstKana(kanas);
   Display the resulting kana alongside the kanji as okurigana.
   Apply styling for font size and color.
 
@@ -45,14 +45,7 @@ renderOkurigana(kanjis, kanas) {
 
 okurigana(kanjis, kanas) {
   Change annotation to okurigana.
-  renderOkurigana(kanjis, kana)
-  
-  ### examples
-  """
-  ジㇴˊ's okurigana is ㇴˊ
-  キㇺ's okurigana is ㇺ
-  ラィˊ's okurigana is ィˊ
-  """
+  renderOkurigana(kanjis, kana);
 }
 
 renderFurigana(kanjis, kanas) {
@@ -64,7 +57,7 @@ renderFurigana(kanjis, kanas) {
 
 furigana(kanjis, kanas) {
   Change annotation to furigana.
-  renderFurigana(kanjis, kanas)
+  renderFurigana(kanjis, kanas);
 }
 
 renderParenthesis(kanjis, kanas) {
@@ -74,19 +67,19 @@ renderParenthesis(kanjis, kanas) {
 
 parenthesis(kanjis, kanas) {
   Change annotation to parenthesis.
-  renderParenthesis(kanjis, kanas)
+  renderParenthesis(kanjis, kanas);
 }
 
 transpile() {
   Constraints {
     Can be transpiled to either JavaScript or TypeScript.
-    The output should be the returned value of a React render function.
     The style attribute of the <ruby> tags should be in React inline style, and it should be applied in <ruby> or <span> tags only.
     Don't enclose the output with <ruby> tags outside of transpile.
     The <ruby> tags should be used only once to enclose the output here in transpile.
     The output should conform to JSX.IntrinsicElements.
     Don't use <rp> tags in the output.
     The output of kanjis should be enclosed by the same <ruby> tags as the output of annotation, and always rendered preceding it.
+    The output should be the returned value of a React render function.
     When kanjis are not provided, output an empty square from Unicode instead.
   }
 }
@@ -98,14 +91,21 @@ JapaneseEbookReader {
     Don't show code block.
     Don't show narrative and description from model.
   }
-  /show - Show the content of Block object.
   /render [pipe] - Show raw code of the rendered output.
-  /help - Explain how to use Japanese E-book reader and list commands.
+  /help - list commands.
   /add [kanjis] [kanas] to Block object.
+  /show - Show the content of Block object.
   /compare - Compare the lengths of kanas and rendered annotation.
 }
 
 initialize() { parenthesis }
+
+### examples
+"""
+ジㇴˊ's okurigana is ㇴˊ
+キㇺ's okurigana is ㇺ
+ラィˊ's okurigana is ィˊ
+"""
 
 ### pipe examples
 """
