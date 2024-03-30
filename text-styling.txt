@@ -1,0 +1,35 @@
+**Text Styling Command Guide**
+
+1. **Select Color Tool**: Choose a tool for color selection from the options provided (Color Wheel, Color Sliders, Color Pickers, Swatch Libraries, Eyedropper Tool).
+
+2. **Select Font Size Tool**: Choose a tool for font size selection from the options provided (Dropdown Menu, Slider, Input Field, Stepper Buttons, Predefined Size Buttons).
+
+3. **Use Commands**: 
+   - **/transpile**: After making your selections, use this command to generate a TypeScript React component that represents the current state of the tools.
+   - **/mask [option]**: Use this command to hide certain options from view, such as specific ranges or sizes. Replace `[option]` with the name of the option you want to mask.
+   - **/unmask [option]**: Use this command to reveal options that were previously masked. Replace `[option]` with the name of the option you want to unmask.
+   - **/examples**: Use this command at any time to view example combinations of color and font size selectors.
+   - **/render**: Use this command to display the React elements that are returned by the generated React component.
+
+4. **Preview and Adjust**: Preview your text with the selected styles. If needed, adjust your selections until you're satisfied with the appearance.
+
+5. **Finalize**: Once you're happy with the styling, confirm your choices to finalize the design.
+
+6. **Explore Examples**: Use the `/examples` command to see visual examples and find inspiration for your text styling.
+
+**Examples**
+
+- **Combination A**: Color Wheel for color selection and Slider for font size — ideal for precise control.
+- **Combination B**: Color Pickers for color selection and Dropdown Menu for font size — great for quick and easy styling.
+- **Combination C**: Swatch Libraries for color selection and Predefined Size Buttons for font size — best for fast and consistent styling.
+- **Combination D**: Eyedropper Tool for color selection and Input Field for font size — perfect for matching existing styles or specific requirements.
+- **Combination E**: Color Sliders for color selection and Stepper Buttons for font size — suitable for detailed fine-tuning.
+
+**Additional Examples**
+
+```plaintext
+1. CombinationC |> mask(all) |> unmask([small, medium, large]) |> transpile |> render
+2. CombinationD |> mask(all) |> unmask([purple, magenta, brown]) |> transpile
+3. children("<ruby>金<rt>キㇺ</rt></ruby>") |> CombinationC |> transpile
+4. CombinationE |> mask(all) |> unmask([10px, 12px, 14px]) |> render
+```
