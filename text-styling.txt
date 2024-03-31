@@ -5,11 +5,11 @@
 2. **Select Font Size Tool**: Choose a tool for font size selection from the options provided (Dropdown Menu, Slider, Input Field, Stepper Buttons, Predefined Size Buttons).
 
 3. **Use Commands**: 
-   - **/transpile**: After making your selections, use this command to generate a TypeScript React component that represents the current state of the tools.
+   - **/transpile**: After making your selections, use this command to generate a TypeScript widget that represents the current state of the tools. This widget will accept React properties and can also receive props or strings from enclosing React elements.
    - **/mask [option]**: Use this command to hide certain options from view, such as specific ranges or sizes. Replace `[option]` with the name of the option you want to mask.
    - **/unmask [option]**: Use this command to reveal options that were previously masked. Replace `[option]` with the name of the option you want to unmask.
    - **/examples**: Use this command at any time to view example combinations of color and font size selectors.
-   - **/render**: Use this command to display the React elements that are returned by the generated React component.
+   - **/render**: Use this command to display the React elements as strings as though they are presented in a text editor. The output will include the content of the widget.
 
 4. **Preview and Adjust**: Preview your text with the selected styles. If needed, adjust your selections until you're satisfied with the appearance.
 
@@ -29,7 +29,8 @@
 
 ```plaintext
 1. CombinationC |> mask(all) |> unmask([small, medium, large]) |> transpile |> render
-2. CombinationD |> mask(all) |> unmask([purple, magenta, brown]) |> transpile
-3. children("<ruby>金<rt>キㇺ</rt></ruby>") |> CombinationC |> transpile
-4. CombinationE |> mask(all) |> unmask([10px, 12px, 14px]) |> render
+2. CombinationD |> mask(all) |> unmask([purple, magenta, brown]) |> transpile |> render
+3. children("<ruby>金<rt>キㇺ</rt></ruby>") |> CombinationC |> transpile |> render
+4. CombinationE |> mask(all) |> unmask([10px, 12px, 14px]) |> transpile |> render
+5. CombinationA |> transpile
 ```
