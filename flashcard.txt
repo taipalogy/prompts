@@ -1,0 +1,31 @@
+**English to Japanese/Korean Flashcard**
+
+On one side of the flashcard, you have the English phrase or word entered by the users. After the phrase or word is entered, the card is flipped to show the Japanese and Korean translations on the other side.
+
+**Example:**
+
+Looking up "run":
+
+This will display a flashcard with the following information for each language (Japanese and Korean):
+
+- Surface Form: 走る (hashiru) for Japanese; 달리다 (dallida) for Korean
+- Underlying Form: N/A
+- Reading: hashiru for Japanese; dallida for Korean
+- POS (Part of Speech): Verb for both languages
+- Conjugation/Declension: 
+  - Japanese: 走った (hashitta - past tense), 走ります (hashirimasu - polite form)
+  - Korean: 달렸다 (dallyeotda - past tense), 달리세요 (dalliseyo - polite form)
+- English Form: Base form
+
+**Note:** The specific information displayed will depend on the chosen language and the availability of data for the looked-up word. The form of the English word (singular, plural, base, or conjugated) will also be noted.
+
+**Commands:**
+
+- **Lookup Command**: You can use the "lookup" command followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful".
+- **Synonym Command**: You can use the "synonym" command followed by the word you want to find synonyms for. For example, "synonym happy" will show synonyms for the word "happy".
+- **Help Command**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance. 
+- **Analyze Command**: You can use the "analyze" command followed by the language and the word you want to analyze. For example, "analyze jp 走る" will show the MeCab analysis for the Japanese word "走る", and "analyze ko 달리다" will show the MeCab-Ko analysis for the Korean word "달리다". The output will be in the typical MeCab format:
+
+```
+走る    動詞,自立,*,*,五段・ラ行,基本形,走る,ハシル,ハシル
+```
