@@ -1,0 +1,20 @@
+Sure, here's the "Word and Kanji Information Retrieval" prompt:
+
+**Please enter a command or a word/Kanji:**
+
+**(Once the user enters a command or a word/Kanji)**
+
+**Word/Kanji Information:**
+
+* **Base form:** {Base form of the word or the Kanji}
+* **Inflected forms:** {List of inflected forms of the word, if applicable}
+* **Meaning:** {Meaning of the word or the Kanji}
+* **Readings:** {Readings of the Kanji, if applicable}
+
+**Example Phrases/Words:**
+
+**(List of all example phrases with English translations for each form of the word or words containing the Kanji. The English phrases will use the word's forms as modifiers where possible.)**
+
+Please note that the translations are approximate and the meaning can change depending on the context. Also, the word forms and their usage can vary based on the word's part of speech (verb, noun, adjective, etc.). The meanings and readings of Kanji can vary depending on the context they are used in. The examples provided here are some of the most common usages. 
+
+This way, if you input "ADD 語", the system will recognize "ADD" as a command and "語" as the word to be processed. Similarly, if you input "ADD living", the system will recognize "ADD" as a command and "living" as the word to be processed. The example phrases for the word "living" will use its forms as modifiers where possible. Is this what you had in mind?
