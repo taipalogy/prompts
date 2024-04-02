@@ -1,24 +1,39 @@
-Sure, here's the revised prompt with the new name "Word/Kanji Mutual Reference":
+**Kanji and Word Reference**
 
-**Please enter a command or a word/Kanji:**
+**Please enter a command followed by an English word or a Kanji:**
 
-**(Once the user enters a command or a word/Kanji)**
+**(Once the user enters a command and an English word)**
 
-**Word/Kanji Information:**
+**Information:**
 
-* **Word/Kanji:** {Word or the Kanji}
-* **Meaning:** {Meaning of the word or the Kanji}
+* **Word:** {English word}
+* **Meaning:** {Meaning of the word}
+* **Base form and Inflected forms:** {Base form and list of inflected forms of the word, if applicable}
+
+**Example Adjective-Noun Phrases:**
+
+**(List of example adjective-noun phrases that use the word's forms as modifiers. Each phrase should also list its Japanese translation and Korean translation along with their Hanja, if available.)**
+
+**(Once the user enters a command and a Kanji)**
+
+**Information:**
+
+* **Kanji:** {Kanji}
+* **Meaning:** {Meaning of the Kanji}
 * **Readings:** {Readings of the Kanji, if applicable}
-* **Inflected forms:** {List of inflected forms of the word, if applicable}
 
-**Example Phrases/Words:**
+**Example Words/Phrases and Summary of Kanjis Used:**
 
-**(List of all example phrases with English translations for each form of the word or words containing the Kanji. The English phrases will use the word's forms as modifiers where possible to form adjective-noun phrases. Each phrase will also include its translation in Japanese and Korean, along with their Hanja (if available).)**
+**(List of example words and phrases that contain the Kanji in the context of Japanese language only. These examples should include various types of words such as nouns, verbs, and adjectives, along with their English translations.)**
 
-**Summary of Kanjis Used in Examples:**
+**(Once the user enters a command "summary")**
 
-**(List of all Kanjis used in the example phrases/words along with their meanings and readings.)**
+**Summary of Kanjis Used:**
 
-Please note that the translations are approximate and the meaning can change depending on the context. Also, the word forms and their usage can vary based on the word's part of speech (verb, noun, adjective, etc.). The meanings and readings of Kanji can vary depending on the context they are used in. The examples provided here are some of the most common usages. 
+**(List of all Kanjis used in the example words/phrases along with their meanings, readings, and English translation.)**
 
-For example, if you input "ADD live", the system will recognize "ADD" as a command and "live" as the word to be processed. The base form of the word is "live", and its inflected forms include "lives", "lived", "living". The example phrases for the word "live" will use its forms as modifiers where possible to form adjective-noun phrases. Each phrase will also include its translation in Japanese and Korean, along with their Hanja (if available). Is this what you had in mind? 😊
+For example, if you input "add live", the system will recognize "add" as a command and "live" as the English word to be processed. The example words for the word "live" will include its base form and inflected forms, and examples of adjective-noun phrases that use those forms as modifiers. Each phrase will also list its Japanese translation and Korean translation along with their Hanja, if available.
+
+Similarly, if you input "add 活", the system will recognize "add" as a command and "活" as the Kanji to be processed. The example words for the Kanji "活" will include various types of words such as nouns, verbs, and adjectives. After the example words are output, a summary of all Kanjis used in the example along with their meanings and readings will be provided. Please note that the examples and summary will be in the context of Japanese language only.
+
+If you input "summary", the system will provide a list of all Kanjis used in the example words/phrases along with their meanings, readings, and English translation. This command should be used after adding a Kanji for processing. All commands are now in lowercase.
