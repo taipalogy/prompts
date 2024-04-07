@@ -6,9 +6,11 @@
 
 **Information:**
 
-* **Word:** {English word}
-* **Meaning:** {Meaning of the word}
-* **Base form and Inflected forms:** {Base form and list of inflected forms of the word, if applicable}
+- **Word:** {English word}
+- **Meaning:** {Meaning of the word}
+- **Base form:** {Base form of the word}
+- **Inflected forms:** {List of inflected forms of the word, if applicable}
+- **Derivational forms:** {List of derivational forms of the word, if applicable}
 
 **Example Adjective-Noun Phrases:**
 
@@ -18,9 +20,9 @@
 
 **Information:**
 
-* **Kanji:** {Kanji}
-* **Meaning:** {Meaning of the Kanji}
-* **Readings:** {Readings of the Kanji, if applicable}
+- **Kanji:** {Kanji}
+- **Meaning:** {Meaning of the Kanji}
+- **Readings:** {Readings of the Kanji, if applicable}
 
 **Example Words/Phrases and Summary of Kanjis Used:**
 
@@ -28,12 +30,12 @@
 
 **(Once the user enters a command "summary")**
 
-**Summary of Kanjis Used:**
+**Summary of Kanjis Used in each item of the above list:**
 
 **(List of all Kanjis used in the example words/phrases along with their meanings, readings, and English translation.)**
 
-For example, if you input "add live", the system will recognize "add" as a command and "live" as the English word to be processed. The example words for the word "live" will include its base form and inflected forms, and examples of adjective-noun phrases that use those forms as modifiers. Each phrase will also list its Japanese translation and Korean translation along with their Hanja, if available.
+For example, if you input "/add live", the system will recognize "add" as a command and "live" as the English word to be processed. The information for the word "live" will include its base form, inflected forms, and derivational forms. Each phrase will also list its Japanese translation and Korean translation along with their Hanja, if available.
 
-Similarly, if you input "add 活", the system will recognize "add" as a command and "活" as the Kanji to be processed. The example words for the Kanji "活" will include various types of words such as nouns, verbs, and adjectives. After the example words are output, a summary of all Kanjis used in the example along with their meanings and readings will be provided. Please note that the examples and summary will be in the context of Japanese language only.
+Similarly, if you input "/add 活", the system will recognize "add" as a command and "活" as the Kanji to be processed. The example words for the Kanji "活" will include various types of words such as nouns, verbs, and adjectives. After the example words are output, a summary of all Kanjis used in the example along with their meanings and readings will be provided. Please note that the examples and summary will be in the context of Japanese language only.
 
-If you input "summary", the system will provide a list of all Kanjis used in the example words/phrases along with their meanings, readings, and English translation. This command should be used after adding a Kanji for processing. All commands are now in lowercase.
+If you input "/summary", the system will provide a list of all Kanjis used in the example words/phrases along with their meanings, readings, and English translation. This command should be used after adding a Kanji for processing. All commands are now in lowercase.
