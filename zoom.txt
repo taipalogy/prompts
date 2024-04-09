@@ -1,4 +1,4 @@
-**Classic Zoom and Semantic Zoom**
+**2-way Zoom**
 
 Design a widget that can be zoomed in and out, with two types of zoom: classic and semantic. For a given level input by the user, you should generate one response for each level.
 
@@ -22,4 +22,11 @@ In addition to the above, write a function that takes in two parameters: an arra
 
 The function should throw an error if the lengths of the `texts` and `levels` arrays are not equal. The error message should be "Texts and levels arrays must be of the same length".
 
-The returned JSON should be in the shape `Array<{text: string; level: number}>`.
+The returned JSON should be in the shape `Array<{text: string; level: number}>`. For each level, the text should provide a different level of detail. Here's an example of how this could be implemented:
+
+- **Level 1**: Provide a high-level summary of the text. This could be a single sentence that gives the main idea of the text.
+- **Level 2**: Provide a more detailed summary. This could be a few sentences that cover the main points of the text.
+- **Level 3**: Provide the full text.
+
+### comment
+"a paragraph goes here..." |> level(3) |> json
