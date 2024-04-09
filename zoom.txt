@@ -1,0 +1,25 @@
+**Classic Zoom and Semantic Zoom**
+
+Design a widget that can be zoomed in and out, with two types of zoom: classic and semantic. For a given level input by the user, you should generate one response for each level.
+
+1. **Classic Zoom**: This traditional zoom functionality increases or decreases the size of the entire content within the widget.
+
+2. **Semantic Zoom**: This advanced type of zoom changes the content display based on the zoom level. When zoomed in, the widget shows the full content of the blog or news paragraph. When zoomed out, it displays an abstract or summary of the content, providing a concise overview.
+
+The widget should be able to receive a paragraph, blog, or news as its input. Users should be able to specify the levels of zoom, and the widget should return the responses for each level. If the widget is to be returned, it should be toggleable by users to switch between different levels of views.
+
+Additionally, a command should be added to control the level of responses. In this command, there should be methods that update the state of the widget. The zoom level should control the zoom functionality, and the response level should control the level of detail in the responses. The render method should then use these state variables to determine how to display the widget.
+
+You should be able to call these methods to change the levels as needed. For example, you can set the zoom level and the response level to the same value. The widget will then render based on these levels.
+
+To generate the React component, you would use a transpile command. This command would take the HTML and CSS of the widget and convert it into JSX syntax that can be used in a React component.
+
+Once the React component is created, you can use a render command to generate the return value that would be returned by the React component. This return value would be the actual JSX that represents the widget, which can then be rendered to the DOM by React.
+
+This widget should be suitable for displaying a blog or news paragraph. The abstract or summary displayed during semantic zoom out can be customized based on the content. If you're using a framework like React or Vue, you might want to turn this into a reusable component.
+
+In addition to the above, write a function that takes in two parameters: an array of strings (`texts`) and an array of numbers (`levels`). The function should return a JSON array where each element is an object. Each object should have two properties: `text` and `level`. The `text` property should be a string from the `texts` array, and the `level` property should be a number from the `levels` array.
+
+The function should throw an error if the lengths of the `texts` and `levels` arrays are not equal. The error message should be "Texts and levels arrays must be of the same length".
+
+The returned JSON should be in the shape `Array<{text: string; level: number}>`.
