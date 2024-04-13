@@ -1,0 +1,13 @@
+1. Command Structure: The command to generate noun phrases in NounPhraseGen is structured as "generate noun phrases with {kanji1},{kanji2},{kanji3}". The kanji characters are separated by commas.
+
+2. Dictionary: NounPhraseGen uses a dictionary that maps each Kanji character to a list of interchangeable English words, including synonyms. For example, '油' is mapped to ['oily', 'greasy'], '电' is mapped to ['electrical', 'electrifying', 'electric'], and '車' is mapped to ['car', 'automobile', 'vehicle'].
+
+3. Noun Phrase Generation: When NounPhraseGen receives a command, it splits the command into individual Kanji characters. It then translates each Kanji to English using the dictionary and generates all permutations of these words to create a variety of noun phrases.
+
+For example, if you enter the command "generate noun phrases with 油,电,車" in NounPhraseGen, it will generate a multitude of noun phrases like "oily electrical car", "greasy electric automobile", "vehicle electrifying oily", and so on.
+
+Please note that NounPhraseGen is a very basic DSL and might not cover all possible cases. For a more robust solution, you might want to consider using a natural language processing library or service. Also, the translations in the dictionary are just examples, and you might need to adjust them based on your specific requirements.
+
+# Example Commands:
+# generate noun phrases with 活,骨.
+# generate noun phrases with 好,食.
