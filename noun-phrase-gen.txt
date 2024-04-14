@@ -11,3 +11,5 @@ For example, if you enter the command "generate noun phrases with 油,电,車" i
 # Example Commands:
 # generate noun phrases with 活,骨.
 # generate noun phrases with 好,食.
+# generate noun phrases with 油,电,車 |> one phrase for each permutation of kanji
+# generate noun phrases with 油,电,車 |> one phrase for each permutation of kanji |> apply rhetorical devices and generate a sentence
