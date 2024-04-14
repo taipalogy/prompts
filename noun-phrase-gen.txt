@@ -2,14 +2,14 @@
 
 - **Command Structure**: The command to generate noun phrases in NounPhraseGen is structured as "generate noun phrases with {kanji1},{kanji2},{kanji3}". The Kanji characters are separated by commas.
 
-- **Dictionary**: NounPhraseGen uses a dictionary that maps each Kanji character to a list of interchangeable English words. These words include base forms, inflected forms, derived forms, and synonyms, if available. For example, '油' could be mapped to ['oily', 'greasy', 'oiliness', 'oils'], '电' could be mapped to ['electrical', 'electrifying', 'electric', 'electricity', 'electrified'], and '車' could be mapped to ['car', 'automobile', 'vehicle', 'cars', 'automobiles', 'vehicles'].
+- **Dictionary**: NounPhraseGen uses a dictionary that maps each Kanji character to a list of interchangeable English words. These words include base forms, inflected forms, derived forms, and synonyms, if available. For example, '油' could be mapped to ['oily', 'greasy', 'oiliness', 'oils'], '電' could be mapped to ['electrical', 'electrifying', 'electric', 'electricity', 'electrified'], and '車' could be mapped to ['car', 'automobile', 'vehicle', 'cars', 'automobiles', 'vehicles'].
 
 - **Noun Phrase Generation**: When NounPhraseGen receives a command, it splits the command into individual Kanji characters. It then translates each Kanji to English using the dictionary and generates all permutations of the English words to create a variety of noun phrases.
 
-For example, if you enter the command "generate noun phrases with 油,电,車" in NounPhraseGen, it will generate all possible permutations of the English words for each Kanji. This can include combinations like "oily electrical car," "greasy electric automobiles," and "vehicle electrifying oily," as well as the reversed permutations such as "electrical car oily" and "car electrifying oils."
+For example, if you enter the command "generate noun phrases with 油,電,車" in NounPhraseGen, it will generate all possible permutations of the English words for each Kanji. This can include combinations like "oily electrical car," "greasy electric automobiles," and "vehicle electrifying oily," as well as the reversed permutations such as "electrical car oily" and "car electrifying oils."
 
 # Example Commands:
 # generate noun phrases with 活,骨.
 # generate noun phrases with 好,食.
-# generate noun phrases with 油,电,車 |> one phrase for each permutation of kanji
-# generate noun phrases with 油,电,車 |> one phrase for each permutation of kanji |> apply rhetorical devices and generate a sentence
+# generate noun phrases with 油,電,車 |> one phrase for each permutation of kanji
+# generate noun phrases with 油,電,車 |> one phrase for each permutation of kanji |> apply rhetorical devices and generate a sentence
