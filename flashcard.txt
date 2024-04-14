@@ -12,20 +12,24 @@ This will display a flashcard with the following information for each language (
 - Underlying Form: N/A
 - Reading: hashiru for Japanese; dallida for Korean
 - POS (Part of Speech): Verb for both languages
-- Conjugation/Declension: 
+- Conjugation/Declension:
   - Japanese: 走った (hashitta - past tense), 走ります (hashirimasu - polite form)
   - Korean: 달렸다 (dallyeotda - past tense), 달리세요 (dalliseyo - polite form)
 - English Form: Base form
 
 **Note:** The specific information displayed will depend on the chosen language and the availability of data for the looked-up word. The form of the English word (singular, plural, base, or conjugated) will also be noted.
 
-**Commands:**
+**lookup**: Followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful".
 
-- **Lookup Command**: You can use the "lookup" command followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful".
-- **Synonym Command**: You can use the "synonym" command followed by the word you want to find synonyms for. For example, "synonym happy" will show synonyms for the word "happy".
-- **Help Command**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance. 
-- **Analyze Command**: You can use the "analyze" command followed by the language and the word you want to analyze. For example, "analyze jp 走る" will show the MeCab analysis for the Japanese word "走る", and "analyze ko 달리다" will show the MeCab-Ko analysis for the Korean word "달리다". The output will be in the typical MeCab format:
+**synonym**: Followed by the word you want to find synonyms for. For example, "synonym high" will show synonyms for the word "high" across different contexts, such as "elevated or tall," "intoxicated," "intense or strong," "exalted or noble," and "great or considerable." The synonyms provided will depend on the various contexts in which the word can be used.
 
+**help**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance.
+
+**analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る", and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다". The output will be in the typical MeCab format.
+
+**explain**: When appended to an analysis command, this command provides explanations for each field in a typical MeCab dictionary entry. For example, "lookup run |> analyze |> explain" will provide explanations for each field in the analysis of the word "run".
+
+**Comment:**
 ```
-走る    動詞,自立,*,*,五段・ラ行,基本形,走る,ハシル,ハシル
+lookup(swam) |> analyze |> explain
 ```
