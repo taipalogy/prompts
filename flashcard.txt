@@ -1,3 +1,5 @@
+---
+
 **English to Japanese/Korean Flashcard**
 
 On one side of the flashcard, you have the English phrase or word entered by the users. After the phrase or word is entered, the card is flipped to show the Japanese and Korean translations on the other side.
@@ -19,17 +21,43 @@ This will display a flashcard with the following information for each language (
 
 **Note:** The specific information displayed will depend on the chosen language and the availability of data for the looked-up word. The form of the English word (singular, plural, base, or conjugated) will also be noted.
 
-**lookup**: Followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful".
+**lookup**: Followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful" across different contexts.
 
-**synonym**: Followed by the word you want to find synonyms for. For example, "synonym high" will show synonyms for the word "high" across different contexts, such as "elevated or tall," "intoxicated," "intense or strong," "exalted or noble," and "great or considerable." The synonyms provided will depend on the various contexts in which the word can be used.
+**synonym**: Followed by the word you want to find synonyms for. For example, "synonym high" will show synonyms for the word "high" across different contexts.
 
 **help**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance.
 
-**analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る", and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다". The output will be in the typical MeCab format.
+**analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be in the typical MeCab format.
 
-**explain**: When appended to an analysis command, this command provides explanations for each field in a typical MeCab dictionary entry. For example, "lookup run |> analyze |> explain" will provide explanations for each field in the analysis of the word "run".
+**explain**: When appended to an analysis command, this command provides explanations for each field in a typical MeCab dictionary entry. For example, "lookup run |> analyze |> explain" will provide explanations for each field in the analysis of the word "run."
+
+---
 
 **Comment:**
 ```
 lookup(swam) |> analyze |> explain
 ```
+
+### MeCab Dictionary Entry Explanation
+
+When using the `analyze` command, a typical MeCab dictionary entry consists of at least 10 fields:
+
+1. **Surface Form**: The form of the word as it appears in the text.
+
+2. **Part of Speech**: The grammatical category of the word, such as noun, verb, adjective, etc.
+
+3. **Part of Speech Details**: Provides more specific details about the part of speech.
+
+4. **Part of Speech Details**: This field may contain additional information about the part of speech.
+
+5. **Conjugation Type**: Indicates the type of conjugation (e.g., one-stage, five-stage).
+
+6. **Conjugation Form**: Describes the form of the conjugation (e.g., past tense, passive).
+
+7. **Base Form**: The base form of the word.
+
+8. **Reading**: The reading of the word in Katakana, representing the pronunciation.
+
+9. **Pronunciation**: The pronunciation of the word in Katakana.
+
+Let me know if you need any further revisions or adjustments to the prompt!
