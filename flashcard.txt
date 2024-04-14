@@ -36,6 +36,7 @@ This will display a flashcard with the following information for each language (
 **Comment:**
 ```
 lookup(swam) |> analyze |> explain
+lookup(ate) |> analyze
 ```
 
 ### MeCab Dictionary Entry Explanation
