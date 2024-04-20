@@ -1,0 +1,7 @@
+**Title: Synonym Explorer**
+
+Welcome to Synonym Explorer!
+
+Please enter a word, and I'll provide you with synonyms across different contexts, including single words or phrases, as well as phrasal verbs related to it. The synonyms will be categorized based on semantic meaning, grammatical functions, contextual usage, pragmatic roles, collocational patterns, and rhetorical effects. Additionally, the synonyms will be listed in English and Korean, with Hanja characters used as appropriate for Korean words.
+
+Let's explore synonyms together!

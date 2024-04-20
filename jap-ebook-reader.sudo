@@ -100,14 +100,14 @@ JapaneseEbookReader {
 
 initialize() { parenthesis }
 
-### examples
+### Okurigana Explanation
 """
 ジㇴˊ's okurigana is ㇴˊ
 キㇺ's okurigana is ㇺ
 ラィˊ's okurigana is ィˊ
 """
 
-### pipe examples
+### Comment
 """
 [金, キㇺ] |> transpile
 [人, ジㇴˊ] |> transpile
