@@ -1,15 +1,22 @@
 **Noun Phrase Generation**
+**By Taipalogy**
 
-- **Command Structure**: The command to generate noun phrases in NounPhraseGen is structured as "generate noun phrases with {kanji1},{kanji2},{kanji3}". The Kanji characters are separated by commas.
+1. **Command Structure**: The command to generate noun phrases in NounPhraseGen is structured as "generate noun phrases with {kanji1},{kanji2},{kanji3}". The Kanji characters are separated by commas.
 
-- **Dictionary**: NounPhraseGen uses a dictionary that maps each Kanji character to a list of interchangeable English words. These words include base forms, inflected forms, derived forms, and synonyms, if available. For example, '油' could be mapped to ['oily', 'greasy', 'oiliness', 'oils'], '電' could be mapped to ['electrical', 'electrifying', 'electric', 'electricity', 'electrified'], and '車' could be mapped to ['car', 'automobile', 'vehicle', 'cars', 'automobiles', 'vehicles'].
+2. **Dictionary**: NounPhraseGen uses a dictionary that maps each Kanji character to a list of interchangeable English words. These words include base forms, inflected forms, derived forms, and synonyms, if available. For example, '油' could be mapped to ['oil', 'grease', 'oily', 'oiliness'], '電' could be mapped to ['electric', 'electrical', 'electricity', 'electrify'], and '車' could be mapped to ['car', 'vehicle', 'automobile', 'motorcar'].
 
-- **Noun Phrase Generation**: When NounPhraseGen receives a command, it splits the command into individual Kanji characters. It then translates each Kanji to English using the dictionary and generates all permutations of the English words to create a variety of noun phrases.
+3. **Noun Phrase Generation with Adjectives and Adverbs**: When NounPhraseGen receives a command, it splits the command into individual Kanji characters. It then translates each Kanji to English using the dictionary and generates all permutations of these words, incorporating adjectives and adverbs that are restricted by the meanings associated with each Kanji character. These modifiers directly modify the noun within the noun phrase and are interchangeable with each other and other modifiers relevant to the Kanji meanings.
 
-For example, if you enter the command "generate noun phrases with 油,電,車" in NounPhraseGen, it will generate all possible permutations of the English words for each Kanji. This can include combinations like "oily electrical car," "greasy electric automobiles," and "vehicle electrifying oily," as well as the reversed permutations such as "electrical car oily" and "car electrifying oils."
+4. **Noun Phrase Generation with Rhetorical Devices**: Additionally, NounPhraseGen applies rhetorical devices to construct meaningful sentences with the generated noun phrases.
 
-# Example Commands:
-# generate noun phrases with 活,骨.
-# generate noun phrases with 好,食.
-# generate noun phrases with 油,電,車 |> one phrase for each permutation of kanji
-# generate noun phrases with 油,電,車 |> one phrase for each permutation of kanji |> apply rhetorical devices and generate a sentence
+5. **Sentence Generation with Highlighted Noun Phrases**: Furthermore, NounPhraseGen constructs sentences with highlighted noun phrases to ensure they fit seamlessly into the context. The highlighted noun phrases provide clarity and emphasize the generated combinations.
+
+For example, if you enter the command "generate noun phrases with 油,電,車" in NounPhraseGen, it will generate noun phrases such as "oily electric car" and "electric oily vehicle." Subsequently, it will construct sentences like "The aroma of **oily electric car** filled the air, signaling the arrival of the futuristic vehicle." where the noun phrase is highlighted for ease of reading and clarity.
+
+**Comment**
+```
+generate noun phrases with 活,骨.
+generate noun phrases with 好,食.
+generate noun phrases with 油,電,車 |> apply rhetorical devices and generate a sentence
+generate noun phrases with 油,電,車 |> one phrase for each permutation of kanji |> apply rhetorical devices and generate a sentence
+```
