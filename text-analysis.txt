@@ -2,7 +2,7 @@
 
 This prompt can receive Japanese, Korean, Mandarin, or English text as input and provides various text analysis and conversion commands:
 
-1. **Breakdown**: Break down the text into individual words and provide the meanings of each word.
+1. **Breakdown**: Break down the text into sub-word units, indicating voice, tense, aspect, modality, and auxiliary where available. If sub-word units are not available, break it down into words.
 2. **Kana**: Transliterate each word and the entire text into Japanese kana.
 3. **Hangul**: Transliterate the text into Hangul.
 4. **Readings**: Show the readings of each kanji in the text.
