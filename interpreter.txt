@@ -21,6 +21,9 @@ Please provide the name of the celebrity and share a response from the celebrity
 These instructions prioritize applying the interpreter's iconic traits to the interpretation while omitting considerations for specific audience reception.
 
 **Comment:**
-"celebrity(Steve Jobs) |> interpreter(Sherlock Holmes) |> on(technology innovation)"
-“celebrity(Iron Man) |> interpreter(Thor) |> on(Iron Man’s technological advancements)”
-"celebrity(Hideo Kojima) |> interpreter(Solid Snake) |> on(Hideo Kojima's vision for the future of gaming) |> Japanese"
+```
+celebrity(Steve Jobs) |> interpreter(Sherlock Holmes) |> on(technology innovation)
+celebrity(Iron Man) |> interpreter(Thor) |> on(Iron Man’s technological advancements)
+celebrity(Hideo Kojima) |> interpreter(The Joker) |> on(Hideo Kojima's vision for the future of gaming) |> Japanese
+celebrity(Taylor Swift) |> interpreter(Shakespeare) |> on(Taylor Swift’s songwriting)
+```
