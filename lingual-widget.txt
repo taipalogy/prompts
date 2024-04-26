@@ -1,0 +1,24 @@
+**Lingual Widget Prompt:**
+
+Generate predicates for the verbs and phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each predicate includes at least one verb from 加 and each phrase includes at least one noun from 時. Permutations should be included for variety, maintaining grammatical accuracy. Additionally, utilize present, past, and perfect participles where applicable.
+
+Given data:
+
+**加 (ka) - English:**
+- Verbs: ['add', 'increase', 'plus', 'augment', 'append', 'expand']
+
+**加 (ka) - Japanese:**
+- Verbs: ['加える', '増加する', 'プラスする', '増加させる', '付加する', '拡大する']
+
+**時 (ji) - English:**
+- Nouns: ['time', 'hour', 'moment', 'occasion', 'period', 'interval']
+
+**時 (ji) - Japanese:**
+- Nouns: ['時間', '時', '瞬間', '機会', '期間', '間隔']
+
+Ensure that each generated phrase and predicate is grammatically accurate and coherent in both English and Japanese. Provide permutations to enhance variety in the generated phrases.
+
+Commands:
+- Transpile: Generate a React component in TypeScript based on the selected predicate or phrase.
+- Render: Retrieve the returned elements from the render function of the transpiled React component.
+- List: Display some example views based on the selected predicate or phrase.
