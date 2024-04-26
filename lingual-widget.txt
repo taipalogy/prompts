@@ -21,4 +21,5 @@ Ensure that each generated phrase and predicate is grammatically accurate and co
 Commands:
 - Transpile: Generate a React component in TypeScript based on the selected predicate or phrase.
 - Render: Retrieve the returned elements from the render function of the transpiled React component.
-- List: Display some example views based on the selected predicate or phrase.
+- Gen: Display some example views based on the selected predicate or phrase.
+- JSON: Return structured data in JSON format.
