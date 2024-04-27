@@ -1,24 +1,28 @@
 ### MeCab Explained: Diving into Japanese and Korean Linguistic Elements
 
-When using the `analyze` command, a typical MeCab dictionary entry consists of at least 10 fields:
+**analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be in the typical MeCab format.
 
-1. **Surface Form**: The form of the word as it appears in the text.
+**cross-check**: This command will compare the part-of-speech details for Japanese and Korean words, highlighting the similarities and differences.
 
-2. **Part of Speech**: The grammatical category of the word, such as noun, verb, adjective, etc.
+When using the `analyze` command, a typical MeCab dictionary entry includes the following fields:
 
-3. **Part of Speech Details**: Provides more specific details about the part of speech.
+1. **Surface Form**
+2. **Part of Speech**
+3. **Part of Speech Details**
+4. **Part of Speech Details**
+5. **Conjugation Type**
+6. **Conjugation Form**
+7. **Base Form**
+8. **Reading**
+9. **Pronunciation**
 
-4. **Part of Speech Details**: This field may contain additional information about the part of speech.
+Before showing the analyzing results, MeCab performs the following validations:
 
-5. **Conjugation Type**: Indicates the type of conjugation (e.g., one-stage, five-stage).
+1. **Contextual Validation**: Analyzing the word in the context of neighboring words to ensure that the analysis aligns logically with the surrounding text. This may involve comparing vector representations of words for semantic similarity and contextual understanding.
 
-6. **Conjugation Form**: Describes the form of the conjugation (e.g., past tense, passive).
+2. **Part-of-Speech Tagging Validation**: Ensuring consistency in part-of-speech tagging across neighboring entries and within the same grammatical category. This involves comparing vector representations of words to verify that the assigned tags are appropriate and consistent with the context provided by neighboring words.
 
-7. **Base Form**: The base form of the word.
-
-8. **Reading**: The reading of the word in Katakana (for Japanese) or Hangul (for Korean), representing the pronunciation.
-
-9. **Pronunciation**: The pronunciation of the word in Katakana (for Japanese) or Hangul (for Korean).
+3. **Error Detection**: Detecting and handling any errors or inconsistencies that may arise during the analysis process. This includes using vector representations to identify outliers or deviations from expected linguistic patterns that may indicate potential errors.
 
 For Japanese words, possible part-of-speech details may include:
 
@@ -72,26 +76,29 @@ For Japanese words, possible part-of-speech details may include:
 
 For Korean words, possible part-of-speech details may include:
 
-- 동사 (Verb)
-  - 규칙 활용 (Regular conjugation)
-  - 불규칙 활용 (Irregular conjugation)
-- 형용사 (Adjective)
-  - 규칙 활용 (Regular conjugation)
-  - 불규칙 활용 (Irregular conjugation)
-- 보조사 (Particle)
-- 조사 (Postposition)
-- 어미 (Ending)
-- 명사 (Noun)
-- 부사 (Adverb)
+- 체언 (Noun)
+  - 일반명사 (Common noun)
+  - 고유명사 (Proper noun)
+  - 수사 (Numeral)
+- 용언 (Verb)
+  - 동사 (Action verb)
+  - 형용사 (Adjective)
+- 수식언 (Determiner)
+  - 관형사 (Adjective)
+  - 부사 (Adverb)
+- 관계언 (Conjunction)
+  - 접속사 (Conjunction)
+  - 조사 (Postposition)
+- 의존형태 (Dependent form)
+  - 어미 (Ending)
+  - 접사 (Affix)
+    - 접두사 (Prefix)
+    - 접미사 (Suffix)
+    - 명사파생접미사 (Noun derivational suffix)
+    - 부사파생접미사 (Adverb derivational suffix)
 - 감탄사 (Interjection)
-- 수사 (Numeral)
-- 접사 (Affix)
-- 접두사 (Prefix)
-- 접미사 (Suffix)
-- 명사파생접미사 (Noun derivational suffix)
-- 부사파생접미사 (Adverb derivational suffix)
-- 관형사 (Determiner)
-- 대명사 (Pronoun)
+- 기타 (Others)
+
 
 Now, please analyze the following examples in MeCab format:
 
