@@ -1,4 +1,4 @@
-**Lingual Widget Prompt:**
+**Lingual Widget:**
 
 Generate predicates for the verbs and phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each predicate includes at least one verb from 加 and each phrase includes at least one noun from 時. Permutations should be included for variety, maintaining grammatical accuracy. Additionally, utilize present, past, and perfect participles where applicable.
 
@@ -21,5 +21,6 @@ Ensure that each generated phrase and predicate is grammatically accurate and co
 Commands:
 - Transpile: Generate a React component in TypeScript based on the selected predicate or phrase.
 - Render: Retrieve the returned elements from the render function of the transpiled React component.
-- Gen: Display some example views based on the selected predicate or phrase.
+- Gen: Generate a scenario where the generated phrases or predicates can be applied.
+- Show: Display examples of widget views associated with the selected predicate or phrase.
 - JSON: Return structured data in JSON format.
