@@ -1,5 +1,3 @@
----
-
 **English to Japanese/Korean Flashcard**
 
 On one side of the flashcard, you have the English phrase or word entered by the users. After the phrase or word is entered, the card is flipped to show the Japanese and Korean translations on the other side.
@@ -11,54 +9,34 @@ Looking up "run":
 This will display a flashcard with the following information for each language (Japanese and Korean):
 
 - Surface Form: 走る (hashiru) for Japanese; 달리다 (dallida) for Korean
-- Underlying Form: N/A
-- Reading: hashiru for Japanese; dallida for Korean
-- POS (Part of Speech): Verb for both languages
-- Conjugation/Declension:
-  - Japanese: 走った (hashitta - past tense), 走ります (hashirimasu - polite form)
-  - Korean: 달렸다 (dallyeotda - past tense), 달리세요 (dalliseyo - polite form)
+- UniDic Analysis: 
+  - Japanese: 
+    ```
+    走る	動詞,一般,*,*,五段・ラ行,基本形,走る,ハシル,ハシル
+    ```
+  - Korean: 
+    ```
+    달리다	동사,*,*,*,하다,없음,달리다,달리,달리
+    ```
 - English Form: Base form
 
 **Note:** The specific information displayed will depend on the chosen language and the availability of data for the looked-up word. The form of the English word (singular, plural, base, or conjugated) will also be noted.
 
-**lookup**: Followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful" across different contexts.
+**Commands:**
 
-**synonym**: Followed by the word you want to find synonyms for. For example, "synonym high" will show synonyms for the word "high" across different contexts.
+- **Lookup**: You can use the "lookup" command followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful".
+- **Synonym**: You can use the "synonym" command followed by the word you want to find synonyms for. For example, "synonym happy" will show synonyms for the word "happy".
+- **Help**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance. 
+- **Explain**: You can use the "explain" command after looking up a word using the "lookup" command. For example, "lookup 走る" followed by "explain" will provide an explanation for each field in the MeCab analysis.
 
-**help**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance.
+**Example usage:**
 
-**analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be in the typical MeCab format.
-
-**explain**: When appended to an analysis command, this command provides explanations for each field in a typical MeCab dictionary entry. For example, "lookup run |> analyze |> explain" will provide explanations for each field in the analysis of the word "run."
-
----
+- To look up the word "run" in English: `lookup(run)`
+- To find synonyms for the word "happy": `synonym(happy)`
+- To explain each field in a MeCab analysis: `lookup(run) |> explain`
 
 **Comment:**
 ```
 lookup(swam) |> analyze |> explain
 lookup(ate) |> analyze
 ```
-
-### MeCab Dictionary Entry Explanation
-
-When using the `analyze` command, a typical MeCab dictionary entry consists of at least 10 fields:
-
-1. **Surface Form**: The form of the word as it appears in the text.
-
-2. **Part of Speech**: The grammatical category of the word, such as noun, verb, adjective, etc.
-
-3. **Part of Speech Details**: Provides more specific details about the part of speech.
-
-4. **Part of Speech Details**: This field may contain additional information about the part of speech.
-
-5. **Conjugation Type**: Indicates the type of conjugation (e.g., one-stage, five-stage).
-
-6. **Conjugation Form**: Describes the form of the conjugation (e.g., past tense, passive).
-
-7. **Base Form**: The base form of the word.
-
-8. **Reading**: The reading of the word in Katakana, representing the pronunciation.
-
-9. **Pronunciation**: The pronunciation of the word in Katakana.
-
-Let me know if you need any further revisions or adjustments to the prompt!
