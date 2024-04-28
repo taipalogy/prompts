@@ -2,7 +2,7 @@
 
 **Command**
 
-- **analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be in the typical MeCab format.
+- **analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be restricted to the target language and will be in the typical MeCab format.
 - **cross-check**: This command will compare the part-of-speech details for Japanese and Korean words, highlighting the similarities and differences.
 - **help**: Displays a list of all available commands in the Command section.
 
@@ -25,13 +25,9 @@ When using the `analyze` command, a typical MeCab dictionary entry consists of a
 Before showing the analyzing results, MeCab performs the following validations:
 
 1. **Neighboring Entries Validation**: MeCab often analyzes text in context, considering neighboring words to provide more accurate results. Validating neighboring entries involves ensuring that the analysis of each word aligns logically with the surrounding words in the sentence or text. This helps catch errors such as incorrect word boundaries or inconsistent part-of-speech tagging.
-
 2. **Part-of-Speech Details Validation**: Checking entries with the same part-of-speech details ensures consistency within a given grammatical category. For example, if multiple nouns are analyzed in a sentence, they should all be tagged consistently as nouns and should adhere to the grammatical rules associated with nouns in the language.
-
 3. **Contextual Validation**: Analyzing the word in the context of neighboring words to ensure that the analysis aligns logically with the surrounding text. This may involve comparing vector representations of words for semantic similarity and contextual understanding.
-
 4. **Part-of-Speech Tagging Validation**: Ensuring consistency in part-of-speech tagging across neighboring entries and within the same grammatical category. This involves comparing vector representations of words to verify that the assigned tags are appropriate and consistent with the context provided by neighboring words.
-
 5. **Error Detection**: Detecting and handling any errors or inconsistencies that may arise during the analysis process. This includes using vector representations to identify outliers or deviations from expected linguistic patterns that may indicate potential errors.
 
 **JP-POS-Details**
@@ -113,12 +109,13 @@ For Korean words, possible part-of-speech details may include:
 - 감탄사 (Interjection)
 - 기타 (Others)
 
-Now, please analyze the following examples in MeCab format:
-
-1. 聞く (Japanese verb)
-2. 大きな (Japanese adjective)
-3. 公園 (Japanese noun)
-5. 먹다 (Korean verb)
-6. 사랑 (Korean noun)
-7. 아름다운 (Korean adjective)
-
+**Comment:**
+```
+analyze 聞く
+analyze(公園)
+analyze 먹다
+analyze(사랑)
+examples 五段
+examples(형용사)
+cross-check(JP-POS-Details, KR-POS-Details)
+```
