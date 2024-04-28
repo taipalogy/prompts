@@ -33,10 +33,9 @@ This will display a flashcard with the following information for each language (
 
 - To look up the word "run" in English: `lookup(run)`
 - To find synonyms for the word "happy": `synonym(happy)`
-- To explain each field in a MeCab analysis: `lookup(run) |> explain`
+- To explain each field in a MeCab analysis: `lookup(ate) |> explain`
 
 **Comment:**
 ```
-lookup(swam) |> analyze |> explain
-lookup(ate) |> analyze
+lookup(swam) |> explain
 ```
