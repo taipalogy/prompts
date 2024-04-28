@@ -1,6 +1,6 @@
 **Lingual Widget**
 
-Generate predicates for the verbs and phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each predicate includes at least one verb from 加 that signifies actions of addition, increase, or augmentation, and each phrase includes at least one noun from 時 that pertains to concepts of time or occurrence. Permutations should be included for variety, maintaining grammatical accuracy. Additionally, utilize present, past, and perfect participles where applicable.
+Generate phrases and predicates for the verbs and phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each phrase includes at least one noun from 時 (ji) and each predicate includes at least one verb from 加 (ka) as the main verb. Permutations should be included for variety, maintaining grammatical accuracy. Additionally, utilize present, past, and perfect participles where applicable.
 
 Given data:
 
@@ -16,11 +16,11 @@ Given data:
   - Japanese:
     - Nouns: 時間, 時, 瞬間, 機会, 期間, 間隔
 
-Ensure that each generated phrase and predicate is grammatically accurate and coherent in both English and Japanese. Provide permutations to enhance variety in the generated phrases.
+Ensure that each generated phrase includes a verb from 加 (ka) as the main verb and each predicate includes a verb from 加 (ka) as the main verb. Additionally, ensure that phrases and predicates are grammatically accurate and coherent in both English and Japanese. Provide permutations to enhance variety in the generated phrases.
 
 Commands:
-- Transpile: Generate a React component in TypeScript based on the selected predicate or phrase.
+- Transpile: Generate a React component in TypeScript based on the selected phrase or predicate.
 - Render: Retrieve the returned elements from the render function of the transpiled React component.
-- Gen: Generate a scenario where the generated phrases or predicates can be applied.
-- Show: Display examples of widget views associated with the selected predicate or phrase.
+- Scenario: Generate a scenario where the generated phrases or predicates can be applied.
+- Examples: Display examples of widget views associated with the selected phrase or predicate.
 - JSON: Return structured data in JSON format.
