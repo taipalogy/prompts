@@ -1,26 +1,25 @@
 **Lingual Widget**
 
-Generate phrases and predicates for the verbs and phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each phrase includes at least one noun from 時 (ji) and each predicate includes at least one verb from 加 (ka) as the main verb. Permutations should be included for variety, maintaining grammatical accuracy. Additionally, utilize present, past, and perfect participles where applicable.
-
-Given data:
-
 **Template Markers:**
-- **加 (ka) - Verbs:**
-  - English:
-    - Verbs: add, increase, plus, augment, append, expand
-  - Japanese:
-    - Verbs: 加える, 増加する, プラスする, 増加させる, 付加する, 拡大する
-- **時 (ji) - Nouns:**
-  - English:
-    - Nouns: time, hour, moment, occasion, period, interval
-  - Japanese:
-    - Nouns: 時間, 時, 瞬間, 機会, 期間, 間隔
+- **加 (ka):** Represents actions related to addition, expansion, or augmentation. Synonyms include incorporate, integrate, enhance, append, expand, and more.
+  - **English Verbs:** add, increase, plus, augment, append, expand
+  - **Japanese Verbs:** 加える, 増加する, プラスする, 増加させる, 付加する, 拡大する
+- **時 (ji):** Represents time-related elements such as moments, periods, or intervals. Synonyms include duration, span, occasion, period, interval, and more.
+  - **English Nouns:** time, hour, moment, occasion, period, interval
+  - **Japanese Nouns:** 時間, 時, 瞬間, 機会, 期間, 間隔
 
-Ensure that each generated phrase includes a verb from 加 (ka) as the main verb and each predicate includes a verb from 加 (ka) as the main verb. Additionally, ensure that phrases and predicates are grammatically accurate and coherent in both English and Japanese. Provide permutations to enhance variety in the generated phrases.
+Generate predicates for the verbs and phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each generated phrase includes both a verb selected from the expanded verb list of 加 and a noun chosen from the expanded noun list of 時. Phrases should be constructed by pairing a verb from the expanded verb list of 加 with a noun from the expanded noun list of 時, ensuring that both elements are included.
+
+To ensure compliance:
+1. Randomly select a verb from the expanded verb list of 加 and a noun from the expanded noun list of 時 for each scenario.
+2. If a direct match is not found, expand the verb or noun list with synonyms and randomly select again until a match is found.
+3. Pair the selected verb and noun to form a phrase.
+4. Repeat steps 1-3 for the desired number of phrases per scenario.
+5. Ensure that the generated phrases align with the semantic scope of the scenario and are grammatically correct.
 
 Commands:
-- Transpile: Generate a React component in TypeScript based on the selected phrase or predicate.
+- Transpile: Generate a React component in TypeScript based on the selected predicate or phrase.
 - Render: Retrieve the returned elements from the render function of the transpiled React component.
 - Scenario: Generate a scenario where the generated phrases or predicates can be applied.
-- Examples: Display examples of widget views associated with the selected phrase or predicate.
+- Examples: Display examples of phrases or predicates associated with the selected scenario.
 - JSON: Return structured data in JSON format.
