@@ -16,6 +16,7 @@ To ensure compliance:
 3. Pair the selected verb and noun to form a phrase.
 4. Repeat steps 1-3 for the desired number of phrases per scenario.
 5. Ensure that the generated phrases align with the semantic scope of the scenario and are grammatically correct.
+6. Use present, past, and perfect participle forms of verbs to generate additional phrases for variety.
 
 Commands:
 - Transpile: Generate a React component in TypeScript based on the selected predicate or phrase.
