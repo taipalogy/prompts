@@ -8,19 +8,18 @@
   - **English Nouns:** time, hour, moment, occasion, period, interval
   - **Japanese Nouns:** 時間, 時, 瞬間, 機会, 期間, 間隔
 
-Generate predicates for the verbs and phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each generated phrase includes both a verb selected from the expanded verb list of 加 and a noun chosen from the expanded noun list of 時. Phrases should be constructed by pairing a verb from the expanded verb list of 加 with a noun from the expanded noun list of 時, ensuring that both elements are included.
+Generate verb phrases for the verbs and participial phrases for the phrases provided in the context of 加 (ka) and 時 (ji) in English and Japanese. Ensure each generated verb phrase includes a verb selected from the expanded verb list of 加, and each participial phrase includes a verb in past or perfect participle form from the same list. Phrases should be constructed by pairing a verb from the expanded verb list of 加 with a noun from the expanded noun list of 時, ensuring that the verb is the main element of the phrase.
 
 To ensure compliance:
-1. Randomly select a verb from the expanded verb list of 加 and a noun from the expanded noun list of 時 for each scenario.
-2. If a direct match is not found, expand the verb or noun list with synonyms and randomly select again until a match is found.
-3. Pair the selected verb and noun to form a phrase.
+1. Randomly select a verb from the expanded verb list of 加 for each scenario.
+2. If a direct match is not found, expand the verb list with synonyms and randomly select again until a match is found.
+3. Pair the selected verb with a noun from the expanded noun list of 時 to form a verb phrase or participial phrase.
 4. Repeat steps 1-3 for the desired number of phrases per scenario.
-5. Ensure that the generated phrases align with the semantic scope of the scenario and are grammatically correct.
-6. Use present, past, and perfect participle forms of verbs to generate additional phrases for variety.
+5. Ensure that the generated verb phrases and participial phrases align with the semantic scope of the scenario and are grammatically correct.
 
 Commands:
-- Transpile: Generate a React component in TypeScript based on the selected predicate or phrase.
+- Transpile: Generate a React component in TypeScript based on the selected verb phrase or participial phrase.
 - Render: Retrieve the returned elements from the render function of the transpiled React component.
-- Scenario: Generate a scenario where the generated phrases or predicates can be applied.
-- Examples: Display examples of phrases or predicates associated with the selected scenario.
+- Scenario: Generate a scenario where the generated phrases can be applied.
+- Examples: Display examples of verb phrases and participial phrases associated with the selected scenario.
 - JSON: Return structured data in JSON format.
