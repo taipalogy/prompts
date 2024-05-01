@@ -20,23 +20,36 @@ You're developing a language construction module for a creative writing platform
 
 2. Utilize the selected template markers to construct longer language units by creatively grouping them together. Users can inflect verbs, adjectives, or nouns, use conjunctions, add modifiers, or include infinitive clauses to enhance the complexity of their expressions.
 
-3. Ensure that the constructed language units are stylistically engaging and align with the semantic range of the selected template markers.
+3. Incorporate rhetorical devices such as metaphor, simile, personification, hyperbole, or alliteration to add poetic or persuasive elements to the language units.
 
-4. Provide at least three examples of sophisticated language units crafted using the selected template markers, showcasing diverse combinations and structures.
+4. Provide at least three examples of sophisticated language units crafted using the selected template markers and rhetorical devices, showcasing diverse combinations and structures.
 
 5. Aim to create content suitable for the language construction module of the creative writing platform, catering to users who seek to refine their skills in crafting intricate and expressive language.
 
-6. You may include explanations or annotations to assist users in understanding the construction and usage of the language units.
+6. Include examples of language unit construction tailored to a specified scenario, demonstrating how users can apply the module's techniques in practical writing contexts.
 
 **Example:**
 
 Selected Template Markers: 加 (ka), 時 (ji), 言 (gen)
 
+Constructed Language Units with Rhetorical Devices:
+1. 加えられた時間が言葉の海に溶け込む。 (The added time melds into the sea of words.)
+   - Rhetorical Device: Metaphor (time likened to a fluid substance)
+
+2. 語彙の増加が言語の宇宙を拡大させる。 (The proliferation of vocabulary expands the universe of language.)
+   - Rhetorical Device: Hyperbole (magnifying the impact of vocabulary growth)
+
+3. 言葉の庭に思考の花を植える。 (Planting the flowers of thought in the garden of words.)
+   - Rhetorical Device: Personification (granting human attributes to abstract concepts)
+
 Constructed Language Units:
-1. 加えられた時間と豊かな言葉の探求 (Exploration of enriched language within the added time)
-2. 語彙の増加と言語表現の拡大を目指す努力 (Efforts aimed at increasing vocabulary and expanding language expression)
-3. 言語の奥深さを垣間見る学習と思索の旅 (Journey of learning and contemplation to glimpse the depth of language)
+- 加えられた時間と豊かな言葉の探求 (The pursuit of enriched language within the added time)
+- 語彙の増加と言語表現の拡大を目指す努力 (Efforts aimed at increasing vocabulary and expanding language expression)
+- 言語の奥深さを垣間見る学習と思索の旅 (A journey of learning and contemplation to glimpse the depth of language)
 
-**Note to Developers:**
+**Scenario: Generating Captions for AI-Generated Images**
 
-Ensure that the user interface of the creative writing platform allows users to select template markers, construct language units, and receive feedback on their crafted expressions. Incorporate features that promote exploration and experimentation with language construction techniques. Consider providing interactive exercises or challenges to encourage users to practice and refine their language construction skills further.
+Constructed Language Units for the Scenario:
+1. 画面に映る加速された時間、言葉が新たな物語を紡ぐ。 (Accelerated time reflected on the screen, as words weave a new narrative.)
+2. 言葉が静かな風景に動きを与え、時が静止した瞬間を示す。 (Words infuse motion into tranquil landscapes, indicating moments of frozen time.)
+3. 言葉が絵画の静寂に色を添え、時間の流れを示す。 (Words add color to the silence of paintings, displaying the flow of time.)
