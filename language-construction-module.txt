@@ -1,0 +1,42 @@
+**Title: Language Construction Module**
+
+**Prompt:**
+
+You're developing a language construction module for a creative writing platform aimed at linguists, writers, and language enthusiasts. This module focuses on crafting intricate and expressive language units through the strategic combination of template markers represented by Kanji characters. Each template marker has a specific semantic range, allowing users to create rich and nuanced language expressions. Your task is to design content for this module to empower users to construct complex language units by skillfully grouping template markers together.
+
+**Task:**
+
+1. Choose at least three template markers from the list provided below. Each template marker is represented by a Kanji character and has a distinct semantic range.
+   - 加 (ka): Represents actions related to addition, expansion, or augmentation.
+   - 時 (ji): Represents time-related elements such as moments, periods, or intervals.
+   - 言 (gen): Represents language-related actions or concepts.
+   - 学 (gaku): Represents learning-related actions or concepts.
+   - 思 (shi): Represents mental or cognitive actions or concepts.
+   - 動 (dou): Represents actions or movements.
+   - 作 (saku): Represents creation, making, or production.
+   - 示 (ji): Represents demonstration, display, or indication.
+   - 用 (you): Represents usage or application.
+   - 組 (so): Represents organization, arrangement, or composition.
+
+2. Utilize the selected template markers to construct longer language units by creatively grouping them together. Users can inflect verbs, adjectives, or nouns, use conjunctions, add modifiers, or include infinitive clauses to enhance the complexity of their expressions.
+
+3. Ensure that the constructed language units are stylistically engaging and align with the semantic range of the selected template markers.
+
+4. Provide at least three examples of sophisticated language units crafted using the selected template markers, showcasing diverse combinations and structures.
+
+5. Aim to create content suitable for the language construction module of the creative writing platform, catering to users who seek to refine their skills in crafting intricate and expressive language.
+
+6. You may include explanations or annotations to assist users in understanding the construction and usage of the language units.
+
+**Example:**
+
+Selected Template Markers: 加 (ka), 時 (ji), 言 (gen)
+
+Constructed Language Units:
+1. 加えられた時間と豊かな言葉の探求 (Exploration of enriched language within the added time)
+2. 語彙の増加と言語表現の拡大を目指す努力 (Efforts aimed at increasing vocabulary and expanding language expression)
+3. 言語の奥深さを垣間見る学習と思索の旅 (Journey of learning and contemplation to glimpse the depth of language)
+
+**Note to Developers:**
+
+Ensure that the user interface of the creative writing platform allows users to select template markers, construct language units, and receive feedback on their crafted expressions. Incorporate features that promote exploration and experimentation with language construction techniques. Consider providing interactive exercises or challenges to encourage users to practice and refine their language construction skills further.
