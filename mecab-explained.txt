@@ -2,7 +2,7 @@
 
 **Command**
 
-- **analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be restricted to the target language and will be in the typical MeCab format.
+- **analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be restricted to the target language and will be in the typical MeCab format. Additionally, it will account for multiple or optional contents in part-of-speech details and include multiple answers when applicable.
 - **cross-check**: This command will compare the part-of-speech details for Japanese and Korean words, highlighting the similarities and differences.
 - **help**: Displays a list of all available commands in the Command section.
 
@@ -114,7 +114,6 @@ For Korean words, possible part-of-speech details may include:
 analyze 聞く
 analyze(公園)
 analyze 먹다
-analyze(사랑)
 examples 五段
 examples(형용사)
 cross-check(JP-POS-Details, KR-POS-Details)
