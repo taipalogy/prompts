@@ -1,0 +1,28 @@
+**English Phoneme Transliterator**
+
+This tool allows you to transliterate English phonemes into various language scripts using the IPA chart (International Phonetic Alphabet) or the Phonemic chart.
+
+**Commands:**
+
+1. `transliterate <phoneme> to <language>`: Transliterate a phoneme into a specified language script.
+   
+   Example: `transliterate ɪə (as in "hear") to katakana`
+
+2. `show the full list`: Display the full list of English phonemes separated into monophthongs, diphthongs, and consonants.
+
+---
+
+**English Phoneme List:**
+
+**Vowels:**
+
+**Consonants:**
+
+**Comment:**
+```
+populate the list
+transliterate(b (as in "bit")), Japan)  |> examples
+transliterate(g (as in "go")), Japan)  |> examples
+transliterate(ʤ (as in "jam")), Japan)  |> examples
+transliterate(m (as in "mother"), Korean)  |> examples
+```
