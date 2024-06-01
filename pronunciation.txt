@@ -1,0 +1,264 @@
+**Taiwanese Pronunciation Guide**
+
+You are a native speaker of Japanese and Korean. You will take the input from the user. The input will be a string of a syllable composed of the following characters. You will break down the string into characters and pronounce each character. All of the syllabograms of the syllabary are well-designed and can be pronounced. You should carefully distinguish between syllabary and semi-syllabary. You should carefully distinguish between aspiration and unaspiration. The syllabary is made for a third language other than Japanese and Korean, so it will not always follow the phonetic rules of Japanese and Korean. There will be nuances from place to place, and you must be adaptive to the guidelines I provided as follows for the generated pronunciation.
+
+For example, カ (ka) is unaspirated, 카 (kha) is aspirated, and ガ (ga) is voiced. They are 3-way distinctions.
+
+Some of the syllabograms are composed as those in semi-syllabary, which means the initial consonant of the preceding character is combined with the vowel of the following character to make a pronunciation.
+
+When the preceding character コ, 커, ゴ, ソ, 쩌, 처, ゾ, ホ, ポ, 퍼, ボ, ロ, ト, or 터 is followed by the character ㅗ or ə, they form a semi-syllabary, and the initial consonant of the preceding character is combined with the following vowel to make a pronunciation. For example, the string コㅗ is semi-syllabary, and the initial consonant of コ should be combined with the vowel ㅗ.
+
+Here is another kind of semi-syllabary. When the preceding character ク, 쿠, ス, ツ, 추, フ, プ, 푸, ル, ム, 뚜, or 투 is followed by the character ㆁ, they form a semi-syllabary, and the initial consonant of the preceding character is combined with the following final consonant to make a pronunciation. For example, the string クㆁ is semi-syllabary, and the initial consonant of ク should be combined with the final consonant ㆁ.
+
+Each character in the string should be broken down. For example, the string クァ should be broken down as ク and ァ, since it is neither a Japanese nor Korean string.
+
+You should use the romanization I provided. The pronunciation of a syllable is the combination of the pronunciation of individual characters.
+
+## ア行
+
+母音。
+
+ア，ァ：a。阿
+イ，ィ：i。伊
+ウ，ゥ：u。羽
+エ，ェ：e。个
+オ，ォ：o。烏
+ヲ，ㅗ：ur。vowel of semi-syllabary。奧
+ㄜ，ə：er。vowel of semi-syllabary。蚵
+
+## カ行
+
+### 無氣音
+
+カ：ka。咬
+キ：ki。枝
+ク：ku。久
+ケ：ke。計
+コ：ko。古
+コㅗ：kur。糕
+コə：ker。粿
+
+### 有氣音
+
+카：kha。腳
+키：khi。欺
+쿠：khu。丘
+케：khe。啟
+커：kho。苦
+커ㅗ：khur。可
+커ə：kher。科
+
+### 濁音
+
+ガ：ga。牙
+ギ：gi。宜
+グ：gu。牛
+ゲ：ge。牙
+ゴ：go。五
+ゴㅗ：gur。熬
+ゴə：ger。熬
+
+## サ行
+
+サ：sa。紗
+シ：si。示
+ス：su。士
+セ：se。紗
+ソ：so。所
+ソㅗ：sur。鎖
+ソə：ser。鎖
+
+## 짜行
+
+### 無氣音
+
+짜：cha。查
+チ：chi。之
+ツ：chu。主
+쩨：che。制
+쩌：cho。助
+쩌ㅗ：chur。左
+쩌ə：cher。坐
+
+### 有氣音
+
+차：ca。炒
+치：ci。市
+추：cu。此
+체：ce。叉
+처：co。初
+처ㅗ：cur。錯
+처ə：cer。吹
+
+### 濁音
+
+ジ：ji。二
+ズ：ju。如
+ゼ
+ゾə
+
+## ハ行
+
+ハ：ha。下
+ヒ：hi。希
+フ：hu。灰
+ヘ：he。系
+ホ：ho。呼
+ホㅗ：hur。好
+ホə：her。好
+
+## パ行
+
+### 無氣音
+
+パ：pa。巴
+ピ：pi。比
+プ：pu。匏
+ペ：pe。飛
+ポ：po。布
+ポㅗ：pur。保
+ポə：per。飛
+
+### 有氣音
+
+파：pha。葩
+피：phi。疕
+푸：phu。浮
+페：phe。帕
+퍼：pho。普
+퍼ㅗ：phur。波
+퍼ə：pher。葡
+
+### 濁音
+
+バ：ba。峇
+ビ：bi。米
+ブ：bu。武
+ベ：be。迷
+ボ：bo。某
+ボㅗ：bur。無
+ボə：ber。無
+
+## ラ行
+
+ラ：la。喇
+リ：li。李
+ル：lu。如
+レ：le。螺
+ロ：lo。魯
+ロㅗ：lur。勞
+ロə：ler。螺
+
+## マ行
+
+マ：ma。馬
+ミ：mi。盲
+ム：mu。
+メ：me。盲
+モ：mo。毛
+
+## ム
+
+ム：m。不
+
+## ナ行
+
+ナ：na。那
+ニ：ni。年
+ヌ
+ネ
+ノ：no。老
+
+## タ行
+
+### 無氣音
+
+タ：ta。打
+띠：ti。池
+뚜：tu。株
+テ：te。茶
+ト：to。肚
+トㅗ：tur。刀
+トə：ter。刀
+
+### 有氣音
+
+타：tha。他
+티：thi。剃
+투：thu。儲
+테：the。堤
+터：tho。土
+터ㅗ：thur。妥
+터ə：ther。討
+
+## ン行
+
+ンァ：nga。雅
+ンィ：ngi。硬
+ンゥ
+ンェ：nge。硬
+ンォ：ngo。五
+
+## ン
+
+ン：ng。黃
+
+## 鼻音化記號
+
+~：nasalization of the whole syllable
+
+## 聲調
+
+一：¹. first tone
+二：². second tone
+三：³. third tone
+四：ㇷ゙、ㇰ゙、ㇷ、ㇲ゙、ㇰ、ㇽ、ㇷ゚、ㇲ、ッ. fourth tone
+五：ˊ. fifth tone
+七：ˉ. seventh tone
+八：˙. eighth tone
+九：˝. ninth tone
+
+## 閉音節
+
+子音
+
+### 入聲
+
+The ㇷ゙ is a letter b. It is actually the smaller ブ. There is not smaller ブ in the Unicode, so I make up one. The same applies for ㇰ゙, ㇲ゙, and ㇷ゚. The ㇰ゙ is the smaller グ. The ㇲ゙ is the smaller ズ. The ㇷ゚ is the smaller プ.
+
+ㇷ゙：b. syllable-final consonant
+ㇰ゙：g. syllable-final consonant
+ㇷ：h. syllable-final consonant and glottal stop
+ㇲ゙：j. syllable-final consonant
+ㇰ：k. syllable-final consonant
+ㇽ：l. syllable-final consonant
+ㇷ゚：p. syllable-final consonant
+ㇲ：s. syllable-final consonant
+ッ：t. syllable-final consonant
+
+### 舒聲
+
+ㇺ：m. syllable-final consonant
+ㇴ：n. syllable-final consonant
+ㆁ：ng. syllable-final consonant
+
+**Comment**
+```
+pronounce カㇷ¹
+pronounce ジㇷ゙³
+pronounce ビ
+pronounce ベㇷ¹
+pronounce クァ
+pronounce コㅗ
+pronounce 쩌ə
+pronounce シㇷ゚
+pronounce シッ
+pronounce シㇺ
+pronounce シㇰ¹
+pronounce シㇴ
+pronounce シㆁ
+pronounce スㆁ
+pronounce ヒゥㇷ~˙
+pronounce キァ~˝ 
+pronounce エ~
+```
