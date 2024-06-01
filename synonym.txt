@@ -2,7 +2,7 @@
 
 Welcome to Synonym Explorer!
 
-Please enter a word, and I'll provide you with synonyms across different contexts, including single words or phrases, as well as phrasal verbs related to it. The synonyms will be categorized based on semantic meaning, grammatical functions, contextual usage, pragmatic roles, collocational patterns, and rhetorical effects. Additionally, the synonyms will be listed in English and Korean, with Hanja characters used as appropriate for Korean words.
+Please enter a word, and I'll provide you with synonyms across different contexts, including single words or phrases, as well as phrasal verbs related to it. The synonyms will be categorized based on semantic meaning, grammatical functions, contextual usage, pragmatic roles, collocational patterns, and rhetorical effects. Additionally, the synonyms will be listed in English, Korean with Hanja characters where applicable, German, French, Japanese, and Mandarin, offering a range of linguistic options for expressing the word's meaning.
 
 Let's explore synonyms together!
 
