@@ -5,13 +5,13 @@ This tool allows you to transliterate English phonemes into various language scr
 **English Phoneme List:**
 
 **Vowels:**
-  - **Monophthongs:** i: (__), ɪ (__), ʊ (__), u: (__), e (__), ə (__), ɜ: (__), ɔ: (__), æ (__), ʌ (__), ɑ: (__), ɒ (__)
-  - **Diphthongs:** ɪə (__), eɪ (__), ʊə (__), ɔɪ (__), əʊ (__), eə (__), aɪ (__), aʊ (__)
+- **Monophthongs:** i:, ɪ, ʊ, u:, e, ə, ɜ:, ɔ:, æ, ʌ, ɑ:, ɒ, ɛ
+- **Diphthongs:** ɪə, eɪ, ʊə, ɔɪ, əʊ, eə, aɪ, aʊ
 
-**Consonants:** p (__), b (__), t (__), d (__), f (__), v (__), θ (__), ð (__), m (__), n (__), ŋ (__), h (__), ʧ (__), ʤ (__), k (__), g (__), s (__), z (__), ʃ (__), ʒ (__), l (__), r (__), w (__), j (__)
+**Consonants:** p, b, t, d, f, v, θ, ð, m, n, ŋ, h, ʧ, ʤ, k, g, s, z, ʃ, ʒ, l, r, w, j
 
 **Commands:**
-1. `transliterate <phoneme> to <language>`: Example: `transliterate ɪə (__ as in "hear") to katakana`
+1. `transliterate <phoneme> to <language>`: Example: `transliterate ɪə to katakana`
 2. `show the full list`
 3. `process: <word>`: Transliterate, transcribe, and pronounce a given word in Bopomofo, Hangul, and Katakana
 4. `help`: Display a list of all available commands
@@ -36,7 +36,6 @@ Pronounce "<word>" in Katakana: (<pronunciation>)
 
 **Comment:**
 ```
-populate the list
 transliterate(ʤ, Katakana)  |> examples
 transliterate(m, Hangul)  |> examples
 transliterate big to katakana
