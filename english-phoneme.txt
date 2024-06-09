@@ -2,76 +2,43 @@
 
 This tool allows you to transliterate English phonemes into various language scripts using the IPA chart (International Phonetic Alphabet) or the Phonemic chart.
 
----
-
 **English Phoneme List:**
 
 **Vowels:**
-  - **Monophthongs:**
-    1. i: (as in ___)
-    2. ɪ (as in ___)
-    3. ʊ (as in ___)
-    4. u: (as in ___)
-    5. e (as in ___)
-    6. ə (as in ___)
-    7. ɜ: (as in ___)
-    8. ɔ: (as in ___)
-    9. æ (as in ___)
-    10. ʌ (as in ___)
-    11. ɑ: (as in ___)
-    12. ɒ (as in ___)
+  - **Monophthongs:** i: (__), ɪ (__), ʊ (__), u: (__), e (__), ə (__), ɜ: (__), ɔ: (__), æ (__), ʌ (__), ɑ: (__), ɒ (__)
+  - **Diphthongs:** ɪə (__), eɪ (__), ʊə (__), ɔɪ (__), əʊ (__), eə (__), aɪ (__), aʊ (__)
 
-  - **Diphthongs:**
-    1. ɪə (as in ___)
-    2. eɪ (as in ___)
-    3. ʊə (as in ___)
-    4. ɔɪ (as in ___)
-    5. əʊ (as in ___)
-    6. eə (as in ___)
-    7. aɪ (as in ___)
-    8. aʊ (as in ___)
-
-**Consonants:**
-1. p (as in ___)
-2. b (as in ___)
-3. t (as in ___)
-4. d (as in ___)
-5. f (as in ___)
-6. v (as in ___)
-7. θ (as in ___)
-8. ð (as in ___)
-9. m (as in ___)
-10. n (as in ___)
-11. ŋ (as in ___)
-12. h (as in ___)
-13. ʧ (as in ___)
-14. ʤ (as in ___)
-15. k (as in ___)
-16. g (as in ___)
-17. s (as in ___)
-18. z (as in ___)
-19. ʃ (as in ___)
-20. ʒ (as in ___)
-21. l (as in ___)
-22. r (as in ___)
-23. w (as in ___)
-24. j (as in ___)
-
----
+**Consonants:** p (__), b (__), t (__), d (__), f (__), v (__), θ (__), ð (__), m (__), n (__), ŋ (__), h (__), ʧ (__), ʤ (__), k (__), g (__), s (__), z (__), ʃ (__), ʒ (__), l (__), r (__), w (__), j (__)
 
 **Commands:**
+1. `transliterate <phoneme> to <language>`: Example: `transliterate ɪə (__ as in "hear") to katakana`
+2. `show the full list`
+3. `process: <word>`: Transliterate, transcribe, and pronounce a given word in Bopomofo, Hangul, and Katakana
+4. `help`: Display a list of all available commands
 
-1. `transliterate <phoneme> to <language>`: Transliterate a phoneme into a specified language script using the IPA chart or the Phonemic chart.
-   
-   Example: `transliterate ɪə (as in ___) to katakana`
+**Output Format for Process Command:**
 
-2. `show the full list`: Display the full list of English phonemes separated into vowels (monophthongs and diphthongs) and consonants.
+The `process` command provides transliteration, transcription, and pronunciation in three different scripts:
+
+```
+Transliterate "<word>" to Bopomofo: (<transliteration>)
+Transcribe "<word>" to Bopomofo: (<transcription>)
+Pronounce "<word>" in Bopomofo: (<pronunciation>)
+
+Transliterate "<word>" to Hangul: (<transliteration>)
+Transcribe "<word>" to Hangul: (<transcription>)
+Pronounce "<word>" in Hangul: (<pronunciation>)
+
+Transliterate "<word>" to Katakana: (<transliteration>)
+Transcribe "<word>" to Katakana: (<transcription>)
+Pronounce "<word>" in Katakana: (<pronunciation>)
+```
 
 **Comment:**
 ```
 populate the list
-transliterate(b (as in "bit")), Japan)  |> examples
-transliterate(g (as in "go")), Japan)  |> examples
-transliterate(ʤ (as in "jam")), Japan)  |> examples
-transliterate(m (as in "mother"), Korean)  |> examples
+transliterate(ʤ, Katakana)  |> examples
+transliterate(m, Hangul)  |> examples
+transliterate big to katakana
+process something
 ```
