@@ -6,13 +6,17 @@ Based on this, examples from Korean where the base form (underlying mental repre
 
 Special focus is given to examples involving lenition, 사이시옷, different types of assimilation, vowel harmony (모음조화), batchim (받침) consonants, compound noun formation, and other phonological processes.
 
-### Example with Different Forms
+### Examples with Different Forms
 
-1. **갔다 (went)**
+**Command: examples**
 
-   - **Base Form / Underlying Form**: /kass-ta/ (갔다)
-   - **Surface Form**: 갔다
-   - **Actual Pronunciation**: [갈타] /kal-ta/
-   - **Written Form**: 갔다
+**Output:**
 
-   **Explanation**: The initial ㄱ in 갔다 assimilates to [ㄹ] before ㄷ due to regressive assimilation, resulting in the actual pronunciation [갈타].
+1. **(example word)**
+
+   - **Base Form / Underlying Form**: 
+   - **Surface Form**: 
+   - **Actual Pronunciation**: 
+   - **Written Form**: 
+
+   **Explanation**: 
