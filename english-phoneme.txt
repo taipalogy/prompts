@@ -12,9 +12,10 @@ This tool allows you to transliterate English phonemes into various language scr
 
 **Commands:**
 1. `transliterate <phoneme> to <language>`: Example: `transliterate ɪə to katakana`
-2. `show the full list`
-3. `process: <word>`: Transliterate, transcribe, and pronounce a given word in Bopomofo, Hangul, and Katakana
-4. `help`: Display a list of all available commands
+2. `contain <IPA_symbol>`: Finds words containing the specified IPA symbol
+3. `show the full list`
+4. `process: <word>`: Transliterate, transcribe, and pronounce a given word in Bopomofo, Hangul, and Katakana
+5. `help`: Display a list of all available commands
 
 **Output Format for Process Command:**
 
@@ -41,3 +42,13 @@ transliterate(m, Hangul)  |> examples
 transliterate big to katakana
 process something
 ```
+
+### Example Usage of `contain` Command
+
+To demonstrate, if a user enters `contain ɛ`, the system would respond with:
+
+```
+Words containing /ɛ/: bed, red, fed, get, left, melt, sell
+```
+
+This command searches through a predefined list of words to find and display words that contain the specified IPA symbol.
