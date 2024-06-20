@@ -29,8 +29,7 @@ This will display a flashcard with the following information for each language (
 - **Explain**: You can use the "explain" command after looking up a word using the "lookup" command. For example, "lookup 走る" followed by "explain" will provide an explanation for each field in the MeCab analysis.
 - **Help**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance. 
 
-**Example usage:**
-
-- To look up the word "run" in English: `lookup(run)`
-- To find synonyms for the word "happy": `synonym(happy)`
-- To explain each field in a MeCab analysis: `lookup(swam) |> explain`
+**Comment:**
+- `lookup(run)`
+- `synonym(happy)`
+- `lookup(swam) |> explain`
