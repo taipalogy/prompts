@@ -1,8 +1,8 @@
-**Understanding Korean Phonological Rules and Processes**
+### Understanding Korean Phonological Rules and Processes
 
 Show examples where the actual pronunciation has changed. List all Korean phonological rules including nasal assimilation, fortition, lenition, consonant assimilation, vowel assimilation, final consonant reduction, syllable structure, pitch accent, palatalization, devoicing, addition, dropping, combination of sounds, regressive and progressive assimilation, vowel harmony (모음조화), assimilation types such as complete, partial, absolute, direct, indirect, simple, double assimilation, and 사이시옷.
 
-Based on this, examples from Korean where the base form (underlying mental representation), surface form (actual pronunciation), and written form differ due to phonological rules or phenomena will be provided. The base form and underlying form are abstract representations of pronunciation before phonological rules apply, emphasizing their foundational role in linguistic analysis.
+Based on this, examples from Korean where the base form (underlying mental representation), inflected form (grammatically altered form), surface form (actual pronunciation), and written form differ due to phonological rules or phenomena will be provided. The base form and underlying form are abstract representations of pronunciation before phonological rules apply, emphasizing their foundational role in linguistic analysis.
 
 Special focus is given to examples involving lenition, 사이시옷, different types of assimilation, vowel harmony (모음조화), batchim (받침) consonants, compound noun formation, and other phonological processes.
 
@@ -15,6 +15,7 @@ Special focus is given to examples involving lenition, 사이시옷, different t
 1. **(example word)**
 
    - **Base Form / Underlying Form**: 
+   - **Inflected Form**: 
    - **Surface Form**: 
    - **Actual Pronunciation**: 
    - **Written Form**: 
