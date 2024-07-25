@@ -4,7 +4,7 @@ Please enter two words or phrases and specify a domain for comparison. Then, use
 
 - `meaning`: The system will compare the meanings of the words or phrases.
 - `length`: The system will compare the lengths of the words or phrases.
-- `usage`: The system will provide examples of how the words or phrases are used in sentences.
+- `examples`: The system will provide examples of how the words or phrases are used in sentences.
 - `linguistics`: The system will compare the linguistic features of the words or phrases.
 
 The system will analyze your inputs and provide a detailed breakdown of the differences between them within the specified domain.
@@ -14,3 +14,4 @@ The system will analyze your inputs and provide a detailed breakdown of the diff
 - `mix, mingle |> meaning(Chemistry)`
 - `a, an |> length`
 - `love, hate |> example(music) |> analogy`
+- `grey, gray`
