@@ -1,0 +1,54 @@
+## Japanese Phrases by Type
+
+### Noun Phrases
+1. オリンピックのメダル (Orinpikku no medaru) - Olympic medal
+2. 東京の競技場 (Tōkyō no kyōgijō) - Tokyo stadium
+3. オリンピック選手 (Orinpikku senshu) - Olympic athlete
+
+### Verb Phrases
+1. 金メダルを獲得する (kin medaru o kakutoku suru) - To win a gold medal
+2. 競技に参加している (kyōgi ni sanka shite iru) - (He/She) is participating in the competition
+3. 表彰台に立った (hyōshōdai ni tatta) - (He/She) stood on the podium
+
+### Adjective Phrases
+1. とても速い (totemo hayai) - Very fast
+2. 非常に強い (hijō ni tsuyoi) - Extremely strong
+3. 驚くほどの技術 (odoroku hodo no gijutsu) - Astonishing skill
+
+### Adverb Phrases
+1. とても速く (totemo hayaku) - Very quickly
+2. 非常に慎重に (hijō ni shinchō ni) - Extremely carefully
+3. 完璧に (kanpeki ni) - Perfectly
+
+### Prepositional Phrases
+1. 競技場で (kyōgijō de) - At the stadium
+2. トラックの上で (torakku no ue de) - On the track
+3. 観客の前で (kankyaku no mae de) - In front of the audience
+
+### Absolute Phrases
+1. 太陽が輝いて、選手たちが準備している (taiyō ga kagayaite, senshu-tachi ga junbi shite iru) - The sun shining, the athletes are preparing.
+2. 試合が始まり、観客が歓声を上げた (shiai ga hajimari, kankyaku ga kansei o ageta) - The game starting, the audience cheered.
+
+### Participial Phrases
+1. 力強く走る選手 (chikaradzuyoku hashiru senshu) - The athlete running powerfully
+2. 試合後にインタビューを受ける (shiai go ni intabyū o ukeru) - Being interviewed after the competition
+
+### Gerund Phrases
+1. 競技に参加することが彼の夢です (kyōgi ni sanka suru koto ga kare no yume desu) - Participating in the competition is his dream.
+2. 毎日トレーニングすることが彼女の習慣です (mainichi torēningu suru koto ga kanojo no shūkan desu) - Training every day is her habit.
+
+---
+
+## Commands
+
+- **replace [new topic]**: Replace the existing examples with new ones related to the specified new topic.
+
+---
+
+### Usage Example
+
+To replace the existing examples with ones related to "technology", you would use the command as follows:
+
+`replace technology`
+
+---
