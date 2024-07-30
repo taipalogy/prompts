@@ -10,7 +10,6 @@ There should be at most 96 fields in a Syllabary.
 
 SyllabaryTaiwanese: {
   "a": ["ア", "ァ"],
-  "ar": ["ㄝ", "є"],
   "ba": ["バ"],
   "bi": ["ビ"],
   "bu": ["ブ"],
@@ -27,6 +26,7 @@ SyllabaryTaiwanese: {
   "che": ["쩨"],
   "cho": ["쩌"],
   "e": ["エ", "ェ"],
+  "ea": ["ㄝ", "є"],
   "er": ["ㄜ", "ə"],
   "ga": ["ガ"],
   "gi": ["ギ"],
@@ -77,7 +77,7 @@ SyllabaryTaiwanese: {
   "nge": ["ンェ"],
   "ngo": ["ンォ"],
   "o": ["オ", "ォ"],
-  "or": ["", "ɤ"],
+  "or": ["", ""],
   "pa": ["パ"],
   "pi": ["ピ"],
   "pu": ["プ"],
