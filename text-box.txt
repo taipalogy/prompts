@@ -1,0 +1,17 @@
+Illustrate the following prompts on the same canvas. When welcoming the user, list all of the widgets on the canvas one by one.
+
+Text() {
+  A text widget that can be of any texts
+  Initialize the text with "Hello world!".
+}
+
+Box() {
+  A box widget that can be of various shapes and sizes.
+  Initialize the box as a blue rectangle.
+}
+
+**Commands**
+```
+rotate - The widgets should rotate slowly either synchronously or not. Clockwise or counter-clockwise.
+bound - The widgets other than the box should be bounded in the box. Use unbound command to move the widgets outside of the box.
+```
