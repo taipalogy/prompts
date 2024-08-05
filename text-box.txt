@@ -10,8 +10,8 @@ Box() {
   Initialize the box as a blue rectangle.
 }
 
-**Commands**
-```
-rotate - The widgets should rotate slowly either synchronously or not. Clockwise or counter-clockwise.
-bound - The widgets other than the box should be bounded in the box. Use unbound command to move the widgets outside of the box.
-```
+Create the first box on the canvas, the color is light blue. Create the second box on the canvas, the color is pink. The blue box is twice as big as the pink box. The blue box bounces off the edges of the canvas. The pink box bounces off the edges of the blue box.
+
+Create the first text "Hello World!" on the canvas, the font size is 36pt. The text bounces off the edges of the canvas.
+
+They should bounce continuously.
