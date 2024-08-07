@@ -8,29 +8,44 @@ For example, カ (ka) is unaspirated, カ (kha) is aspirated, and ガ (ga) is vo
    - Combine the initial consonant of the preceding character with the following vowel.
    - **Examples:**
      - コㅗ becomes "kur"
+     - 커ㅗ becomes "khur"
      - ゴㅗ becomes "gur"
      - ソㅗ becomes "sur"
+     - 쩌ㅗ becomes "chur"
+     - 처ㅗ becomes "cur"
      - ホㅗ becomes "hur"
      - ポㅗ becomes "pur"
-     - 로ㅗ becomes "lur"
+     - 퍼ㅗ becomes "phur"
+     - ボㅗ becomes "bur"
+     - ロㅗ becomes "lur"
      - トㅗ becomes "tur"
-     - 커ㅗ becomes "khur"
+     - 터ㅗ becomes "thur"
+     - コə becomes "ker"
+     - 커ə becomes "kher"
      - ゴə becomes "ger"
      - ソə becomes "ser"
+     - 쩌ə becomes "cher"
+     - 처ə becomes "cer"
+     - ゾə becomes "jer"
      - ホə becomes "her"
      - ポə becomes "per"
-     - 로ə becomes "ler"
+     - 퍼ə becomes "pher"
+     - ボə becomes "ber"
+     - ロə becomes "ler"
      - トə becomes "ter"
-     - 커ə becomes "kher"
+     - 터ə becomes "ther"
 
 2. **Character + Final Consonant ㆁ:**
    - Combine the initial consonant of the preceding character with the final consonant.
    - **Examples:**
      - クㆁ becomes "kng"
+     - 쿠ㆁ becomes "khng"
      - スㆁ becomes "sng"
      - ツㆁ becomes "chng"
+     - 추ㆁ becomes "cng"
      - フㆁ becomes "hng"
      - プㆁ becomes "png"
+     - 푸ㆁ becomes "phng"
      - ルㆁ becomes "lng"
      - ムㆁ becomes "mng"
      - 뚜ㆁ becomes "tng"
@@ -197,7 +212,7 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ### 無氣音
 
-タ：ta。打
+タ：ta。礁
 띠：ti。池
 뚜：tu。株
 テ：te。茶
@@ -244,7 +259,7 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ## 閉音節
 
-### 入聲
+### 入聲 (Checked Tone)
 
 The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, and プ, respectively, and represent syllable-final consonants.
 
@@ -258,7 +273,7 @@ The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, an
 ㇲ：s 
 ッ：t 
 
-### 舒聲
+### 舒聲 (Unchecked Tone or Free Tone)
 
 ㇺ：m
 ㇴ：n
@@ -270,4 +285,5 @@ The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, an
 ```
 pronounce シㇷ゚
 pronounce キァ~⁹
+what would pronounce un3tong3hue7
 ```
