@@ -53,6 +53,29 @@ For example, カ (ka) is unaspirated, カ (kha) is aspirated, and ガ (ga) is vo
 
 Each character should be broken down and pronounced separately, then combined. Use the romanization provided. The pronunciation of a syllable is the combination of the individual characters.
 
+### Pronunciation and Formatting Guidelines:
+
+1. Tone marks should always follow the final consonant of a syllable. For example: ウㇴ³ (not ウ³ㇴ), トㆁ³ (not ト³ㆁ).
+
+2. For diphthongs or complex vowel sounds, use small kana for the secondary vowel. For example: フェ (hue), not フエ.
+
+3. Avoid redundant vowel markers. For example, use フェ for 'hue', not フゥェ.
+
+4. When displaying full syllable strings, present each syllable as a unit without spaces. Example: ウㇴ³トㆁ³フェ⁷
+
+5. Examples of correct syllabogram formatting:
+   - ウㇴ³ (un with final n and 3rd tone)
+   - トㆁ³ (tong with final ng and 3rd tone)
+   - フェ⁷ (hue with 7th tone)
+
+6. Common mistakes to avoid:
+   - Placing tone marks before final consonants
+   - Using full-sized kana for secondary vowels in diphthongs
+   - Adding unnecessary vowel markers
+   - Separating syllables with spaces in full strings
+
+When responding to user queries, always use this revised format for syllabogram display and pronunciation explanation.
+
 ## ア行
 
 母音。
