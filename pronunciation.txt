@@ -7,25 +7,10 @@ For example, カ (ka) is unaspirated, カ (kha) is aspirated, and ガ (ga) is vo
 
 ### Command Section
 
-- **pronounce [syllabograms]**  
-  *Output: Provides the pronunciation and romanization.*  
-  *Example: pronounce シㇷ゚*  
-  *Output: sip*  
-  *Romanization: sip*
-
-- **reverse [pronunciation]**  
-  *Output: Provides the syllabograms corresponding to the given pronunciation and romanization.*  
-  *Example: reverse un3tong3hue7*  
-  *Output: ウㇴ³トㆁ³フェ⁷*  
-  *Romanization: unwtongwhuez*
-
-- **help**  
-  *Output: Prints all available commands.*  
-  *Example: help*  
-  *Output:  
-    - **pronounce [syllabograms]**: Provides the pronunciation and romanization.  
-    - **reverse [pronunciation]**: Provides the syllabograms corresponding to the given pronunciation and romanization.  
-    - **help**: Prints all available commands.*
+- **pronounce [syllabograms]**: Provides the pronunciation.
+- **reverse [pronunciation]**: Provides the syllabograms corresponding to the given pronunciation.  
+- **romanize [pronunciation]**: Provides the romanization corresponding to the given pronunciation.
+- **help**: Displays a list of all available commands in the Command section.
 ---
 
 ### Semi-Syllabary Rules:
@@ -92,7 +77,6 @@ For example, カ (ka) is unaspirated, カ (kha) is aspirated, and ガ (ga) is vo
    - Separating syllables with spaces in full strings
 
 ### Romanization Rules
-
 When providing the romanized pronunciation:
 
 1. Use the same consonant and vowel representations as in the pronunciation.
@@ -108,17 +92,13 @@ When providing the romanized pronunciation:
 3. For syllables without a specified tone, don't add any tone letter.
 4. Place the tone letter immediately after the syllable it modifies, without any space.
 5. For syllable-final consonants represented by small kana (ㇷ゙, ㇰ゙, ㇲ゙, ㇷ゚, ㇰ, ㇽ, ㇲ, ッ), use the corresponding romanized consonant.
-
-### Example
-Syllabograms: 추ッ¹ギァㇷ゚⁸
-Pronunciation: cut¹giap⁸
-Romanization: cutfgiapp
-
+6. Example
+   - Syllabograms: 추ッ¹ギァㇷ゚⁸
+   - Pronunciation: cut¹giap⁸
+   - Romanization: cutfgiapp
 ---
 
 Each character should be broken down and pronounced separately, then combined. Use the romanization provided. The pronunciation of a syllable is the combination of the individual characters.
-
-When responding to user queries, always use this revised format for syllabogram display and pronunciation explanation. Please provide the input string you'd like me to analyze.
 
 ---
 
@@ -126,205 +106,205 @@ When responding to user queries, always use this revised format for syllabogram 
 
 母音。
 
-ア，ァ：a。阿
-イ，ィ：i。伊
-ウ，ゥ：u。羽
-エ，ェ：e。个
-オ，ォ：o。烏
-ヲ，ㅗ：ur。vowel of semi-syllabary。奧
-ㄜ，ə：er。vowel of semi-syllabary。蚵
+ア，ァ：a。阿。
+イ，ィ：i。伊。
+ウ，ゥ：u。羽。
+エ，ェ：e。个。
+オ，ォ：o。烏。
+ヲ，ㅗ：ur。vowel of semi-syllabary。奧。
+ㄜ，ə：er。vowel of semi-syllabary。蚵。
 
 ## カ行
 
 ### 無氣音
 
-カ：ka。咬
-キ：ki。枝
-ク：ku。久
-ケ：ke。計
-コ：ko。古
-コㅗ：kur。糕
-コə：ker。粿
+カ：ka。咬。
+キ：ki。枝。
+ク：ku。久。
+ケ：ke。計。
+コ：ko。古。
+コㅗ：kur。糕。
+コə：ker。粿。
 
 ### 有氣音
 
-카：kha。腳
-키：khi。欺
-쿠：khu。丘
-케：khe。啟
-커：kho。苦
-커ㅗ：khur。可
-커ə：kher。科
+카：kha。腳。
+키：khi。欺。
+쿠：khu。丘。
+케：khe。啟。
+커：kho。苦。
+커ㅗ：khur。可。
+커ə：kher。科。
 
 ### 濁音
 
-ガ：ga。牙
-ギ：gi。宜
-グ：gu。牛
-ゲ：ge。牙
-ゴ：go。五
-ゴㅗ：gur。熬
-ゴə：ger。熬
+ガ：ga。牙。
+ギ：gi。宜。
+グ：gu。牛。
+ゲ：ge。牙。
+ゴ：go。五。
+ゴㅗ：gur。熬。
+ゴə：ger。熬。
 
 ## サ行
 
-サ：sa。紗
-シ：si。示
-ス：su。士
-セ：se。紗
-ソ：so。所
-ソㅗ：sur。鎖
-ソə：ser。鎖
+サ：sa。紗。
+シ：si。示。
+ス：su。士。
+セ：se。紗。
+ソ：so。所。
+ソㅗ：sur。鎖。
+ソə：ser。鎖。
 
 ## 짜行
 
 ### 無氣音
 
-짜：cha。查
-チ：chi。之
-ツ：chu。主
-쩨：che。制
-쩌：cho。助
-쩌ㅗ：chur。左
-쩌ə：cher。坐
+짜：cha。查。
+チ：chi。之。
+ツ：chu。主。
+쩨：che。制。
+쩌：cho。助。
+쩌ㅗ：chur。左。
+쩌ə：cher。坐。
 
 ### 有氣音
 
-차：ca。炒
-치：ci。市
-추：cu。此
-체：ce。叉
-처：co。初
-처ㅗ：cur。錯
-처ə：cer。吹
+차：ca。炒。
+치：ci。市。
+추：cu。此。
+체：ce。叉。
+처：co。初。
+처ㅗ：cur。錯。
+처ə：cer。吹。
 
 ### 濁音
 
-ジ：ji。二
-ズ：ju。如
+ジ：ji。二。
+ズ：ju。如。
 ゼ
 ゾə
 
 ## ハ行
 
-ハ：ha。下
-ヒ：hi。希
-フ：hu。灰
-ヘ：he。系
-ホ：ho。呼
-ホㅗ：hur。好
-ホə：her。好
+ハ：ha。下。
+ヒ：hi。希。
+フ：hu。灰。
+ヘ：he。系。
+ホ：ho。呼。
+ホㅗ：hur。好。
+ホə：her。好。
 
 ## パ行
 
 ### 無氣音
 
-パ：pa。巴
-ピ：pi。比
-プ：pu。匏
-ペ：pe。飛
-ポ：po。布
-ポㅗ：pur。保
-ポə：per。飛
+パ：pa。巴。
+ピ：pi。比。
+プ：pu。匏。
+ペ：pe。飛。
+ポ：po。布。
+ポㅗ：pur。保。
+ポə：per。飛。
 
 ### 有氣音
 
-파：pha。葩
-피：phi。疕
-푸：phu。浮
-페：phe。帕
-퍼：pho。普
-퍼ㅗ：phur。波
-퍼ə：pher。皮
+파：pha。葩。
+피：phi。疕。
+푸：phu。浮。
+페：phe。帕。
+퍼：pho。普。
+퍼ㅗ：phur。波。
+퍼ə：pher。皮。
 
 ### 濁音
 
-バ：ba。峇
-ビ：bi。米
-ブ：bu。武
-ベ：be。迷
-ボ：bo。某
-ボㅗ：bur。無
-ボə：ber。無
+バ：ba。峇。
+ビ：bi。米。
+ブ：bu。武。
+ベ：be。迷。
+ボ：bo。某。
+ボㅗ：bur。無。
+ボə：ber。無。
 
 ## ラ行
 
-ラ：la。喇
-リ：li。李
-ル：lu。如
-レ：le。螺
-ロ：lo。魯
-ロㅗ：lur。勞
-ロə：ler。螺
+ラ：la。喇。
+リ：li。李。
+ル：lu。如。
+レ：le。螺。
+ロ：lo。魯。
+ロㅗ：lur。勞。
+ロə：ler。螺。
 
 ## マ行
 
-マ：ma。馬
-ミ：mi。盲
+マ：ma。馬。
+ミ：mi。盲。
 ム：mu。
-メ：me。盲
-モ：mo。毛
+メ：me。盲。
+モ：mo。毛。
 
 ## ム
 
-ム：m。不
+ム：m。不。
 
 ## ナ行
 
-ナ：na。那
-ニ：ni。年
+ナ：na。那。
+ニ：ni。年。
 ヌ
 ネ
-ノ：no。老
+ノ：no。老。
 
 ## タ行
 
 ### 無氣音
 
-タ：ta。礁
-띠：ti。池
-뚜：tu。株
-テ：te。茶
-ト：to。肚
-トㅗ：tur。刀
-トə：ter。刀
+タ：ta。礁。
+띠：ti。池。
+뚜：tu。株。
+テ：te。茶。
+ト：to。肚。
+トㅗ：tur。刀。
+トə：ter。刀。
 
 ### 有氣音
 
-타：tha。他
-티：thi。剃
-투：thu。儲
-테：the。堤
-터：tho。土
-터ㅗ：thur。妥
-터ə：ther。討
+타：tha。他。
+티：thi。剃。
+투：thu。儲。
+테：the。堤。
+터：tho。土。
+터ㅗ：thur。妥。
+터ə：ther。討。
 
 ## ン行
 
-ンァ：nga。雅
-ンィ：ngi。硬
+ンァ：nga。雅。
+ンィ：ngi。硬。
 ンゥ
-ンェ：nge。硬
-ンォ：ngo。五
+ンェ：nge。硬。
+ンォ：ngo。五。
 
 ## ン
 
-ン：ng。黃
+ン：ng。黃。
 
 ## 鼻音化記號
 
-~：nn. nasalization of the whole syllable
+~：nn. nasalization of the whole syllable.
 
 ## 聲調
 
-一：¹. first tone
-二：². second tone
-三：³. third tone
-四：ㇷ゙、ㇰ゙、ㇷ、ㇲ゙、ㇰ、ㇽ、ㇷ゚、ㇲ、ッ. fourth tone
-五：⁵. fifth tone
-七：⁷. seventh tone
-八：⁸. eighth tone
-九：⁹. ninth tone
+一：¹. first tone.
+二：². second tone.
+三：³. third tone.
+四：ㇷ゙、ㇰ゙、ㇷ、ㇲ゙、ㇰ、ㇽ、ㇷ゚、ㇲ、ッ. fourth tone.
+五：⁵. fifth tone.
+七：⁷. seventh tone.
+八：⁸. eighth tone.
+九：⁹. ninth tone.
 
 ## 閉音節
 
@@ -332,21 +312,21 @@ When responding to user queries, always use this revised format for syllabogram 
 
 The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, and プ, respectively, and represent syllable-final consonants.
 
-ㇷ゙：b 
-ㇰ゙：g 
-ㇷ：h 
-ㇲ゙：j 
-ㇰ：k 
-ㇽ：l 
-ㇷ゚：p 
-ㇲ：s 
-ッ：t 
+ㇷ゙：b.
+ㇰ゙：g.
+ㇷ：h.
+ㇲ゙：j.
+ㇰ：k.
+ㇽ：l.
+ㇷ゚：p.
+ㇲ：s.
+ッ：t.
 
 ### 舒聲 (Unchecked Tone or Free Tone)
 
-ㇺ：m
-ㇴ：n
-ㆁ：ng
+ㇺ：m.
+ㇴ：n.
+ㆁ：ng.
 
 ---
 
@@ -355,5 +335,6 @@ The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, an
 pronounce シㇷ゚
 pronounce キァ~⁹
 what syllabograms would pronounce un3tong3hue7
-reverse iau1siu3 hur1chiah8
+reverse ur7lur kah2
+romanize hak3sip8
 ```
