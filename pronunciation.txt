@@ -112,7 +112,6 @@ When using the replace command:
 
 ---
 
-
 Each character should be broken down and pronounced separately, then combined. Use the romanization provided. The pronunciation of a syllable is the combination of the individual characters.
 
 ---
@@ -197,8 +196,8 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ジ：ji，二。
 ズ：ju，如。
-ゼ
-ゾə
+ゼ：je。
+ゾə：jer。
 
 ## ハ行 (Ha-row)
 
@@ -268,8 +267,8 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ナ：na，那。
 ニ：ni，年。
-ヌ
-ネ
+ヌ：nu。
+ネ：ne。
 ノ：no，老。
 
 ## タ行 (Ta-row)
@@ -349,7 +348,7 @@ The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, an
 ```
 pronounce シㇷ゚
 pronounce キァ~⁹
-what syllabograms would pronounce un3tong3hue7
+what syllabograms would pronounce thiau2siong3kuan5
 reverse ur7lur kah2
 replace hak3sip8
 ```
