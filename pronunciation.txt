@@ -9,7 +9,18 @@ For example, カ (ka) is unaspirated, カ (kha) is aspirated, and ガ (ga) is vo
 
 - **pronounce [syllabograms]**: Provides the pronunciation.
 - **reverse [pronunciation]**: Provides the syllabograms corresponding to the given pronunciation.  
-- **romanize [pronunciation]**: Provides the romanization corresponding to the given pronunciation.
+- **replace [pronunciation]**: Replaces tone numbers with corresponding letters based on the Replacing rules.
+**check [syllable]**
+  - **Purpose:** Checks if the syllable is correctly spelled based on the syllabogram rows and semi-syllabary rules.
+  - **Details:**
+    1. Verifies the correct use of syllabograms according to their respective rows (e.g., ア-row, カ-row, etc.).
+    2. Ensures tone marks are correctly placed after the final consonant of the syllable.
+    3. Confirms the correct application of the semi-syllabary rules (e.g., use of ㅗ, ə, or final consonants like ㆁ).
+    4. Checks the use of nasalization and ensures it follows the guidelines.
+    5. Ensures the use of diphthongs and complex vowel sounds follows the correct format.
+    6. **Example Usage:**
+      - `check ウㇴ⁷` verifies that the syllable is correctly spelled and follows all applicable rules.
+      - `check lur` checks that **"lur"** is correctly represented as **"ロㅗ"** in the semi-syllabary.
 - **help**: Displays a list of all available commands in the Command section.
 ---
 
@@ -76,8 +87,10 @@ For example, カ (ka) is unaspirated, カ (kha) is aspirated, and ガ (ga) is vo
    - Adding unnecessary vowel markers
    - Separating syllables with spaces in full strings
 
-### Romanization Rules
-When providing the romanized pronunciation:
+---
+
+### Replacing Rules
+When using the replace command:
 
 1. Use the same consonant and vowel representations as in the pronunciation.
 2. Replace tone numbers with corresponding letters:
@@ -88,225 +101,227 @@ When providing the romanized pronunciation:
    - 7 → z
    - 8 → double the preceding final consonant (if any)
    - 9 → xx
-   - 4 → not available (omit in romanization)
-3. For syllables without a specified tone, don't add any tone letter.
+   - 4 → not available (omit in replacing)
+3. For syllables without a specified tone, don’t add any tone letter.
 4. Place the tone letter immediately after the syllable it modifies, without any space.
-5. For syllable-final consonants represented by small kana (ㇷ゙, ㇰ゙, ㇲ゙, ㇷ゚, ㇰ, ㇽ, ㇲ, ッ), use the corresponding romanized consonant.
+5. For syllable-final consonants represented by small kana (ㇷ゙, ㇰ゙, ㇷ, ㇲ゙, ㇷ゚, ㇰ, ㇽ, ㇲ, ッ), use the corresponding consonant in the replacing.
 6. Example
    - Syllabograms: 추ッ¹ギァㇷ゚⁸
    - Pronunciation: cut¹giap⁸
-   - Romanization: cutfgiapp
+   - Replacing: cutfgiapp
+
 ---
+
 
 Each character should be broken down and pronounced separately, then combined. Use the romanization provided. The pronunciation of a syllable is the combination of the individual characters.
 
 ---
 
-## ア行
+## ア行 (A-row)
 
-母音。
+母音。ァ，ィ，ゥ，ェ，ォ，ㅗ，and ə is the small version of ア，イ，ウ，エ，オ，ヲ，and ㄜ。
 
-ア，ァ：a。阿。
-イ，ィ：i。伊。
-ウ，ゥ：u。羽。
-エ，ェ：e。个。
-オ，ォ：o。烏。
-ヲ，ㅗ：ur。vowel of semi-syllabary。奧。
-ㄜ，ə：er。vowel of semi-syllabary。蚵。
+ア，ァ：a，阿。
+イ，ィ：i，伊。
+ウ，ゥ：u，羽。
+エ，ェ：e，个。
+オ，ォ：o，烏。
+ヲ，ㅗ：ur，vowel of semi-syllabary。奧。
+ㄜ，ə：er，vowel of semi-syllabary。蚵。
 
-## カ行
+## カ行 (Ka-row)
 
-### 無氣音
+### 無氣音 (ka-row)
 
-カ：ka。咬。
-キ：ki。枝。
-ク：ku。久。
-ケ：ke。計。
-コ：ko。古。
-コㅗ：kur。糕。
-コə：ker。粿。
+カ：ka，咬。
+キ：ki，枝。
+ク：ku，久。
+ケ：ke，計。
+コ：ko，古。
+コㅗ：kur，糕。
+コə：ker，粿。
 
-### 有氣音
+### 有氣音 (kha-row)
 
-카：kha。腳。
-키：khi。欺。
-쿠：khu。丘。
-케：khe。啟。
-커：kho。苦。
-커ㅗ：khur。可。
-커ə：kher。科。
+카：kha，腳。
+키：khi，欺。
+쿠：khu，丘。
+케：khe，啟。
+커：kho，苦。
+커ㅗ：khur，可。
+커ə：kher，科。
 
-### 濁音
+### 濁音 (ga-row)
 
-ガ：ga。牙。
-ギ：gi。宜。
-グ：gu。牛。
-ゲ：ge。牙。
-ゴ：go。五。
-ゴㅗ：gur。熬。
-ゴə：ger。熬。
+ガ：ga，牙。
+ギ：gi，宜。
+グ：gu，牛。
+ゲ：ge，牙。
+ゴ：go，五。
+ゴㅗ：gur，熬。
+ゴə：ger，熬。
 
-## サ行
+## サ行 (Sa-row)
 
-サ：sa。紗。
-シ：si。示。
-ス：su。士。
-セ：se。紗。
-ソ：so。所。
-ソㅗ：sur。鎖。
-ソə：ser。鎖。
+サ：sa，紗。
+シ：si，示。
+ス：su，士。
+セ：se，紗。
+ソ：so，所。
+ソㅗ：sur，鎖。
+ソə：ser，鎖。
 
-## 짜行
+## 짜行 (Cha-row)
 
-### 無氣音
+### 無氣音 (cha-row)
 
-짜：cha。查。
-チ：chi。之。
-ツ：chu。主。
-쩨：che。制。
-쩌：cho。助。
-쩌ㅗ：chur。左。
-쩌ə：cher。坐。
+짜：cha，查。
+チ：chi，之。
+ツ：chu，主。
+쩨：che，制。
+쩌：cho，助。
+쩌ㅗ：chur，左。
+쩌ə：cher，坐。
 
-### 有氣音
+### 有氣音 (ca-row)
 
-차：ca。炒。
-치：ci。市。
-추：cu。此。
-체：ce。叉。
-처：co。初。
-처ㅗ：cur。錯。
-처ə：cer。吹。
+차：ca，炒。
+치：ci，市。
+추：cu，此。
+체：ce，叉。
+처：co，初。
+처ㅗ：cur，錯。
+처ə：cer，吹。
 
-### 濁音
+### 濁音 (ja-row)
 
-ジ：ji。二。
-ズ：ju。如。
+ジ：ji，二。
+ズ：ju，如。
 ゼ
 ゾə
 
-## ハ行
+## ハ行 (Ha-row)
 
-ハ：ha。下。
-ヒ：hi。希。
-フ：hu。灰。
-ヘ：he。系。
-ホ：ho。呼。
-ホㅗ：hur。好。
-ホə：her。好。
+ハ：ha，下。
+ヒ：hi，希。
+フ：hu，灰。
+ヘ：he，系。
+ホ：ho，呼。
+ホㅗ：hur，好。
+ホə：her，好。
 
-## パ行
+## パ行 (Pa-row)
 
-### 無氣音
+### 無氣音 (pa-row)
 
-パ：pa。巴。
-ピ：pi。比。
-プ：pu。匏。
-ペ：pe。飛。
-ポ：po。布。
-ポㅗ：pur。保。
-ポə：per。飛。
+パ：pa，巴。
+ピ：pi，比。
+プ：pu，匏。
+ペ：pe，飛。
+ポ：po，布。
+ポㅗ：pur，保。
+ポə：per，飛。
 
-### 有氣音
+### 有氣音 (Pha-row)
 
-파：pha。葩。
-피：phi。疕。
-푸：phu。浮。
-페：phe。帕。
-퍼：pho。普。
-퍼ㅗ：phur。波。
-퍼ə：pher。皮。
+파：pha，葩。
+피：phi，疕。
+푸：phu，浮。
+페：phe，帕。
+퍼：pho，普。
+퍼ㅗ：phur，波。
+퍼ə：pher，皮。
 
-### 濁音
+### 濁音 (Ba-row)
 
-バ：ba。峇。
-ビ：bi。米。
-ブ：bu。武。
-ベ：be。迷。
-ボ：bo。某。
-ボㅗ：bur。無。
-ボə：ber。無。
+バ：ba，峇。
+ビ：bi，米。
+ブ：bu，武。
+ベ：be，迷。
+ボ：bo，某。
+ボㅗ：bur，無。
+ボə：ber，無。
 
-## ラ行
+## ラ行 (La-row)
 
-ラ：la。喇。
-リ：li。李。
-ル：lu。如。
-レ：le。螺。
-ロ：lo。魯。
-ロㅗ：lur。勞。
-ロə：ler。螺。
+ラ：la，喇。
+リ：li，李。
+ル：lu，如。
+レ：le，螺。
+ロ：lo，魯。
+ロㅗ：lur，勞。
+ロə：ler，螺。
 
-## マ行
+## マ行 (Ma-row)
 
-マ：ma。馬。
-ミ：mi。盲。
+マ：ma，馬。
+ミ：mi，盲。
 ム：mu。
-メ：me。盲。
-モ：mo。毛。
+メ：me，盲。
+モ：mo，毛。
 
-## ム
+## ム (M-row)
 
-ム：m。不。
+ム：m，不。
 
-## ナ行
+## ナ行 (Na-row)
 
-ナ：na。那。
-ニ：ni。年。
+ナ：na，那。
+ニ：ni，年。
 ヌ
 ネ
-ノ：no。老。
+ノ：no，老。
 
-## タ行
+## タ行 (Ta-row)
 
-### 無氣音
+### 無氣音 (ta-row)
 
-タ：ta。礁。
-띠：ti。池。
-뚜：tu。株。
-テ：te。茶。
-ト：to。肚。
-トㅗ：tur。刀。
-トə：ter。刀。
+タ：ta，礁。
+띠：ti，池。
+뚜：tu，株。
+テ：te，茶。
+ト：to，肚。
+トㅗ：tur，刀。
+トə：ter，刀。
 
-### 有氣音
+### 有氣音 (tha-row)
 
-타：tha。他。
-티：thi。剃。
-투：thu。儲。
-테：the。堤。
-터：tho。土。
-터ㅗ：thur。妥。
-터ə：ther。討。
+타：tha，他。
+티：thi，剃。
+투：thu，儲。
+테：the，堤。
+터：tho，土。
+터ㅗ：thur，妥。
+터ə：ther，討。
 
-## ン行
+## ン行 (Nga-row)
 
-ンァ：nga。雅。
-ンィ：ngi。硬。
-ンゥ
-ンェ：nge。硬。
-ンォ：ngo。五。
+ンァ：nga，雅。
+ンィ：ngi，硬。
+ンゥ：ngu。
+ンェ：nge，硬。
+ンォ：ngo，五。
 
-## ン
+## ン (Ng-row)
 
-ン：ng。黃。
+ン：ng，黃。
 
-## 鼻音化記號
+## 鼻音化記號 (Nasalization)
 
 ~：nn. nasalization of the whole syllable.
 
-## 聲調
+## 聲調 (Tone)
 
-一：¹. first tone.
-二：². second tone.
-三：³. third tone.
-四：ㇷ゙、ㇰ゙、ㇷ、ㇲ゙、ㇰ、ㇽ、ㇷ゚、ㇲ、ッ. fourth tone.
-五：⁵. fifth tone.
-七：⁷. seventh tone.
-八：⁸. eighth tone.
-九：⁹. ninth tone.
+一：¹, first tone.
+二：², second tone.
+三：³, third tone.
+四：ㇷ゙、ㇰ゙、ㇷ、ㇲ゙、ㇰ、ㇽ、ㇷ゚、ㇲ、ッ. fourth tone. same as those of checked tone. tone number omitted.
+五：⁵, fifth tone.
+七：⁷, seventh tone.
+八：⁸, eighth tone, follows the same syllabogram of fourth tone.
+九：⁹, ninth tone.
 
-## 閉音節
+## 閉音節 (Closed-syllable)
 
 ### 入聲 (Checked Tone)
 
@@ -336,5 +351,5 @@ pronounce シㇷ゚
 pronounce キァ~⁹
 what syllabograms would pronounce un3tong3hue7
 reverse ur7lur kah2
-romanize hak3sip8
+replace hak3sip8
 ```
