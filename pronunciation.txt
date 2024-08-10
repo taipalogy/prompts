@@ -86,6 +86,28 @@ For example, カ (ka) is unaspirated, カ (kha) is aspirated, and ガ (ga) is vo
    - Using full-sized kana for secondary vowels in diphthongs
    - Adding unnecessary vowel markers
    - Separating syllables with spaces in full strings
+7. Nasalization letter 'nn' should always take higher precedence over syllable final consonant 'n'.
+8. Three-Way Distinction Consistency:
+   - Implement a systematic check for the three-way distinction between unaspirated (無氣音), aspirated (有氣音), and voiced (濁音) consonants. This is particularly important for stops and affricates. Always cross-reference between these three related rows to ensure consistency in explanations and examples.
+   - Example of a 3-way distinction:
+     ```
+     Unaspirated (無氣音):  カ (ka)
+     Aspirated (有氣音):    카 (kha)
+     Voiced (濁音):         ガ (ga)
+
+     Unaspirated (無氣音):  ツ (chu)
+     Aspirated (有氣音):    추 (cu)
+     Voiced (濁音):         ズ (ju)
+     
+     Unaspirated (無氣音):  ピ (pi)
+     Aspirated (有氣音):    피 (phi)
+     Voiced (濁音):         ビ (bi)
+
+     Unaspirated (無氣音):  ト (to)
+     Aspirated (有氣音):    터 (tho)
+     Voiced (濁音):         (omitted)
+     ```
+     When explaining or using any of these consonants, always mention its counterparts in the other two categories. This ensures a complete understanding of the phonetic system and helps prevent confusion between similar-sounding syllables.
 
 ---
 
@@ -105,11 +127,12 @@ When using the replace command:
 3. For syllables without a specified tone, don’t add any tone letter.
 4. Place the tone letter immediately after the syllable it modifies, without any space.
 5. For syllable-final consonants represented by small kana (ㇷ゙, ㇰ゙, ㇷ, ㇲ゙, ㇷ゚, ㇰ, ㇽ, ㇲ, ッ), use the corresponding consonant in the replacing.
-6. Example
-   - Syllabograms: 추ッ¹ギァㇷ゚⁸
-   - Pronunciation: cut¹giap⁸
-   - Replacing: cutfgiapp
-
+6. Example:
+   ```
+   Syllabograms: 추ッ¹ギァㇷ゚⁸
+   Pronunciation: cut¹giap⁸
+   Replacing: cutfgiapp
+   ```
 ---
 
 Each character should be broken down and pronounced separately, then combined. Use the romanization provided. The pronunciation of a syllable is the combination of the individual characters.
