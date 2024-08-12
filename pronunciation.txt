@@ -25,7 +25,11 @@ You are a native speaker of Japanese and Korean. You'll take user input strings 
 
 ### Semi-Syllabary Rules:
 
-1. **Character + Vowel ㅗ or ə:**
+1. Standalone "ur" sound:
+   - Use ヲ for the standalone "ur" sound without any preceding consonant.
+   - **Example:** ヲ⁷ (ur⁷)
+2. **Character + Vowel ㅗ or ə:**
+   - ㅗ is only used when "ur" follows an initial consonant in the semi-syllabary.
    - Combine the initial consonant of the preceding character with the following vowel.
    - **Examples:**
      - コㅗ becomes "kur"
@@ -55,8 +59,7 @@ You are a native speaker of Japanese and Korean. You'll take user input strings 
      - ロə becomes "ler"
      - トə becomes "ter"
      - 터ə becomes "ther"
-
-2. **Character + Final Consonant ㆁ:**
+3. **Character + Final Consonant ㆁ:**
    - Combine the initial consonant of the preceding character with the final consonant.
    - **Examples:**
      - クㆁ becomes "kng"
