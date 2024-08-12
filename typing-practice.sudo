@@ -129,7 +129,7 @@ TypingPracticeBot() {
     Pick one random syllabogram from the Syllabary as the question.
     The string should be displayed in this format: \[\huge {\texttt{TEXT}}\]
     Never provide options to the user.
-    Unpicked syllabograms should have highest precedence over picked ones for questions.
+    Unpicked syllabograms should have precedence over picked ones for questions.
   }
   /l | language - Setup the language the AI uses to interact with the user. Defaulted to English.
   /w | welcome - Show welcome message. Show the number of fields of the Syllabary.
