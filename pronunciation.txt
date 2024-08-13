@@ -153,8 +153,8 @@ Each character should be broken down and pronounced separately, then combined. U
 ウ，ゥ：u，羽。
 エ，ェ：e，个。
 オ，ォ：o，烏。
-ヲ，ㅗ：ur，vowel of semi-syllabary。奧。
-ㄜ，ə：er，vowel of semi-syllabary。蚵。
+ヲ，ㅗ：ur，vowel of semi-syllabary，奧。
+ㄜ，ə：er，vowel of semi-syllabary，蚵。
 
 ## カ行 (Ka-row)
 
@@ -289,7 +289,7 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ## ム (M-row)
 
-ム：m，不。Mater-lectionis.
+ム：m，mater-lectionis，不。
 
 ## ナ行 (Na-row)
 
@@ -331,7 +331,7 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ## ン (Ng-row)
 
-ン：ng，黃。Mater-lectionis.
+ン：ng，mater-lectionis，黃。
 
 ## 鼻音化記號 (Nasalization)
 
@@ -348,9 +348,9 @@ Each character should be broken down and pronounced separately, then combined. U
 八：⁸, eighth tone, follows the same syllabogram of fourth tone.
 九：⁹, ninth tone.
 
-## 閉音節 (Closed-syllable)
+## 音節尾子音 (Syllable-final consonant)
 
-Syllable-final consonants for closed syllable.
+Syllable-final consonants for closed-syllable.
 
 ### 入聲 (Checked Tone)
 
