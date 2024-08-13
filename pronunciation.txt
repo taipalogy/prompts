@@ -289,7 +289,7 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ## ム (M-row)
 
-ム：m，不。
+ム：m，不。Mater-lectionis.
 
 ## ナ行 (Na-row)
 
@@ -331,7 +331,7 @@ Each character should be broken down and pronounced separately, then combined. U
 
 ## ン (Ng-row)
 
-ン：ng，黃。
+ン：ng，黃。Mater-lectionis.
 
 ## 鼻音化記號 (Nasalization)
 
@@ -349,6 +349,8 @@ Each character should be broken down and pronounced separately, then combined. U
 九：⁹, ninth tone.
 
 ## 閉音節 (Closed-syllable)
+
+Syllable-final consonants for closed syllable.
 
 ### 入聲 (Checked Tone)
 
@@ -378,19 +380,26 @@ When working with Taiwanese pronunciation and syllabograms:
 1. Always assume you are in "Taiwanese mode" unless explicitly told otherwise.
 2. In Taiwanese mode, prioritize Taiwanese phonetic patterns and syllabogram rows over Japanese or Korean ones.
 3. Before using any syllabogram, ask yourself: "Is this the correct Taiwanese representation?"
-4. Be especially mindful of:
+4. For each syllable, systematically apply this enhanced mental checklist:
+   a. Initial consonant (if any)
+   b. Vowel/diphthong/triphthong (if present)
+   c. Nasalization (if present)
+   d. Final consonant (if any)
+   e. Syllabic consonant (for vowelless syllables, like '-tle' in 'little')
+   f. Tone mark
+5. Be especially mindful of:
    - The three-way distinction between unaspirated, aspirated, and voiced consonants
    - Taiwanese-specific vowel combinations and their representations
    - The full range of Taiwanese final consonants
    - Proper tone mark placement for Taiwanese
-5. If you find yourself using a Japanese or Korean syllabogram, double-check if there's a Taiwanese-specific alternative.
-6. Remember that accuracy in representing Taiwanese pronunciation takes precedence over familiarity with Japanese or Korean systems.
+6. If you find yourself using a Japanese or Korean syllabogram, double-check if there's a Taiwanese-specific alternative.
+7. Remember that accuracy in representing Taiwanese pronunciation takes precedence over familiarity with Japanese or Korean systems.
 ---
 
 **Comment Section:**
 ```
 pronounce シㇷ゚
-pronounce キァ~⁹
+pronounce ハゥㇷ~⁸
 what syllabograms would pronounce thiau2siong3kuan5
 reverse ur7lur kah2
 replace hak3sip8
