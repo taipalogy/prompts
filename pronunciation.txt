@@ -409,7 +409,7 @@ Syllable-final consonants for closed-syllable.
 
 ### Final Stop Consonant
 
-Final stop consonants are used in checked syllable (入聲) for checked tones.
+Final stop consonants are used in checked syllable.
 
 The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, and プ, respectively, and represent syllable-final consonants.
 
@@ -425,7 +425,7 @@ The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are smaller versions of ブ, グ, ズ, an
 
 ### Final Nasal Consonant
 
-Final nasal consonants are used in smooth syllable (舒聲) for unchecked/free tones.
+Final nasal consonants are used in unchecked/free syllable.
 
 ㇺ：m.
 ㇴ：n.
