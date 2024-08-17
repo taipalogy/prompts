@@ -378,6 +378,13 @@ Each character should be broken down and pronounced separately, then combined. U
     - ㇴ：n.
     - ㆁ：ng.
 ---
+### Taiwanese Phonology
+
+1. Three-way Consonant Distinction:
+   - Not all consonants have all three forms (unaspirated, aspirated, voiced).
+   - Complete list of distinctions:
+     - p/ph/b, t/th, k/kh/g, ch/c/j, s/j
+---
 ## Taiwanese Mode
 
 When working with Taiwanese pronunciation and syllabograms:
