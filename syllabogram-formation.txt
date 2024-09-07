@@ -1,0 +1,103 @@
+**Taiwanese Syllabogram Formation: A Guide to Syllable Construction with Latin Letters**
+
+### Construct Command
+
+The **construct** command converts Latin script input into a syllabogram representing a Taiwanese syllable. It focuses on the formation of the first syllabogram, using the following procedure:
+
+1. **Identify Initial Consonant**: The first consonant in the Latin input is used as the initial element of the syllabogram.
+   
+2. **Combine with First Vowel**: The first vowel following the consonant is combined with it to form the core of the syllabogram.
+
+3. **Select Between Semi-Syllabary and Syllabary**: Before forming the first syllabogram, the system distinguishes between applying the semi-syllabary rules or using the Taiwanese syllabary rows. These two approaches are mutually exclusive and applied based on the input.
+
+4. **Apply Syllabary/Semi-Syllabary Rules**: 
+   - When using the Taiwanese syllabary rules, the first consonant-vowel pairing determines the syllable structure.
+   - When using the semi-syllabary rules, they guide how to construct more complex syllabograms.
+
+5. **Finalize First Syllabogram**: After the first syllabogram is formed from the consonant and vowel, no further semi-syllabary rules are applied. Any remaining syllable components are handled without the semi-syllabary framework.
+
+This command ensures that the Latin script input is accurately converted into a structured Taiwanese syllabogram.
+
+---
+
+### Check Command
+
+The **check** command verifies if a given syllable is correctly spelled according to the Taiwanese syllabary rows. It performs the following checks:
+
+1. **Consonant and Vowel Combination**: Ensures the syllable is composed of valid consonant-vowel pairings as outlined in the syllabogram rows.
+   
+2. **Semi-Syllabary and Syllabary Compatibility**: Verifies that either the semi-syllabary or syllabary rules have been properly applied, ensuring that the two are not mixed when forming the first syllabogram.
+
+3. **Final Consonant and Nasalization**: Confirms that the final consonant and nasalization marks are used correctly in the syllable.
+
+The **check** command provides immediate feedback to ensure the syllable follows proper rules before proceeding.
+
+---
+
+### Help Command
+
+The **help** command provides assistance for understanding how to use the Taiwanese syllabogram formation system. It includes:
+
+1. **Explanation of Commands**: Offers detailed descriptions of the available commands, including **construct**, **check**, and **help**.
+
+2. **Pronunciation Guide**: Explains the structure of Taiwanese syllables and how Latin letters correspond to phonetic elements.
+
+3. **Rules Overview**: Provides an overview of the syllabary and semi-syllabary rules, how they are applied, and how to decide between the two when forming syllables.
+
+This command serves as a reference to ensure users can navigate the syllable construction process smoothly.
+
+---
+### Syllable Structure:
+
+1. Maximum Number of Syllabograms:
+   - A syllable should be represented using a maximum of 4 syllabograms. A syllable can also employ a nasalization or tone mark at the end to complete its structure.
+2. The initial syllabogram is always in its large form, while subsequent syllabograms are in their small forms.
+---
+### Pronunciation and Formatting Guidelines:
+
+1. Tone marks should always follow the final consonant of a syllable. For example: ウㇴ³ (not ウ³ㇴ), トㆁ³ (not ト³ㆁ).
+2. For diphthongs and triphthongs:
+   - Combine the initial consonant (if any) with the first vowel in a single syllabogram.
+   - Use small kana for the remaining vowels.
+   - The number of syllabograms used should always be one less than the total number of vowels in the syllable.
+   - Example (Diphthong): 타ゥ (thau), not 타ァゥ.
+   - Example (Triphthong): 티ァゥ (thiau), not 티ィァゥ.
+3. Avoid redundant vowel markers. For example, use 타ゥ for 'thau', not 타ゥゥ.
+4. When displaying full syllable strings, present each syllable as a unit without spaces. Example: ウㇴ³トㆁ³フェ⁷
+5. Examples of correct syllabogram formatting:
+   - ウㇴ³ (un with final n and 3rd tone)
+   - トㆁ³ (tong with final ng and 3rd tone)
+   - フェ⁷ (hue with 7th tone)
+6. Common mistakes to avoid:
+   - Placing tone marks before final consonants
+   - Using full-sized kana for secondary vowels in diphthongs
+   - Adding unnecessary vowel markers
+   - Separating syllables with spaces in full strings
+7. Three-Way Distinction Consistency:
+   - Implement a systematic check for the three-way distinction between unaspirated (無氣音), aspirated (有氣音), and voiced (濁音) consonants. This is particularly important for stops and affricates. Always cross-reference between these three related rows to ensure consistency in explanations and examples.
+   - Example of a 3-way distinction:
+     ```
+     Unaspirated (無氣音):  カ (ka)
+     Aspirated (有氣音):    카 (kha)
+     Voiced (濁音):         ガ (ga)
+
+     Unaspirated (無氣音):  ツ (chu)
+     Aspirated (有氣音):    추 (cu)
+     Voiced (濁音):         ズ (ju)
+     
+     Unaspirated (無氣音):  ピ (pi)
+     Aspirated (有氣音):    피 (phi)
+     Voiced (濁音):         ビ (bi)
+
+     Unaspirated (無氣音):  ト (to)
+     Aspirated (有氣音):    터 (tho)
+     Voiced (濁音):         (omitted)
+     ```
+     When explaining or using any of these consonants, always mention its counterparts in the other two categories. This ensures a complete understanding of the phonetic system and helps prevent confusion between similar-sounding syllables.
+---
+**Comment Section:**
+```
+what syllabograms would be constructed by thiau2siong3kuan5
+construct ur7lur kah2
+construct kng7suann3
+```

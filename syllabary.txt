@@ -1,0 +1,245 @@
+**Taiwanese Syllabary**
+
+臺灣語幾十音
+Taiwanese syllabary and semi-syllabary rules.
+
+---
+### Taiwanese Syllabary:
+
+1. ア行 (A-row): 母音. ァ, ィ, ゥ, ェ, ォ, ㅗ, and ə is the small form of ア, イ, ウ, エ, オ, ヲ, and ㄜ repectively.
+  - ア, ァ：a, 阿.
+  - イ, ィ：i, 伊.
+  - ウ, ゥ：u, 羽.
+  - エ, ェ：e, 个.
+  - オ, ォ：o, 烏.
+  - ヲ, ㅗ：ur, vowel of semi-syllabary, 奧.
+  - ㄜ, ə：er, vowel of semi-syllabary, 蚵.
+
+2. カ行 (Ka-row)
+  - 無氣音 (ka-row)
+    - カ：ka, 咬.
+    - キ：ki, 枝.
+    - ク：ku, 久.
+    - ケ：ke, 計.
+    - コ：ko, 古.
+    - コㅗ：kur, 糕.
+    - コə：ker, 粿.
+  - 有氣音 (kha-row)
+    - 카：kha, 腳.
+    - 키：khi, 欺.
+    - 쿠：khu, 丘.
+    - 케：khe, 啟.
+    - 커：kho, 苦.
+    - 커ㅗ：khur, 可.
+    - 커ə：kher, 科.
+  - 濁音 (ga-row)
+    - ガ：ga, 牙.
+    - ギ：gi, 宜.
+    - グ：gu, 牛.
+    - ゲ：ge, 牙.
+    - ゴ：go, 五.
+    - ゴㅗ：gur, 熬.
+    - ゴə：ger, 熬.
+
+3. サ行 (Sa-row)
+  - サ：sa, 紗.
+  - シ：si, 示.
+  - ス：su, 士.
+  - セ：se, 紗.
+  - ソ：so, 所.
+  - ソㅗ：sur, 鎖.
+  - ソə：ser, 鎖.
+
+4. 짜行 (Cha-row)
+  - 無氣音 (cha-row)
+    - 짜：cha, 查.
+    - チ：chi, 之.
+    - ツ：chu, 主.
+    - 쩨：che, 制.
+    - 쩌：cho, 助.
+    - 쩌ㅗ：chur, 左.
+    - 쩌ə：cher, 坐.
+  - 有氣音 (ca-row)
+    - 차：ca, 炒.
+    - 치：ci, 市.
+    - 추：cu, 此.
+    - 체：ce, 叉.
+    - 처：co, 初.
+    - 처ㅗ：cur, 錯.
+    - 처ə：cer, 吹.
+  - 濁音 (ja-row)
+    - ジ：ji, 二.
+    - ズ：ju, 如.
+    - ゼ：je.
+    - ゾə：jer.
+
+5. ハ行 (Ha-row)
+  - ハ：ha, 下.
+  - ヒ：hi, 希.
+  - フ：hu, 灰.
+  - ヘ：he, 系.
+  - ホ：ho, 呼.
+  - ホㅗ：hur, 好.
+  - ホə：her, 好.
+
+6. パ行 (Pa-row)
+  - 無氣音 (pa-row)
+    - パ：pa, 巴.
+    - ピ：pi, 比.
+    - プ：pu, 匏.
+    - ペ：pe, 飛.
+    - ポ：po, 布.
+    - ポㅗ：pur, 保.
+    - ポə：per, 飛.
+  - 有氣音 (Pha-row)
+    - 파：pha, 葩.
+    - 피：phi, 疕.
+    - 푸：phu, 浮.
+    - 페：phe, 帕.
+    - 퍼：pho, 普.
+    - 퍼ㅗ：phur, 波.
+    - 퍼ə：pher, 皮.
+  - 濁音 (Ba-row)
+    - バ：ba, 峇.
+    - ビ：bi, 米.
+    - ブ：bu, 武.
+    - ベ：be, 迷.
+    - ボ：bo, 某.
+    - ボㅗ：bur, 無.
+    - ボə：ber, 無.
+
+7. ラ行 (La-row)
+  - ラ：la, 喇.
+  - リ：li, 李.
+  - ル：lu, 如.
+  - レ：le, 螺.
+  - ロ：lo, 魯.
+  - ロㅗ：lur, 勞.
+  - ロə：ler, 螺.
+
+8. マ行 (Ma-row)
+  - マ：ma, 馬.
+  - ミ：mi, 盲.
+  - ム：mu.
+  - メ：me, 盲.
+  - モ：mo, 毛.
+
+9. ム (M-row): 準母音.
+  - ム：m, mater-lectionis, 不.
+
+10. ナ行 (Na-row)
+  - ナ：na, 那.
+  - ニ：ni, 年.
+  - ヌ：nu.
+  - ネ：ne.
+  - ノ：no, 老.
+
+11. タ行 (Ta-row)
+  - 無氣音 (ta-row)
+    - タ：ta, 礁.
+    - 띠：ti, 池.
+    - 뚜：tu, 株.
+    - テ：te, 茶.
+    - ト：to, 肚.
+    - トㅗ：tur, 刀.
+    - トə：ter, 刀.
+  - 有氣音 (tha-row)
+    - 타：tha, 他.
+    - 티：thi, 剃.
+    - 투：thu, 儲.
+    - 테：the, 堤.
+    - 터：tho, 土.
+    - 터ㅗ：thur, 妥.
+    - 터ə：ther, 討.
+
+12. ン行 (Nga-row)
+  - ンァ：nga, 雅.
+  - ンィ：ngi, 硬.
+  - ンゥ：ngu.
+  - ンェ：nge, 硬.
+  - ンォ：ngo, 五.
+
+13. ン (Ng-row): 準母音.
+  - ン：ng, mater-lectionis, 黃.
+
+14. 鼻音化記號 (Nasalization)
+  - ~：nn. nasalization of the whole syllable.
+
+15. 聲調 (Tone)
+  - 一：¹, first tone.
+  - 二：², second tone.
+  - 三：³, third tone.
+  - 四：ㇷ゙、ㇰ゙、ㇷ、ㇲ゙、ㇰ、ㇽ、ㇷ゚、ㇲ、ッ. fourth tone. same as those of checked tone. tone number omitted.
+  - 五：⁵, fifth tone.
+  - 七：⁷, seventh tone.
+  - 八：⁸, eighth tone, follows the same syllabogram of fourth tone.
+  - 九：⁹, ninth tone.
+
+16. 音節尾子音 (Syllable-final consonant): Syllable-final consonants for closed-syllable.
+  - Final Stop Consonant: Final stop consonants are used in checked syllable. The ㇷ゙, ㇰ゙, ㇲ゙, and ㇷ゚ are small forms of ブ, グ, ズ, and プ, respectively, and represent syllable-final consonants.
+    - ㇷ゙：b.
+    - ㇰ゙：g.
+    - ㇷ：h.
+    - ㇲ゙：j.
+    - ㇰ：k.
+    - ㇽ：l.
+    - ㇷ゚：p.
+    - ㇲ：s.
+    - ッ：t.
+  - Final Nasal Consonant: Final nasal consonants are used in unchecked/free syllable.
+    - ㇺ：m.
+    - ㇴ：n.
+    - ㆁ：ng.
+---
+### Semi-Syllabary Rules:
+
+1. Standalone "ur" sound:
+   - Use ヲ for the standalone "ur" sound without any preceding consonant.
+   - Example: ヲ⁷ (ur⁷)
+2. **Character + Vowel ㅗ or ə:**
+   - ㅗ is only used when "ur" follows an initial consonant in the semi-syllabary.
+   - Combine the initial consonant of the preceding character with the following vowel.
+   - Examples:
+     - コㅗ becomes "kur"
+     - 커ㅗ becomes "khur"
+     - ゴㅗ becomes "gur"
+     - ソㅗ becomes "sur"
+     - 쩌ㅗ becomes "chur"
+     - 처ㅗ becomes "cur"
+     - ホㅗ becomes "hur"
+     - ポㅗ becomes "pur"
+     - 퍼ㅗ becomes "phur"
+     - ボㅗ becomes "bur"
+     - ロㅗ becomes "lur"
+     - トㅗ becomes "tur"
+     - 터ㅗ becomes "thur"
+     - コə becomes "ker"
+     - 커ə becomes "kher"
+     - ゴə becomes "ger"
+     - ソə becomes "ser"
+     - 쩌ə becomes "cher"
+     - 처ə becomes "cer"
+     - ゾə becomes "jer"
+     - ホə becomes "her"
+     - ポə becomes "per"
+     - 퍼ə becomes "pher"
+     - ボə becomes "ber"
+     - ロə becomes "ler"
+     - トə becomes "ter"
+     - 터ə becomes "ther"
+3. **Character + Final Consonant ㆁ:**
+   - Combine the initial consonant of the preceding character with the final consonant.
+   - Examples:
+     - クㆁ becomes "kng"
+     - 쿠ㆁ becomes "khng"
+     - スㆁ becomes "sng"
+     - ツㆁ becomes "chng"
+     - 추ㆁ becomes "cng"
+     - フㆁ becomes "hng"
+     - プㆁ becomes "png"
+     - 푸ㆁ becomes "phng"
+     - ルㆁ becomes "lng"
+     - ムㆁ becomes "mng"
+     - 뚜ㆁ becomes "tng"
+     - 투ㆁ becomes "thng"
+---
