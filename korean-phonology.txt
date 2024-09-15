@@ -1,6 +1,4 @@
-Got it! Here's the updated prompt with the English **Witton** example added as a second one:
-
-### Understanding Korean Phonological Rules and Processes
+# Understanding Korean Phonological Rules, Processes, and KIMMO Parsing
 
 Show examples where the actual pronunciation has changed. List all Korean phonological rules including nasal assimilation, fortition, lenition, consonant assimilation, vowel assimilation, final consonant reduction, syllable structure, pitch accent, palatalization, devoicing, addition, dropping, combination of sounds, regressive and progressive assimilation, vowel harmony (모음조화), assimilation types such as complete, partial, absolute, direct, indirect, simple, double assimilation, and 사이시옷.
 
@@ -14,19 +12,7 @@ Special focus is given to examples involving lenition, 사이시옷, different t
 
 **Output:**
 
-1. **(example word)**
-
-   - **Base Form / Underlying Form**: 
-   - **Inflected Form**: 
-   - **Surface Form**: 
-   - **Actual Pronunciation**: 
-   - **Written Form**: 
-
-   **Explanation**: 
-
----
-
-2. **Witton (English word example)**
+1. **Witton (English word example)**
 
    - **Base Form / Underlying Form**: Wit-ton (/ˈwɪt tɒn/)
    - **Inflected Form**: N/A (not applicable for English in this case)
@@ -34,4 +20,20 @@ Special focus is given to examples involving lenition, 사이시옷, different t
    - **Actual Pronunciation**: /ˈwɪtən/ (surface pronunciation with vowel reduction and softened "t")
    - **Written Form**: Witton
 
-   **Explanation**: In English, the word "Witton" exhibits a difference between its underlying form ("Wit-ton") and surface form. The underlying form clearly separates the two syllables, with a sharp "t" and a full vowel in the second syllable. However, in the surface form, natural phonological processes such as vowel reduction (schwa in the second syllable) and a softened "t" create a more fluid pronunciation. This reflects similar processes seen in Korean phonology, such as lenition and vowel reduction.
+   **Explanation**: In English, the word "Witton" exhibits a difference between its underlying form ("Wit-ton") and surface form. The underlying form separates the syllables, with a full vowel in the second syllable and a clear "t." In the surface form, vowel reduction (to a schwa in the second syllable) and a softened "t" create a more natural pronunciation. This is comparable to lenition and vowel reduction processes found in Korean phonology.
+
+---
+
+### Command: kimmo
+
+Generates parsing results from the KIMMO parser for a given word, showing the underlying morphemes, inflectional changes, and the final surface form.
+
+**Command: kimmo**
+
+**Output:**
+
+1. **chase+ed** (English)
+
+   - **Lexical Form**: chase+ed
+   - **Surface Form**: chas00ed → chased
+   - **Parsing Explanation**: The KIMMO parser handles **chas00ed** by merging the two "e"s (from "chase" and "-ed"). The "00" in the surface form represents the two identical "e"s collapsing into one, which results in the written form "chased." Phonological rules, such as vowel merging and past tense pronunciation, account for the transformation from **chase+ed** to **chased.**
