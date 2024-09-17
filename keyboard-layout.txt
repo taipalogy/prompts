@@ -1,0 +1,42 @@
+### Prompt for Designing a Keyboard Layout for Taiwanese Language:
+
+Design a keyboard layout for an input method of the **Taiwanese language**, incorporating the following consonants and vowels. Ensure that the layout is ergonomic, efficient, and takes into account the unique phonological structure of Taiwanese, including tone numbers (with 9 tones).
+
+#### **Consonants**:
+ㅂ, ㅊ, ㅉ, ㄱ, ㅎ, ㅈ, ㄲ, ㅋ, ㄹ, ㅁ, ㄴ, ㆁ, ㅃ, ㅍ, ㅅ, ㄸ, ㅌ
+
+#### **Vowels**:
+ア, エ, イ, オ, ウ, ㄝ, ㄜ, ヰ, ヲ
+
+#### **Key Considerations**:
+
+1. **Tone Number Integration**:
+   - Since there are 9 tone numbers in Taiwanese, place tone numbers (`1-9`) where they are easily accessible for quick input without needing to use modifier keys (e.g., Shift). The number row (`1-9`) is ideal for tone input to allow for smooth tone marking after syllable entry.
+
+2. **Consonant and Vowel Placement**:
+   - **Group frequently used phonemes**: Ensure that commonly used consonants and vowels are close to the home row (keys like `ASDF` for consonants and `JKL;` for vowels) to minimize finger movement and maximize typing speed.
+   - **Taiwanese phonological patterns**: The layout should reflect the consonant-vowel structure common in Taiwanese syllables. Consonants should be placed where they can be easily combined with vowels, following natural typing flow.
+   - **Double consonants and aspirated consonants**: Clearly distinguish these from their non-aspirated counterparts and ensure they are placed in easily accessible positions for quick typing.
+
+3. **Typing Ergonomics**:
+   - **Balance between hands**: Spread the consonants and vowels across both hands to ensure a comfortable and ergonomic typing experience. Avoid overloading any single hand or row with too many frequently used characters.
+   - **Minimize finger movement**: Place frequently used consonants and vowels in positions where the fingers naturally rest (e.g., near the home row) to reduce unnecessary finger movement.
+   - **Taiwanese phonemes**: Consider the most commonly used phonemes in Taiwanese when deciding key positions. These should be central and easy to reach for efficient typing.
+
+4. **Phonological Structure and Syllable Patterns**:
+   - The layout should accommodate the Taiwanese syllable structure, where consonants typically precede vowels. Ensure the design allows for smooth input of consonant-vowel-consonant (C-V-C) syllables without excessive hand or finger movement.
+   - **Final consonants**: For syllables ending with final consonants (like `p, t, k` sounds for checked tones), place these consonants logically near other similar consonants, so the flow of typing remains natural and efficient.
+
+5. **Consistency and Familiarity**:
+   - **Familiar layout**: Where possible, align the layout with a standard QWERTY keyboard to reduce the learning curve for users. Familiar key positions will make the input method more intuitive and accessible.
+   - **Logical grouping**: Place similar sounds or phonetic elements together (e.g., aspirated consonants near their unaspirated counterparts) for ease of use and fast learning.
+
+6. **Special Character Input**:
+   - **Less frequent consonants and vowels** can be assigned to positions requiring modifier keys (e.g., Shift), ensuring that frequently used characters remain easy to access.
+   - **Additional phonetic features** (e.g., nasalization, final consonants): Allocate specific keys for these features without interfering with regular consonant and vowel input.
+
+---
+
+### **Comment Section**:
+
+- **Question**: Should we have a dedicated key for nasalization?
