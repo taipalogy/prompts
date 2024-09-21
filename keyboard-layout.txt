@@ -44,6 +44,3 @@ Design a keyboard layout for an input method of the **Taiwanese language**, inco
 ### **Comment Section**:
 
 - **Question**: Should we have a dedicated key for nasalization?
-- **Question**: How can we lay out the keys to accommodate Japanese typing on the same layout?
-
-
