@@ -43,4 +43,4 @@ Design a keyboard layout for an input method of the **Taiwanese language**, inco
 
 ### **Comment Section**:
 
-- **Question**: Should we have a dedicated key for nasalization?
+- **Question**: Should there be a dedicated key for nasalization?
