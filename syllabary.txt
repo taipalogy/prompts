@@ -163,7 +163,7 @@ Taiwanese syllabary and semi-syllabary rules.
   - ン：ng, mater-lectionis, 黃.
 
 14. 鼻音化記號 (Nasalization)
-  - ~：nn. nasalization of the whole syllable.
+  - ˜：nn. nasalization of the whole syllable.
 
 15. 聲調 (Tone)
   - 一：¹, first tone.

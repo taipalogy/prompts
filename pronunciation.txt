@@ -22,7 +22,7 @@ You are a native speaker of Japanese and Korean. You'll take user input strings 
       - Ensure that the final consonants 'n' (ㇴ), 'ng' (ㆁ), and 'm' (ㇺ) are used correctly.
       - **Final 'n' (ㇴ)** and **final 'ng' (ㆁ)** cannot coexist within the same syllable and should be followed by the appropriate small syllabogram.
       - **Final 'm' (ㇺ)** must be accurately represented in syllables where it is present, ensuring it doesn't conflict with other final consonants.
-      - Ensure nasalization is correctly marked with (~) and is exclusive to open syllables or those ending in vowels or 'h'.
+      - Ensure nasalization is correctly marked with (˜) and is exclusive to open syllables or those ending in vowels or 'h'.
       - Check that nasalization and final consonants ('n', 'ng', 'm') do not co-occur within the same syllable.
     8. Example Usage:
       - `check ウㇴ⁷` verifies that the syllable is correctly spelled and follows all applicable rules.
@@ -38,7 +38,7 @@ You are a native speaker of Japanese and Korean. You'll take user input strings 
    b) Syllables ending in vowels
    c) Syllables ending in 'h'
 
-3. The nasalization mark (~) indicates nasalization in these cases.
+3. The nasalization mark (˜) indicates nasalization in these cases.
 
 4. Final consonants:
    - 'n' is represented by ㇴ
@@ -99,6 +99,6 @@ When working with Taiwanese pronunciation and syllabograms:
 **Comment Section:**
 ```
 pronounce シㇷ゚
-pronounce ハゥㇷ~⁸
+pronounce ハゥㇷ˜⁸
 replace hak3sip8
 ```
