@@ -1,0 +1,133 @@
+### **Categorization of Phrasal Verbs**
+
+### 1. **Based on Structure:**
+
+#### a. **Verb-Particle Phrasal Verbs**
+- These phrasal verbs consist of a main verb followed by a particle, which can be an adverb or preposition.
+- The particle changes the meaning of the verb.
+
+*Examples:*
+- **give up** (to stop doing something)
+- **turn down** (to reject)
+
+#### b. **Verb-Particle-Preposition Phrasal Verbs**
+- These phrasal verbs consist of a main verb followed by both a particle and a preposition. 
+- This type often forms a more complex meaning.
+
+*Examples:*
+- **look forward to** (to await eagerly)
+- **put up with** (to tolerate)
+
+### 2. **Based on Transitivity:**
+
+#### a. **Transitive Phrasal Verbs**
+- These phrasal verbs require a direct object to complete their meaning.
+  
+*Examples:*
+- **bring up** (to mention or raise a topic)  
+  - "She **brought up** an interesting point."
+- **take off** (to remove)  
+  - "Please **take off** your shoes."
+
+#### b. **Intransitive Phrasal Verbs**
+- These phrasal verbs do not take a direct object.
+  
+*Examples:*
+- **show up** (to arrive)  
+  - "He finally **showed up**."
+- **sit down** (to take a seat)  
+  - "Please **sit down**."
+
+### 3. **Based on Separability:**
+
+#### a. **Separable Phrasal Verbs**
+- The verb and the particle can be separated by a direct object. If the object is a pronoun, it must be placed between the verb and the particle.
+
+*Examples:*
+- **turn off** (to stop a device)  
+  - "She **turned off** the light." / "She **turned** it **off**."
+
+#### b. **Inseparable Phrasal Verbs**
+- The verb and the particle cannot be separated by an object.
+
+*Examples:*
+- **look after** (to take care of)  
+  - "She **looked after** the children." (You cannot say "*looked the children after*.")
+- **run into** (to meet by chance)  
+  - "I **ran into** an old friend."
+
+### 4. **Based on Meaning:**
+
+#### a. **Literal Phrasal Verbs**
+- The meaning of the phrasal verb can be easily understood from the meanings of the individual words.
+
+*Examples:*
+- **come in** (to enter)
+- **go out** (to leave or go outside)
+
+#### b. **Idiomatic Phrasal Verbs**
+- The meaning of the phrasal verb is idiomatic, meaning it cannot be deduced from the meanings of the individual words.
+
+*Examples:*
+- **give up** (to stop trying)
+- **break down** (to lose control emotionally or for a machine to stop functioning)
+
+### 5. **Based on Aspect:**
+
+- The **aspect** of a phrasal verb often depends on the particle, which may convey whether an action is ongoing, completed, or habitual. The particle can add nuances to the verb that express different temporal aspects.
+
+#### a. **Perfective Aspect** 
+- Indicates a completed action, often seen with particles that imply a sense of finishing.
+
+*Examples:*
+- **give up** (to quit entirely)
+- **finish off** (to complete fully)
+
+#### b. **Durative Aspect**
+- Indicates an action that is ongoing or continuous, often reflected by certain particles that imply a prolonged state.
+
+*Examples:*
+- **keep on** (to continue doing something)
+- **go on** (to proceed without stopping)
+
+#### c. **Inchoative Aspect**
+- Indicates the beginning of an action or state.
+
+*Examples:*
+- **take up** (to start a hobby or activity)
+- **break out** (to begin suddenly)
+
+#### d. **Telic Aspect** 
+- Indicates an action with a defined endpoint or goal.
+
+*Examples:*
+- **use up** (to exhaust completely)
+- **close down** (to bring to an end)
+
+### 6. **Based on Forming Passives:**
+
+#### a. **Phrasal Verbs That Form Passive Voice**
+- These are transitive phrasal verbs that can be turned into passive constructions.
+
+*Examples:*
+- **turn down** (to reject)
+  - Active: "They **turned down** the offer."
+  - Passive: "The offer was **turned down**."
+
+#### b. **Phrasal Verbs That Cannot Form Passive Voice**
+- Intransitive phrasal verbs generally cannot be used in the passive voice.
+
+*Examples:*
+- **show up** (to arrive)
+  - Active: "He **showed up** late."
+  - (No passive form)
+
+---
+
+### **Comments Section**
+
+1. **Is 'look at' a phrasal verb?**  
+   No, "look at" is a **prepositional verb**, not a phrasal verb. In "look at," the preposition "at" does not change the core meaning of the verb "look." Instead, it simply indicates the target of the gaze. Since prepositions like "at" are used in prepositional verbs and don't alter the meaning of the main verb, "look at" is considered a prepositional verb, not a phrasal verb.
+
+2. **List all phrasal verbs whose main verb is 'sit'**  
+
