@@ -1,6 +1,6 @@
-**Title: Categorization and Analysis of Japanese Sentence Patterns**
+**Categorization and Analysis of Japanese Sentence Patterns**
 
-The sentence patterns used in Japanese can be categorized based on their grammatical functions and roles in sentences. Here's a comprehensive categorization:
+The sentence patterns used in Japanese can be categorized based on their grammatical functions and roles in sentences. Here's a comprehensive categorization, with sub-categories under each main category:
 
 ### 1. **Basic Structures**:
    - **Declarative Patterns**: Used to make statements (e.g., です, だ).
@@ -56,8 +56,8 @@ The sentence patterns used in Japanese can be categorized based on their grammat
 
 ### 10. **Conjunctions**:
    - **Connective Particles**: Linking ideas or clauses (e.g., そして, それから).
-   - **Contrasting Ideas**: Expressing contrast (e.g., ～が, ～けれども).
-   - **Listing Items**: (e.g., ～や～, ～とか～).
+   - **Contrasting Ideas**: Expressing contrast (e.g., ～が, ～けれども, ～が～が).
+   - **～が～が**: Used to show contrast or hesitation in listing different elements (e.g., 猫が好きですが、犬が嫌いです).
 
 ### 11. **Expressions of Degree and Extent**:
    - **Comparison**: Expressing comparison (e.g., ～より, ～のほうが).
@@ -73,8 +73,19 @@ The sentence patterns used in Japanese can be categorized based on their grammat
    - **Colloquial Patterns**: Informal expressions used in casual conversation.
    - **Literary and Poetic Structures**: Unique patterns found in literature.
 
-### 14. **Discourse Markers**:
+### 14. **Expressions of Relationships between Ideas** (アイデア間の関係を表す表現)
+   This broader category encompasses all patterns that show how different ideas are related to each other in a sentence or discourse. It subsumes **Expressions of Options and Conditions** and other relational patterns.
+   - **Contrasting Ideas**: Expressing contrast between two ideas (e.g., ～が, ～けれども, ～のに, ～が～が).
+   - **Options and Alternatives**: Offering choices or alternatives (e.g., ～か～か, ～も～も).
+   - **Conditions**: Expressing conditions (e.g., ～と, ～ば, ～なら, ～たら).
+   - **Cause and Effect**: Showing cause-effect relationships (e.g., ～から, ～ので, ～ために).
+   - **Addition**: Adding information or listing ideas (e.g., ～し, ～も, そして).
+   - **Exclusion**: Expressing exceptions or exclusions (e.g., ～以外, ～だけ, ～しか～ない).
+
+### 15. **Discourse Markers**:
    - **Cohesive Devices**: Words or phrases that connect ideas (e.g., ところで, さて).
    - **Conversational Fillers**: (e.g., あの、えっと).
 
-For each generated example, analysis results by **MeCab** and **Stanza** should also be included to provide a detailed understanding of the grammatical structure and usage. Present the analysis results in a clear list format for better clarity.
+---
+
+For each generated example, analysis results by **MeCab** and **Stanza** should also be included to provide a detailed understanding of the grammatical structure and usage. The analysis should be presented in a clear list format for better clarity.
