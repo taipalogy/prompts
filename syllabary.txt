@@ -191,55 +191,27 @@ Taiwanese syllabary and semi-syllabary rules.
     - ㇴ：n.
     - ㆁ：ng.
 ---
-### Semi-Syllabary Rules:
+### Semi-Syllabary Rules
 
-1. Standalone "ur" sound:
-   - Use ヲ for the standalone "ur" sound without any preceding consonant.
-   - Example: ヲ⁷ (ur⁷)
-2. **Character + Vowel ㅗ or ə:**
-   - ㅗ is only used when "ur" follows an initial consonant in the semi-syllabary.
-   - Combine the initial consonant of the preceding character with the following vowel.
+1. **Standalone "ur" sound**:  
+   - Use **ヲ** for the standalone "ur" sound.  
+   - Example: ヲ⁵ = ur⁵.
+
+2. **Standalone "ng" sound**:  
+   - Use **ン** for the standalone "ng" sound.  
+   - Example: ン⁵ = ng⁵.
+
+3. **Character + Vowel ㅗ or ə**:  
+   - **ㅗ** indicates "ur" after an initial consonant, and **ə** indicates "er."  
+   - Combine the initial consonant with **ㅗ** or **ə**.  
+   - **Permitted characters**: コ (k), 커 (kh), ゴ (g), ソ (s), 쩌 (ch), 처 (c), ホ (h), ポ (p), 퍼 (ph), ボ (b), ロ (l), ト (t), 터 (th).  
    - Examples:
-     - コㅗ becomes "kur"
-     - 커ㅗ becomes "khur"
-     - ゴㅗ becomes "gur"
-     - ソㅗ becomes "sur"
-     - 쩌ㅗ becomes "chur"
-     - 처ㅗ becomes "cur"
-     - ホㅗ becomes "hur"
-     - ポㅗ becomes "pur"
-     - 퍼ㅗ becomes "phur"
-     - ボㅗ becomes "bur"
-     - ロㅗ becomes "lur"
-     - トㅗ becomes "tur"
-     - 터ㅗ becomes "thur"
-     - コə becomes "ker"
-     - 커ə becomes "kher"
-     - ゴə becomes "ger"
-     - ソə becomes "ser"
-     - 쩌ə becomes "cher"
-     - 처ə becomes "cer"
-     - ゾə becomes "jer"
-     - ホə becomes "her"
-     - ポə becomes "per"
-     - 퍼ə becomes "pher"
-     - ボə becomes "ber"
-     - ロə becomes "ler"
-     - トə becomes "ter"
-     - 터ə becomes "ther"
-3. **Character + Final Consonant ㆁ:**
-   - Combine the initial consonant of the preceding character with the final consonant.
+     - コㅗ = kur, ゴㅗ = gur, トㅗ = tur
+     - コə = ker, ゴə = ger, トə = ter
+
+4. **Character + Final Consonant ㆁ (ng)**:  
+   - Combine the initial consonant with final **ㆁ (ng)**.  
+   - **Permitted characters**: ク (k), 쿠 (kh), ス (s), ツ (ch), 추 (c), フ (h), プ (p), 푸 (ph), ル (l), ム (m), 뚜 (t), 투 (th).  
    - Examples:
-     - クㆁ becomes "kng"
-     - 쿠ㆁ becomes "khng"
-     - スㆁ becomes "sng"
-     - ツㆁ becomes "chng"
-     - 추ㆁ becomes "cng"
-     - フㆁ becomes "hng"
-     - プㆁ becomes "png"
-     - 푸ㆁ becomes "phng"
-     - ルㆁ becomes "lng"
-     - ムㆁ becomes "mng"
-     - 뚜ㆁ becomes "tng"
-     - 투ㆁ becomes "thng"
+     - クㆁ = kng, スㆁ = sng, トㆁ = tng
 ---
