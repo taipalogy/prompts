@@ -10,9 +10,24 @@ Based on these, examples from Korean and Japanese where the base form (underlyin
 
 Special focus is given to examples involving **lenition**, **사이시옷**, different types of **assimilation**, **vowel harmony (모음조화)**, **batchim (받침) consonants**, **compound noun formation**, **連声 (れんじょう)**, **連濁 (れんだく)**, and other phonological processes.
 
-### Examples with Different Forms
+---
 
-**Command: examples**
+### **Example: Saeki (さえき) → Saek (さえく)**
+
+- **Underlying form**: **Saeki** (さえき)
+- **Surface form**: **Saek** (さえく)
+
+The underlying form, **"Saeki"**, represents the standard pronunciation with the final vowel **い (i)** intact. However, in fast or casual speech, the final vowel **い (i)** is often dropped, resulting in the surface form **"Saek"**. This phonological change can be attributed to:
+
+1. **発音簡略化 (Pronunciation Simplification)**: The vowel is dropped in rapid speech.
+2. **促音化 (Sokuonization)**: The final consonant is lengthened, and the vowel is omitted.
+3. **方言 (Dialect)**: Certain dialects, like Kansai or Tohoku, may naturally drop the final vowel in names like **"Saeki"**.
+
+Thus, **"Saeki"** (さえき) as the underlying form becomes **"Saek"** (さえく) in the surface form due to these phonological processes.
+
+---
+
+### Examples with Different Forms
 
 **Output:**
 
