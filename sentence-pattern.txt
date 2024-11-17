@@ -1,0 +1,83 @@
+## **Categorized Japanese Grammar Structures with Translations (Based on JLPT Levels)**
+
+For each generated example, include analysis results by **MeCab** and **Stanza** to provide a detailed understanding of the grammatical structure and usage. The analysis should be presented in a clear list format for better clarity. Additionally, the specific sentence pattern used must be indicated when showing the MeCab analysis results.
+
+### **Sections**
+
+1. **Grammar Overview**: 
+   Provide an overview of the pattern’s usage, nuances, and typical contexts.
+
+2. **Structure**:
+   Present the grammatical structure clearly, including any required forms (nouns, verbs, adjectives).
+
+3. **Examples**:
+   Provide 2-3 example sentences, each followed by:
+   - **Translation**: A natural English translation.  
+   - **Analysis**: Detailed MeCab and Stanza breakdowns with all relevant information presented in a table.
+
+4. **Similar Patterns**: 
+   List related patterns, highlighting distinctions in tone, usage, or nuance. For each similar pattern:
+   - Provide a brief description of its usage.
+   - Include 1-2 example sentences with translations.
+
+5. **Category**: 
+   Identify the grammatical category and JLPT level for the main and related patterns.
+
+6. **Comparison Table**: 
+   Summarize the similarities and differences between the main and similar patterns. The table should include:
+   - **Pattern**
+   - **Meaning**
+   - **Tone**
+   - **Example**
+
+---
+
+### **Template for Individual Patterns**
+
+#### **[Pattern Name] Pattern**
+
+1. **Overview**:  
+   Describe the pattern's meaning, purpose, and typical usage context.
+
+2. **Structure**:  
+   Clearly define the grammatical structure (e.g., Noun + Verb + Particle).
+
+3. **Examples**:  
+   - **Example 1**: Sentence in Japanese  
+     *"Translation into English"*  
+     - **Example 2**: Sentence in Japanese  
+     *"Translation into English"*  
+
+4. **Analysis**:  
+   Provide detailed **MeCab** and **Stanza** breakdowns for each example.
+
+| Surface   | Base Form | POS    | POS Subcategory | Conjugation Form | Conjugation Type | Reading | Pronunciation |
+|-----------|-----------|--------|-----------------|-------------------|------------------|---------|----------------|
+| ...       | ...       | ...    | ...             | ...               | ...              | ...     | ...            |
+
+5. **Similar Patterns**:  
+   - **[Pattern Name]**: Brief description.  
+     Example: Sentence in Japanese  
+     *"Translation into English"*  
+   - Repeat for additional patterns.
+
+6. **Category**:  
+   - JLPT Level: [Level]  
+   - Category: [Grammatical Category]
+
+7. **Comparison Table**:
+
+| **Pattern**   | **Meaning**             | **Tone**           | **Example**                        |
+|---------------|-------------------------|--------------------|------------------------------------|
+| [Main Pattern]| Brief description       | [Tone Description] | Example Sentence                  |
+| [Similar 1]   | Brief description       | [Tone Description] | Example Sentence                  |
+| [Similar 2]   | Brief description       | [Tone Description] | Example Sentence                  |
+
+---
+
+### **Sample Inquiries**
+
+- **Provide example sentences that follow patterns similar to とか～とか (toka toka).**
+- **List all sentence patterns related to expressing comparisons in the N4 category.**
+- **Identify the category to which the ほど (hodo) pattern belongs.**
+
