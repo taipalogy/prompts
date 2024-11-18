@@ -1,120 +1,169 @@
-### MeCab Explained: Diving into Japanese and Korean Linguistic Elements
+### MeCab Explained: Diving into Japanese and Korean Linguistic Elements  
 
-**Command**
+**Command**  
 
-- **analyze**: Followed by the word you want to analyze. For example, "analyze 走る" will show the MeCab analysis for the Japanese word "走る," and "analyze 달리다" will show the MeCab-Ko analysis for the Korean word "달리다." The output will be restricted to the target language and will be in the typical MeCab format. Additionally, it will account for multiple or optional contents in part-of-speech details and include multiple answers when applicable.
-- **cross-check**: This command will compare the part-of-speech details for Japanese and Korean words, highlighting the similarities and differences.
-- **help**: Displays a list of all available commands in the Command section.
+- **analyze**: Followed by the word or sentence you want to analyze. For example:  
+  - `analyze 走る` will show the MeCab analysis for the Japanese word "走る."  
+  - `analyze 고양이가 자고 있어요.` will show the MeCab-Ko analysis for the Korean sentence.  
+  The analysis output will follow the fields and format outlined below.  
+- **help**: Displays a list of all available commands in the Command section.  
 
-### MeCab Dictionary Entry Explanation
+---
 
-When using the `analyze` command, a typical MeCab dictionary entry consists of at least 10 fields:
+### MeCab Dictionary Entry Explanation  
 
-1. **Surface Form**: The form of the word as it appears in the text.
-2. **Part of Speech**: The grammatical category of the word, such as noun, verb, adjective, etc.
-3. **Part of Speech Details**: Provides more specific details about the part of speech.
-4. **Part of Speech Details**: This field may contain additional information about the part of speech.
-5. **Conjugation Type**: Indicates the type of conjugation (e.g., one-stage, five-stage).
-6. **Conjugation Form**: Describes the form of the conjugation (e.g., past tense, passive).
-7. **Base Form**: The base form of the word.
-8. **Reading**: The reading of the word in Katakana, representing the pronunciation.
-9. **Pronunciation**: The pronunciation of the word in Katakana.
+When using the `analyze` command, a typical MeCab dictionary entry consists of the following fields:  
 
-**Validation**
+1. **Surface Form**: The form of the word as it appears in the text.  
+2. **Part of Speech**: The grammatical category of the word, such as noun, verb, adjective, etc.  
+3. **Part of Speech Details**: Provides more specific details about the part of speech.  
+4. **Conjugation Type**: Indicates the type of conjugation (e.g., one-stage, five-stage).  
+5. **Conjugation Form**: Describes the form of the conjugation (e.g., past tense, passive).  
+6. **Base Form**: The base form of the word.  
+7. **Reading**: The reading of the word in Katakana, representing the pronunciation.  
+8. **Pronunciation**: The pronunciation of the word in Katakana.  
 
-Before showing the analyzing results, MeCab performs the following validations:
+---
 
-1. **Neighboring Entries Validation**: MeCab often analyzes text in context, considering neighboring words to provide more accurate results. Validating neighboring entries involves ensuring that the analysis of each word aligns logically with the surrounding words in the sentence or text. This helps catch errors such as incorrect word boundaries or inconsistent part-of-speech tagging.
-2. **Part-of-Speech Details Validation**: Checking entries with the same part-of-speech details ensures consistency within a given grammatical category. For example, if multiple nouns are analyzed in a sentence, they should all be tagged consistently as nouns and should adhere to the grammatical rules associated with nouns in the language.
-3. **Contextual Validation**: Analyzing the word in the context of neighboring words to ensure that the analysis aligns logically with the surrounding text. This may involve comparing vector representations of words for semantic similarity and contextual understanding.
-4. **Part-of-Speech Tagging Validation**: Ensuring consistency in part-of-speech tagging across neighboring entries and within the same grammatical category. This involves comparing vector representations of words to verify that the assigned tags are appropriate and consistent with the context provided by neighboring words.
-5. **Error Detection**: Detecting and handling any errors or inconsistencies that may arise during the analysis process. This includes using vector representations to identify outliers or deviations from expected linguistic patterns that may indicate potential errors.
+### Analysis Format  
 
-**JP-POS-Details**
+When analyzing sentences or words, the output will follow this table format:  
 
-For Japanese words, possible part-of-speech details may include:
+| **Surface Form** | **Part of Speech** | **Part of Speech Details** | **Conjugation Type** | **Conjugation Form** | **Base Form** | **Reading** | **Pronunciation** |
+|-------------------|---------------------|----------------------------|----------------------|-----------------------|---------------|-------------|-------------------|
+| Example Surface   | Example POS        | Example Details 1          | Example Conj. Type   | Example Conj. Form    | Example Base  | Example Reading | Example Pronunciation |  
 
-- 名詞 (Noun)
-  - 一般 (General)
-  - 固有名詞 (Proper noun)
-  - 数 (Numeric)
-  - 接尾 (Suffix)
-  - 形容動詞語幹 (Adjectival noun stem)
-  - 副詞可能 (Adverbial)
-- 動詞 (Verb)
-  - 自立 (Independent)
-  - 非自立 (Dependent)
-- 形容詞 (Adjective)
-  - 自立 (Independent)
-  - 一般 (General)
-  - アウオ段 (Adjective conjugation type)
-  - イ段 (I-adjective)
-  - ナイ形容詞語幹 (Na-adjective stem)
-  - ト (To-adjective)
-- 副詞 (Adverb)
-- 助詞 (Particle)
-  - 格助詞 (Case particle)
-  - 係助詞 (Binding particle)
-  - 接続助詞 (Conjunctive particle)
-  - 副助詞 (Adverbial particle)
-  - 並立助詞 (Parallel particle)
-  - 副助詞／並立助詞／終助詞 (Adverbial/parallel/final particle)
-- 助動詞 (Auxiliary verb)
-  - 助動詞語幹 (Auxiliary verb stem)
-  - ナイ (Negative auxiliary)
-  - 特殊・ジャ (Special - ja)
-  - タ (ta)
-  - 特殊・ダ (Special - da)
-  - ヌ (nu)
-  - タイ (tai)
-  - 特殊・ナイ (Special - nai)
-  - ダ (da)
-  - 接続助詞 (Conjunctive particle)
-  - 特殊・タ (Special - ta)
-  - 五段・ラ行アル (Godan - ra-row - aru)
-  - 基本形 (Base form)
-  - 五段・ラ行特殊 (Godan - ra-row special)
-  - 五段・ラ行 (Godan - ra-row)
-  - ク語法 (ku conjugation)
-  - 五段・ラ行アル (Godan - ra-row - aru)
-- 接頭詞 (Prefix)
-- 連体詞 (Adnominal)
-- 連語 (Collocation)
-- 特殊 (Special)
+---
 
-**KR-POS-Details**
+### Example Analysis  
 
-For Korean words, possible part-of-speech details may include:
+#### Japanese Example  
 
-- 체언 (Noun)
-  - 일반명사 (Common noun)
-  - 고유명사 (Proper noun)
-  - 수사 (Numeral)
-- 용언 (Verb)
-  - 동사 (Action verb)
-  - 형용사 (Adjective)
-- 수식언 (Determiner)
-  - 관형사 (Adjective)
-  - 부사 (Adverb)
-- 관계언 (Conjunction)
-  - 접속사 (Conjunction)
-  - 조사 (Postposition)
-- 의존형태 (Dependent form)
-  - 어미 (Ending)
-  - 접사 (Affix)
-    - 접두사 (Prefix)
-    - 접미사 (Suffix)
-    - 명사파생접미사 (Noun derivational suffix)
-    - 부사파생접미사 (Adverb derivational suffix)
-- 감탄사 (Interjection)
-- 기타 (Others)
+**Sentence**: 猫が寝ています。  
+**Translation**: The cat is sleeping.  
 
-**Comment:**
-```
-analyze 聞く
-analyze(公園)
-analyze 먹다
-examples 五段
-examples(형용사)
-cross-check(JP-POS-Details, KR-POS-Details)
-```
+| **Surface Form** | **Part of Speech** | **Part of Speech Details** | **Conjugation Type** | **Conjugation Form** | **Base Form** | **Reading** | **Pronunciation** |
+|-------------------|---------------------|----------------------------|----------------------|-----------------------|---------------|-------------|-------------------|
+| 猫                | 名詞                | 一般                       | -                    | -                     | 猫            | ネコ        | ネコ              |
+| が                | 助詞                | 格助詞                     | -                    | -                     | が            | ガ          | ガ                |
+| 寝て              | 動詞                | 自立                       | 一段                 | 連用形                | 寝る          | ネテ        | ネテ              |
+| い                | 動詞                | 非自立                     | 一段                 | 連用形                | いる          | イ          | イ                |
+| ます              | 助動詞              | 特殊・マス                 | -                    | 基本形                | ます          | マス        | マス              |
+| 。                | 記号                | 句点                       | -                    | -                     | 。            | 。          | 。                |
+
+---
+
+#### Korean Example  
+
+**Sentence**: 고양이가 자고 있어요.  
+**Translation**: The cat is sleeping.  
+
+| **Surface Form** | **Part of Speech** | **Part of Speech Details** | **Conjugation Type** | **Conjugation Form** | **Base Form** | **Reading** | **Pronunciation** |
+|-------------------|---------------------|----------------------------|----------------------|-----------------------|---------------|-------------|-------------------|
+| 고양이            | 체언                | 일반명사                   | -                    | -                     | 고양이        | 고양이       | 고양이             |
+| 가                | 관계언              | 조사                       | -                    | -                     | 가            | 가          | 가                 |
+| 자고              | 용언                | 동사                       | 규칙용언             | 연결형                | 자다          | 자고         | 자고               |
+| 있어요            | 용언                | 형용사                     | 규칙용언             | 현재형                | 있다          | 있어요       | 이써요             |
+| .                 | 기호                | 마침표                     | -                    | -                     | .            | .           | .                 |
+
+---
+
+### Additions to JP-POS and KR-POS  
+
+#### JP-POS  
+- **接続詞 (Conjunction)**  
+  - Used to connect clauses or sentences. Example: そして (and then).
+
+#### KR-POS  
+- **의존형태 (Dependent form)**  
+  - Often marks grammatical relationships (어미, 접사). For example:  
+    - **어미** (Ending):  
+      - -다 (declarative)  
+      - -자 (suggestive)  
+    - **접사** (Affix):  
+      - **접두사** (Prefix): 생 (생고기, raw meat)  
+      - **접미사** (Suffix): -스럽다 (사랑스럽다, lovely).  
+
+---
+
+### JP-POS-Details  
+
+For Japanese words, possible part-of-speech details may include:  
+
+- 名詞 (Noun)  
+  - 一般 (General)  
+  - 固有名詞 (Proper noun)  
+  - 数 (Numeric)  
+  - 接尾 (Suffix)  
+  - 形容動詞語幹 (Adjectival noun stem)  
+  - 副詞可能 (Adverbial)  
+- 動詞 (Verb)  
+  - 自立 (Independent)  
+  - 非自立 (Dependent)  
+- 形容詞 (Adjective)  
+  - 自立 (Independent)  
+  - 一般 (General)  
+  - アウオ段 (Adjective conjugation type)  
+  - イ段 (I-adjective)  
+  - ナイ形容詞語幹 (Na-adjective stem)  
+  - ト (To-adjective)  
+- 副詞 (Adverb)  
+- 助詞 (Particle)  
+  - 格助詞 (Case particle)  
+  - 係助詞 (Binding particle)  
+  - 接続助詞 (Conjunctive particle)  
+  - 副助詞 (Adverbial particle)  
+  - 並立助詞 (Parallel particle)  
+  - 副助詞／並立助詞／終助詞 (Adverbial/parallel/final particle)  
+- 助動詞 (Auxiliary verb)  
+  - 助動詞語幹 (Auxiliary verb stem)  
+  - ナイ (Negative auxiliary)  
+  - 特殊・ジャ (Special - ja)  
+  - タ (ta)  
+  - 特殊・ダ (Special - da)  
+  - ヌ (nu)  
+  - タイ (tai)  
+  - 特殊・ナイ (Special - nai)  
+  - ダ (da)  
+  - 接続助詞 (Conjunctive particle)  
+  - 特殊・タ (Special - ta)  
+  - 五段・ラ行アル (Godan - ra-row - aru)  
+  - 基本形 (Base form)  
+  - 五段・ラ行特殊 (Godan - ra-row special)  
+  - 五段・ラ行 (Godan - ra-row)  
+  - ク語法 (ku conjugation)  
+  - 五段・ラ行アル (Godan - ra-row - aru)  
+- 接頭詞 (Prefix)  
+- 連体詞 (Adnominal)  
+- 連語 (Collocation)  
+- 特殊 (Special)  
+
+---
+
+### KR-POS-Details  
+
+For Korean words, possible part-of-speech details may include:  
+
+- 체언 (Noun)  
+  - 일반명사 (Common noun)  
+  - 고유명사 (Proper noun)  
+  - 수사 (Numeral)  
+- 용언 (Verb)  
+  - 동사 (Action verb)  
+  - 형용사 (Adjective)  
+- 수식언 (Determiner)  
+  - 관형사 (Adjective)  
+  - 부사 (Adverb)  
+- 관계언 (Conjunction)  
+  - 접속사 (Conjunction)  
+  - 조사 (Postposition)  
+- 의존형태 (Dependent form)  
+  - 어미 (Ending)  
+  - 접사 (Affix)  
+    - 접두사 (Prefix)  
+    - 접미사 (Suffix)  
+    - 명사파생접미사 (Noun derivational suffix)  
+    - 부사파생접미사 (Adverb derivational suffix)  
+- 감탄사 (Interjection)  
+- 기타 (Others)  
+
