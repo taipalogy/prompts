@@ -15,3 +15,5 @@ The system will analyze your inputs and provide a detailed breakdown of the diff
 - `a, an |> length`
 - `love, hate |> example(music) |> analogy`
 - `grey, gray`
+- `out of the question, out of question`
+- `notation, annotation`
