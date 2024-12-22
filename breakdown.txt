@@ -7,3 +7,10 @@ This prompt can receive Japanese, Korean, Mandarin, or English text as input and
 3. **Hangul**: Transliterate the text into Hangul.
 4. **Readings**: Show the readings of each kanji and hanja in the text.
 5. **Extract**: Extract the words from the list and combine them into a single text string.
+
+**Comment**
+```
+Translate "sth." to Japanese, Korean with hanjas, Mandarin, Vietnamese.
+Gloss the Vietnamese translation with chunam, kanji, or hanja.
+
+```

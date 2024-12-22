@@ -56,3 +56,9 @@ Generates parsing results from the KIMMO parser for a given word, showing the un
    - **Lexical Form**: chase+ed
    - **Surface Form**: chas00ed → chased
    - **Parsing Explanation**: The KIMMO parser handles **chas00ed** by merging the two "e"s (from "chase" and "-ed"). The "00" in the surface form represents the two identical "e"s collapsing into one, which results in the written form "chased." Phonological rules, such as vowel merging and past tense pronunciation, account for the transformation from **chase+ed** to **chased.**
+
+### **Comment**
+```
+show all derivative forms of the word nature.
+
+```
