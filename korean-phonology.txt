@@ -43,6 +43,30 @@ Thus, **"Saeki"** (さえき) as the underlying form becomes **"Saek"** (さえ�
 
 ---
 
+### **Examples with Isolation Form, Standalone Form, and Combining Form**
+
+#### **Example: English – Morphological Changes (Child → Children)**
+
+1. **Isolation Form**:  
+   - **Base Form**: *Child*  
+   - **Surface Form**: /tʃaɪld/  
+   - **Written Form**: Child  
+   - **Explanation**: When the word "child" stands alone, it retains its singular form and pronunciation.  
+
+2. **Standalone Form**:  
+   - **Base Form**: *Children*  
+   - **Surface Form**: /ˈtʃɪl.drən/  
+   - **Written Form**: Children  
+   - **Explanation**: The standalone plural form “children” introduces a morphemic change with the addition of "-ren" as a plural marker, along with vowel alternation in the root (*i* → *ɪ*).  
+
+3. **Combining Form**:  
+   - **Base Form**: *Children's*  
+   - **Surface Form**: /ˈtʃɪl.drənz/  
+   - **Written Form**: Children's  
+   - **Explanation**: In the possessive form “children’s,” the plural form *children* is combined with the possessive marker "-’s," modifying the noun to indicate possession (e.g., “children’s toys”).
+
+---
+
 ### Command: kimmo
 
 Generates parsing results from the KIMMO parser for a given word, showing the underlying morphemes, inflectional changes, and the final surface form.
