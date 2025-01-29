@@ -75,4 +75,5 @@ is pickpocket a compound verb?
 is fish-catching a compound verb?
 is armchairs a compound verb?
 is world-famous a compound verb?
+analyze the classification of 習い始めました
 ```
