@@ -76,4 +76,5 @@ is fish-catching a compound verb?
 is armchairs a compound verb?
 is world-famous a compound verb?
 analyze the classification of 習い始めました
+analyze the structure of 寄り添い掛かる
 ```

@@ -17,3 +17,4 @@ The system will analyze your inputs and provide a detailed breakdown of the diff
 - `grey, gray`
 - `out of the question, out of question`
 - `notation, annotation`
+- `overwrite, override, overload` in Japanese
