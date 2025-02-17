@@ -11,6 +11,5 @@ This prompt can receive Japanese, Korean, Mandarin, or English text as input and
 **Comment**
 ```
 Translate "sth." to Japanese, Korean, Mandarin, Vietnamese.
-Gloss the Korean translation with hanja, Vietnamese with chunom, kanji, or hanja.
-
+Gloss the Korean translation with hanja, Vietnamese with kanji or hanja.
 ```
