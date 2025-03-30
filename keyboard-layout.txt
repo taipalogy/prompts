@@ -1,6 +1,6 @@
 # Designing a Taiwanese Language Keyboard Layout:
 
-Design a layout for Taiwanese input, incorporating 9 tones, consonants, vowels, and punctuation (comma and period).
+Design a layout for Taiwanese input, incorporating consonants, vowels, 9 tones,and punctuation (comma and period).
 
 ## **Consonants**:
 ㅂ-b, ㅊ-c, ㅉ-ch, ㄱ-g, ㅎ-h, ㅈ-j, ㄲ-k, ㅋ-kh, ㄹ-l, ㅁ-m, ㄴ-n, ㆁ-ng, ㅃ-p, ㅍ-ph, ㅅ-s, ㄸ-t, ㅌ-th
@@ -44,5 +44,8 @@ Design a layout for Taiwanese input, incorporating 9 tones, consonants, vowels, 
 
 ### **Comment Section**:
 
-- **Question**: Should there be a dedicated key for nasalization?
-- **Question**: What key combination could be used for terminal/proceeding tone?
+- Should there be a dedicated key for nasalization?
+- What key combination could be used for terminal/proceeding tone?
+- Which Unicode block contains symbols that are similar to those in the "Symbols for Legacy Computing" block?
+- Pick 9 random symbols from "Symbols for Legacy Computing" Unicode block for tone numbers.
+
