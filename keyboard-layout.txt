@@ -1,40 +1,48 @@
-### Designing a Taiwanese Language Keyboard Layout:
+# Designing a Taiwanese Language Keyboard Layout:
 
-Design a layout for Taiwanese input, incorporating 9 tones, consonants, vowels, final consonant 'h' (for glottal stops), and punctuation (comma and period).
+Design a layout for Taiwanese input, incorporating 9 tones, consonants, vowels, and punctuation (comma and period).
 
-#### **Consonants**:
-ㅂ, ㅊ, ㅉ, ㄱ, ㅎ, ㅈ, ㄲ, ㅋ, ㄹ, ㅁ, ㄴ, ㆁ, ㅃ, ㅍ, ㅅ, ㄸ, ㅌ
+## **Consonants**:
+ㅂ-b, ㅊ-c, ㅉ-ch, ㄱ-g, ㅎ-h, ㅈ-j, ㄲ-k, ㅋ-kh, ㄹ-l, ㅁ-m, ㄴ-n, ㆁ-ng, ㅃ-p, ㅍ-ph, ㅅ-s, ㄸ-t, ㅌ-th
 
-#### **Vowels**:
-ア, エ, イ, オ, ウ, ㄝ, ㄜ, ヰ, ヲ
+## **Vowels**:
+ア-a, エ-e, イ-i, オ-o, ウ-u, ヲ-ur, ㄜ-er, ヰ-ir, ㄝ-ea
 
-#### **Key Considerations**:
+## **Key Considerations**:
 
 1. **Tone Number Integration**: Place tone numbers (`1-9`) on the number row for easy access after syllable input.
 
 2. **Consonant and Vowel Placement**:
    - Group frequently used sounds near the home row for efficiency (e.g., consonants on `ASDF`, vowels on `JKL;`).
-   - Organize consonants to follow Taiwanese phonological patterns, ensuring ease of consonant-vowel combination.
+   - Organize consonants to follow Taiwanese phonological patterns, ensuring ease of consonant-vowel-consonant combination.
    - Clearly distinguish aspirated and unaspirated consonants.
 
 3. **Ergonomics**: 
    - Distribute keys across both hands, minimizing finger movement. Place common phonemes centrally.
 
 4. **Phonological Structure**: 
-   - The layout should reflect C-V-C syllables with logical placements for final consonants (like `p, t, k` and 'h' for glottal stops).
+   - The layout should reflect C-V-C syllables with logical placements for final consonants (like `p, t, k` and 'h').
 
 5. **Consistency and Familiarity**: 
    - Align with a standard QWERTY layout where possible to ease learning and improve intuitiveness.
    - Group similar sounds for faster learning.
 
 6. **Special Character Input**: 
-   - Use modifier keys (e.g., Shift) for less common consonants and features like nasalization and final consonants.
+   - Use modifier keys (e.g., Shift) for features like nasalization and small version of a syllabogram.
 
 7. **Punctuation**: 
    - Comma (`,`) and period (`.`) for sentence structure.
+
+8. **Redundancy Spotting**:
+   - Duplicate key check: Verified that each key is assigned only once in the base layout
+   - Modifier consistency: Ensured that Shift modifiers don't conflict with existing key mappings
+   - Character coverage: Confirmed that all required consonants, vowels, and punctuation marks are included
+   - Unused keys: Identified and marked available keys for potential expansion or customization
+   - Visual verification process: Created a comprehensive mapping table to spot any potential overlaps or gaps. Could be in table format in row-by-row order.
 
 ---
 
 ### **Comment Section**:
 
 - **Question**: Should there be a dedicated key for nasalization?
+- **Question**: What key combination could be used for terminal/proceeding tone?
