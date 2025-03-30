@@ -46,6 +46,3 @@ Design a layout for Taiwanese input, incorporating consonants, vowels, 9 tones,a
 
 - Should there be a dedicated key for nasalization?
 - What key combination could be used for terminal/proceeding tone?
-- Which Unicode block contains symbols that are similar to those in the "Symbols for Legacy Computing" block?
-- Pick 9 random symbols from "Symbols for Legacy Computing" Unicode block for tone numbers.
-
