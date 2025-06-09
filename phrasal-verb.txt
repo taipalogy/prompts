@@ -122,6 +122,28 @@
   - Active: "He **showed up** late."
   - (No passive form)
 
+### 7. **Based on Deictic Particles (Location-Dependent)**
+
+- These phrasal verbs include **particles** that are **spatially deictic**, meaning their interpretation depends on the physical or conversational location of the speaker or listener. The particle expresses movement **toward, away from, or within** a spatial frame.
+
+#### a. **Examples with Deictic Particles:**
+
+| Phrasal Verb     | Deictic Particle | Spatial Meaning                        | Example                                     |
+|------------------|------------------|----------------------------------------|---------------------------------------------|
+| **come in**      | *in*             | enter toward the speaker               | "Please **come in**."                       |
+| **go out**       | *out*            | leave or exit                          | "She **went out** to the store."            |
+| **get in**       | *in*             | enter (a vehicle, room)                | "He **got in** the car."                    |
+| **get out**      | *out*            | exit                                   | "She **got out** of the taxi."              |
+| **bring back**   | *back*           | return something to the speaker’s location | "Can you **bring back** my book?"       |
+| **go back**      | *back*           | return to a previous place             | "They **went back** to the village."        |
+| **come over**    | *over*           | move toward the speaker’s space        | "**Come over** for dinner tonight."         |
+| **go away**      | *away*           | leave or move from the speaker         | "He **went away** for a few days."          |
+| **sit down**     | *down*           | move to seated position                | "Please **sit down** here."                 |
+| **stand up**     | *up*             | rise to standing position              | "He **stood up** quickly."                  |
+| **move in**      | *in*             | relocate into a space                  | "They just **moved in** next door."         |
+| **move out**     | *out*            | relocate out of a space                | "He **moved out** last week."               |
+| **run away**     | *away*           | flee from location                     | "The child **ran away** from home."         |
+
 ---
 
 ### **Comments Section**

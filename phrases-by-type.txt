@@ -49,4 +49,6 @@
 `replace with technology`
 `replace with swimming at the Paris 2024 Olympics`
 `replace with audience's emotions at the Paris 2024 Olympics`
+`show non-finite verb phrases`
+`replace with those that has the 3rd case marker`
 ---
