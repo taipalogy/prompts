@@ -11,4 +11,6 @@ Let's explore synonyms together!
 想像する |> English |> phrases
 想像する |> categories
 想像する |> Korean(hanja) |> categories(grammatical)
+swift |> Japanese phrases
+聴く|> English phrases
 ```
