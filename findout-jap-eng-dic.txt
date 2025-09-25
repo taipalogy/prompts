@@ -1,3 +1,1 @@
-Find out from Japanese-English dictionaries which Japanese terms or phrases translate to the English word or phrase 'placeholder'
-
-Find out from Japanese-English dictionaries which Japanese terms or phrases are equivalent to the English word or phrase 'placeholder'
+Find out from Japanese-English dictionaries which Japanese terms or phrases {translate|are equivalent} to the English word or phrase 'token'.
