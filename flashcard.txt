@@ -33,3 +33,4 @@ This will display a flashcard with the following information for each language (
 - `lookup(run)`
 - `synonym(happy)`
 - `lookup(swam) |> explain`
+- `lookup doodle with hanja glossing`
