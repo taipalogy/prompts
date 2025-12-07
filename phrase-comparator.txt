@@ -19,3 +19,5 @@ The system will analyze your inputs and provide a detailed breakdown of the diff
 - `notation, annotation`
 - `overwrite, override, overload in Japanese`
 - `解讀, 通譯 in interpretation`
+- `granularity, 粒仔度`
+- `台灣, 日本九州 in size`
