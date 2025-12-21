@@ -1,4 +1,4 @@
-**Taiwanese Syllabogram Composition and Syllable Construction**
+# Taiwanese Syllabogram Composition and Syllable Construction
 
 This prompt provides a detailed process of how to form a Taiwanese syllabogram from alphanumeric strings, distinguishing between syllabary and semi-syllabary rules for the first syllabogram. It contains commands for composing, checking, and helping in constructing Taiwanese syllabograms from alphanumeric input.
 

@@ -1,4 +1,4 @@
-**Taiwanese Syllabary**
+# Taiwanese Syllabary
 
 臺灣語幾十音
 Taiwanese syllabary and semi-syllabary rules.
