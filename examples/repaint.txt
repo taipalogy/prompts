@@ -1,0 +1,129 @@
+Block 1: Repaint Prompt
+Block 2: [CRC-Class] Composable Repaint Composition
+Block 3: Foreground–Background Repaint Framework
+
+---
+
+Repaint Prompt
+
+https://www.facebook.com/share/p/vtRtZpm9mgmVgTEe/?mibextid=xfxF2i
+https://www.youtube.com/watch?v=fXqCNbBAt1w
+
+Saw this fun trick on a YouTube site and thought I'd pass it along. It uses the repaint tool to combine two completely different imagines. It's more striking when the two images are of completely different styles.
+
+Prompt 1: sketch of a young boy looking at a concrete wall. the wall has a large crack and an large opening similar to a portal. the boy is the far left of the image --ar 2:1
+Then create the image to be inserted
+
+Prompt 2: fantastic colorful magical land straight out of a child's imagination
+Use repaint and the lasso tool to highlight most of the"portal" area. It's okay if you overlap the lasso area with the boy (in this example) a little. Paste a prompt  with pix reference similar to below into the repaint dialog area.
+
+Repaint Prompt: break in the fourth wall, imaginary landscape through a crack in the wall
+
+https://cdn.midjourney.com/01bc3f42-5ed2-46d8-8e37-0bd2c3f0a23a/0_2.jpeg
+
+---
+
+[CRC-Class] Composable Repaint Composition
+Version: 1.0 (Instance: magical_wall_v1)
+
+1. Meta-Template Definition (The Class)
+The logic governing the relationship between objects and their rendering methods.
+Property Slots (Properties)
+ * [FG] Foreground: The structural base. Owns the primary subject and the physical environment.
+ * [PT] Portal: The aperture. Must be an identifiable sub-element within the [FG].
+ * [BG] Background: The content. The world to be rendered "behind" or "through" the portal.
+ * [MK] Mask: The boundary. A specific selection area encompassing the [PT].
+ * [AC] Action: The method. The technical operation (e.g., Repaint, Glitch-Vary) used to merge slots.
+ * [NG] Negative: The hygiene. Tracks previous slot states to prevent stylistic "bleeding."
+Evaluation Method (The Equation)
+The composition is instantiated through a sequential pipeline:
+
+2. Concrete Binding (The Object)
+The original "Magical Wall" data bound to the class slots.
+| Slot | Value (Current State) |
+|---|---|
+| [FG] | Sketch of a young boy on the far left looking at a concrete wall. |
+| [PT] | A large, jagged crack and opening in the concrete wall. |
+| [BG] | Fantastic, colorful magical land from a child's imagination. |
+| [AC] | Masked repaint with slight feathered overlap. |
+| [MK] | Lasso selection exactly tracing the inner edges of the crack. |
+| [NG] | [] (Initial state) |
+
+3. Execution Logic (The Pipeline)
+ * Independent Generation: FG and BG are rendered as separate assets to maintain conceptual purity (avoiding "prompt leak").
+ * Spatial Mapping: The PT coordinates are mapped to the MK area.
+ * Compositional Method: The AC operation injects the BG pixels into the FG frame specifically within the MK boundaries.
+System Status: READY
+The CRC Class is fully defined and the magical_wall_v1 instance is active.
+
+---
+
+# Foreground–Background Repaint Framework
+
+## Folder Structure
+
+```
+/PromptFramework/
+    /Images/
+        image1.md
+        image2.md
+    /Actions/
+        repaint.md
+    /Tools/
+        lasso.md
+    /Rules/
+        composition.md
+    /Workflow/
+        repaint_flow.md
+```
+
+## Image Prompts
+
+**image1.md**
+
+Prompt 1:
+sketch of a young boy looking at a concrete wall. the wall has a large crack and an large opening similar to a portal. the boy is the far left of the image --ar 2:1
+
+**image2.md**
+
+Prompt 2:
+fantastic colorful magical land straight out of a child's imagination
+
+This image is created specifically to be inserted into the portal area defined in the base image.
+
+## Action Prompt
+
+**repaint.md**
+
+Repaint Prompt:
+break in the fourth wall, imaginary landscape through a crack in the wall
+
+## Tool Prompt
+
+**lasso.md**
+
+Use the repaint and the lasso tool to highlight most of the “portal” area.
+It is acceptable if the lasso area overlaps slightly with the boy.
+
+## Rules / Constraints
+
+**/Rules/composition.md**
+
+* Prompt 1 always serves as the base image.
+* Prompt 2 is used only as inserted content.
+* The lasso tool defines the repaint boundary.
+* Minor overlap with foreground subjects is allowed.
+* The repaint action must visually blend inserted content with the base image.
+
+## Workflow
+
+**/Workflow/repaint_flow.md**
+
+1. Generate the base image using Prompt 1.
+2. Generate the insert image using Prompt 2.
+3. Apply the lasso tool to select the portal area.
+4. Apply the repaint action using the repaint prompt.
+5. Output a single merged image.
+
+---
+
