@@ -7,17 +7,8 @@ Block 3: Foreground–Background Repaint Framework
 Repaint Prompt
 
 https://www.facebook.com/share/p/vtRtZpm9mgmVgTEe/?mibextid=xfxF2i
+
 https://www.youtube.com/watch?v=fXqCNbBAt1w
-
-Saw this fun trick on a YouTube site and thought I'd pass it along. It uses the repaint tool to combine two completely different imagines. It's more striking when the two images are of completely different styles.
-
-Prompt 1: sketch of a young boy looking at a concrete wall. the wall has a large crack and an large opening similar to a portal. the boy is the far left of the image --ar 2:1
-Then create the image to be inserted
-
-Prompt 2: fantastic colorful magical land straight out of a child's imagination
-Use repaint and the lasso tool to highlight most of the"portal" area. It's okay if you overlap the lasso area with the boy (in this example) a little. Paste a prompt  with pix reference similar to below into the repaint dialog area.
-
-Repaint Prompt: break in the fourth wall, imaginary landscape through a crack in the wall
 
 https://cdn.midjourney.com/01bc3f42-5ed2-46d8-8e37-0bd2c3f0a23a/0_2.jpeg
 
