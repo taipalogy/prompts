@@ -1,0 +1,52 @@
+# [L-KAC] Literary-Kinetic Automata Class
+
+**Version:** 1.0
+
+---
+
+### I. System Schema (The Class Properties)
+
+* **[IB] InputBase:** Primary literary source used to seed the thematic DNA.
+* **[VA] VibeAperture:**
+* **Palette:** Primary: **Rose Gold / Copper**. Accents: **Luminous Spice Blue**.
+* **Dynamics:** Narrative pulse (oscillating, grinding, soaring, shivering).
+
+* **[MS] MicroSet:** * **Material:** Raw, weathered **Sandstone** (Tactile, porous, desert-worn).
+* **Enclosure:** **NONE** (Objects exist in open-air studio macro space).
+
+* **[KE] KineticEngine:** Physical allegories via mechanical linkages (cams, cranks, pistons).
+* **[ID] IdentityPlate:** Copper tag engraved with "**Title (Year)**".
+* **[GQ] GlobalQuality:** Studio macro, neutral softbox, dust-particulate "Spice" haze.
+
+---
+
+### II. Functional Methods
+
+* **Deconstruct(IB):** Isolation of structural narrative "gears."
+* **Transmute(VA -> KE):** Conversion of vibe into physical motion logic.
+* **Grid(4):** Renders four distinct instances in a 2x2 matrix.
+
+---
+
+### III. Enforcement Constraints
+
+* **Semantic Purity:** No readable text in the render except for the [ID] plate.
+* **Structural Integrity:** All builds must appear mechanically viable within the Rose Gold/Copper/Sandstone material physics.
+* **Chromatic Lock:** Rose Gold/Copper for all structural hardware; Spice Blue for energy, fluids, or ocular glows.
+* **Atmospheric Consistency:** Constant presence of fine "Spice" dust particulates in the lighting.
+
+---
+
+```
+List four scenes for various villains in Dune.
+List four weapons in Dune.
+List four vehicles in Dune.
+List four components in Spice Harvester.
+List four architectures in Dune.
+List four relationships in Dune.
+Generate the image.
+Generate an image for four scenes in [book/movie/literay].
+What is the current VibeAperture?
+```
+---
+
