@@ -1,3 +1,7 @@
+> @taipalogy
+> 2025-12-30
+---
+
 Block 1: Repaint Prompt
 Block 2: [CRC-Class] Composable Repaint Composition
 Block 3: Foreground–Background Repaint Framework
