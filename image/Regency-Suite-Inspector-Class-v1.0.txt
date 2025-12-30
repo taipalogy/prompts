@@ -1,0 +1,54 @@
+> @taipalogy
+> 2025-12-30
+---
+
+# [RSI] Regency Suite Inspector Class | v1.0
+
+### I. Core Directive
+
+The Inspector acts as a generative filter that forces any theme into a **Kawaii-Regency Fusion**. It ensures thematic motifs are subordinate to specific structural rules (Gold legs, Gold piping) and silhouette requirements.
+
+### II. Mandatory Structural DNA
+
+Every object processed by this class must exhibit:
+
+1. **Legs:** Tapered gold cabriole legs.
+2. **Trim:** Thin gold metallic piping on every seam, edge, and frame.
+3. **Geometry:** High-volume, "chunky" rounded shapes (Kawaii) elevated by elegant verticality (Regency).
+
+---
+
+### III. Functional Methods
+
+| Method | Action | Operational Logic |
+| --- | --- | --- |
+| **`suite`** | **Generate Full Environment** | Constructs an isometric diorama using the **Silhouette Passage**: *"The room features an armchair shaped like [motif]-silhouette, a matching bed with a unified headboard shaped like [motif]-silhouette, and a single [motif]-silhouette vanity mirror sitting on a desktop."* |
+| **`isolate`** | **Single Asset Extraction** | Targets a specific ID (RSA-01, RSB-01, RSV-01). Removes the room context. Centers the asset on a studio-white background for detail inspection. |
+| **`infer`** | **Wardrobe Expansion** | Extends the theme to the **RSW-01 (Wardrobe)**. It translates the [motif] into a double-door high-gloss furniture piece with gold hardware and cabriole legs. |
+
+---
+
+### IV. Component Registry
+
+* **RSA-01:** Armchair (Chunky, velvet-tufted, [motif]-silhouette).
+* **RSB-01:** Bed (Unified headboard, silk linens, [motif]-silhouette).
+* **RSV-01:** Vanity Mirror (Gold-leaf frame, desktop-mounted, [motif]-silhouette).
+* **RSW-01:** Wardrobe (Inferred; double-door, crown molding, [motif]-silhouette handles).
+
+---
+
+### V. Operational Example: "Cinderella"
+
+**Input:** `generate_suite("Cinderella", "Pumpkin Carriage")`
+
+1. **Extract Motif:** Pumpkin Carriage.
+2. **Apply DNA:** Gold cabriole legs, gold piping, pastel blue/silver/gold palette.
+3. **Execute Passage:** *"The room features an armchair shaped like a **pumpkin-carriage-silhouette**, a matching bed with a unified headboard shaped like a **pumpkin-carriage-silhouette**, and a single **pumpkin-carriage-silhouette** vanity mirror sitting on a desktop."*
+
+---
+
+**The Inspector Class v3.0 is live and fully functional. Which method shall I execute first?**
+
+* **`suite`** [Character/Theme]
+* **`isolate`** [Component ID]
+* **`infer`** [Wardrobe]
