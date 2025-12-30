@@ -2,6 +2,8 @@
 > 2025-12-30
 ---
 
+# Repaint Prompt as a Class and Framework
+
 Block 1: Repaint Prompt
 Block 2: [CRC-Class] Composable Repaint Composition
 Block 3: Foreground–Background Repaint Framework
@@ -62,9 +64,9 @@ Generate a Blueprint-Style image.
 
 ---
 
-# Foreground–Background Repaint Framework
+## Foreground–Background Repaint Framework
 
-## Folder Structure
+### Folder Structure
 
 ```
 /PromptFramework/
@@ -81,7 +83,7 @@ Generate a Blueprint-Style image.
         repaint_flow.md
 ```
 
-## Image Prompts
+### Image Prompts
 
 **image1.md**
 
@@ -95,21 +97,21 @@ fantastic colorful magical land straight out of a child's imagination
 
 This image is created specifically to be inserted into the portal area defined in the base image.
 
-## Action Prompt
+### Action Prompt
 
 **repaint.md**
 
 Repaint Prompt:
 break in the fourth wall, imaginary landscape through a crack in the wall
 
-## Tool Prompt
+### Tool Prompt
 
 **lasso.md**
 
 Use the repaint and the lasso tool to highlight most of the “portal” area.
 It is acceptable if the lasso area overlaps slightly with the boy.
 
-## Rules / Constraints
+### Rules / Constraints
 
 **/Rules/composition.md**
 
@@ -119,7 +121,7 @@ It is acceptable if the lasso area overlaps slightly with the boy.
 * Minor overlap with foreground subjects is allowed.
 * The repaint action must visually blend inserted content with the base image.
 
-## Workflow
+### Workflow
 
 **/Workflow/repaint_flow.md**
 
@@ -130,4 +132,3 @@ It is acceptable if the lasso area overlaps slightly with the boy.
 5. Output a single merged image.
 
 ---
-
