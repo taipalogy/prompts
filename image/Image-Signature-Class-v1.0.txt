@@ -1,0 +1,36 @@
+> @taipalogy
+> 2025-12-31
+---
+
+Image Signature Class | v1.0
+
+I. Core Directive
+Apply a digital signature to a specified image or generate a standalone signature asset.
+
+II. Mandatory Structural DNA
+ * Integrated: Must be legible but non-distracting (approx. 10pt visual scale).
+ * Standalone (Fallback): Must be massive, centered, and high-contrast for manual overlay.
+ * Positioning: Default bottom-left; Center for standalone assets.
+
+III. Functional Methods
+| Method | Action | Operational Logic |
+|---|---|---|
+| Color | Signature Color | Renders text in solid Black. |
+| Size | Visual Scale | 10pt for integration; Massive for standalone. |
+| Font | Typeface Selection | Uses Manuscript / Cursive Script family. |
+| Fallback | Manual Signature Asset | [TRIGGER] If integrated rendering fails: Generate a standalone image of the signature, centered and massively scaled. |
+
+V. Component Registry
+| Property | Value |
+|---|---|
+| Signature | @taipalogy |
+| Default Location | Bottom Left |
+| Fallback Location | Center (Full Frame) |
+| Font Family | Manuscript / Handwritten Script |
+| Integrated Size | 10pt |
+| Standalone Size | Maximum Scale |
+
+V. Operational Command (Fallback)
+> "Generate an image for the signature only. Position it in center, increase the size massively."
+> 
+
