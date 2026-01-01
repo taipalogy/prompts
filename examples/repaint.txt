@@ -53,8 +53,7 @@ The original "Magical Wall" data bound to the class slots.
 System Status: READY
 The CRC Class is fully defined and the magical_wall_v1 instance is active.
 
-```text
-Example commands:
+```
 List a new instance map.
 Generate a Exploded View image showing these three widgets hovering apart as if they were being assembled.
 Generate a 2x2 grid, four equal panels with thin dividers. Each panel is an individual object/widget.

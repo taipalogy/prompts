@@ -2,7 +2,7 @@
 > 2026-01-01
 ---
 
-The Kinetic Sigil Automaton Class for Iconography | v1.0
+The Sigil Iconography Class v1.0
 
 Distilling Narrative into Mechanical Artifacts
 The Sigil Engine moves beyond broad sculpture into the realm of Iconic Symbolism. Each unit is designed as a standalone "mechanical logo" for the book it represents.
@@ -38,3 +38,7 @@ IV. The Icon Payload (Serialization)
 > 
 ---
 
+```
+Create a 4-Icon Iconography Set for The Gothic Collection
+Create a 4-Icon Iconography Set for The Zombie Collection
+```
