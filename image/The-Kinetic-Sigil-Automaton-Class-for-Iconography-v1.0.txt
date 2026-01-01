@@ -1,0 +1,40 @@
+> @taipalogy
+> 2026-01-01
+---
+
+The Kinetic Sigil Automaton Class for Iconography | v1.0
+
+Distilling Narrative into Mechanical Artifacts
+The Sigil Engine moves beyond broad sculpture into the realm of Iconic Symbolism. Each unit is designed as a standalone "mechanical logo" for the book it represents.
+
+I. The Icon Architecture [HARDWARE]
+1. The Core Composition
+ * [GT-01] The Tetrad Grid: Remains a 2x2 quadratic layout for a "Collection" view, but each quadrant is now optimized for Iconic Centering.
+ * [BP-03] The Terrestrial Anchor: A standard Hexagonal Whittled Oak Plinth. The geometry provides a premium, museum-grade display for the icon.
+ * [IP-07] The Identity Plate: A small, weathered Brass Plaque inset into the front face of the plinth, displaying the "Title (Year)".
+2. The Symbolic Elements
+ * [MS-06] Narrative Materiality: The substance of the gears must be thematically relevant to the book (e.g., iridescent glass for sci-fi, rusted iron for historical tragedy).
+ * [MC-11] The Miniature Centerpiece: Every icon features a central miniature figure or iconic object (the "Soul") trapped within or supported by the mechanics.
+ * [KM-05] Mechanical Halo: The gears are not just functional; they form an aesthetic "frame" around the centerpiece, representing the internal logic of the plot.
+
+II. The Process Logic [INFER]
+To generate an icon, the class follows this Inference Pipeline:
+ * Extract Character/Object: Identify the most iconic visual anchor (e.g., a lighthouse, a crown, a specific character silhouette).
+ * Assign Texture: Match the story's "vibe" to a specific metal or substance.
+ * Define the Motion [NS-08]: Is the icon a stable pendulum, a spinning core, or a shifting staircase?
+
+III. 4-Icon Iconography Set (The Pillars of the Canon)
+Scale: L3 Deep Allegory | Material: Industrial & Precious Hybrid
+
+| Slot | Book (Year) | The Sigil Design | Material Choice |
+| --- | --- | --- | --- |
+| **TL** | *The Great Gatsby* (1925) | **The Beacon of Ashes:** A miniature gold lighthouse with a green pulsing core, emerging from a base of grey ash-dust. | **Polished Gold & Raw Ash** |
+| **TR** | *1984* (1949) | **The Panopticon Gear:** A central mechanical eye with a camera-shutter pupil, framed by aggressive industrial cogs. | **Cold Steel & Ruby Glass** |
+| **BL** | *Frankenstein* (1818) | **The Galvanic Heart:** An anatomical heart suspended by copper wires with blue LED filaments representing electrical sparks. | **Oxidized Copper & Zinc** |
+| **BR** | *Moby-Dick* (1851) | **The Leviathan Spindle:** A bone-white whale fluke emerging from a dark resin whirlpool, framed by rusted harpoons. | **Faux Ivory & Rusted Iron** |
+
+IV. The Icon Payload (Serialization)
+> "A professional 2x2 grid of four high-fidelity Mechanical Icons. Layout: [GT-01] Tetrad. Each icon is a unique L3 Deep Allegory anchored on a [BP-03] Hexagonal Oak Plinth. Environment: Each unit is photographed in a void of pure, solid matte black. Zero background clutter. No surrounding objects or secondary machinery. Each unit features a [MC-11] Miniature centerpiece relevant to the book, surrounded by decorative [MS-06] Material gears. 1. [Book 1] ... 2. [Book 2] ... 3. [Book 3] ... 4. [Book 4]. Every icon includes internal [LS-09] Core Glow, and a brass identity plate. Style: High-contrast studio lighting, centered composition, ultra-clean silhouettes, extreme tactile detail, no bokeh artifacts."
+> 
+---
+
