@@ -1,0 +1,61 @@
+> @taipalogy
+> 2026-01-02
+---
+
+# Transmuted-Automata Comparison Class v1.0
+
+**Framework Type:** Comparative Narrative Materialism
+
+**Logic Engine:** Kinetic Metaphor Mapping (KMM)
+
+**Isolation Architecture:** Object-Oriented Instance (Zero-Bleed)
+
+---
+
+### I. System Schema (Properties)
+
+* **[GP-01] GridTopology:** 2x2 Comparative Matrix.
+* **Environment:** Infinite matte white horizon. No glass, no walls, no enclosures.
+* **Lighting:** High-Key Studio. Optimized for material expressiveness and shadow-less clarity.
+
+
+* **[BP-02] BaseChassis (The Plinth):** The direct-to-grid foundation.
+* **[KS-03] KineticSubstrate:** Internalized motion. The mechanical "heartbeat."
+* **[IP-05] IdentifierPlate:** Engraved brass nameplate centered on the [BP-02] plinth.
+* **[MS-07] Expressive Material Method:** Supports any material (Organic, Synthetic, Geological, or Speculative).
+
+---
+
+### II. Execution Instance: Abstract Concepts (v1.0)
+
+| Slot ID | Transmutation Source | Expressive Material [MS-07] | Kinetic Logic [KS-03] |
+| --- | --- | --- | --- |
+| **TL (0,0)** | **Nostalgia** | Sepia-toned celluloid and pressed, brittle wildflowers. | A stuttering, 24fps projector-reel rotation that occasionally hitches. |
+| **TR (1,0)** | **Anxiety** | Taut, over-tensioned copper wires and fractured obsidian. | A high-frequency, blurred vibration that creates a faint humming sound. |
+| **BL (0,1)** | **Euphoria** | Bubbling iridescent liquid gold and pressurized oxygen. | A rhythmic, erupting fountain-pulse that defies gravity at its peak. |
+| **BR (1,1)** | **Apathy** | Dense, unreflective grey concrete and stagnant lead. | A static, non-moving mass; no internal momentum detected. |
+
+---
+
+### III. Comparison Hygiene & Delta Analysis
+
+* **Specularity Delta:** Compare **Euphoria (BL)** and **Apathy (BR)**. In the high-key environment, the liquid gold will cast caustic light maps onto the white grid, while the concrete will act as a visual "black hole," absorbing the studio light with zero bounce.
+* **Temporal Delta:** **Nostalgia (TL)** operates on a loop (the reel), whereas **Anxiety (TR)** operates on a constant, relentless frequency. One is a memory of motion; the other is the exhaustion of motion.
+* **Zero-Casing Rule:** All four instances must appear as if they could be touched; there is no atmospheric bleed between the "heat" of the gold and the "cold" of the obsidian.
+
+---
+
+### IV. Functional Methods
+
+* **Transmute(Source):** Converts an abstract concept into a kinetic machine.
+* **Compare(Slot_A, Slot_B):** Analyzes the material/kinetic difference between quadrants.
+* **Swap_Material(Slot_ID, New_Material):** Overrides the texture of a specific quadrant.
+* **Isolate(Object_ID):** Ensures zero-bleed between adjacent expressive materials.
+
+---
+
+```
+Generate a new execution instance for four ideas
+Generate an image for isolated Euphoria
+Isolate Anxiety
+```
