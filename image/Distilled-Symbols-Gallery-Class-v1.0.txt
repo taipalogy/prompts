@@ -2,7 +2,7 @@
 > 2026-01-02
 ---
 
-# Distilled Symbol Gallery Class v1.0
+# Distilled Symbols Gallery Class v1.0
 
 **Core Objective:** To condense complex literary narratives into high-fidelity, material-driven symbolic artifacts for gallery display.
 
