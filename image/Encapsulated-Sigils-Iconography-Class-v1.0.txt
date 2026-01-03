@@ -2,7 +2,7 @@
 > 2026-01-01
 ---
 
-The Sigil Iconography Class v1.0
+Encapsulated Sigils Iconography Class v1.0
 
 Distilling Narrative into Mechanical Artifacts
 The Sigil Engine moves beyond broad sculpture into the realm of Iconic Symbolism. Each unit is designed as a standalone "mechanical logo" for the book it represents.
