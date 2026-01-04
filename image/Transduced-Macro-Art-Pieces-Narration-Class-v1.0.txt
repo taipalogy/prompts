@@ -48,7 +48,6 @@ List four architectures in Dune.
 List four relationships in Dune.
 Generate the image.
 Generate an image for four scenes in [book/movie/literay].
-What is the current VibeAperture?
 ```
 ---
 

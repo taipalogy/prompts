@@ -41,4 +41,5 @@ IV. The Icon Payload (Serialization)
 ```
 Create a 4-Icon Iconography Set for The Gothic Collection
 Create a 4-Icon Iconography Set for The Zombie Collection
+Create a 4-Icon Iconography Set for steampunk, historical, magical, and occult.
 ```
