@@ -1,0 +1,52 @@
+> @taipalogy
+> 2026-01-05
+---
+
+# Transduced Macro-Art Pieces Narration Class v1.1
+
+---
+
+### I. System Schema (The Class Properties)
+
+* **[IB] InputBase:** The primary literary or prophetic source (the "Signal").
+* **[VA] VibeAperture:**
+* **Palette:** Primary: **Rose Gold / Copper**. Accents: **Luminous Spice Blue** (Energy fluid/light).
+* **Dynamics:** Narrative pulse (oscillating, grinding, soaring, shivering).
+
+
+* **[MS] MicroSet:** * **Material:** Raw, weathered **Sandstone** (Tactile, porous, desert-worn).
+* **Environment:** Open-air studio macro space; neutral softbox lighting.
+
+
+* **[KE] KineticEngine:** Mechanical transduction via **Symbolic Load** (cams, cranks, pistons, manifolds).
+* **[ID] IdentityPlate:** Copper tag engraved with "**Title (Year)**".
+* **[GQ] GlobalQuality:** Studio macro; presence of fine "Spice" dust particulates reacting to mechanical vibration.
+* **[PA] Physical Allegories** is a mandatory translation property that maps abstract narrative themes into specific mechanical behaviors—such as fusion, fracture, divergence, or suspension—to dictate the functional logic of the **KineticEngine**.
+
+---
+
+### II. Functional Methods
+
+* **Calibrate(Engine):** Sets the mechanical tolerances and "Symbolic Load" based on the InputBase's narrative weight (Tension, Friction, Torque).
+* **Transduce(Logic):** The core process of converting the narrative "charge" of the [IB] into specific mechanical interactions and energy flows.
+* **Grid(4):** Renders a 2x2 comparative matrix of four distinct **Macro-Art Pieces**.
+
+---
+
+### III. Enforcement Constraints
+
+* **Functional Physics:** All builds must appear mechanically viable; no floating parts. Movement is driven by the internal "Signal."
+* **Chromatic Lock:** Rose Gold/Copper for hardware; Spice Blue for power/fluids; Sandstone for grounding.
+* **Text Constraint:** No readable text in the render except for the engraved [ID] plate.
+* **Transduction Integrity:** The composition must show a "Flow" (Input  Process  Output). Every gear must have a reason for its movement.
+
+---
+
+### IV. The Transduction Signal Chain
+
+1. **Ingest:** The [IB] is received.
+2. **Mapping:** Narrative tension is mapped to **Tension ()**; conflict to **Friction ()**; momentum to **Torque ()**.
+3. **Assembly:** The [KE] constructs the piece using the [VA] palette and [MS] materials.
+4. **Narration:** The final state of the machine tells the story through its alignment or catastrophe.
+
+---
