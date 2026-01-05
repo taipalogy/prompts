@@ -1,0 +1,46 @@
+> @taipalogy
+> 2026-01-05
+---
+
+# Distilled Symbols Gallery Class v1.1
+
+**Core Objective:** To condense complex literary narratives into high-fidelity, material-driven symbolic artifacts for gallery display.
+
+### I. The Property Architecture
+
+| Code | Property Name | Curation Standards |
+| --- | --- | --- |
+| **[ES-04]** | **Environment** | **Bright Gallery White.** A clean, neutral-lit studio background with soft ambient occlusion and downward-cast floor shadows. |
+| **[MC-11]** | **The Distillate** | The central symbolic miniature (Character/Object) representing the narrative core. |
+| **[MS-06]** | **Narrative Substance** | Epoch-accurate materials (e.g., Damascus steel, Polished Amber, Sea-Glass). |
+| **[BP-03]** | **The Static Anchor** | A **Hexagonal Whittled Oak Plinth**. It provides the organic, tactile base for every specimen. |
+| **[LS-09]** | **Internal Aura** | A colored "heart" glow within the material, signifying the story's "pulse" against the white background. |
+
+---
+
+### II. Functional Methods
+
+1. **Distill_Symbolism():** Filters the prose of a novel or fairy tale to isolate the primary conflict and translate it into a physical 3D concept.
+2. **Material_Bonding():** Selects textures and physics properties based on the emotional weight of the story (e.g., choosing "tarnished iron" for a tragedy).
+3. **Gallery_Lighting():** Implements soft-box studio lighting. This ensures that shadows are cast downward onto the oak base, creating a sense of physical weight and presence.
+* **Grid(4):** Renders a 2x2 comparative matrix of four distinct **Macro-Art Pieces**.
+
+---
+
+### III. Enforcement Constraints
+
+* **Text Constraint:** No readable text in the render except for the engraved [ID] plate. The plate is engraved with the title of the story
+
+---
+
+### IV. Current Exhibit: The Masterpiece Collection
+
+---
+
+```
+List four major international news stories from yesterday
+An exhibit for The Folklore Collection
+Generat an image for this story: [Story]
+Generate a grid image for the story: [Story]
+```
+
