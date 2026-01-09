@@ -1,0 +1,16 @@
+# Single-File HTML Tool Starter
+
+Create a minimum viable single-file HTML tool for: [YOUR IDEA HERE].
+
+Requirements:
+- Self-contained: inline CSS and JavaScript only (No CDNs).
+- No React or build steps—pure client-side. Explicitly prompt LLMs with "No React".
+- Clean, responsive UI.
+- Fully functional when saved as index.html and opened in browser.
+- Hostable on GitHub Pages (github.io).
+
+Inspiration & tips: Simon Willison's HTML tools collection – https://simonwillison.net/2025/Dec/10/html-tools/
+
+Output the complete HTML code in a single code block.
+
+---
