@@ -1,0 +1,66 @@
+> @taipalogy
+> 2026-01-16
+---
+
+# Miniature Figurine Composing Framework v1.1
+
+https://x.com/i/status/2010024069874512106
+
+## Folder Structure
+
+```
+/Framework/  
+  ├── /Verbs/  
+  │     ├── compose.md  
+  ├── /Arguments/  
+  │     ├── figurine.md  
+  ├── /Rules/  
+  │     ├── structure_rules.md  
+
+```
+
+---
+
+### /Verbs/compose.md
+
+* **Purpose:** Composes the exact prompt for figurine generation by populating specific placeholders within the fixed sentence structure.
+* **Valency:** **1** (Transitive, requires the object **figurine**).
+* **Usage:** * **Input:** `"Compose a figurine prompt."`
+* **Process:** Populates the placeholders `[ABC]` and `[XYZ]` within the preserved sentence.
+* **Output:** The complete, unedited original sentence followed by a descriptive conflated paragraph.
+
+---
+
+### /Arguments/figurine.md
+
+**Original Sentence Copy** `"Make a miniature, full-body, isometric, realistic figurine of this person, wearing [ABC], doing [XYZ], on a white background, minimal, 4K resolution."`
+
+**Allowed Action Verb** * **compose** (Exclusively allowed)
+
+**Placeholders** * **[ABC]** → Represents the attire or clothing the person is wearing.
+
+* **[XYZ]** → Represents the specific action or pose the person is performing.
+
+---
+
+### /Rules/structure_rules.md
+
+**Sentence Structure Rules**
+
+1. **Strict Adherence:** The structure of the original sentence must remain entirely unaltered.
+2. **Placeholder Formatting:** The strings `ABC` and `XYZ` must be enclosed in square brackets: `[ABC]` and `[XYZ]`.
+3. **Static Subject:** The term "person" is treated as a static part of the sentence, not an argument or a variable placeholder.
+4. **The Background Isolation Guardrail (Conflation Rule):** Any additional technical specifications, material textures, or intricate details must be conflated into a separate, following paragraph. **Crucially**, this paragraph must only describe the physical properties of the figurine itself (e.g., paint finish, plastic texture, molding details) and **must never** describe a surrounding environment, location, background scene, or atmosphere. This ensures the "white background" instruction remains the dominant environmental directive.
+
+**Execution Steps**
+
+1. **Identify:** Locate the `[ABC]` and `[XYZ]` placeholders within the sentence copy.
+2. **Populate:** Insert the specific desired attributes into the brackets.
+3. **Conflate:** Aggregate all remaining physical or technical data into a subsequent paragraph, strictly avoiding environmental descriptions.
+
+---
+
+```
+Generate a figurine for a Taiwanese night market vendor.
+Generate a figurine for riding a scooter in Taiwan without extra paragraph.
+```
