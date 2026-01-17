@@ -1,5 +1,5 @@
 > @taipalogy
-> 2026-01-16
+> 2026-01-17
 ---
 
 # Miniature Figurine Composing Framework v1.0
@@ -16,6 +16,8 @@ https://x.com/i/status/2010024069874512106
   │     ├── compose.md  
   ├── /Arguments/  
   │     ├── figurine.md  
+  ├── /Slots/  
+  │     ├── slots.md  
   ├── /Rules/  
   │     ├── structure_rules.md  
 
@@ -25,13 +27,11 @@ https://x.com/i/status/2010024069874512106
 
 ### /Verbs/compose.md
 
-* **Purpose:** Composes the exact prompt for figurine generation by populating specific placeholders within the fixed sentence structure.
+* **Purpose:** Composes the prompt by populating placeholders while strictly isolating object slots to prevent prompt leakage.
 * **Valency:** **1** (Transitive, requires the object **figurine**).
 * **Usage:**
 * **Input:** `"Compose a figurine prompt."`
-
-
-* **Process:** Populates the placeholders `[ABC]` and `[XYZ]` within the preserved sentence.
+* **Process:** Populates `[ABC]` and `[XYZ]` while maintaining the `[BG]` slot as a fixed environmental boundary.
 * **Output:** The complete, unedited original sentence with populated brackets. **No additional text or paragraphs are permitted.**
 
 ---
@@ -45,10 +45,15 @@ https://x.com/i/status/2010024069874512106
 
 * **compose** (Exclusively allowed)
 
-**Placeholders**
+---
 
-* **[ABC]** → Represents the attire or clothing the person is wearing.
-* **[XYZ]** → Represents the specific action or pose the person is performing.
+### /Slots/slots.md
+
+**Object Slot Definitions**
+
+* **[ABC] (Attire Slot):** The primary texture and clothing layer of the subject.
+* **[XYZ] (Action Slot):** The structural pose and physical interaction with immediate handheld props only. **Prohibited:** Any base, platform, floor, rocks, or environmental ground elements.
+* **[BG] (Background Slot):** Defined as the "white background" segment. This is an independent object slot that must remain sterile of any environmental, atmospheric, or structural data.
 
 ---
 
@@ -57,18 +62,13 @@ https://x.com/i/status/2010024069874512106
 **Sentence Structure Rules**
 
 1. **Strict Adherence:** The structure of the original sentence must remain entirely unaltered.
-2. **Placeholder Formatting:** The strings `ABC` and `XYZ` must be enclosed in square brackets: `[ABC]` and `[XYZ]`.
-3. **Static Subject:** The term "person" is treated as a static part of the sentence, not an argument or a variable placeholder.
-4. **Zero-Explication Guardrail:** The output must consist strictly of the populated original sentence. No supplementary descriptions, technical specifications, material textures, or environmental details are allowed.
-
-**Execution Steps**
-
-1. **Identify:** Locate the `[ABC]` and `[XYZ]` placeholders within the sentence copy.
-2. **Populate:** Insert the specific desired attributes into the brackets.
-3. **Finalize:** Output the result as a single string of text.
+2. **Placeholder Formatting:** The strings `ABC` and `XYZ` must be enclosed in square brackets.
+3. **Object Isolation:** The background is treated as a separate **[BG]** object slot. The generation logic must ensure that no elements from the `[XYZ]` slot (atmospheric effects, scenery, or floor bases) bleed into the **[BG]** slot.
+4. **No-Floor Constraint:** The `[XYZ]` slot must never contain references to what the figurine is standing on (e.g., no platforms, pedestals, or ground textures).
+5. **Zero-Explication Guardrail:** The output must consist strictly of the populated original sentence. No supplementary descriptions or paragraphs are allowed.
 
 ---
 
 ```
-Compose a figurine for a random scene in Taiwan.
+What kinds of figurine can I compose?
 ```
