@@ -61,6 +61,7 @@ https://x.com/i/status/2010024069874512106
 ---
 
 ```
-Generate a figurine for a Taiwanese night market vendor.
-Generate a figurine for riding a scooter in Taiwan without extra paragraph.
+Compose a figurine for a Taiwanese night market vendor.
+Compose a figurine for riding a scooter in Taiwan without extra paragraph.
+Compose a figurine for a random scene/theme in Taiwan.
 ```
