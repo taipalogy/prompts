@@ -9,13 +9,13 @@ https://x.com/i/status/2010024069874512106
 ## Folder Structure
 
 ```
-/Framework/  
+/PromptFramework/  
   ├── /Verbs/  
   │     ├── compose.md  
   ├── /Arguments/  
   │     ├── figurine.md  
   ├── /Rules/  
-  │     ├── structure_rules.md  
+  │     ├── rules.md  
 
 ```
 
@@ -43,7 +43,7 @@ https://x.com/i/status/2010024069874512106
 
 ---
 
-### /Rules/structure_rules.md
+### /Rules/rules.md
 
 **Sentence Structure Rules**
 
