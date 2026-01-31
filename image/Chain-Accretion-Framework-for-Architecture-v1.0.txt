@@ -1,0 +1,145 @@
+> @taipalogy
+> 2026-01-31
+---
+
+# Chain Accretion Framework for Architecture v1.0
+
+This framework is a **Structural Logic Engine** designed for the incremental construction of complex systems and the isolation of variables through side-by-side auditing. It treats every addition as a state-change and every comparison as a **Delta Analysis**.
+
+---
+
+## Folder Structure
+
+```
+/PromptFramework/
+    /Verbs/: 
+        - anchor.md (L0: Foundation/Locomotion)
+        - accrete.md (L1-Ln: Vertical stacking/State change - Additive)
+        - weather.md (Environmental/Magic erosion - Subtractive)
+        - filter.md (Narrow sets by criteria)
+        - select.md (Final choice/State collapse)
+        - merge.md (Intersection of parallel branches)
+        - compare.md (Symmetric audit/Delta isolation)
+        - utilize.md (Connectors and subsystems)
+    /Nouns/: 
+        - core.md (Base geometry/Seeds)
+        - archetype.md (Visual DNA: Machiya, Gothic, Shanty, etc.)
+        - attribute.md (Specific traits: dark, short, modular)
+        - material.md (Surface shaders: timber, brass, iron)
+    /Rules/: 
+        - operation_formula.md (Symbolic math/Lisp-nesting)
+        - valency_logic.md (Chaos, Grid, Aspiration, Radial)
+        - delta_audit.md (Side-by-side comparative logic)
+    /Templates/: 
+        - stack_incremental.md (Phase-based construction)
+        - comparative_study.md (Delta-focused auditing)
+        - branch_merge.md (Hybridization logic)
+    /SemanticParsingLayer/: 
+        - parser.md (Symbolic-to-Lisp conversion)
+        - suggestor.md (Retrieve/Recommend candidate attributes)
+
+
+```
+
+---
+
+## A. Verbs & Nouns (The Components)
+
+**Verbs: The Operations**
+
+* **anchor.md**: Establishes the Level 0 state (e.g., `Iron_Hull_Seed + Beast_Walk`).
+* **accrete.md**: **Additive Logic**. Adds a sequential layer or state. **Valency: 1–2**.
+* **weather.md**: **Subtractive Logic**. Applies entropy and environmental erosion to a state, contrasting the growth of accretion.
+* **filter.md**: Acts as a logical gate to reduce wide attribute sets based on specific constraints.
+* **select.md**: Represents the final "collapse" of a filtered set into a committed, singular state.
+* **merge.md**: Combines results from parallel branches into a single hybrid state.
+* **compare.md**: Initiates a symmetric audit between two states. **Valency: 2**.
+
+**Nouns: The Archetypes & Data**
+
+* **archetype.md**: The "Logic DNA" (e.g., `Machiya`, `Botanical`, `Modular`).
+* **material.md**: The surface data (e.g., `Weathered_Cedar`, `Wrought_Iron`).
+
+---
+
+## B. Rules (The Logic)
+
+**valency_logic.md**
+Determines structural "gravity" during `accrete` or `merge`:
+
+* **Chaos (Shanty)**: Random offsets, tilt, requires `utilize(Scaffolding)`.
+* **Grid (Modular)**: 0° tilt, vertical snap, requires `utilize(Gantry/Cranes)`.
+* **Aspiration (Gothic)**: Pyramid scaling, vertical elongation.
+
+**delta_audit.md**
+Defines the **Comparative Blueprint**:
+
+1. **Global Constant**: Shared `anchor`, `material`, and `environment` (The Control).
+2. **Local Delta**: Isolates the variable (`Archetype`, `Level`, or `Weathering`).
+3. **Labels**: Forces the AI to identify and separate the two states visually.
+
+---
+
+## C. Composition Shorthand
+
+* `+` : **Accretion** (Add state)
+* `~` : **Weathering** (Erode state)
+* `|` : **Comparison** (Parallel audit)
+* `>` : **Filter/Select** (Gate/Commitment)
+* `@` : **Attribute** (Material/Trait)
+* `()` : **Sectional** (Local sub-routine)
+
+**Example: The Interstitial Bridge**
+
+> `anchor:Beast_Walk + merge:Interstitial(accrete:L1..L3 @ (suggestor > filter:Brutalist_Capsule > select:Precast_Concrete), accrete:L1..L3 @ (suggestor > filter:High_Tech_Facade > select:Glass_Curtain)) + utilize:Scaffolding ~ weather:Industrial_Oxidation`
+
+---
+
+## D. Semantic Parsing Layer
+
+**parser.md**
+Converts symbolic chains into Lisp-style nested evaluations for execution.
+
+**suggestor.md**
+Identifies and recommends candidate attributes or next-step components based on current valency and archetypal logic.
+
+**Example Input:** `anchor | (anchor + accrete:L1+L2)`
+**Lisp Evaluation:**
+
+```lisp
+(compare 
+  (accrete anchor) 
+  (accrete anchor (L1 L2)))
+
+```
+
+---
+
+## E. Templates
+
+**comparative_study.md**
+
+> **[GLOBAL]**: Common foundation elements.
+> **[LEFT]**: State A (The control or base archetype).
+> **[RIGHT]**: State B (The delta—added floors, archetype shifts, or merges).
+> **[OUTPUT]**: Split-screen visualization with high-contrast technical profile.
+
+---
+
+```
+Provide follow-up suggestions in shorthand expression.
+accrete anchor L1 L2 L3
+(accrete Stone_Plinth L1:Wood_Frame L2:Glass_Observatory L3:Copper_Roof)
+Run stress test.
+Show creative chain examples.
+Show chain composition for edge cases.
+Generate the image.
+```
+
+```
+Modern 3-story apartment. The Industrial Loft (Grid/Modular).
+anchor:Frame + accrete:L1..L3 @ Modular > select:Brick | (State) + utilize:Fire_Escape
+```
+
+---
+
