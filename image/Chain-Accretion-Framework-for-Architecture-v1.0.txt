@@ -139,6 +139,18 @@ Generate the image.
 ```
 Modern 3-story apartment. The Industrial Loft (Grid/Modular).
 anchor:Frame + accrete:L1..L3 @ Modular > select:Brick | (State) + utilize:Fire_Escape
+(State) + utilize:HVAC_Rooftop
+(State) + utilize:Scaffolding
+(State) - utilize:Scaffolding
+(State) + accrete:L4 @ (suggestor > filter:High_Tech_Facade > select:Glass_Curtain)
+merge:Grid > Chaos
+merge:Parasite((State), (archetype:Machiya))
+revert:State-1
+(State) - archetype:Machiya
+reset:anchor:Frame + accrete:L1..L3
+anchor:Frame + select:L1..L3 @ singular_view
+anchor:Frame + accrete:L1..L3 @ setting:Urban_Night
+(State) + utilize:Neon_Sign
 ```
 
 ---
