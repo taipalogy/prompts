@@ -139,19 +139,60 @@ Generate the image.
 ```
 Modern 3-story apartment. The Industrial Loft (Grid/Modular).
 anchor:Frame + accrete:L1..L3 @ Modular > select:Brick | (State) + utilize:Fire_Escape
+
 (State) + utilize:HVAC_Rooftop
 (State) + utilize:Scaffolding
 (State) - utilize:Scaffolding
 (State) + accrete:L4 @ (suggestor > filter:High_Tech_Facade > select:Glass_Curtain)
+(State) + (suggestor > filter:Industrial > select:Brass_Piping)
 merge:Grid > Chaos
 merge:Parasite((State), (archetype:Machiya))
-revert:State-1
 (State) - archetype:Machiya
 reset:anchor:Frame + accrete:L1..L3
 anchor:Frame + select:L1..L3 @ singular_view
 anchor:Frame + accrete:L1..L3 @ setting:Urban_Night
 (State) + utilize:Neon_Sign
 merge((State), (accrete:External @ Chaos(utilize:Cantilever) @ Corrugated_Steel))
+merge((State), (accrete:L4 @ Botanical)
+(State) ~ weather:Crystallization
+revert:State-1
+```
+
+```
+The "Chimera" (Hybrid Archetype)
+anchor:Beast_Walk + merge(accrete:L1 @ archetype:Gothic, accrete:L1 @ archetype:Shanty) + utilize:Mechanical_Stitch
+
+The "Sky-Hook" (Inverted Accretion)
+anchor:Anti-Grav_Seed + (accrete:L1..L5 @ material:Glass > filter:Invisible_Support > select:Tethered_Spire) + utilize:Tether_Cables
+
+The "Recursive Crawler" (Nested Structure)
+anchor:Heavy_Tank + accrete(L1:(anchor:Small_Bot + accrete:L2 @ archetype:Turret))
+
+The "Fossil Record" (Temporal Erosion)
+anchor:Monolith_Core + accrete:L1..L5 @ archetype:Machiya ~ weather:Aeolian_Abrasion(intensity:High) > select:Exposed_Skeleton
+
+The "Ghost Grid" (Negative Space Accretion)
+anchor:Brutalist_Plinth + (accrete:L1..L3 @ archetype:Modular > filter:Glass_Only > select:Void_Volume) + utilize:Neon_Borders
+```
+
+```
+The "Valency Collapse" (Constraint Violation)
+anchor:Tall_Slim + accrete:L1..L10 @ valency:Chaos > filter:No_Outriggers
+
+The "Infinite Loop" (Fractal Flattening)
+anchor:Core + accrete(L1:anchor:Core)
+
+The "Void Link" (Empty Accretion)
+anchor:Beast + accrete:L1 | (anchor:Beast + accrete:L1 + accrete:null)
+
+The "Material Rejection" (Chemical Incompatibility)
+anchor:Copper_Hull + accrete:L1 @ material:Salt_Crystal ~ weather:Maritime_Humidity
+
+The "Valency Conflict" (Gravity War)
+merge(accrete:L1 @ valency:Aspiration, accrete:L1 @ valency:Radial)
+
+The "Over-Weathered Collapse" (Zero-State Error)
+anchor:Thin_Lattice ~ weather:Century_Decay(intensity:Max)
 ```
 
 ---
