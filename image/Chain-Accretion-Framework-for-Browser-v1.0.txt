@@ -1,0 +1,157 @@
+> @taipalogy
+> 2026-02-12
+---
+
+# Chain Accretion Framework for Browser v1.0
+
+This framework is a **UI/UX Logic Engine** featuring **Contextual Elasticity**, **Archetypal Pathing**, and **Zero-Overlap Spatial Physics**. It operates within a high-fidelity 2D desktop environment optimized for incremental construction.
+
+---
+
+## Folder Structure
+
+```
+/PromptFramework/
+    /Verbs/: 
+        - anchor.md (Alpha Anchor / Primary Focus / Implies Reset)
+        - pull_focus.md (Z-index promotion / Activation)
+        - accrete.md (Component stacking - Additive)
+        - subtract.md (Component removal / State reduction)
+        - tether.md (Filament mapping / Dependency linking)
+        - filter.md (Narrow sets by criteria)
+        - select.md (Final choice / State collapse / Commitment)
+        - utilize.md (Plugins / Skills)
+    /Nouns/: 
+        - core.md (Base Window / Liquid Glass)
+        - satellite.md (Beta/Ghost window states)
+        - widget.md (URL_Bar, Tab_Bar, Sidebar)
+    /Properties/:
+        - environment.md (Studio-White / #FFFFFF / 2D Desktop)
+        - field_physics.md (Natural Buoyancy / Magnetic Guttering)
+        - material_default.md (Liquid Glass Specification)
+    /Methods/:
+        - interaction_handler.md (pull_focus, click_widget)
+    /Rules/: 
+        - valency_formula.md (I + V + P = Priority State)
+        - spatial_physics.md (Zero-Overlap / Radial Repulsion)
+        - routing_logic.md (External Bypass / Archetypal Geometry)
+        - scaling_protocol.md (1.5x Audit scaling / Radial Recession)
+    /SemanticParsingLayer/: 
+        - parser.md (Shorthand to Lisp)
+        - suggestor.md (Contextual widget recommendations)
+        - genetic_presets.md (Archetype Chains)
+
+```
+
+---
+
+## A. Global Core Specifications
+
+| Component | Technical Specification | Operational Logic |
+| --- | --- | --- |
+| **Grid Logic** | **Dynamic Field** | No fixed slots; satellites float in available white space. |
+| **Environment** | **Studio-White** | Hex #FFFFFF workspace; 5% opacity perspective grid floor. |
+| **Material** | **Liquid Glass** | Translucent frosted-glass; refraction: 0.15; blur: 20px. |
+| **Edge Logic** | **Beveled Chrome** | Borders designed to catch ambient light. |
+| **Tethering** | **Filament Links** | Neon threads (0.5px) mapping logical data dependencies. |
+
+---
+
+## B. Contextual Elasticity: field_physics.md
+
+The UI utilizes **Zero-Overlap** and **Radial Repulsion** to maintain visual clarity:
+
+* **Rule: UI_Collision = False**: No two windows or widgets may share the same XY coordinate.
+* **Magnetic Guttering**: 16px minimum clearance between windows.
+* **Natural Buoyancy**: Alpha expansion physically displaces Beta satellites in the 2D plane.
+* **Z-Axis Depth**: Alpha (), Beta (), Ghost ().
+
+---
+
+## C. Archetypal Pathing: routing_logic.md
+
+Tether geometry is governed by the **Archetype DNA** while respecting the **External Bypass**.
+
+* **Rule**: `tether_path = external_bypass`
+* **Constraint**: Filaments must travel around the perimeter of the Alpha Anchor (4px offset).
+* **Geometry Styles**:
+* **Organic Spline** (Bézier curves)
+* **Rectilinear** (Manhattan/90-degree)
+* **Angled Prism** (45-degree junctions)
+
+
+* **Z-Index**: Filaments < Windows (Links reside behind or beside the glass).
+
+---
+
+## D. Dynamic Weighting (The Adaptation Engine)
+
+Spatial hierarchy is governed by the **Valency Formula**:
+
+* **Alpha (>0.8)**: Promoted to top Z-index, expanded, and sharpened.
+* **Beta (0.5 - 0.7)**: Active satellite; positioned in clear space and fully legible.
+* **Ghost (<0.3)**: Background windows; blurred; **shrinking logic is disabled.**
+
+---
+
+## E. Composition Shorthand
+
+* `+` : **Accretion** (Add widget/satellite)
+* `-` : **Subtraction** (Remove state/component)
+* `->` : **Weight Assignment** (Apply Valency)
+* `|` : **Comparison** (Symmetric audit)
+* `>` : **Filter/Select** (Gate/Commitment)
+* `@` : **Attribute** (Skin/Trait)
+* `()` : **Sectional** (Local UI sub-routine)
+
+Example: The Z-Index Depth Debugger
+
+> `anchor:Stacking_Context @ Liquid_Glass + utilize:Skill(3D_Visualizer) + suggestor:Layer_Order > filter:Overlapping_Elements > select:Modal_Overlay + accrete:satellite(Z_Axis_Map) @ Beveled_Chrome + archetype:Depth_Hierarchy`
+
+---
+
+## F. Rendering Constraints
+
+* **L0 State**: Render **only** the central Liquid Glass browser anchor on the Studio-White floor.
+* **L1+ State**: Orbiting satellites appear in floating space. Filaments route via **External Bypass** using the assigned **Archetype Geometry**. **Zero-Overlap** enforced.
+
+---
+
+Welcome. Current State: **L0 (Alpha Anchor Ready)**.
+Next Step: `anchor:Safari_Browser + accrete:widget(URL_Bar) @ High_Contrast_Opaque`
+
+---
+
+```
+Show creative chain examples.
+Show chain composition for edge cases.
+Show chain composition for agentic web browsing.
+Show example chains for Google Antigravity: The Agentic IDE.
+Show creative plugin chains for browser workspace.
+Show examples for intensive software development leveraging the browser.
+A multi-satellite setup for widget implementation.
+A constellation setup for real-time stock market analysis.
+Phase-by-Phase breakdown of the chain.
+List semantic commands.
+```
+
+```
+Generate [Number] example chains for Anthropic Agentic Accretions using a Skill-First approach. Ensure the output strictly follows the Composition Shorthand format. Focus on [Use Case, e.g., cybersecurity, legal discovery, or creative coding].
+```
+
+```
+List archetypes.
+How will different archetypes interpret the chain?
+Introduce more archetypes.
+Switch to next archetype.
+Introduce more materials.
+Show Material-Archetype Synergy Matrix.
+Find best match of archetype and material for this chain.
+Find next best match.
+Generate the browser image.
+Generate the chain image.
+```
+
+```
+A HUD environment for movie [Minority Report].
+```
