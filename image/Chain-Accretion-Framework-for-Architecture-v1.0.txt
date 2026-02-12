@@ -195,5 +195,3 @@ The "Over-Weathered Collapse" (Zero-State Error)
 anchor:Thin_Lattice ~ weather:Century_Decay(intensity:Max)
 ```
 
----
-
