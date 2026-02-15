@@ -195,3 +195,19 @@ The "Over-Weathered Collapse" (Zero-State Error)
 anchor:Thin_Lattice ~ weather:Century_Decay(intensity:Max)
 ```
 
+```
+Generate a image for this chain.
+
+Mutation (`>`):
+anchor:Machiya > (filter:Inherit(Plan) + filter:Override(Valency:Chaos, Material:Neon))
+
+Extension (`+`):
+anchor:Machiya + accrete:L1..L2 @ (attribute:Cyber_Retrofit + utilize:Cabling)
+
+Encapsulation (`utilize`):
+anchor:Machiya + utilize:Exoskeleton(accrete:L0 @ material:Brutalist_Concrete)
+
+Interface (`filter`):
+anchor:Machiya > filter:Geometry_Only + merge:(@material:Hologram_Blue)
+```
+
