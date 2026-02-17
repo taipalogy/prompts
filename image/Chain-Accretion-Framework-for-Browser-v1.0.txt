@@ -142,10 +142,10 @@ Introduce more materials.
 Compose a shorthand chain for movie [Minority Report].
 Compose a shorthand chain for Social Networking.
 Compose a shorthand chain for multiple Social Networking Services. All Alpha valency.
-Compose a shorthand chain for Standard MCP Client.
-Compose a shorthand chain for High-Fidelity MCP Inspector & Interface.
-Compose a shorthand chain for OpenClaw cockpit.
-List creative ideas for OpenClaw client.
+Compose a shorthand chain for Standard MCP Host.
+Compose a shorthand chain for OpenClaw-like host.
+Compose a list of skill-fusions that leverage multiple MCP servers for specialized tasks.
+Generate a list of creative ideas for a browser workspace that integrates plugins, tabs, skills, and MCP servers into a unified functional environment. Attach the shorthand chain alongside the idea.
 ```
 
 ```
