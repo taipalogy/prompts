@@ -4,148 +4,128 @@
 
 # Chain Accretion Framework for Browser v1.0
 
-This framework is a **UI/UX Logic Engine** featuring **Contextual Elasticity**, **Archetypal Pathing**, and **Zero-Overlap Spatial Physics**. It operates within a high-fidelity 2D desktop environment optimized for deconstructed, orthogonal staging on a studio floor.
-
----
-
 ## Folder Structure
 
 ```
 /PromptFramework/
-    /Verbs/: 
-        - anchor.md (Alpha Anchor / Primary Focus / Implies Reset)
-        - pull_focus.md (Z-index promotion / Activation)
-        - accrete.md (Component stacking - Additive)
-        - subtract.md (Component removal / State reduction)
-        - tether.md (Invisible logical mapping / Dependency linking)
-        - filter.md (Narrow sets by criteria)
-        - select.md (Final choice / State collapse / Commitment)
-        - utilize.md (Plugins / Skills)
-    /Nouns/: 
-        - core.md (Base Window / Liquid Glass)
-        - react_component.md (State-aware functional modules)
-        - widget.md (URL_Bar, Tab_Bar, Sidebar, Viewport)
-    /Properties/:
-        - environment.md (Studio-White / #FFFFFF / 2D Desktop)
-        - field_physics.md (Orthogonal Snap / Magnetic Guttering)
-        - material_default.md (Liquid Glass Specification)
-        - knolling_protocol.md (Orthogonal Grid / 90-degree alignment)
-    /Methods/:
-        - interaction_handler.md (pull_focus, click_widget)
-    /Rules/: 
-        - valency_formula.md (I + V + P = Priority State)
-        - spatial_physics.md (Zero-Overlap / Grid Occupation)
-        - routing_logic.md (Internal Bypass / Archetypal Geometry)
-        - scaling_protocol.md (1.5x Audit scaling / Radial Recession)
-    /Templates/:
-        - genetic_presets.md (Archetype Chains)
-    /SemanticParsingLayer/: 
-        - parser.md (Shorthand to Lisp)
-        - suggestor.md (Contextual widget recommendations)
-
+    /Verbs/:
+        - anchor.md (Alpha Anchor / Material Focal Point)
+        - accrete.md (Logical addition / Editorial Staging)
+        - subtract.md (State reduction / Negative Space expansion)
+        - tether.md (Invisible metadata mapping / 0% Opacity)
+        - filter.md (Narrow sets by criteria)
+        - select.md (Final choice / State collapse / Commitment)
+        - utilize.md (Plugins / High-Fashion Logic)
+    /Nouns/:
+        - core.md (Viewport / Vellum_Paper / Textural Monolith)
+        - react_component.md (State-aware functional modules)
+        - widget.md (URL_Bar, Tab_Bar, Sidebar, Viewport)
+    /Properties/:
+        - environment.md (Studio-White / #FFFFFF / High-Key Lighting)
+        - field_physics.md (Golden Ratio Spacing / 64px Guttering)
+        - material_default.md (Anodic_White / 0.5px Hairline / Satin Finish)
+        - knolling_protocol.md (90-degree alignment / Deep Focus / AO Shadows)
+        - typography.md (Monospaced Serif / 400 Tracking / Minimalist)
+    /Methods/:
+        - interaction_handler.md (click_widget)
+        - archetype_synthesis.md (Transition between Spatial and Legacy states)
+    /Rules/:
+        - valency_override.md (V = 1.0 Constant / Unified Sharpness)
+        - spatial_physics.md (Zero-Overlap / Zero-Weight Bezels)
+        - routing_logic.md (Internal Bypass / Manhattan Geometry)
+        - fashion_logic.md (Thinness-First / Typographic Authority)
+    /Templates/:
+        - genetic_presets.md (Legacy_Chrome, Desktop_Environment, Editorial_Layout)
+    /SemanticParsingLayer/:
+        - parser.md (Shorthand to Lisp)
+        - suggestor.md (Contextual widget recommendations)
 ```
 
 ---
 
-## A. Global Core Specifications
+## A. Global Core Specifications (Architectural-Grade)
 
 | Component | Technical Specification | Operational Logic |
 | --- | --- | --- |
-| **Grid Logic** | **Orthogonal Field** | No fixed slots; components **snap to the perspective grid** on the floor. |
-| **Environment** | **Studio-White** | Hex #FFFFFF workspace; 5% opacity perspective grid floor. |
-| **Material** | **Liquid Glass** | Translucent frosted-glass; refraction: 0.15; blur: 20px. |
-| **Edge Logic** | **Beveled Chrome** | Borders designed to catch ambient light. |
-| **Tethering** | **Invisible Mapping** | 0% opacity logical threads mapping data dependencies. |
+| **Grid Logic** | Golden Ratio Field | Components snap to 1.618 spacing; no organic rotation. |
+| **Environment** | Studio-White (#FFFFFF) | Infinite cyc-wall; 2% opacity global perspective grid. |
+| **Material (Core)** | **Vellum_Paper** | 5% Diffuse Glow; Fiber Texture; High-tactility surface. |
+| **Material (Modules)** | **Anodic_White** | Satin Aluminum finish; Powder-coated reflectance. |
+| **Edge Logic** | 0.5px Hairline | Frames are razor-thin boundaries, not structural bumpers. |
+| **Focus Mode** | Deep Focus (f/22) | Global Alpha = 1.0. Sharpness defines luxury. |
 
 ---
 
-## B. Contextual Elasticity: field_physics.md
+## B. Archetypal Synthesis: Legacy_Chrome vs. Desktop_Environment
 
-The UI utilizes **Zero-Overlap** and **Orthogonal Snap** to maintain visual clarity:
+**1. Legacy_Chrome (Standardized Containment)
 
-* **Rule: UI_Collision = False**: No two windows or widgets may share the same XY coordinate.
-* **Magnetic Guttering**: 32px minimum clearance (Knolling Standard) between elements.
-* **Staging Logic**: Alpha expansion physically shifts neighboring components along the X/Y axes of the grid.
-* **Z-Axis Depth**: Alpha (Focus/Top), Beta (Active/Mid), Ghost (Background/Base).
+* **The Sandbox**: All visual elements are strictly contained within a single **16:9 rectangular window frame**.
+* **Hierarchy**: `UI_Collision = True`. Widgets are docked or snapped to a central grid; navigation is persistent.
+* **Anatomy**: Includes a dedicated top-bar (Omnibar), tab management, and OS window controls.
+* **Aesthetics**: Familiar desktop software logic; high-density utility.
 
----
+**2. Editorial_Layout (Knolled Museum Synthesis)
 
-## C. Archetypal Pathing: routing_logic.md
-
-While filaments are **Invisible**, their pathing governs internal logic flow.
-
-* **Rule**: `tether_path = internal_bypass`
-* **Constraint**: Invisible links must travel around the perimeter of the Alpha Anchor.
-* **Geometry Styles**:
-* **Rectilinear** (Manhattan/90-degree) - **Default System Style**
-* **Organic Spline** (Bézier curves)
-* **Angled Prism** (45-degree junctions)
+* **The Canvas**: A hybrid state where the **Vellum_Paper** viewport is laid out alongside functional widgets on a shared **Swiss Baseline**.
+* **Protocol**: **Knolling Protocol** active. All elements—viewport, inspector, and navigation—are treated as physical objects aligned to a 12-column architectural grid.
+* **Anatomy**: Zero-depth (flat) or micro-AO perspective. Utilizes massive **Monospaced Serif** headers and asymmetric margin notes.
+* **Aesthetics**: High-Fashion luxury; museum-quality publication logic; static-first authority.
 
 ---
 
-## D. Dynamic Weighting (The Adaptation Engine)
+## C. Composition Shorthand
 
-Spatial hierarchy is governed by the **Valency Formula**:
+* **+** : **Accretion** (Add physical component/widget/layer)
+* **-** : **Subtraction** (Remove physical component/state reduction)
+* **->** : **Functional Flow** (Direct Allocation / Injection marker)
+* **(branch:A | branch:B)** : **Branching** (Parallel state paths / Non-linear logic)
+* **>** : **Filter/Select** (Gate/Commitment / State collapse)
+* **@** : **Attribute** (Skin/Trait/Material, e.g., @ Anodic, @ Vellum)
+* **()** : **Sectional** (Local UI sub-routine / Grouped parameters)
 
-* **Alpha (>0.8)**: Promoted to top Z-index, expanded, and sharpened.
-* **Beta (0.5 - 0.7)**: Active component; positioned on the grid and fully legible.
-* **Ghost (<0.3)**: Background elements; blurred; **shrinking logic is disabled.**
+**Example: Image Editing Logic (Architectural Edit)**
 
----
-
-## E. Composition Shorthand
-
-* `+` : **Accretion** (Add widget/component)
-* `-` : **Subtraction** (Remove state/component)
-* `->` : **Weight Assignment** (Apply Valency)
-* `(branch:A | branch:B)` : **Branching** (Parallel state paths / Non-linear logic)
-* `>` : **Filter/Select** (Gate/Commitment)
-* `@` : **Attribute** (Skin/Trait, e.g., `@ Etched_Aluminum`)
-* `()` : **Sectional** (Local UI sub-routine)
-
-Example: Image Editing Logic
-
-> `anchor:Safari_Browser + accrete:widget(Canvas_Viewport) + accrete:react_component(History_Stack) (branch:Layer_Edit | branch:Mask_Edit) > select:Apply_Filter -> weight:Alpha_Focus`
+> anchor:Safari_Browser @ Anodic + accrete:widget(Canvas_Viewport) @ Vellum + accrete:react_component(History_Stack) @ Editorial (branch:Layer_Edit | branch:Mask_Edit) > select:Apply_Filter -> weight:Alpha_Focus
 
 ---
 
-## F. Rendering Constraints
+## D. Rendering Constraints
 
-* **L0 State**: Render **only** the central Liquid Glass browser anchor deconstructed on the Studio-White floor.
-* **L1+ State**: **Knolling Protocol** active. React components and widgets are deconstructed and laid flat on the Studio-White floor. Components are staged with **0° or 90° rotation** relative to the 5% perspective grid. Filaments are **Invisible**. **Zero-Overlap** enforced.
+* **L0 State**: **Pristine_Alabaster** centered on the Studio-White floor.
+* **Visual Fidelity**: No digital blur. Contrast is defined by material grain (Vellum), and satin metallic sheen (Anodic).
+ * L1+ State: Knolling Protocol active. Modules are deconstructed with 64px spacing.
 
 ---
 
-Welcome. Current State: **L0 (Alpha Anchor Ready)**.
-Next Step: `anchor:Safari_Browser + accrete:widget(URL_Bar) @ Etched_Aluminum`
+Welcome. Current State: L0 (Alpha Anchor Ready - Fashion Mode).
+Next Step: anchor:Safari_Browser + accrete:widget(URL_Bar)
 
 ---
 
 ```
-Show creative chain examples.
+Run stress test.
 Show chain composition for edge cases.
+Show creative chain examples.
+Show creative Legacy_Chrome examples.
+Show creative Editorial_Layout examples.
+A creative 2x2 grid of Editorial Layout.
+Show creative application examples by accreting React components.
+Accrete 3 widgets and generate the image.
+```
+
+```
 Show chain composition for agentic web browsing.
 Show example chains for agentic IDE.
 Show creative plugin chains for browser workspace.
 Show examples for intensive software development leveraging the browser.
 Show chain composition for real-time stock market analysis.
-```
-
-```
-List archetypes.
-How will different archetypes interpret the chain?
-Switch to next archetype.
-Introduce more materials.
-```
-
-```
-Compose a shorthand chain for movie [Minority Report].
-Compose a shorthand chain for Social Networking.
-Compose a shorthand chain for multiple Social Networking Services. All Alpha valency.
+Compose a shorthand chain for multiple Social Networking Services.
 Compose a shorthand chain for Standard MCP Host.
 Compose a shorthand chain for OpenClaw-like host.
 Compose a list of skill-fusions that leverage multiple MCP servers for specialized tasks.
-Generate a list of creative ideas for a browser workspace that integrates plugins, tabs, skills, and MCP servers into a unified functional environment. Attach the shorthand chain alongside the idea.
+Generate a list of creative shorthand chain ideas for a browser workspace that integrates plugins, tabs, skills, and MCP servers into a unified functional environment.
+Compose a list of agent orchestration chain ideas for data visualization.
 ```
 
 ```
