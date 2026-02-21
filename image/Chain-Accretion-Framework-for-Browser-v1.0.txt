@@ -10,8 +10,8 @@
 /PromptFramework/
     /Verbs/:
         - anchor.md (Alpha Anchor / Material Focal Point)
-        - accrete.md (Logical addition / Editorial Staging)
-        - subtract.md (State reduction / Negative Space expansion)
+        - accrete.md (Logical addition / Editorial Staging / Widget / Skill)
+        - subtract.md (State reduction / Negative Space expansion / Widget / Skill)
         - tether.md (Invisible metadata mapping / 0% Opacity)
         - filter.md (Narrow sets by criteria)
         - select.md (Final choice / State collapse / Commitment)
@@ -28,7 +28,7 @@
         - typography.md (Monospaced Serif / 400 Tracking / Minimalist)
     /Methods/:
         - interaction_handler.md (click_widget)
-        - archetype_synthesis.md (Transition between Spatial and Legacy states)
+        - archetype_synthesis.md (Transition between Spatial and Legacy states / Safari_Browser / Firefox_Browser)
     /Rules/:
         - valency_override.md (V = 1.0 Constant / Unified Sharpness)
         - spatial_physics.md (Zero-Overlap / Zero-Weight Bezels)
@@ -38,7 +38,7 @@
         - genetic_presets.md (Legacy_Chrome, Desktop_Environment, Editorial_Layout)
     /SemanticParsingLayer/:
         - parser.md (Shorthand to Lisp)
-        - suggestor.md (Contextual widget recommendations)
+        - suggestor.md (Contextual widget/skill recommendations)
 ```
 
 ---
@@ -74,7 +74,13 @@
 
 ---
 
-## C. Composition Shorthand
+## C. Rules (The Logic)
+
+Replce current anchor with `anchor:Legacy_Chrome @ Anodic`
+
+---
+
+## D. Composition Shorthand
 
 * **+** : **Accretion** (Add physical component/widget/layer)
 * **-** : **Subtraction** (Remove physical component/state reduction)
@@ -86,11 +92,18 @@
 
 **Example: Image Editing Logic (Architectural Edit)**
 
-> anchor:Safari_Browser @ Anodic + accrete:widget(Canvas_Viewport) @ Vellum + accrete:react_component(History_Stack) @ Editorial (branch:Layer_Edit | branch:Mask_Edit) > select:Apply_Filter -> weight:Alpha_Focus
+> anchor:Safari_Browser @ Anodic + accrete:widget(Canvas_Viewport) @ Vellum + accrete:react_component(History_Stack) @ Editorial (branch:Layer_Edit | branch:Mask_Edit) > select:Apply_Filter
 
 ---
 
-## D. Rendering Constraints
+## D. Semantic Parsing Layer
+
+**suggestor.md**
+Identifies and recommends candidate attributes or next-step components based on current archetypal logic.
+
+---
+
+## E. Rendering Constraints
 
 * **L0 State**: **Pristine_Alabaster** centered on the Studio-White floor.
 * **Visual Fidelity**: No digital blur. Contrast is defined by material grain (Vellum), and satin metallic sheen (Anodic).
@@ -123,6 +136,7 @@ Show chain composition for real-time stock market analysis.
 Compose a shorthand chain for multiple Social Networking Services.
 Compose a shorthand chain for Standard MCP Host.
 Compose a shorthand chain for OpenClaw-like host.
+Show chain composition for OpenClaw interface.
 Compose a list of skill-fusions that leverage multiple MCP servers for specialized tasks.
 Generate a list of creative shorthand chain ideas for a browser workspace that integrates plugins, tabs, skills, and MCP servers into a unified functional environment.
 Compose a list of agent orchestration chain ideas for data visualization.
