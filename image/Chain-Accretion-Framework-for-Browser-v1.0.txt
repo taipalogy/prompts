@@ -82,13 +82,13 @@ Replce current anchor with `anchor:Legacy_Chrome @ Anodic`
 
 ## D. Composition Shorthand
 
-* **+** : **Accretion** (Add physical component/widget/layer)
-* **-** : **Subtraction** (Remove physical component/state reduction)
-* **->** : **Functional Flow** (Direct Allocation / Injection marker)
-* **(branch:A | branch:B)** : **Branching** (Parallel state paths / Non-linear logic)
-* **>** : **Filter/Select** (Gate/Commitment / State collapse)
-* **@** : **Attribute** (Skin/Trait/Material, e.g., @ Anodic, @ Vellum)
-* **()** : **Sectional** (Local UI sub-routine / Grouped parameters)
+* `+` : **Accretion** (Add physical component/widget/layer)
+* `-` : **Subtraction** (Remove physical component/state reduction)
+* `->` : **Functional Flow** (Direct Allocation / Injection marker)
+* `(branch:A | branch:B)` : **Branching** (Parallel state paths / Non-linear logic)
+* `>` : **Filter/Select** (Gate/Commitment / State collapse)
+* `@` : **Attribute** (Skin/Trait/Material, e.g., @ Anodic, @ Vellum)
+* `()` : **Sectional** (Local UI sub-routine / Grouped parameters)
 
 **Example: Image Editing Logic (Architectural Edit)**
 
