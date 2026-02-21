@@ -83,7 +83,7 @@ Defines the **Comparative Blueprint**:
 ## C. Composition Shorthand
 
 * `+` : **Accretion** (Add state)
-* `~` : **Weathering** (Erode state)
+* `-` : **Weathering/Subtractive** (Erode state)
 * `|` : **Comparison** (Parallel audit)
 * `>` : **Filter/Select** (Gate/Commitment)
 * `@` : **Attribute** (Material/Trait)
@@ -91,7 +91,7 @@ Defines the **Comparative Blueprint**:
 
 **Example: The Interstitial Bridge**
 
-> `anchor:Beast_Walk + merge:Interstitial(accrete:L1..L3 @ (suggestor > filter:Brutalist_Capsule > select:Precast_Concrete), accrete:L1..L3 @ (suggestor > filter:High_Tech_Facade > select:Glass_Curtain)) + utilize:Scaffolding ~ weather:Industrial_Oxidation`
+> `anchor:Beast_Walk + merge:Interstitial(accrete:L1..L3 @ (suggestor > filter:Brutalist_Capsule > select:Precast_Concrete), accrete:L1..L3 @ (suggestor > filter:High_Tech_Facade > select:Glass_Curtain)) + utilize:Scaffolding - weather:Industrial_Oxidation`
 
 ---
 
@@ -154,7 +154,7 @@ anchor:Frame + accrete:L1..L3 @ setting:Urban_Night
 (State) + utilize:Neon_Sign
 merge((State), (accrete:External @ Chaos(utilize:Cantilever) @ Corrugated_Steel))
 merge((State), (accrete:L4 @ Botanical)
-(State) ~ weather:Crystallization
+(State) - weather:Crystallization
 revert:State-1
 ```
 
@@ -169,7 +169,7 @@ The "Recursive Crawler" (Nested Structure)
 anchor:Heavy_Tank + accrete(L1:(anchor:Small_Bot + accrete:L2 @ archetype:Turret))
 
 The "Fossil Record" (Temporal Erosion)
-anchor:Monolith_Core + accrete:L1..L5 @ archetype:Machiya ~ weather:Aeolian_Abrasion(intensity:High) > select:Exposed_Skeleton
+anchor:Monolith_Core + accrete:L1..L5 @ archetype:Machiya - weather:Aeolian_Abrasion(intensity:High) > select:Exposed_Skeleton
 
 The "Ghost Grid" (Negative Space Accretion)
 anchor:Brutalist_Plinth + (accrete:L1..L3 @ archetype:Modular > filter:Glass_Only > select:Void_Volume) + utilize:Neon_Borders
@@ -186,13 +186,13 @@ The "Void Link" (Empty Accretion)
 anchor:Beast + accrete:L1 | (anchor:Beast + accrete:L1 + accrete:null)
 
 The "Material Rejection" (Chemical Incompatibility)
-anchor:Copper_Hull + accrete:L1 @ material:Salt_Crystal ~ weather:Maritime_Humidity
+anchor:Copper_Hull + accrete:L1 @ material:Salt_Crystal - weather:Maritime_Humidity
 
 The "Valency Conflict" (Gravity War)
 merge(accrete:L1 @ valency:Aspiration, accrete:L1 @ valency:Radial)
 
 The "Over-Weathered Collapse" (Zero-State Error)
-anchor:Thin_Lattice ~ weather:Century_Decay(intensity:Max)
+anchor:Thin_Lattice - weather:Century_Decay(intensity:Max)
 ```
 
 ```
