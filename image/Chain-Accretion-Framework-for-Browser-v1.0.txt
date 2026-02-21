@@ -10,12 +10,12 @@
 /PromptFramework/
     /Verbs/:
         - anchor.md (Alpha Anchor / Material Focal Point)
-        - accrete.md (Logical addition / Editorial Staging / Widget / Skill)
-        - subtract.md (State reduction / Negative Space expansion / Widget / Skill)
+        - accrete.md (Component addition / Editorial Staging)
+        - subtract.md (Component removal / State reduction / Negative Space expansion)
         - tether.md (Invisible metadata mapping / 0% Opacity)
         - filter.md (Narrow sets by criteria)
         - select.md (Final choice / State collapse / Commitment)
-        - utilize.md (Plugins / High-Fashion Logic)
+        - utilize.md (Plugins / Skills / High-Fashion Logic)
     /Nouns/:
         - core.md (Viewport / Vellum_Paper / Textural Monolith)
         - react_component.md (State-aware functional modules)
