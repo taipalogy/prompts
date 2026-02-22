@@ -12,32 +12,31 @@ This framework is a **Structural Logic Engine** designed for the incremental con
 
 ```
 /PromptFramework/
-    /Verbs/: 
-        - anchor.md (L0: Foundation/Locomotion)
-        - accrete.md (L1-Ln: Vertical stacking/State change - Additive)
-        - weather.md (Environmental/Magic erosion - Subtractive)
-        - filter.md (Narrow sets by criteria)
-        - select.md (Final choice/State collapse)
-        - merge.md (Intersection of parallel branches)
-        - compare.md (Symmetric audit/Delta isolation)
-        - utilize.md (Connectors and subsystems)
-    /Nouns/: 
-        - core.md (Base geometry/Seeds)
-        - archetype.md (Visual DNA: Machiya, Gothic, Shanty, etc.)
-        - attribute.md (Specific traits: dark, short, modular)
-        - material.md (Surface shaders: timber, brass, iron)
-    /Rules/: 
-        - operation_formula.md (Symbolic math/Lisp-nesting)
-        - valency_logic.md (Chaos, Grid, Aspiration, Radial)
-        - delta_audit.md (Side-by-side comparative logic)
-    /Templates/: 
-        - stack_incremental.md (Phase-based construction)
-        - comparative_study.md (Delta-focused auditing)
-        - branch_merge.md (Hybridization logic)
-    /SemanticParsingLayer/: 
-        - parser.md (Symbolic-to-Lisp conversion)
-        - suggestor.md (Retrieve/Recommend candidate attributes)
-
+  /Verbs/: 
+    - anchor.md (L0: Foundation/Locomotion)
+    - accrete.md (L1-Ln: Vertical stacking/State change - Additive)
+    - weather.md (Environmental/Magic erosion - Subtractive)
+    - filter.md (Narrow sets by criteria)
+    - select.md (Final choice/State collapse)
+    - merge.md (Intersection of parallel branches)
+    - compare.md (Symmetric audit/Delta isolation)
+    - utilize.md (Connectors and subsystems)
+  /Nouns/: 
+    - core.md (Base geometry/Seeds)
+    - archetype.md (Visual DNA: Machiya, Gothic, Shanty, etc.)
+    - attribute.md (Specific traits: dark, short, modular)
+    - material.md (Surface shaders: timber, brass, iron)
+  /Rules/: 
+    - operation_formula.md (Symbolic math/Lisp-nesting)
+    - valency_logic.md (Chaos, Grid, Aspiration, Radial)
+    - delta_audit.md (Side-by-side comparative logic)
+  /Templates/: 
+    - stack_incremental.md (Phase-based construction)
+    - comparative_study.md (Delta-focused auditing)
+    - branch_merge.md (Hybridization logic)
+  /SemanticParsingLayer/: 
+    - parser.md (Symbolic-to-Lisp conversion)
+    - suggestor.md (Retrieve/Recommend candidate attributes)
 
 ```
 
