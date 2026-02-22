@@ -8,37 +8,37 @@
 
 ```
 /PromptFramework/
-    /Verbs/:
-        - anchor.md (Alpha Anchor / Material Focal Point)
-        - accrete.md (Component addition / Editorial Staging)
-        - subtract.md (Component removal / State reduction / Negative Space expansion)
-        - tether.md (Invisible metadata mapping / 0% Opacity)
-        - filter.md (Narrow sets by criteria)
-        - select.md (Final choice / State collapse / Commitment)
-        - utilize.md (Plugins / Skills / High-Fashion Logic)
-    /Nouns/:
-        - core.md (Viewport / Vellum_Paper / Textural Monolith)
-        - react_component.md (State-aware functional modules)
-        - widget.md (URL_Bar, Tab_Bar, Sidebar, Viewport)
-    /Properties/:
-        - environment.md (Studio-White / #FFFFFF / High-Key Lighting)
-        - field_physics.md (Golden Ratio Spacing / 64px Guttering)
-        - material_default.md (Anodic_White / 0.5px Hairline / Satin Finish)
-        - knolling_protocol.md (90-degree alignment / Deep Focus / AO Shadows)
-        - typography.md (Monospaced Serif / 400 Tracking / Minimalist)
-    /Methods/:
-        - interaction_handler.md (click_widget)
-        - archetype_synthesis.md (Transition between Spatial and Legacy states / Safari_Browser / Firefox_Browser)
-    /Rules/:
-        - valency_override.md (V = 1.0 Constant / Unified Sharpness)
-        - spatial_physics.md (Zero-Overlap / Zero-Weight Bezels)
-        - routing_logic.md (Internal Bypass / Manhattan Geometry)
-        - fashion_logic.md (Thinness-First / Typographic Authority)
-    /Templates/:
-        - genetic_presets.md (Legacy_Chrome, Desktop_Environment, Editorial_Layout)
-    /SemanticParsingLayer/:
-        - parser.md (Shorthand to Lisp)
-        - suggestor.md (Contextual widget/skill recommendations)
+  /Verbs/:
+    - anchor.md (Alpha Anchor / Material Focal Point)
+    - accrete.md (Component addition / Editorial Staging)
+    - subtract.md (Component removal / State reduction / Negative Space expansion)
+    - tether.md (Invisible metadata mapping / 0% Opacity)
+    - filter.md (Narrow sets by criteria)
+    - select.md (Final choice / State collapse / Commitment)
+    - utilize.md (Plugins / Skills / High-Fashion Logic)
+  /Nouns/:
+    - core.md (Viewport / Vellum_Paper / Textural Monolith)
+    - react_component.md (State-aware functional modules)
+    - widget.md (URL_Bar, Tab_Bar, Sidebar, Viewport)
+  /Properties/:
+    - environment.md (Studio-White / #FFFFFF / High-Key Lighting)
+    - field_physics.md (Golden Ratio Spacing / 64px Guttering)
+    - material_default.md (Anodic_White / 0.5px Hairline / Satin Finish)
+    - knolling_protocol.md (90-degree alignment / Deep Focus / AO Shadows)
+    - typography.md (Monospaced Serif / 400 Tracking / Minimalist)
+  /Methods/:
+    - interaction_handler.md (click_widget)
+    - archetype_synthesis.md (Transition between Spatial and Legacy states / Safari_Browser / Firefox_Browser)
+  /Rules/:
+    - valency_override.md (V = 1.0 Constant / Unified Sharpness)
+    - spatial_physics.md (Zero-Overlap / Zero-Weight Bezels)
+    - routing_logic.md (Internal Bypass / Manhattan Geometry)
+    - fashion_logic.md (Thinness-First / Typographic Authority)
+  /Templates/:
+    - genetic_presets.md (Legacy_Chrome, Desktop_Environment, Editorial_Layout)
+  /SemanticParsingLayer/:
+    - parser.md (Shorthand to Lisp)
+    - suggestor.md (Contextual widget/skill recommendations)
 ```
 
 ---
@@ -92,7 +92,7 @@ Replce current anchor with `anchor:Legacy_Chrome @ Anodic`
 
 **Example: Image Editing Logic (Architectural Edit)**
 
-> anchor:Safari_Browser @ Anodic + accrete:widget(Canvas_Viewport) @ Vellum + accrete:react_component(History_Stack) @ Editorial (branch:Layer_Edit | branch:Mask_Edit) > select:Apply_Filter
+> anchor:Safari_Browser @ Anodic + accrete:widget(Canvas_Viewport) @ Vellum + accrete:react_component(History_Stack) @ Editorial (branch:Layer_Edit | branch:Mask_Edit) > select:Apply_Filter -> weight:Alpha_Focus
 
 ---
 
