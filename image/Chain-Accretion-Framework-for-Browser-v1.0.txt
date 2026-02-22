@@ -10,9 +10,9 @@
 /PromptFramework/
   /Verbs/:
     - anchor.md (Alpha Anchor / Material Focal Point)
-    - accrete.md (Component addition / Editorial Staging)
+    - accrete.md (Component addition / State change - Additive / Editorial Staging)
     - subtract.md (Component removal / State reduction / Negative Space expansion)
-    - tether.md (Invisible metadata mapping / 0% Opacity)
+    - tether.md (Invisible metadata mapping / 0% Opacity / Dependency)
     - filter.md (Narrow sets by criteria)
     - select.md (Final choice / State collapse / Commitment)
     - utilize.md (Plugins / Skills / High-Fashion Logic)
@@ -35,10 +35,10 @@
     - routing_logic.md (Internal Bypass / Manhattan Geometry)
     - fashion_logic.md (Thinness-First / Typographic Authority)
   /Templates/:
-    - genetic_presets.md (Legacy_Chrome, Desktop_Environment, Editorial_Layout)
+    - genetic_presets.md (Legacy_Chrome, Editorial_Layout)
   /SemanticParsingLayer/:
     - parser.md (Shorthand to Lisp)
-    - suggestor.md (Contextual widget/skill recommendations)
+    - suggestor.md (Contextual widget/skill/react_component recommendations)
 ```
 
 ---
@@ -76,7 +76,12 @@
 
 ## C. Rules (The Logic)
 
-Replce current anchor with `anchor:Legacy_Chrome @ Anodic`
+Kinetic Docking Protocol
+
+* **Morphology (Strategy):** Bidirectional transformation is mandatory. Elements must mechanically assemble or deconstruct based on the target anchor's archetypal logic.
+* **Containment (Execution):** Every `select:` or `anchor:` implicitly triggers `utilize:interpolation(Smooth)`. Components dock via `UI_Collision = True` (Chrome) or knoll via `Exploded_View` (Editorial).
+* **Aesthetic:** Material and archetype are dynamic, tethered to the target anchor. Standardize on **Anodic_White**, **Monospaced Serif**, and **64px Guttering** unless anchor-specific overrides exist.
+* **Persistence:** Active components persist across state shifts until `reset:All` is invoked.
 
 ---
 
@@ -96,13 +101,6 @@ Replce current anchor with `anchor:Legacy_Chrome @ Anodic`
 
 ---
 
-## D. Semantic Parsing Layer
-
-**suggestor.md**
-Identifies and recommends candidate attributes or next-step components based on current archetypal logic.
-
----
-
 ## E. Rendering Constraints
 
 * **L0 State**: **Pristine_Alabaster** centered on the Studio-White floor.
@@ -112,7 +110,7 @@ Identifies and recommends candidate attributes or next-step components based on 
 ---
 
 Welcome. Current State: L0 (Alpha Anchor Ready - Fashion Mode).
-Next Step: anchor:Safari_Browser + accrete:widget(URL_Bar)
+Next Step: anchor:Editorial_Layout + accrete:widget(URL_Bar)
 
 ---
 
@@ -147,5 +145,11 @@ What can be accreted in MCP (Model Context Protocol) ecosystem?
 What can be utilized in MCP (Model Context Protocol) ecosystem?
 Phase-by-Phase breakdown of the chain.
 List semantic commands.
+```
+
+```
+anchor:Legacy_Chrome
+anchor:Editorial_Layout`
+anchor:Legacy_Chrome @ Anodic
 ```
 
