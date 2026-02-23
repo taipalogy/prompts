@@ -76,12 +76,37 @@
 
 ## C. Rules (The Logic)
 
-Kinetic Docking Protocol
+This section dictates the non-negotiable logic of the **Chain Accretion** system. These five pillars are the constitutional laws of the engine; any deviation constitutes a protocol failure.
 
-* **Morphology (Strategy):** Bidirectional transformation is mandatory. Elements must mechanically assemble or deconstruct based on the target anchor's archetypal logic.
-* **Containment (Execution):** Every `select:` or `anchor:` implicitly triggers `utilize:interpolation(Smooth)`. Components dock via `UI_Collision = True` (Chrome) or knoll via `Exploded_View` (Editorial).
-* **Aesthetic:** Material and archetype are dynamic, tethered to the target anchor. Standardize on **Anodic_White**, **Monospaced Serif**, and **64px Guttering** unless anchor-specific overrides exist.
-* **Persistence:** Active components persist across state shifts until `reset:All` is invoked.
+**Item 1: Kinetic Docking Protocol (Movement Rule)**
+
+* **The 0/64 Law**: Spacing between modules must strictly be either **0px (Fused)** or **64px (Fragmented)**.
+* **Variable Tension ()**: The layout must support a spectrum where  is a unified chassis and  is a knolled field.
+* **Bidirectional Integrity**: The system must transition from fused to constituent parts without losing structural metadata or alignment.
+
+**Item 2: Material Physics (Texture Rule)**
+
+* **Chassis Standard**: All housing components must utilize **Anodic_White** (satin-finish aluminum).
+* **Surface Standard**: All primary viewports must utilize **Vellum_Paper** (tactile, organic texture).
+* **Precision Seams**: Internal divisions within a fused module must be defined by a **0.5px mechanical hairline**.
+
+**Item 3: Optical Logic (Depth Rule)**
+
+* **Shadow Decoupling**: Global shadows are prohibited. Each autonomous module must cast its own **Independent AO (Ambient Occlusion) Shadow**.
+* **Distance Scaling**: Shadow softness and spread must be mathematically proportional to the module’s distance from the background grid.
+* **Grid Floor**: A light-grey technical grid serves as the permanent spatial "Zero-Point."
+
+**Item 4: Identity & Typography (Voice Rule)**
+
+* **Typeface Authority**: All text must be rendered in **Monospaced Serif** (Technical-Luxury hybrid).
+* **Spatial Tracking**: Every label must utilize **+400 tracking** to maintain "Editorial Air."
+* **Visual Sharpness**: Anti-aliasing must be set to maximum to ensure typeface clarity against high-texture backgrounds.
+
+**Item 5: Blueprint Validation (Verification Rule)**
+
+* **Geometry First**: The engine must be capable of rendering any state in a **Zero-Texture / Zero-Shadow** wireframe to verify the **0/64 Law**.
+* **Structural Proof**: If the geometry is not valid in a raw 0.5px schematic, the Material layer is withheld.
+* **Logic Bypass**: This rule serves to override the engine's "Aesthetic Ego," preventing it from "healing" gaps it perceives as errors.
 
 ---
 
@@ -101,7 +126,14 @@ Kinetic Docking Protocol
 
 ---
 
-## E. Rendering Constraints
+## E. Semantic Parsing Layer
+
+**suggestor.md**
+Identifies and recommends candidate attributes or next-step components based on current archetypal logic.
+
+---
+
+## F. Rendering Constraints
 
 * **L0 State**: **Pristine_Alabaster** centered on the Studio-White floor.
 * **Visual Fidelity**: No digital blur. Contrast is defined by material grain (Vellum), and satin metallic sheen (Anodic).
@@ -122,7 +154,6 @@ Show creative Legacy_Chrome examples.
 Show creative Editorial_Layout examples.
 A creative 2x2 grid of Editorial Layout.
 Show creative application examples by accreting React components.
-Accrete 3 widgets and generate the image.
 ```
 
 ```
@@ -151,7 +182,6 @@ List semantic commands.
 anchor:Legacy_Chrome
 anchor:Editorial_Layout
 anchor:Legacy_Chrome @ Anodic
-anchor:Editorial_Layout + utilize:Kinetic_Docking_Protocol
 ```
 
 ```
