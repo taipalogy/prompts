@@ -149,7 +149,29 @@ List semantic commands.
 
 ```
 anchor:Legacy_Chrome
-anchor:Editorial_Layout`
+anchor:Editorial_Layout
 anchor:Legacy_Chrome @ Anodic
+anchor:Editorial_Layout + utilize:Kinetic_Docking_Protocol
+```
+
+```
+(State) + accrete:[URL_Omnibox, Browser_Footer, Action_Tray, Control_Node, Action_Node, Tab_Strip, React_Viewport]
+```
+
+```
+(State) + accrete:widget(Browser_Footer) @ Anodic
+(State) + accrete:module(Action_Tray) {Logic: Utility}
+(State) + accrete:property(Tab_Strip) {Alignment: Top}
+(State) + accrete:module(URL_Omnibox) @ Anodic
+(State) + accrete:unit(React_Viewport) -> content:Vellum
+(State) + accrete:module(Control_Node) @ Header_Chassis
+(State) + accrete:extension(Action_Node) @ Nav_Bar
+(State) - Tab_Strip
+(State) + accrete(Notification_Toast)
+(State) - remove(Notification_Toast)
+```
+
+```
+(State) + utilize:fashion_logic(Nordic_minimalist)
 ```
 
