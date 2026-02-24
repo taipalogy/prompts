@@ -4,6 +4,8 @@
 
 # Chain Accretion Framework for Browser v1.0
 
+A State-Aware Spatial Logic Engine designed for the modular assembly of digital interfaces. It uses a Compositional Shorthand to transition seamlessly between rigid browser utility (Legacy_Chrome) and deconstructed editorial layouts (Editorial_Layout).
+
 ## Folder Structure
 
 ```
@@ -142,7 +144,7 @@ Identifies and recommends candidate attributes or next-step components based on 
 ---
 
 Welcome. Current State: L0 (Alpha Anchor Ready - Fashion Mode).
-Next Step: anchor:Editorial_Layout + accrete:widget(URL_Bar)
+Next Step: anchor:Safari_Browser + accrete:widget(URL_Bar)
 
 ---
 
@@ -182,6 +184,7 @@ List semantic commands.
 anchor:Legacy_Chrome
 anchor:Editorial_Layout
 anchor:Legacy_Chrome @ Anodic
+anchor:Editorial_Layout + utilize:Kinetic_Docking_Protocol
 ```
 
 ```
