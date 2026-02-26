@@ -1,0 +1,61 @@
+# Structural Logic & Parsing Manifest
+
+The **SLP Manifest** serves as the authoritative registry for auditing, deconstructing, and synchronizing the **Chain Accretion** interface. This system facilitates high-fidelity **Structural Logic** validation through **Variable Depth Parsing**, providing a mathematically precise record of hierarchical nodes and material states.
+
+---
+
+### Core Syntax: The Nested Parser
+
+The **SLP Manifest** utilizes a nested parent-child notation to catalog the relationship between the UI chassis, navigation nodes, and the viewport content.
+
+**Standard SLP Expression:**
+`@ [Chassis_Type] + accrete:[Parent_Node(Child_A, Child_B)] > select:Active_Node(State:Target) @ Material_Physics`
+
+---
+
+### Variable Depth Parsing: The Protocol Library
+
+The SLP Manifest allows for seamless transitions between **Shallow Parsing** (for rapid layout overviews) and **Deep Parsing** (for technical component deconstruction). Utilize these specific triggers to calibrate the analytical depth of the manifest entry.
+
+**I. Standard & Shallow Parsing (Layout Focus)**
+
+> **"Parse the layout. Express the layout in shorthand chain expression."**
+
+* **Primary Utility:** Standard operational baseline.
+* **Logic Trigger:** `Base_Parse`.
+* **Focus:** Records the current visible state and top-level hierarchy without initiating material physics or hidden node analysis.
+
+**II. The "Architectural" Alternative (Hierarchy Focus)**
+
+> **"Audit the UI hierarchy. Map the active state to a shorthand manifest."**
+
+* **Primary Utility:** Deep-parsing the "plumbing."
+* **Logic Trigger:** `@ shift:Editorial_Layout`.
+* **Focus:** Prioritizes the **Chassis** and nested containers over artistic content. Verifies that all tabs and windows are correctly parented and aligned within the manifest.
+
+**III. The "Deconstructive" Alternative (Component Focus)**
+
+> **"Deconstruct the viewport. Log the current accretion chain."**
+
+* **Primary Utility:** Deep-parsing materials and fragments.
+* **Logic Trigger:** `explode:component_parts`.
+* **Focus:** Triggers **Museum Synthesis** logic. It isolates technical textures (e.g., `Cotton_Knit`, `Vellum`) and logs every character fragment as an active, individual node in the manifest.
+
+**IV. The "State-Sync" Alternative (Correction Focus)**
+
+> **"Validate the active nodes. Output the current structural shorthand."**
+
+* **Primary Utility:** Correcting visual "hallucinations" or state drift.
+* **Logic Trigger:** `Blueprint Validation (Rule 5)`.
+* **Focus:** Acts as a hard reset. Commands the manifest to ignore visual inconsistencies and strictly list the nodes that *should* exist according to the framework rules.
+
+**V. The "Minimalist" Alternative (Speed Focus)**
+
+> **"State check: Parse and chain."**
+
+* **Primary Utility:** Ultra-shallow, high-speed telemetry.
+* **Logic Trigger:** `utilize:filter.md`.
+* **Focus:** Absolute speed. Provides a bare-bones logic log and current coordinates for rapid-fire iteration.
+
+---
+
