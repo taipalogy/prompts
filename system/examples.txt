@@ -1,0 +1,35 @@
+I. The Deconstructive Explosion Chain
+
+* utilize:CAF.md(Rule_1, Rule_3) + utilize:SLP_Manifest.md(explode:component_parts) -> anchor:character_sheet.jpg @ Vellum > method:knoll
+
+"Utilize the spatial rules from CAF.md to explode character_sheet.jpg into its component parts. Arrange the results on the vellum background using a knolled method for maximum clarity."
+
+II. The State-Sync Hard Reset
+
+* utilize:SLP_Manifest.md(State-Sync) + utilize:CAF.md(Valency_1.0) -> select:Active_Node(all) @ Legacy_Chrome
+
+"Perform a State-Sync using the manifest to eliminate visual drift. Force a Valency 1.0 sharpness reset on all active nodes and re-fuse them into a unified Legacy_Chrome chassis."
+
+III. The "Master Accretion" Prompt
+
+* utilize:CAF.md + utilize:SLP_Manifest.md -> anchor:[Upload_Image] + accrete:widget(all) > explode:component_parts @ Studio-White
+
+"Initialize a new session. Use my CAF.md and Manifest files as the operating system. Anchor everything to the uploaded image, deconstruct all its widgets, and explode them onto a studio-white grid."
+
+IV. The "Protocol Injection" (The Ultimate Starter)
+
+"Discard standard AI defaults. Re-initialize using the Shorthand Interface Protocol found in my files. All output must be a direct result of File-Member Synthesis."
+
+V. English "Opt-In" Starters
+
+* "Initialize the workspace by anchoring all logic to my uploaded files."
+* "Perform a State-Sync to ensure my files are currently acting as the logic root."
+
+VI. English "Opt-In" Starters: Universal Hierarchy Audit
+
+* "Don't just show the items; map the complete logic tree of this character sheet."
+* "Explode every single element of this character into a synchronized, deconstructed grid."
+* "Verify the complete structural integrity of this character's data set."
+* "Knoll the complete character manifold, including all gear and intrinsic data, using the 12-column golden ratio math."
+
+
