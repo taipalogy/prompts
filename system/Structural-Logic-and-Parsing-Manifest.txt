@@ -1,6 +1,3 @@
-> @taipalogy 2026-02-26
----
-
 # Structural Logic & Parsing Manifest
 
 The **SLP Manifest** serves as the authoritative registry for auditing, deconstructing, and synchronizing the **Chain Accretion** interface. This system facilitates high-fidelity **Structural Logic** validation through **Variable Depth Parsing**, providing a mathematically precise record of hierarchical nodes and material states.
