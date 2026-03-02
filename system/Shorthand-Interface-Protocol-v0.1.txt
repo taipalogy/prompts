@@ -26,7 +26,7 @@ The **Shorthand Interface** is the primary manifold for composition, replacing c
 
 * **Compositional Logic**: The interface arranges **Self-Describing Logic Circuits** into a coherent recursive chain. A valid string triggers a **State Collapse** across the browser field.
 * **The "Silent" Execute**: Valid chains trigger autonomous synthesis and materialization. The **Anodic Terminal** (CLI) remains at **0% Opacity**, manifesting only at a **64px Gutter** during a **Logic Breach** (e.g., a broken circuit where the output of one container cannot satisfy the requirements of the next).
-* **Slash Command Advancement**: Legacy commands are evolved into **Spatial Macros** (e.g., `/knoll`) within the shorthand string to trigger physical layout shifts.
+* **Slash Command Advancement**: Legacy commands are evolved into **Spatial Macros** within the shorthand string to trigger physical layout shifts.
 
 ---
 
