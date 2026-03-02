@@ -1,5 +1,4 @@
-> @taipalogy
-> 2026-02-12
+> @taipalogy 2026-02-12
 ---
 
 # Chain Accretion Framework for Browser v1.0
