@@ -1,0 +1,77 @@
+> @taipalogy 2026-03-02
+---
+
+# Shorthand Interface Protocol v0.1
+
+This specification codifies the **Shorthand Interface Protocol (SIP)**. As a sovereign compositional layer of the **Chain Accretion Framework for Browser**, the SIP facilitates high-fidelity task execution through **Method Synthesis**. In this protocol, **Containers are self-describing logic circuits** that broadcast their own $A + B = C$ schema to the global context.
+
+---
+
+## 1. Global Architectural Constants
+
+| Attribute | Specification | Operational Logic |
+| --- | --- | --- |
+| **Model** | **SIP v0.1** | Sovereign Shorthand Interface Protocol |
+| **Circuitry** | **Self-Describing Logic** | Containers broadcast their internal $A + B = C$ schema. |
+| **Dependency** | **Chain Accretion Framework** | Browser-based accretion and FS physics. |
+| **Logic Mode** | **Method Synthesis** | Autonomous generation of functional logic. |
+| **Materiality** | **Anodic / Vellum** | Satin structural chassis / Tactile viewports. |
+| **Typography** | **Monospaced Serif** | +400 Tracking; Absolute Editorial Authority. |
+
+---
+
+## 2. Strategic Pillar: The Shorthand Interface
+
+The **Shorthand Interface** is the primary manifold for composition, replacing conversational turns with a **High-Fidelity Grammar**.
+
+* **Compositional Logic**: The interface arranges **Self-Describing Logic Circuits** into a coherent recursive chain. A valid string triggers a **State Collapse** across the browser field.
+* **The "Silent" Execute**: Valid chains trigger autonomous synthesis and materialization. The **Anodic Terminal** (CLI) remains at **0% Opacity**, manifesting only at a **64px Gutter** during a **Logic Breach** (e.g., a broken circuit where the output of one container cannot satisfy the requirements of the next).
+* **Slash Command Advancement**: Legacy commands are evolved into **Spatial Macros** (e.g., `/knoll`) within the shorthand string to trigger physical layout shifts.
+
+---
+
+## 3. Integrated Feature Specifications
+
+### I. Container Versatility & Method Synthesis
+
+**Skills**, **Libraries**, and **Engines** are defined as **Self-Describing Logic Circuits**.
+
+* **Method Synthesis**: Each container hosts an internal **Shorthand Chain** or **Equation** ($A + B = C$). SIP utilizes these blueprints to autonomously synthesize the "How" ($B$) required to reach the "Result" ($C$) from the given "Context" ($A$).
+* **Functional Parity**: A Skill file may optionally contain an equation or chain, just like a library or engine, allowing for fluid functional interchangeability.
+
+### II. The Inheritance Strategy (Aesthetic & Structural DNA)
+
+Inheritance follows Object-Oriented principles to ensure total framework consistency:
+
+* **Encapsulation**: Circuit logic and variable states are shielded within **Anodic_White** monoliths, accessible only via defined **Shorthand Ports**.
+* **Extension**: Child modules extend the **Alpha Anchor’s** properties, adding specific logic-gates while maintaining the parent’s material density.
+* **Mutation**: Circuits may mutate internal synthesis paths based on context while preserving the **Valency = 1.0** constant.
+* **Override & Interface**: SIP enforces a **Forced Aesthetic Override** on external data, re-skinning all outputs to match the **Monospaced Serif** editorial standard.
+
+### III. Framework Physics & FS Access
+
+SIP depends on the **Chain Accretion Framework** for **Local FS Access**. Files are treated as **Material Stock**, transformed into high-density **Vellum_Paper** viewports through the Framework's rendering engine.
+
+### IV. Routing & The Kinetic Manifold
+
+The **OpenClaw Gateway** manages the "wiring" of circuits via **Manhattan Geometry**.
+
+* **Stream Compliance**: Data "pours" from $C$ to $A$ via persistent kinetic conduits. SIP maintains a **Ghost Overlay** for visual auditability of the flow.
+* **Orchestration via UI**: The user orchestrates through the visual arrangement of modules on the **Swiss Baseline** using the **0/64 Law**.
+
+### V. Specialized Logic & Agentic Inspiration
+
+The protocol adopts the **Autonomous Skill** and **Orchestration** capability of remote agents but replaces the chat metaphor with **Material Viewports** and **Asymmetric Margin Notes**.
+
+---
+
+## 4. Compositional Shorthand Lexicon
+
+* `anchor:File @ Material` : Power the primary Logic Circuit and Synthesis Root.
+* `+ accrete:Widget` : Add physical chassis components (0px/64px spacing).
+* `+ tether:Skill` : Accrete a self-describing circuit for **Method Synthesis**.
+* `-> utilize:Engine` : Activate the circuit's internal method or synthesis logic.
+* `> select:State` : Final state collapse to the Publication-Grade Editorial Layout.
+
+---
+
