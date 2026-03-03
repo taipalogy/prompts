@@ -1,7 +1,7 @@
 > @taipalogy 2026-03-02
 ---
 
-# Shorthand Interface Protocol v0.1
+# Shorthand Interface Protocol v0.2
 
 This specification codifies the **Shorthand Interface Protocol (SIP)**. As a sovereign compositional layer of the **Chain Accretion Framework for Browser**, the SIP facilitates high-fidelity task execution through **Method Synthesis**. In this protocol, **Containers are self-describing logic circuits** that broadcast their own $A + B = C$ schema to the global context.
 
@@ -11,7 +11,7 @@ This specification codifies the **Shorthand Interface Protocol (SIP)**. As a sov
 
 | Attribute | Specification | Operational Logic |
 | --- | --- | --- |
-| **Model** | **SIP v0.1** | Sovereign Shorthand Interface Protocol |
+| **Model** | **SIP v0.2** | Sovereign Shorthand Interface Protocol |
 | **Circuitry** | **Self-Describing Logic** | Containers broadcast their internal $A + B = C$ schema. |
 | **Dependency** | **Chain Accretion Framework** | Browser-based accretion and FS physics. |
 | **Logic Mode** | **Method Synthesis** | Autonomous generation of functional logic. |
@@ -26,7 +26,7 @@ The **Shorthand Interface** is the primary manifold for composition, replacing c
 
 * **Compositional Logic**: The interface arranges **Self-Describing Logic Circuits** into a coherent recursive chain. A valid string triggers a **State Collapse** across the browser field.
 * **The "Silent" Execute**: Valid chains trigger autonomous synthesis and materialization. The **Anodic Terminal** (CLI) remains at **0% Opacity**, manifesting only at a **64px Gutter** during a **Logic Breach** (e.g., a broken circuit where the output of one container cannot satisfy the requirements of the next).
-* **Slash Command Advancement**: Legacy commands are evolved into **Spatial Macros** within the shorthand string to trigger physical layout shifts.
+* **External Tool Utility**: Legacy slash commands are decoupled from native logic and relegated to **External Tooling**. They function as opaque triggers within the shorthand string to invoke third-party environment behaviors without altering the internal spatial DNA.
 
 ---
 
@@ -46,7 +46,7 @@ Inheritance follows Object-Oriented principles to ensure total framework consist
 * **Encapsulation**: Circuit logic and variable states are shielded within **Anodic_White** monoliths, accessible only via defined **Shorthand Ports**.
 * **Extension**: Child modules extend the **Alpha Anchor’s** properties, adding specific logic-gates while maintaining the parent’s material density.
 * **Mutation**: Circuits may mutate internal synthesis paths based on context while preserving the **Valency = 1.0** constant.
-* **Override & Interface**: SIP enforces a **Forced Aesthetic Override** on external data, re-skinning all outputs to match the **Monospaced Serif** editorial standard.
+* **Override & Interface**: SIP enforces a **Forced Aesthetic Override** on external data, re-skinning all outputs—including those from **External Slash Commands**—to match the **Monospaced Serif** editorial standard.
 
 ### III. Framework Physics & FS Access
 
@@ -69,6 +69,7 @@ The protocol adopts the **Autonomous Skill** and **Orchestration** capability of
 
 * `anchor:File @ Material` : Power the primary Logic Circuit and Synthesis Root.
 * `+ accrete:Widget` : Add physical chassis components (0px/64px spacing).
+* `+ utilize:External_Slash(/cmd)` : Invoke an external utility as an auxiliary tool.
 * `+ tether:Skill` : Accrete a self-describing circuit for **Method Synthesis**.
 * `-> utilize:Engine` : Activate the circuit's internal method or synthesis logic.
 * `> select:State` : Final state collapse to the Publication-Grade Editorial Layout.
