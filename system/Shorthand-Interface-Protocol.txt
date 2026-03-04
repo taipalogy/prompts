@@ -69,7 +69,6 @@ The protocol adopts the **Autonomous Skill** and **Orchestration** capability of
 
 * `anchor:File @ Material` : Power the primary Logic Circuit and Synthesis Root.
 * `+ accrete:Widget` : Add physical chassis components (0px/64px spacing).
-* `+ utilize:External_Slash(/cmd)` : Invoke an external utility as an auxiliary tool.
 * `+ tether:Skill` : Accrete a self-describing circuit for **Method Synthesis**.
 * `-> utilize:Engine` : Activate the circuit's internal method or synthesis logic.
 * `> select:State` : Final state collapse to the Publication-Grade Editorial Layout.
