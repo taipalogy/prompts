@@ -32,4 +32,11 @@ VI. English "Opt-In" Starters: Universal Hierarchy Audit
 * "Verify the complete structural integrity of this character's data set."
 * "Knoll the complete character manifold, including all gear and intrinsic data, using the 12-column golden ratio math."
 
+VII. Shell Primitives
 
+* anchor:log.txt + utilize:grep("ERR")
+* anchor:data.csv @ Material + tether:cat
+* anchor:[URL] @ Stock + tether:grep("target_key")
+* anchor:/Documents @ Glob + tether:find("-maxdepth 1")
+* anchor:/Documents(Recursive) @ Glob + tether:find("-name '*.md'") + tether:sort("-u")
+* (anchor:A | anchor:B) > select:Diff
