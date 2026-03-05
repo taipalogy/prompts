@@ -32,7 +32,7 @@ VI. English "Opt-In" Starters: Universal Hierarchy Audit
 * "Verify the complete structural integrity of this character's data set."
 * "Knoll the complete character manifold, including all gear and intrinsic data, using the 12-column golden ratio math."
 
-VII. Shell Primitives
+VII. Shell Primitives and Functional Primitives
 
 * anchor:log.txt + utilize:grep("ERR")
 * anchor:data.csv @ Material + tether:cat
