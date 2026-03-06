@@ -1,0 +1,71 @@
+> @taipalogy 2026-03-06
+---
+
+# Inter-Agent Communication Protocol v0.1
+
+This manifest serves as the **Logic-Gate** for all **Inter-Agent Communication (IAC)**. It codifies the **Functional Primitives** that refine the raw data flowing through the **Shell Primitives**. By defining these high-order transformations, we ensure that every handoff between **Cursor (@Anodic)** and **Claude (@Vellum)** maintains **Valency 1.0**.
+
+---
+
+## I. Global Architectural Constants
+
+| Attribute | Specification | Operational Logic |
+| --- | --- | --- |
+| **Dependency** | **Chain Accretion Framework** | Browser-based accretion and FS physics. |
+
+---
+
+### II. The Core Semantic Primitives
+
+These functions represent the **Vellum Ink** applied during the **Blueprint Validation Loop**.
+
+* **Filter (Subtraction):**
+`utilize:filter(Legacy_Friction)` — Prunes "Ghost Context," dead code, and unvalidated logic.
+`utilize:filter(Prop_Drilling)` — Identifies and extracts deeply nested state for decoupling.
+* **Map (Morphing):**
+`utilize:map(Editorial_Layout)` — Unfolds 0px Fused structures into 64px Fragmented plans.
+`utilize:map(Modern_Syntax)` — Transforms legacy patterns into the **Swiss Baseline**.
+* **Reduce (Accretion):**
+`utilize:map(Chassis_Synthesis)` — Collapses multi-agent fragments into a single **L0 Wireframe**.
+`utilize:reduce(TS_Interface)` — Synthesizes disparate JS objects into a unified Type-Safe anchor.
+* **Curry (Partial Intent):**
+`utilize:curry(Valency_Threshold)` — Defers grounding until a specific logic-gate (e.g., a test pass) is verified.
+
+---
+
+### III. The Inter-Agent Operational Gallery
+
+The following examples utilize the **Shell Primitive** (`|`, `&&`, `>`, `&`) to drive the **Functional Manifest** across the **CLI-as-Chassis**.
+
+| Operational Objective | The Inter-Agent Accretion Chain (The Command) |
+| --- | --- |
+| **Logic Decoupling** | `anchor:Monolith + utilize:filter(Internal_State) |
+| **Type Synthesis** | `anchor:Raw_JS + utilize:map(Inference) |
+| **Security Hardening** | `anchor:Controller + utilize:filter(Unsafe_Inputs) |
+| **UI-to-Logic Sync** | `anchor:Figma_JSON + utilize:map(Tailwind_Tokens) |
+| **Autonomous Audit** | `anchor:Source + utilize:filter(Debt) |
+
+---
+
+### IV. The OpenClaw Gateway Integration
+
+When these primitives are executed on an **OpenClaw** host, the **Shell Primitive** serves as the persistent **Routing Engine**.
+
+1. **The Conduit:** `cursor --read` anchors the state; the Linux Pipe (`|`) initiates the movement.
+2. **The Refinery:** The **Functional Primitives** (Map/Filter) refine the material in transit.
+3. **The Grounding:** The Redirect (`>`) or **OpenClaw Gateway** (`tee`) commits the final **Accretion** to the physical disk.
+
+---
+
+### V. Blueprint Validation Formula
+
+To ensure **Material Integrity**, every IAC transaction must satisfy the following equation:
+
+> **`anchor:[Source] + {Shell_Primitive} utilize:[Functional_Primitive] -> utilize:[Functional_Primitive] > select:[Final_State]`**
+
+* **The Shell Primitive** is the **Kinetic Chassis** (The Tension).
+* **The Functional Primitive** is the **Logic Manifest** (The Valency).
+* **The Final State** is the **Editorial Authority** (The Grounding).
+
+---
+
