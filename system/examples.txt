@@ -41,10 +41,11 @@ VII. Shell Primitives and Functional Primitives
 * anchor:/Documents(Recursive) @ Glob + tether:find("-name '*.md'") + tether:sort("-u")
 * (anchor:A | anchor:B) > select:Diff
 
-VIII. Inter-Agent Chains
+VIII. Inter-Agent Communication Chains
 
 * List inter-agent chain examples for Figma.
 * List inter-agent chain examples for web app composition.
+* The equivalent shell command for this functional primitive chain.
 
 IX: The Monolith Deconstruction (Componentization):
 
