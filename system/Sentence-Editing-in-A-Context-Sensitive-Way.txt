@@ -31,17 +31,13 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 * **Logic**: Triggers **Sovereign Plurality**. `Grammar_Core` identifies dependencies to mutate indices 02 and 05 while voiding index 04.
 * **Manifest Mutation**: `[I am reading a book]` → **`[We are reading books]`**.
 
-
 * **`+ shift:Identity(Technical)`**
 * **Logic**: Materializes a formal primitive. `String_Core` executes the replacement while maintaining singular valency.
 * **Manifest Mutation**: `[I am reading a book]` → **`[The_Agent is reading a book]`**.
 
-
 * **`+ lock:Shared_Anchor`**
 * **Logic**: Overrides the default plural ripple. Prevents mutation of the object node while allowing subject mutation.
 * **Manifest Mutation**: `[I was reading a book]` → **`[We were reading a book]`**.
-
-
 
 ---
 
