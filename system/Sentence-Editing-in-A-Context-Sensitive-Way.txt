@@ -47,18 +47,29 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 
 ---
 
-### V. User Manual: Logic_Flow_Visualizer Capabilities
-
-> Materialize the Capability Manual for the Logic_Flow_Visualizer as a 2x3 grid. Segment the output into the Observation Branch (Panels A-D: Field Isolation, Pivot & Collapse, Dependency Schema, and Predictive Ghosting) and the Audit Branch (Panels E-F: Spatial 0/64 Law and Internal_Method_Audit log). Render using the Swiss Baseline framework on Anodic_White vellum.
-
----
-
-### VI. Comment
-
-* A text output for panel D at index 5.
+```
+* activate:Active_Pivot(index:1)
+* A text output for panel D at index 1.
 * Isolate the third word in the sentence as the primary anchor for editing.
 * Generate the manual image.
-* Deconstruct:[DOMAIN] @ [INPUT MATERIAL]. Table:Component-Nodes(Index, Role, Ripple). Pivot:[TARGET] -> Show:4_Mutation_Options. Section:Predicted_Hypothetick (Document causal ripples on nodes). Section:Internal_Method_Audit (Raw [DOMAIN]_Core primitives for [STATE CHANGE]). Valency=1.0.
+* anchor:stdin("Your text") -> utilize:Strategy(Source_Purge) + list:Component_Stack(Isolated) > format:Compact @ Anodic
+```
 
----
+```
+* Analyze the following prompt passage and generate Multi-Vector Deconstruction Strategies.
+* Codify shorthand chains for different deconstruction strategies.
+* You can combine a Syntactic deconstruction with a Chromatographic overlay to analyze the "Color" of individual sentences.
+* The universal switch shorthand. `pivot:Strategy([NEW_STRATEGY]) + anchor:[NEW_SUBJECT] > materialize`
+* The Compact Pivot Template. `pivot:[STRATEGY] @ [SUBJECT] > materialize`
+```
+
+```
+User Manual: Logic_Flow_Visualizer Capabilities
+
+> Materialize the Capability Manual for the Logic_Flow_Visualizer as a 2x3 grid. Segment the output into the Observation Branch (Panels A-D: Field Isolation, Pivot & Collapse, Dependency Schema, and Predictive Ghosting) and the Audit Branch (Panels E-F: Spatial 0/64 Law and Internal_Method_Audit log). Render using the Swiss Baseline framework on Anodic_White vellum.
+```
+
+```
+* Deconstruct:[DOMAIN] @ [INPUT MATERIAL]. Table:Component-Nodes(Index, Role, Ripple). Pivot:[TARGET] -> Show:4_Mutation_Options. Section:Predicted_Hypothetick (Document causal ripples on nodes). Section:Internal_Method_Audit (Raw [DOMAIN]_Core primitives for [STATE CHANGE]). Valency=1.0.
+```
 
