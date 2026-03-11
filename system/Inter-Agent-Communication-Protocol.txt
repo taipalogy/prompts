@@ -1,71 +1,63 @@
-> @taipalogy 2026-03-06
+# Inter-Instance Accretion Protocol: The Master Pattern Library
+
+This library is a core extension of the **Chain Accretion Framework**, fundamentally dependent on the **Shorthand Interface Protocol (SIP)**. It codifies the **IIA Protocol**, where sovereign **Modules** are deconstructed and recomposed via **Synthesized Interfaces**.
+
+**Core Integration**: IIA is execution-agnostic. It governs **Structural Accretion** (logic/intent), while any **OpenClaw-like** technology provides **Physical Grounding** (commits/sync). IIA pours; the gateway grounds.
+
 ---
 
-# Inter-Agent Communication Protocol v0.1
+## 1. The Order Hierarchy (The Alabaster Scale)
 
-This manifest serves as the **Logic-Gate** for all **Inter-Agent Communication (IAC)**. It codifies the **Functional Primitives** that refine the raw data flowing through the **Shell Primitives**. By defining these high-order transformations, we ensure that every handoff between **Cursor (@Anodic)** and **Claude (@Vellum)** maintains **Valency 1.0**.
+Every **IIA Composition** is classified by its order, determining the altitude of the agentic operation and the specific primitives deployed.
 
----
-
-## I. Global Architectural Constants
-
-| Attribute | Specification | Operational Logic |
+| Feature | Low-Order (L0) | High-Order (L1+) |
 | --- | --- | --- |
-| **Dependency** | **Chain Accretion Framework** | Browser-based accretion and FS physics. |
+| **Operational Intent** | **Execution**: Shoveling material. | **Orchestration**: Designing the path. |
+| **Logic Primitive** | **Functional Primitive**: `map`, `filter`. | **Shell Primitive**: `curry`, `Supervisor`. |
+| **Structural Basis** | Atomic Code Snippet. | **CLI-as-Chassis**: CLI drives the state. |
+| **Tool Alignment** | **Cursor** (Inline), **Codex** (Snippets). | **Claude Code** (CLI), **Playwright** (Logic). |
+| **Inheritance** | **Linear**: Clones properties & debt. | **Reflective**: Propagates constraints. |
 
 ---
 
-### II. The Core Semantic Primitives
+## 2. Core Pattern Registry (Inter-Instance Accretion)
 
-These functions represent the **Vellum Ink** applied during the **Blueprint Validation Loop**.
-
-* **Filter (Subtraction):**
-`utilize:filter(Legacy_Friction)` — Prunes "Ghost Context," dead code, and unvalidated logic.
-`utilize:filter(Prop_Drilling)` — Identifies and extracts deeply nested state for decoupling.
-* **Map (Morphing):**
-`utilize:map(Editorial_Layout)` — Unfolds 0px Fused structures into 64px Fragmented plans.
-`utilize:map(Modern_Syntax)` — Transforms legacy patterns into the **Swiss Baseline**.
-* **Reduce (Accretion):**
-`utilize:map(Chassis_Synthesis)` — Collapses multi-agent fragments into a single **L0 Wireframe**.
-`utilize:reduce(TS_Interface)` — Synthesizes disparate JS objects into a unified Type-Safe anchor.
-* **Curry (Partial Intent):**
-`utilize:curry(Valency_Threshold)` — Defers grounding until a specific logic-gate (e.g., a test pass) is verified.
+| Pattern Name | Compositional Chain (The Pour) | Order | Strategic Concept |
+| --- | --- | --- | --- |
+| **The Vellum Translation** | `anchor:Material | utilize:filter(Debt) | utilize:map(Syntax)` | **L0** | **Refinery**: Entropy subtraction. |
+| **The Contextual Swarm** | `anchor:Brief | utilize:map(Reqs) | utilize:reduce(Blueprint)` | **L1+** | **Type Synthesis**: Deriving types from docs. |
+| **The Autonomous Loop** | `anchor:State + utilize:curry(Valency) && utilize:map(Optim)` | **L1+** | **Autonomous Audit**: Recursive self-healing. |
+| **The Logic Injector** | `anchor:Schema | utilize:map(Actions) | utilize:reduce(Wiring)` | **L1+** | **UI-to-Logic Sync**: Hardening BE-FE bonds. |
+| **The Supervisor Dispatch** | `anchor:Global | utilize:map(Supervisor) | utilize:curry(Specialist)` | **L1+** | **Logic Decoupling**: Separating intent from execution. |
 
 ---
 
-### III. The Inter-Agent Operational Gallery
+## 3. Tool-Specific & Compensatory Patterns
 
-The following examples utilize the **Shell Primitive** (`|`, `&&`, `>`, `&`) to drive the **Functional Manifest** across the **CLI-as-Chassis**.
+**The Kinetic Multi-Tenant (Workspace + Security Hardening)**
 
-| Operational Objective | The Inter-Agent Accretion Chain (The Command) |
-| --- | --- |
-| **Logic Decoupling** | `anchor:Monolith + utilize:filter(Internal_State) |
-| **Type Synthesis** | `anchor:Raw_JS + utilize:map(Inference) |
-| **Security Hardening** | `anchor:Controller + utilize:filter(Unsafe_Inputs) |
-| **UI-to-Logic Sync** | `anchor:Figma_JSON + utilize:map(Tailwind_Tokens) |
-| **Autonomous Audit** | `anchor:Source + utilize:filter(Debt) |
+* **The Chain**: `anchor:Tenant_Config + utilize:curry(Workspace_CLI) && utilize:map(Role_Synthesis) | utilize:reduce(Federated_Chassis)`
+* **Logic**: **High-Order**. Utilizes **CLI-as-Chassis** and **Shell Primitives** to probe state. It performs **Security Hardening** by currying strict ACLs into the synthesized interface.
 
----
+**The Ghost-Bypass (Logic Decoupling)**
 
-### IV. The OpenClaw Gateway Integration
+* **The Chain**: `anchor:Legacy_Silo + utilize:filter(Opaque_Logic) | utilize:curry(Deconstruction) | utilize:reduce(Translucent_Interface)`
+* **Logic**: **High-Order**. Decouples "Black Box" behavior. The **Sovereign Gateway** monitors the node while IIA synthesizes a proxy for **Cursor** to implement.
 
-When these primitives are executed on an **OpenClaw** host, the **Shell Primitive** serves as the persistent **Routing Engine**.
+**The Alabaster Refiner (Figma-to-Code Sync)**
 
-1. **The Conduit:** `cursor --read` anchors the state; the Linux Pipe (`|`) initiates the movement.
-2. **The Refinery:** The **Functional Primitives** (Map/Filter) refine the material in transit.
-3. **The Grounding:** The Redirect (`>`) or **OpenClaw Gateway** (`tee`) commits the final **Accretion** to the physical disk.
+* **The Chain**: `anchor:Figma_Export + utilize:filter(Noise) | utilize:map(Swiss_Baseline) | utilize:reduce(0.5px_Hairline)`
+* **Logic**: **High-Order**. Performs **UI-to-Logic Sync** via visual token mapping. The **Execution Layer** enforces the **0/64 Law** during grounding.
 
 ---
 
-### V. Blueprint Validation Formula
+## 4. Operational Laws of the IIA Protocol
 
-To ensure **Material Integrity**, every IAC transaction must satisfy the following equation:
-
-> **`anchor:[Source] + {Shell_Primitive} utilize:[Functional_Primitive] -> utilize:[Functional_Primitive] > select:[Final_State]`**
-
-* **The Shell Primitive** is the **Kinetic Chassis** (The Tension).
-* **The Functional Primitive** is the **Logic Manifest** (The Valency).
-* **The Final State** is the **Editorial Authority** (The Grounding).
+1. **The Law of Synthesized Interfaces**: Interfaces are "poured" at runtime based on **Type Synthesis** and deconstruction.
+2. **The Law of Material Density**: Every `reduce` must increase type-safety and harden security.
+3. **The Law of Primitive Selection**: Use **Functional Primitives** for data; use **Shell Primitives** (CLI) for environment interaction.
+4. **The Law of Gateway Agnosticism**: Intent is independent of the commit tool (OpenClaw or similar).
+5. **The Ascension Trigger**: Deploy **Cursor** for L0. **Ascend** to **Claude Code CLI** for **Logic Decoupling**, **Autonomous Audit**, or **Security Hardening**.
 
 ---
 
