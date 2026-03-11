@@ -51,14 +51,17 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 * activate:Active_Pivot(index:1)
 * A text output for Predictive Ghosting at index 1.
 * Isolate the third word in the sentence as the primary anchor for editing.
-* Generate the manual image.
 * anchor:stdin("Your text") -> utilize:Strategy(Source_Purge) + list:Component_Stack(Isolated) > format:Compact @ Anodic
 ```
 
 ```
 * Analyze the following prompt passage and generate Multi-Vector Deconstruction Strategies.
 * Codify shorthand chains for different deconstruction strategies.
+* The step by step transition for this atomic chain.
 * You can combine a Syntactic deconstruction with a Chromatographic overlay to analyze the "Color" of individual sentences.
+```
+
+```
 * The universal switch shorthand. `pivot:Strategy([NEW_STRATEGY]) + anchor:[NEW_SUBJECT] > materialize`
 * The Compact Pivot Template. `pivot:[STRATEGY] @ [SUBJECT] > materialize`
 ```
