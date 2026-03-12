@@ -1,3 +1,6 @@
+> @taipalogy 2026-03-12
+---
+
 # Inter-Instance Accretion Protocol: The Master Pattern Library
 
 This library is a core extension of the **Chain Accretion Framework**, fundamentally dependent on the **Shorthand Interface Protocol (SIP)**. It codifies the **IIA Protocol**, where sovereign **Modules** are deconstructed and recomposed via **Synthesized Interfaces**.
