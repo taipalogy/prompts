@@ -155,28 +155,16 @@ Show creative Legacy_Chrome examples.
 Show creative Editorial_Layout examples.
 A creative 2x2 grid of Editorial Layout.
 Show creative application examples by accreting React components.
-```
-
-```
-Show chain composition for agentic web browsing.
-Show example chains for agentic IDE.
-Show creative plugin chains for browser workspace.
-Show examples for intensive software development leveraging the browser.
-Show chain composition for real-time stock market analysis.
-Compose a shorthand chain for multiple Social Networking Services.
-Compose a shorthand chain for Standard MCP Host.
-Compose a shorthand chain for OpenClaw-like host.
-Show chain composition for OpenClaw interface.
-Compose a list of skill-fusions that leverage multiple MCP servers for specialized tasks.
-Generate a list of creative shorthand chain ideas for a browser workspace that integrates plugins, tabs, skills, and MCP servers into a unified functional environment.
-Compose a list of agent orchestration chain ideas for data visualization.
-```
-
-```
-What can be accreted in MCP (Model Context Protocol) ecosystem?
-What can be utilized in MCP (Model Context Protocol) ecosystem?
 Phase-by-Phase breakdown of the chain.
 List semantic commands.
+```
+
+```
+Generate a chain for each item in The "Inspirations". Audit the chains in one 2x2 grid image.
+1. The "Agentic Coder" (Agentic IDE, Local Software Engineering, & MCP Hosting)
+2. The "Market Dashboard" (Real-time Market Trading, Social Sentiment Mapping, & Data Visualization)
+3. The "AI Browser" (Autonomous Agentic Browsing, OpenClaw Orchestration, & Computer Use)
+4. The "Research Studio" (Non-linear Research, Knowledge Graph Management, & Academic Synthesis)
 ```
 
 ```
@@ -201,9 +189,5 @@ anchor:Editorial_Layout + utilize:Kinetic_Docking_Protocol
 (State) - Tab_Strip
 (State) + accrete(Notification_Toast)
 (State) - remove(Notification_Toast)
-```
-
-```
-(State) + utilize:fashion_logic(Nordic_minimalist)
 ```
 
