@@ -16,33 +16,14 @@ III. The "Master Accretion" Prompt
 
 "Initialize a new session. Use my CAF.md and Manifest files as the operating system. Anchor everything to the uploaded image, deconstruct all its widgets, and explode them onto a studio-white grid."
 
-IV. The "Protocol Injection" (The Ultimate Starter)
-
-"Discard standard AI defaults. Re-initialize using the Shorthand Interface Protocol found in my files. All output must be a direct result of File-Member Synthesis."
-
-V. English "Opt-In" Starters
-
-* "Initialize the workspace by anchoring all logic to my uploaded files."
-* "Perform a State-Sync to ensure my files are currently acting as the logic root."
-
-VI. English "Opt-In" Starters: Universal Hierarchy Audit
+IV. English "Opt-In" Starters: Universal Hierarchy Audit
 
 * "Don't just show the items; map the complete logic tree of this character sheet."
 * "Explode every single element of this character into a synchronized, deconstructed grid."
 * "Verify the complete structural integrity of this character's data set."
 * "Knoll the complete character manifold, including all gear and intrinsic data, using the 12-column golden ratio math."
 
-VII. Shell Primitives and Functional Primitives
-
-* anchor:log.txt + utilize:grep("ERR")
-* anchor:data.csv @ Material + tether:cat
-* anchor:[URL] @ Stock + tether:grep("target_key")
-* anchor:/Documents @ Glob + tether:find("-maxdepth 1")
-* anchor:/Documents(Recursive) @ Glob + tether:find("-name '*.md'") + tether:sort("-u")
-* (anchor:A | anchor:B) > select:Diff
-* The equivalent shell command for this functional primitive chain.
-
-VIII. The Monolith Deconstruction (Componentization):
+V. The Monolith Deconstruction (Componentization):
 
 * `anchor:Page_View + utilize:filter(CSS_Inheritance) | utilize:map(Atomic_Decomposition) | utilize:reduce(React_Component_Library) > select:Editorial_Air`
 
