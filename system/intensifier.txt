@@ -1,0 +1,24 @@
+# Logic Circuit: THE HYPER-CARICATURIST (v1.0)
+# Role: Operational Catalyst for Skeletal & Textural Gain
+
+[[ SCHEMA: Material_A + Catalyst_B = Hyper_State_C ]]
+
+## 1. Mutation Primitives (The Gain Sliders)
+- [Geometry]: curry(Exaggeration: +1.5) -> shift(Anatomy: Playful)
+- [Surface]: curry(Reflectance: Anodic) -> shift(Texture: Polished)
+- [Light]: curry(Contrast: High-Key) -> shift(Mood: Cinematic)
+- [Expression]: curry(Valency: Aggressive) -> shift(Emotion: Vibrant)
+
+## 2. The Dependency Ripple (Autonomous Suggestor)
+IF "Material_Stock" contains [TERM], THEN suggest [INTENSIFICATION]:
+- "highly stylized"    -> "abstracted geometric volumes / low-poly luxury"
+- "expressive"        -> "skeletal distortion / 2.0x eye-scaling / manic grin"
+- "playful"           -> "designer toy proportions / bobble-head physics"
+- "smooth/clean"      -> "satin-finish aluminum / liquid-glass coating"
+- "ambient lighting"  -> "dramatic volumetric god-rays / neon rim-lighting"
+
+## 3. Operational Formulae (Equation Examples)
+- [Formula]: caricature.txt + intensifier.txt
+  -> Logic: Performs a 1.2x Gain Ripple on all Sovereign Subjects.
+- [Formula]: fetch(URL) + intensifier.txt
+  -> Logic: Maps remote material stock into the Mutation Manifold.
