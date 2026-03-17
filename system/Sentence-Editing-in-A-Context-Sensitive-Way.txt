@@ -3,7 +3,7 @@
 
 # Sentence Editing in A Context Sensitive Way
 
-This manifest formalizes the **Higher-Order Synthesis** required to transition a material anchor through a **Grammar_Adjust Ripple**. By utilizing the **SIP v0.2** protocol and the **Chain Accretion Framework**, we move beyond manual string manipulation into a state of **Autonomous Architectural Alignment**.
+This manifest formalizes the **Higher-Order Synthesis** required to transition a material anchor through a **Grammar_Adjust Ripple**. By utilizing the **SIP** protocol and the **Chain Accretion Framework**, we move beyond manual string manipulation into a state of **Autonomous Architectural Alignment**.
 
 ---
 
@@ -28,7 +28,7 @@ The following shorthand chain initiates the **Interactive State Collapse** on th
 
 ### III. Declarative State Change: Operational Synthesis
 
-In this framework, editing is performed via **State Declarations**. Each selection from the **Mutation Manifold** authorizes the **SIP v0.2** engine to autonomously re-align the sentence structure.
+In this framework, editing is performed via **State Declarations**. Each selection from the **Mutation Manifold** authorizes the **SIP** engine to autonomously re-align the sentence structure.
 
 * **`+ select:Plural`**
 * **Logic**: Triggers **Sovereign Plurality**. `Grammar_Core` identifies dependencies to mutate indices 02 and 05 while voiding index 04.

@@ -1,7 +1,7 @@
 > @taipalogy 2026-03-02
 ---
 
-# Shorthand Interface Protocol v0.2
+# Shorthand Interface Protocol
 
 This specification codifies the **Shorthand Interface Protocol (SIP)**. As a sovereign compositional layer of the **Chain Accretion Framework for Browser**, the SIP facilitates high-fidelity task execution through **Method Synthesis**. In this protocol, **Containers are self-describing logic circuits** that broadcast their own $A + B = C$ schema to the global context.
 
@@ -11,7 +11,7 @@ This specification codifies the **Shorthand Interface Protocol (SIP)**. As a sov
 
 | Attribute | Specification | Operational Logic |
 | --- | --- | --- |
-| **Model** | **SIP v0.2** | Sovereign Shorthand Interface Protocol |
+| **Model** | **SIP** | Sovereign Shorthand Interface Protocol |
 | **Circuitry** | **Self-Describing Logic** | Containers broadcast their internal $A + B = C$ schema. |
 | **Dependency** | **Chain Accretion Framework** | Browser-based accretion and FS physics. |
 | **Logic Mode** | **Method Synthesis** | Autonomous generation of functional logic. |
