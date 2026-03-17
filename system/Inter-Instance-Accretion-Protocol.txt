@@ -14,12 +14,13 @@ This library is a core extension of the **Chain Accretion Framework**, fundament
 Every **IIA Composition** is classified by its order, determining the altitude of the agentic operation and the specific primitives deployed.
 
 | Feature | Low-Order (L0) | High-Order (L1+) |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **Operational Intent** | **Execution**: Shoveling material. | **Orchestration**: Designing the path. |
-| **Logic Primitive** | **Functional Primitive**: `map`, `filter`. | **Shell Primitive**: `curry`, `Supervisor`. |
-| **Structural Basis** | Atomic Code Snippet. | **CLI-as-Chassis**: CLI drives the state. |
+| **Logic Type** | **Functional Primitive**: `+`, `map`, `filter`. | **High-Order Operator**: `|`, `|>`, `Supervisor`. |
+| **Structural Basis** | **Atomic**: The Code Snippet / Shell Primitive. | **Chassis**: CLI-as-Logic-Driver / Architecture. |
 | **Tool Alignment** | **Cursor** (Inline), **Codex** (Snippets). | **Claude Code** (CLI), **Playwright** (Logic). |
 | **Inheritance** | **Linear**: Clones properties & debt. | **Reflective**: Propagates constraints. |
+| **CAF/SIP Example** | `caricature.txt + intensifier.txt` | `(A \| B) |> C ?> report.md` |
 
 ---
 
