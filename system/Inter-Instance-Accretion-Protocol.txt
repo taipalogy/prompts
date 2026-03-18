@@ -20,7 +20,6 @@ Every **IIA Composition** is classified by its order, determining the altitude o
 | **Structural Basis** | **Atomic**: The Code Snippet / Shell Primitive. | **Chassis**: CLI-as-Logic-Driver / Architecture. |
 | **Tool Alignment** | **Cursor** (Inline), **Codex** (Snippets). | **Claude Code** (CLI), **Playwright** (Logic). |
 | **Inheritance** | **Linear**: Clones properties & debt. | **Reflective**: Propagates constraints. |
-| **CAF/SIP Example** | `caricature.txt + intensifier.txt` | `(A \| B) |> C ?> report.md` |
 
 ---
 
