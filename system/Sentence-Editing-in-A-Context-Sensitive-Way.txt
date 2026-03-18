@@ -1,52 +1,60 @@
-> @taipalogy 2026-03-12
+> @taipalogy
 ---
 
 # Sentence Editing in A Context Sensitive Way
 
-This manifest formalizes the **Higher-Order Synthesis** required to transition a material anchor through a **Grammar_Adjust Ripple**. By utilizing the **SIP** protocol and the **Chain Accretion Framework**, we move beyond manual string manipulation into a state of **Autonomous Architectural Alignment**.
+This manifest formalizes the **L1+ Orchestration** required to transition a material anchor through a **Grammar_Adjust Ripple**. By utilizing the **SIP** protocol and the revised **IIA Order Hierarchy**, we decouple **Path Design (Orchestration)** from **Mechanical Shoveling (Execution)** while maintaining the **Visual Manifold**.
 
 ---
 
-### I. Protocol Comparison: Role Synthesis
+### I. The Alabaster Scale: Role Realignment
 
-Within the **Chain Accretion Framework**, the relationship between these logic circuits defines the boundary between "Mechanical" and "Semantic" authority.
+Within the **Chain Accretion Framework**, the relationship between these logic circuits is governed by the **L (Level of Abstraction)**. Grammar and string tools are **L0 Shovels**, while the Supervisor and Visualizer represent **L1+ Orchestration**.
 
-| Logic Circuit | Architectural Role | Functional Responsibility |
-| --- | --- | --- |
-| **`Grammar_Core`** | **The Architect** | Orchestrates the **Dependency Ripple**. Identifies the Sovereign Subject and synthesizes plural/tense valency. |
-| **`String_Core`** | **The Contractor** | Executes raw `split`, `replace`, and `join` primitives. Operates on the **Material Stock** without context. |
-
----
-
-### II. Higher-Order Synthesis: The Sentence Editing Prompt
-
-The following shorthand chain initiates the **Interactive State Collapse** on the vellum field, transitioning from raw input to a curated selection environment.
-
-> `anchor:stdin("I am reading a book") @ Anodic + tether:library(Grammar_Core) -> utilize:Logic_Flow_Visualizer > activate:Active_Pivot(index:1) -> materialize:Mutation_Manifold`
+| Logic Circuit | Architectural Role | Order | Functional Responsibility |
+| :--- | :--- | :--- | :--- |
+| **`Supervisor`** | **The Architect** | **High-Order (L1+)** | **Orchestration**: Designs the **Dependency Ripple** path; maps the "If/Then" logic. |
+| **`Logic_Flow_Visualizer`** | **The Blueprint** | **High-Order (L1+)** | **Visualization**: Renders the **Translucent Interface** of the ripple on the vellum grid. |
+| **`Grammar_Core`** | **The Specialist** | **Low-Order (L0)** | **Execution**: High-precision shoveling of linguistic primitives (tense, plurality). |
+| **`String_Core`** | **The Laborer** | **Low-Order (L0)** | **Execution**: Raw material shoveling (`split`, `replace`) without context. |
 
 ---
 
-### III. Declarative State Change: Operational Synthesis
+### II. L1+ Orchestration: The Supervisor Dispatch
 
-In this framework, editing is performed via **State Declarations**. Each selection from the **Mutation Manifold** authorizes the **SIP** engine to autonomously re-align the sentence structure.
+The following shorthand chain initiates the **Interactive State Collapse**. The **Supervisor** maps the path, and the **Visualizer** renders it for human intervention.
+
+> `anchor:stdin("I am reading a book") @ Anodic | utilize:map(Supervisor) |> utilize:curry(Grammar_Core) + accrete:widget(Logic_Flow_Visualizer) > activate:Active_Pivot(index:1) -> materialize:Mutation_Manifold`
+
+**The Logic Ripple (Path Design):**
+The **Supervisor (L1+)** probes the anchor and identifies the **Active_Pivot** at `index:1` (the verb). It designs a ripple path where a mutation at this pivot mandates a synchronized strike across the sentence chassis.
+
+---
+
+### III. Declarative State Change: Dispatching the Shovel
+
+Editing is performed via **State Declarations** in the **Declarative UI for Text**. These authorize the **Supervisor** to dispatch the **L0 Specialist** along the pre-designed path.
 
 * **`+ select:Plural`**
-* **Logic**: Triggers **Sovereign Plurality**. `Grammar_Core` identifies dependencies to mutate indices 02 and 05 while voiding index 04.
-* **Manifest Mutation**: `[I am reading a book]` → **`[We are reading books]`**.
+    * **L1+ Path**: `[0] -> [1] -> [4]`.
+    * **L0 Strike**: `Grammar_Core` shovels `[I -> We]`, `[am -> are]`, `[book -> books]`.
+    * **Result**: **`[We are reading books]`**.
 
 * **`+ shift:Identity(Technical)`**
-* **Logic**: Materializes a formal primitive. `String_Core` executes the replacement while maintaining singular valency.
-* **Manifest Mutation**: `[I am reading a book]` → **`[The_Agent is reading a book]`**.
+    * **L1+ Path**: `[0]`.
+    * **L0 Strike**: `String_Core` shovels `[I -> The_Agent]`.
+    * **Result**: **`[The_Agent is reading a book]`**.
 
 * **`+ lock:Shared_Anchor`**
-* **Logic**: Overrides the default plural ripple. Prevents mutation of the object node while allowing subject mutation.
-* **Manifest Mutation**: `[I was reading a book]` → **`[We were reading a book]`**.
+    * **L1+ Path**: `[0] -> [1] | block:[4]`.
+    * **L0 Strike**: `Grammar_Core` shovels subject/verb; skips object.
+    * **Result**: **`[We are reading a book]`**.
 
 ---
 
 ### IV. Declarative UI for Text: Terminal State
 
-> **Synthesis:** By declaring the **Active Pivot**, the user defines the **Intent** (The State); the Framework materializes the **Result** (The Text). The **Grammar_Core** acts as the intelligence layer, while **`String_Core`** works as the functional contractor to execute the physical deconstruction and re-assembly.
+> **Synthesis:** The user defines the **Intent** (The State) via the **Active_Pivot**; the **Supervisor (L1+)** designs the **Path** (The Ripple); and the **Grammar/String Cores (L0)** execute the **Shoveling** (The Text). The **Logic_Flow_Visualizer** ensures the ripple is transparent, maintaining **Valency = 1.0** throughout the mutation.
 
 ---
 
