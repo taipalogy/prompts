@@ -1,9 +1,0 @@
-I. Shell Primitives and Functional Primitives
-
-* anchor:log.txt + utilize:grep("ERR")
-* anchor:data.csv @ Material + tether:cat
-* anchor:[URL] @ Stock + tether:grep("target_key")
-* anchor:/Documents @ Glob + tether:find("-maxdepth 1")
-* anchor:/Documents(Recursive) @ Glob + tether:find("-name '*.md'") + tether:sort("-u")
-* (anchor:A | anchor:B) > select:Diff
-* The equivalent shell command for this functional primitive chain.
