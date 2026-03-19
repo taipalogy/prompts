@@ -3,7 +3,9 @@
 
 # Shorthand Interface Protocol
 
-This specification codifies the **Shorthand Interface Protocol (SIP)**. As a sovereign compositional layer of the **Chain Accretion Framework for Browser**, the SIP facilitates high-fidelity task execution through **Method Synthesis**. In this protocol, **Containers are self-describing logic circuits** that broadcast their own $A + B = C$ schema to the global context.
+Dependent on the **Chain Accretion Framework for Browser**
+
+The **Shorthand Interface Protocol (SIP)** facilitates high-fidelity task execution through **Method Synthesis**. In this protocol, **Containers are self-describing logic circuits** that broadcast their own $A + B = C$ schema to the global context.
 
 ---
 
@@ -66,11 +68,10 @@ The protocol adopts the **Autonomous Skill** and **Orchestration** capability of
 
 ## 4. Compositional Shorthand Lexicon
 
-* `anchor:File @ Material` : Power the primary Logic Circuit and Synthesis Root.
-* `+ accrete:Widget` : Add physical chassis components (0px/64px spacing).
-* `+ tether:Skill` : Accrete a self-describing circuit for **Method Synthesis**.
-* `-> utilize:Engine` : Activate the circuit's internal method or synthesis logic.
-* `> select:State` : Final state collapse to the Publication-Grade Editorial Layout.
+* **`anchor:File @ Material`** : Power the primary Logic Circuit and Synthesis Root.
+* `| utilize:Skill` : **The Pour**. Activate a self-describing circuit for **Method Synthesis** (Internal flow).
+* `|> utilize:Engine` : **The Injection**. Activate high-order synthesis logic, **L1+ Orchestration**, or establish a **Dependency**.
+* `-> materialize` : Trigger terminal grounding and visual manifestation of the synthesized result.
 
 ---
 
