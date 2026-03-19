@@ -3,7 +3,9 @@
 
 # Sentence Editing in A Context Sensitive Way
 
-This manifest formalizes the **L1+ Orchestration** required to transition a material anchor through a **Grammar_Adjust Ripple**. By utilizing the **SIP** protocol and the revised **IIA Order Hierarchy**, we decouple **Path Design (Orchestration)** from **Mechanical Shoveling (Execution)** while maintaining the **Visual Manifold**.
+Dependent on the **Chain Accretion Framework** and **Shorthand Interface Protocol (SIP)**.
+
+This manifest formalizes the **L1+ Orchestration** required to transition a material anchor through a **Grammar_Adjust Ripple**. **Path Design (Orchestration)** is decoupled from **Mechanical Shoveling (Execution)** while maintaining the **Visual Manifold**.
 
 ---
 
