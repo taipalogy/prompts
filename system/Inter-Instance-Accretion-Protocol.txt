@@ -15,25 +15,57 @@ This library codifies the **IIA Protocol**, where sovereign **Modules** are deco
 
 Every **IIA Composition** is classified by its order, determining the altitude of the agentic operation and the specific primitives deployed.
 
-| Feature | Low-Order (L0) | High-Order (L1+) |
-| :--- | :--- | :--- |
-| **Operational Intent** | **Execution**: Shoveling material. | **Orchestration**: Designing the path. |
-| **Logic Type** | **Functional Primitive**: `+`, `map`, `filter`. | **High-Order Operator**: `|`, `|>`, `Supervisor`. |
-| **Structural Basis** | **Atomic**: The Code Snippet / Shell Primitive. | **Chassis**: CLI-as-Logic-Driver / Architecture. |
-| **Tool Alignment** | **Cursor** (Inline), **Codex** (Snippets). | **Claude Code** (CLI), **Playwright** (Logic). |
-| **Inheritance** | **Linear**: Clones properties & debt. | **Reflective**: Propagates constraints. |
+### High-Order (L1+) | Orchestration: The Injection
+
+* **Operational Intent**: **Orchestration**: Designing the logic path and architectural constraints.
+* **Logic Type**: **High-Order Operator**: `|>` (The Injection), **Supervisor**.
+* **Structural Basis**: **Chassis**: CLI-as-Logic-Driver / Architecture.
+* **Tool Alignment**: **Claude Code** (CLI/Agentic), **Playwright** (Logic/Automation).
+* **Inheritance**: **Reflective**: Recursive propagation of constraints and agentic intent.
+
+### Low-Order (L0) | Execution: The Pour
+
+* **Operational Intent**: **Execution**: Shoveling material through a functional block.
+* **Logic Type**: **Functional Primitive**: `+` (Accretion), `|` (The Conduit). 
+    * **Shell Primitives**: `map`, `filter`, `reduce`, `curry`.
+* **Structural Basis**: **Atomic**: The **Shell Primitive** / Code Snippet.
+* **Tool Alignment**: **Cursor** (Inline edits), **Codex** (Code snippets).
+* **Inheritance**: **Linear**: Direct cloning of properties and logic debt.
 
 ---
 
 ## 2. Core Pattern Registry (Inter-Instance Accretion)
 
-| Pattern Name | Compositional Chain (The Pour) | Order | Strategic Concept |
-| --- | --- | --- | --- |
-| **The Vellum Translation** | `anchor:Material | utilize:filter(Debt) | utilize:map(Syntax)` | **L0** | **Refinery**: Entropy subtraction. |
-| **The Contextual Swarm** | `anchor:Brief | utilize:map(Reqs) | utilize:reduce(Blueprint)` | **L1+** | **Type Synthesis**: Deriving types from docs. |
-| **The Autonomous Loop** | `anchor:State + utilize:curry(Valency) && utilize:map(Optim)` | **L1+** | **Autonomous Audit**: Recursive self-healing. |
-| **The Logic Injector** | `anchor:Schema | utilize:map(Actions) | utilize:reduce(Wiring)` | **L1+** | **UI-to-Logic Sync**: Hardening BE-FE bonds. |
-| **The Supervisor Dispatch** | `anchor:Global | utilize:map(Supervisor) | utilize:curry(Specialist)` | **L1+** | **Logic Decoupling**: Separating intent from execution. |
+### Low-Order (L0) | Execution: Shoveling Material
+**Operational Intent**: Linear, sequential data transformation (The Pour).
+
+* **The Vellum Translation**
+    * **Chain**: `anchor:Material | filter(Debt) | map(Syntax) -> materialize`
+    * **Strategic Concept**: **Refinery**: Linear entropy subtraction and syntax cleaning.
+    * **Logic**: Uses the **Conduit (`|`)** to move material through atomic filters.
+
+### High-Order (L1+) | Orchestration: Designing the Path
+**Operational Intent**: Non-linear architectural constraints and agentic orchestration (The Injection).
+
+* **The Contextual Swarm**
+    * **Chain**: `anchor:Brief | map(Reqs) |> reduce(Blueprint) -> materialize`
+    * **Strategic Concept**: **Type Synthesis**: Deriving architectural types from documentation.
+    * **Logic**: Transitions from a **Pour** to an **Injection (`|>`)** to signal a high-order state collapse into a blueprint.
+
+* **The Autonomous Loop**
+    * **Chain**: `anchor:State + curry(Valency) |> map(Optim) -> materialize`
+    * **Strategic Concept**: **Autonomous Audit**: Recursive self-healing logic.
+    * **Logic**: Combines physical **Accretion (`+`)** with an injected optimization constraint.
+
+* **The Logic Injector**
+    * **Chain**: `anchor:Schema | map(Actions) |> reduce(Wiring) -> materialize`
+    * **Strategic Concept**: **UI-to-Logic Sync**: Hardening BE-FE bonds through dependency mapping.
+    * **Logic**: Finalizes the chain with an **Injection (`|>`)** to establish a permanent architectural binding.
+
+* **The Supervisor Dispatch**
+    * **Chain**: `anchor:Global |> map(Supervisor) |> curry(Specialist) -> materialize`
+    * **Strategic Concept**: **Logic Decoupling**: Separating high-level intent from low-level execution.
+    * **Logic**: Leads with **The Injection (`|>`)** to signal that the entire manifold is under **Agentic Orchestration**.
 
 ---
 
@@ -41,18 +73,21 @@ Every **IIA Composition** is classified by its order, determining the altitude o
 
 **The Kinetic Multi-Tenant (Workspace + Security Hardening)**
 
-* **The Chain**: `anchor:Tenant_Config + utilize:curry(Workspace_CLI) && utilize:map(Role_Synthesis) | utilize:reduce(Federated_Chassis)`
-* **Logic**: **High-Order**. Utilizes **CLI-as-Chassis** and **Shell Primitives** to probe state. It performs **Security Hardening** by currying strict ACLs into the synthesized interface.
+* **The Chain**: `anchor:Tenant_Config + curry(Workspace_CLI) | map(Role_Synthesis) |> reduce(Federated_Chassis) -> materialize`
+* **Order**: **High-Order (L1+)**
+* **Logic**: **Orchestration**: Transitioning from a **Spatial Accretion (`+`)** to an **Architectural Injection (`|>`)**. It establishes a **Federated Chassis** as a high-order constraint, hardening security by binding roles to the workspace driver.
 
 **The Ghost-Bypass (Logic Decoupling)**
 
-* **The Chain**: `anchor:Legacy_Silo + utilize:filter(Opaque_Logic) | utilize:curry(Deconstruction) | utilize:reduce(Translucent_Interface)`
-* **Logic**: **High-Order**. Decouples "Black Box" behavior. The **Sovereign Gateway** monitors the node while IIA synthesizes a proxy for **Cursor** to implement.
+* **The Chain**: `anchor:Legacy_Silo | filter(Opaque_Logic) | curry(Deconstruction) |> reduce(Translucent_Interface) -> materialize`
+* **Order**: **High-Order (L1+)**
+* **Logic**: **Decoupling**: Shovels legacy material through a refinery before an **L1+ Injection** synthesizes a proxy. This allows the **Sovereign Gateway** to monitor the node while the interface is grounded.
 
 **The Alabaster Refiner (Figma-to-Code Sync)**
 
-* **The Chain**: `anchor:Figma_Export + utilize:filter(Noise) | utilize:map(Swiss_Baseline) | utilize:reduce(0.5px_Hairline)`
-* **Logic**: **High-Order**. Performs **UI-to-Logic Sync** via visual token mapping. The **Execution Layer** enforces the **0/64 Law** during grounding.
+* **The Chain**: `anchor:Figma_Export + filter(Noise) | map(Swiss_Baseline) |> reduce(0.5px_Hairline) -> materialize`
+* **Order**: **High-Order (L1+)**
+* **Logic**: **UI-to-Logic Sync**: Performs a spatial filter of visual noise, then uses **The Injection (`|>`)** to enforce the **0/64 Law** and the **Alabaster Scale** (0.5px) during terminal grounding.
 
 ---
 
