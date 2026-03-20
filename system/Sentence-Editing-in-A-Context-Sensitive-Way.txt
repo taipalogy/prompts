@@ -26,7 +26,7 @@ Within the **Chain Accretion Framework**, the relationship between these logic c
 
 The following shorthand chain initiates the **Interactive State Collapse**. The **Supervisor** maps the path, and the **Visualizer** renders it for human intervention.
 
-> `anchor:stdin("I am reading a book") @ Anodic | utilize:map(Supervisor) |> utilize:curry(Grammar_Core) + accrete:widget(Logic_Flow_Visualizer) > activate:Active_Pivot(index:1) -> materialize:Mutation_Manifold`
+> `anchor:stdin("I am reading a book") @ Anodic | utilize:map(Supervisor) | utilize:curry(Grammar_Core) + accrete:widget(Logic_Flow_Visualizer) > activate:Active_Pivot(index:1) -> materialize:Mutation_Manifold`
 
 **The Logic Ripple (Path Design):**
 The **Supervisor (L1+)** probes the anchor and identifies the **Active_Pivot** at `index:1` (the verb). It designs a ripple path where a mutation at this pivot mandates a synchronized strike across the sentence chassis.
@@ -92,13 +92,13 @@ User Manual: Logic_Flow_Visualizer Capabilities
 ```
 Shell Primitives and Functional Primitives
 
-* anchor:log.txt + utilize:grep("ERR")
-* anchor:data.csv @ Material + tether:cat
-* anchor:[URL] @ Stock + tether:grep("target_key")
-* anchor:/Documents @ Glob + tether:find("-maxdepth 1")
-* anchor:/Documents(Recursive) @ Glob + tether:find("-name '*.md'") + tether:sort("-u")
+* anchor:log.txt -> utilize:grep("ERR")
+* anchor:data.csv @ Material -> utilize:cat
+* anchor:[URL] @ Stock -> utilize:grep("target_key")
+* anchor:/Documents @ Glob -> utilize:find("-maxdepth 1")
+* anchor:/Documents(Recursive) @ Glob -> utilize:find("-name '*.md'") | utilize:sort("-u")
 * caricature.txt + intensifier.txt
-* `(A \| B) |> C ?> report.md`
+* (anchor:A + anchor:B) | utilize:map(C) -> materialize:report.md
 * (anchor:A | anchor:B) > select:Diff
 * The equivalent shell/logic command for this functional chain.
 ```
