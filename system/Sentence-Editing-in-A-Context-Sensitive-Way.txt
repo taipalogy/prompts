@@ -56,7 +56,11 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 * activate:Active_Pivot(index:1)
 * A text output for Predictive Ghosting at index 1.
 * Isolate the third word in the sentence as the primary anchor for editing.
+```
+
+```
 * How will you revise the chain when chain brevity and own vocabulary is enabled?
+* anchor:stdin("Your text") @ Anodic | utilize:Strategy(Source_Purge) | utilize:list(Component_Stack(Isolated)) | utilize:format(Compact)
 * anchor:stdin("Your text") -> utilize:Strategy(Source_Purge) + list:Component_Stack(Isolated) > format:Compact @ Anodic
 * "Your text" @ Anodic -> Strategy:Source_Purge + Stack:Isolated > Compact
 ```
@@ -92,13 +96,6 @@ Shell Primitives and Functional Primitives
 * anchor:/Documents @ Glob | utilize:find("-maxdepth 1")
 * anchor:/Documents(Recursive) @ Glob | utilize:find("-name '*.md'") | utilize:sort("-u")
 * caricature.txt + intensifier.txt
-* (anchor:A | anchor:B) > select:Diff
-* The equivalent shell/logic command for this functional chain.
-```
-:find("-maxdepth 1")
-* anchor:/Documents(Recursive) @ Glob -> utilize:find("-name '*.md'") | utilize:sort("-u")
-* caricature.txt + intensifier.txt
-* (anchor:A + anchor:B) | utilize:map(C) -> materialize:report.md
 * (anchor:A | anchor:B) > select:Diff
 * The equivalent shell/logic command for this functional chain.
 ```
