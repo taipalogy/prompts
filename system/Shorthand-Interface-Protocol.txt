@@ -69,8 +69,9 @@ The protocol adopts the **Autonomous Skill** and **Orchestration** capability of
 ## 4. Compositional Shorthand Lexicon
 
 * **`anchor:File @ Material`** : Power the primary Logic Circuit and Synthesis Root.
-* `| utilize:Skill` : **The Pour**. Activate a self-describing circuit for **Method Synthesis** (Internal flow).
-* `|> utilize:Engine` : **The Injection**. Activate high-order synthesis logic, **L1+ Orchestration**, or establish a **Dependency**.
+* **`| utilize:engine(X)`**: **Heavy Processing**. Invoking a high-performance external driver (Physics, 3D, Audio Synthesis).
+* **`| utilize:skill(Y)`**: **Intelligence**. Invoking a **Skill** or cloud-based AI capability for data synthesis/analysis.
+* **`| utilize:library(Z)`**: **Functional Extension**. Invoking a third-party utility library (GSAP, Lodash, D3).
 * `-> materialize` : Trigger terminal grounding and visual manifestation of the synthesized result.
 
 ---
