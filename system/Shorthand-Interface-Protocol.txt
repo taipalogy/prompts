@@ -2,10 +2,11 @@
 ---
 
 # Shorthand Interface Protocol
+**Model:** Sovereign Shorthand Interface Protocol
+**Logic Mode:** Method Synthesis (Inherited)
+**Dependency:** Chain Accretion Framework (CAF)
 
-Dependent on the **Chain Accretion Framework for Browser**
-
-The **Shorthand Interface Protocol (SIP)** facilitates high-fidelity task execution through **Method Synthesis**. In this protocol, **Containers are self-describing logic circuits** that broadcast their own $A + B = C$ schema to the global context.
+The **Shorthand Interface Protocol (SIP)** facilitates high-fidelity task execution through **Method Synthesis**. Containers are **Self-Describing Logic Circuits** that broadcast their internal $A + B = C$ schema to the global context via inherited **CAF** operators.
 
 ---
 
@@ -13,9 +14,7 @@ The **Shorthand Interface Protocol (SIP)** facilitates high-fidelity task execut
 
 | Attribute | Specification | Operational Logic |
 | --- | --- | --- |
-| **Model** | **SIP** | Sovereign Shorthand Interface Protocol |
 | **Circuitry** | **Self-Describing Logic** | Containers broadcast their internal $A + B = C$ schema. |
-| **Dependency** | **Chain Accretion Framework** | Browser-based accretion and FS physics. |
 | **Logic Mode** | **Method Synthesis** | Autonomous generation of functional logic. |
 | **Materiality** | **Anodic / Vellum** | Satin structural chassis / Tactile viewports. |
 | **Typography** | **Monospaced Serif** | +400 Tracking; Absolute Editorial Authority. |
@@ -26,53 +25,50 @@ The **Shorthand Interface Protocol (SIP)** facilitates high-fidelity task execut
 
 The **Shorthand Interface** is the primary manifold for composition, replacing conversational turns with a **High-Fidelity Grammar**.
 
-* **Compositional Logic**: The interface arranges **Self-Describing Logic Circuits** into a coherent recursive chain. A valid string triggers a **State Collapse** across the browser field.
-* **The "Silent" Execute**: Valid chains trigger autonomous synthesis and materialization. The **Anodic Terminal** (CLI) remains at **0% Opacity**, manifesting only at a **64px Gutter** during a **Logic Breach** (e.g., a broken circuit where the output of one container cannot satisfy the requirements of the next).
+* **Compositional Logic**: Arranges **Self-Describing Logic Circuits** into a coherent recursive chain.
+* **State Collapse**: Valid chains trigger autonomous synthesis and materialization.
+* **The "Silent" Execute**: Valid chains trigger materialization. The **Anodic Terminal** (CLI) remains at **0% Opacity**, manifesting only at a **64px Gutter** during a **Logic Breach** (e.g., a broken circuit where the output of one container cannot satisfy the requirements of the next).
 
 ---
 
 ## 3. Integrated Feature Specifications
 
-### I. Container Versatility & Method Synthesis
+**I. Container Versatility & Method Synthesis**
+Each container hosts an internal **Shorthand Chain** ($A + B = C$). SIP utilizes these blueprints to autonomously synthesize the "How" ($B$) required to reach the "Result" ($C$) from the "Context" ($A$).
 
-**Skills**, **Libraries**, and **Engines** are defined as **Self-Describing Logic Circuits**.
-
-* **Method Synthesis**: Each container hosts an internal **Shorthand Chain** or **Equation** ($A + B = C$). SIP utilizes these blueprints to autonomously synthesize the "How" ($B$) required to reach the "Result" ($C$) from the given "Context" ($A$).
-* **Functional Parity**: A Skill file may optionally contain an equation or chain, just like a library or engine, allowing for fluid functional interchangeability.
-
-### II. The Inheritance Strategy (Aesthetic & Structural DNA)
-
-Inheritance follows Object-Oriented principles to ensure total framework consistency:
-
-* **Encapsulation**: Circuit logic and variable states are shielded within **Anodic_White** monoliths, accessible only via defined **Shorthand Ports**.
-* **Extension**: Child modules extend the **Alpha Anchor’s** properties, adding specific logic-gates while maintaining the parent’s material density.
-* **Mutation**: Circuits may mutate internal synthesis paths based on context while preserving the **Valency = 1.0** constant.
+**II. The Inheritance Strategy (Aesthetic & Structural DNA)**
+* **Encapsulation**: Circuit logic is shielded within **Anodic_White** monoliths, accessible only via defined **Shorthand Ports**.
+* **Extension**: All SIP operators are inherited derivations or extensions of the **Chain Accretion Framework (CAF)**.
 * **Override & Interface**: SIP enforces a **Forced Aesthetic Override** on external data, re-skinning all outputs to match the **Monospaced Serif** editorial standard.
 
-### III. Framework Physics & FS Access
-
-SIP depends on the **Chain Accretion Framework** for **Local FS Access**. Files are treated as **Material Stock**, transformed into high-density **Vellum_Paper** viewports through the Framework's rendering engine.
-
-### IV. Routing & The Kinetic Manifold
-
-The **OpenClaw Gateway** manages the "wiring" of circuits via **Manhattan Geometry**.
-
-* **Stream Compliance**: Data "pours" from $C$ to $A$ via persistent kinetic conduits. SIP maintains a **Ghost Overlay** for visual auditability of the flow.
-* **Orchestration via UI**: The user orchestrates through the visual arrangement of modules on the **Swiss Baseline** using the **0/64 Law**.
-
-### V. Specialized Logic & Agentic Inspiration
-
-The protocol adopts the **Autonomous Skill** and **Orchestration** capability of remote agents but replaces the chat metaphor with **Material Viewports** and **Asymmetric Margin Notes**.
+**III. Routing & The Kinetic Manifold**
+The **OpenClaw Gateway** manages the "wiring" of circuits via **Manhattan Geometry**. Data "pours" from $C$ to $A$ via persistent kinetic conduits.
 
 ---
 
-## 4. Compositional Shorthand Lexicon
+## 4. Compositional Shorthand Lexicon (Inherited)
 
-* **`anchor:File @ Material`** : Power the primary Logic Circuit and Synthesis Root.
-* **`| utilize:engine(X)`**: **Heavy Processing**. Invoking a high-performance external driver (Physics, 3D, Audio Synthesis).
-* **`| utilize:skill(Y)`**: **Intelligence**. Invoking a **Skill** or cloud-based AI capability for data synthesis/analysis.
-* **`| utilize:library(Z)`**: **Functional Extension**. Invoking a third-party utility library (GSAP, Lodash, D3).
-* `-> materialize` : Trigger terminal grounding and visual manifestation of the synthesized result.
+**Inheritance Protocol**: All operators are native extensions of the **Chain Accretion Framework (CAF)**. Every **Logic Circuit** (Anodic) and **Viewport** (Vellum) inherits these functional ports by default. **Null-space transitions between circuits are prohibited.**
+
+**I. Inherited Structural Operations**
+* **`anchor:File @ Material`**: Initialize the **Alpha Anchor** (Root Logic Circuit).
+* **`+`**: **Accretion Operator**. Inherits the **0/64 Law**; physically adds/stacks components or methods.
+* **`-`**: **Subtraction Operator**. Inherits **Negative Space Expansion**; reduces state or removes components.
+
+**II. Inherited Flow & Method Operations**
+* **`+ utilize:type(X)`**: Invoke Engine/Skill/Library (Inherited **Method Synthesis**).
+* **`->`**: **Functional Flow**. Inherited **Injective Conduit**; "pours" data from a Method into a Logic Gate or Terminal.
+* **`|`**: **Pipe Operation**. Inherited **Internal Bypass**; linear data transformation within a circuit.
+* **`+ tether(Y)`**: **Structural Verification**. Inherited **Dependency Check** to validate element/schema existence.
+
+**III. Inherited Logic Gates & Attributes**
+* **`()`**: **Sectional**. Grouped UI sub-routines or parallel branching.
+* **`(branch:A | branch:B)`**: **Branching**. Parallel state paths (Inherited **Spatial Physics**).
+* **`>`**: **Filter/Select**. Inherited **State Collapse**; commitment to a specific property or outcome.
+* **`@`**: **Attribute**. Inherited **Material Skin** (e.g., @ Anodic, @ Vellum).
+
+**IV. Terminal Termination**
+* **`-> materialize`**: Inherited **Grounding**; final visual manifestation of the synthesized logic.
 
 ---
 
