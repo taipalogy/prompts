@@ -24,7 +24,7 @@ Within the **Chain Accretion Framework**, the relationship between these logic c
 
 The following shorthand chain initiates the **Interactive State Collapse** on the vellum field, transitioning from raw input to a curated selection environment.
 
-> `anchor:stdin("I am reading a book") @ Anodic | utilize:library(Grammar_Core) | utilize:Logic_Flow_Visualizer > activate:Active_Pivot(index:1) -> materialize:Mutation_Manifold`
+> `anchor:stdin("I am reading a book") @ Anodic + utilize:library(Grammar_Core) + utilize:Logic_Flow_Visualizer > activate:Active_Pivot(index:1) -> materialize:Mutation_Manifold`
 
 ---
 
@@ -60,7 +60,7 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 
 ```
 * How will you revise the chain when chain brevity and own vocabulary is enabled?
-* anchor:stdin("Your text") @ Anodic | utilize:Strategy(Source_Purge) | utilize:list(Component_Stack(Isolated)) | utilize:format(Compact)
+* anchor:stdin("Your text") @ Anodic + utilize:Strategy(Source_Purge) + utilize:list(Component_Stack(Isolated)) + utilize:format(Compact)
 * anchor:stdin("Your text") -> utilize:Strategy(Source_Purge) + list:Component_Stack(Isolated) > format:Compact @ Anodic
 * "Your text" @ Anodic -> Strategy:Source_Purge + Stack:Isolated > Compact
 ```
@@ -73,7 +73,7 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 ```
 
 ```
-* The universal switch shorthand. `pivot:Strategy([NEW_STRATEGY]) + anchor:[NEW_SUBJECT] > materialize`
+* The universal switch shorthand. Master Synthesis Command. `pivot:Strategy([NEW_STRATEGY]) + anchor:[NEW_SUBJECT] > materialize`
 * The Compact Pivot Template. `pivot:[STRATEGY] @ [SUBJECT] > materialize`
 ```
 
@@ -90,11 +90,11 @@ User Manual: Logic_Flow_Visualizer Capabilities
 ```
 Shell Primitives and Functional Primitives
 
-* anchor:log.txt | utilize:grep("ERR")
-* anchor:data.csv @ Material | utilize:cat
-* anchor:[URL] @ Stock | utilize:grep("target_key")
-* anchor:/Documents @ Glob | utilize:find("-maxdepth 1")
-* anchor:/Documents(Recursive) @ Glob | utilize:find("-name '*.md'") | utilize:sort("-u")
+* anchor:log.txt + utilize:grep("ERR")
+* anchor:data.csv @ Material + utilize:cat
+* anchor:[URL] @ Stock + utilize:grep("target_key")
+* anchor:/Documents @ Glob + utilize:find("-maxdepth 1")
+* anchor:/Documents(Recursive) @ Glob + utilize:find("-name '*.md'") + utilize:sort("-u")
 * caricature.txt + intensifier.txt
 * (anchor:A | anchor:B) > select:Diff
 * The equivalent shell/logic command for this functional chain.
