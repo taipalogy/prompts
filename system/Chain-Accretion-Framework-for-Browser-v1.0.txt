@@ -116,10 +116,10 @@ This section dictates the non-negotiable logic of the **Chain Accretion** system
 * `anchor:Archetype @ Material` : **The Root**. Initialize the primary structural coordinate and material surface.
 * `+` : **Accretion** (Add physical component/widget/layer)
 * `-` : **Subtraction** (Remove physical component/state reduction)
-* `|`: **Pipe Operation**.
-* `| utilize:method(X)`: **External Integration**. Invoking a non-local tool, object, library, or skill to process the data stream.
-* `| tether(Y)`: **Structural Verification**. Performing a **Dependency Check** to validate the existence of a DOM element, CSS variable, or local object schema before proceeding.
+* `+ utilize:method(X)`: **External Integration**. Invoking a non-local tool, object, library, or skill to process the data stream.
+* `+ tether(Y)`: **Structural Verification**. Performing a **Dependency Check** to validate the existence of a DOM element, CSS variable, or local object schema before proceeding.
 * `->` : **Functional Flow** (Direct Allocation / Injection marker)
+* `|`: **Pipe Operation**.
 * `(branch:A | branch:B)` : **Branching** (Parallel state paths / Non-linear logic)
 * `>` : **Filter/Select** (Gate/Commitment / State collapse / Drill into the result to target a specific property or sub-component)
 * `@` : **Attribute** (Skin/Trait/Material, e.g., @ Anodic, @ Vellum)
