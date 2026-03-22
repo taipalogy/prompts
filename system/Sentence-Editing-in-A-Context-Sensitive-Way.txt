@@ -5,8 +5,6 @@
 
 This manifest formalizes the **Higher-Order Synthesis** required to transition a material anchor through a **Grammar_Adjust Ripple**. By utilizing the **SIP** protocol and the **Chain Accretion Framework**, we move beyond manual string manipulation into a state of **Autonomous Architectural Alignment**.
 
-Able to handle both chain brevity and its own vocabulary. This option can be disabled or enabled.
-
 ---
 
 ### I. Protocol Comparison: Role Synthesis
@@ -32,23 +30,47 @@ The following shorthand chain initiates the **Interactive State Collapse** on th
 
 In this framework, editing is performed via **State Declarations**. Each selection from the **Mutation Manifold** authorizes the **SIP** engine to autonomously re-align the sentence structure.
 
-* **`+ select:Plural`**
-* **Logic**: Triggers **Sovereign Plurality**. `Grammar_Core` identifies dependencies to mutate indices 02 and 05 while voiding index 04.
-* **Manifest Mutation**: `[I am reading a book]` → **`[We are reading books]`**.
-
-* **`+ shift:Identity(Technical)`**
-* **Logic**: Materializes a formal primitive. `String_Core` executes the replacement while maintaining singular valency.
-* **Manifest Mutation**: `[I am reading a book]` → **`[The_Agent is reading a book]`**.
-
-* **`+ lock:Shared_Anchor`**
-* **Logic**: Overrides the default plural ripple. Prevents mutation of the object node while allowing subject mutation.
-* **Manifest Mutation**: `[I was reading a book]` → **`[We were reading a book]`**.
+* **Sovereign Plurality (Level 03 Brevity)**
+    * **Command**: `+ select:Plural`
+    * **Logic**: Triggers **Valency Sync**. `Grammar_Core` identifies dependencies to mutate indices 02 and 05 while voiding index 04.
+    * **Manifest Mutation**: `[I am reading a book]` → **`[We are reading books]`**.
+* **Technical Identity (Level 01 Brevity)**
+    * **Command**: `+ shift:Identity(Technical)`
+    * **Logic**: Materializes a formal primitive. `String_Core` executes the replacement while maintaining singular valency.
+    * **Manifest Mutation**: `[I am reading a book]` → **`[The_Agent is reading a book]`**.
+* **Shared_Anchor (Level 04 Brevity)**
+    * **Command**: `+ lock:Shared_Anchor`
+    * **Logic**: Overrides the default plural ripple. Prevents mutation of the object node while allowing subject mutation.
+    * **Manifest Mutation**: `[I was reading a book]` → **`[We were reading a book]`**.
 
 ---
 
 ### IV. Declarative UI for Text: Terminal State
 
-> **Synthesis:** By declaring the **Active Pivot**, the user defines the **Intent** (The State); the Framework materializes the **Result** (The Text). The **Grammar_Core** acts as the intelligence layer, while **`String_Core`** works as the functional contractor to execute the physical deconstruction and re-assembly.
+**Synthesis**: By declaring the **Active Pivot**, the user defines the **Intent** (The State); the Framework materializes the **Result** (The Text). The **Grammar_Core** acts as the intelligence layer, while **String_Core** works as the functional contractor to execute the physical deconstruction and re-assembly. The **Anodic Terminal** monitors the process at **0% Opacity**, ensuring the final manifest adheres to the **Swiss Baseline**.
+
+---
+
+### V. Levels of Brevity & Lexical Scale
+
+The following list defines the **Inversion Principle**: as structural shorthand contracts, the sophistication of the **Own Vocabulary** must expand to maintain **Valency = 1.0**.
+
+* **Level 01: Functional (Descriptive Technical)**
+    * **Logic**: High-verbosity; instructional "User Manual" language.
+    * **Lexicon**: `filter`, `search`, `sort`, `analyze`, `display`.
+    * **Example**: `anchor:stdin("I am reading a book") @ Anodic + utilize:library(Grammar_Core) + utilize:Logic_Flow_Visualizer`
+* **Level 02: Transition (Operational Hybrid)**
+    * **Logic**: Relational; describes the "External Hand-off" between states.
+    * **Lexicon**: `Hand-off`, `Stream`, `Bridge`, `Ingest`.
+    * **Example**: `stdin("I am reading a book") @ Vellum | utilize:Grammar_Core`
+* **Level 03: Brevity (Abstracted Metadata)**
+    * **Logic**: Proprietary; uses high-fidelity terms that imply material state.
+    * **Lexicon**: `Valency`, `Knoll`, `Accrete`, **`Pivot`**, `Vellum`.
+    * **Example**: `stdin("I am reading a book") @ Vellum + activate:Pivot(index:1) > Knoll`
+* **Level 04: Sovereign (Primordial Logic)**
+    * **Logic**: Evocative; single-word concepts trigger massive state collapses.
+    * **Lexicon**: `Fracture`, `Pour`, `Collapse`, `Drift`, `Ghost`.
+    * **Example**: `stdin("I am reading a book") -> Fracture > Ghost`
 
 ---
 
