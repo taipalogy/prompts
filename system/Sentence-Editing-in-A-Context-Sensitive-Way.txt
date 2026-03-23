@@ -22,7 +22,7 @@ Within the **Chain Accretion Framework**, the relationship between these logic c
 
 The following shorthand chain initiates the **Interactive State Collapse** on the vellum field, transitioning from raw input to a curated selection environment.
 
-> `anchor:stdin("I am reading a book") @ Anodic + utilize:library(Grammar_Core) + utilize:Logic_Flow_Visualizer > activate:Active_Pivot(index:1) -> materialize:Mutation_Manifold`
+> `anchor:stdin("I am reading a book") @ Anodic + utilize:library(Grammar_Core) + utilize:Logic_Flow_Visualizer > activate:Pivot(index:1) -> materialize:Mutation_Manifold`
 
 ---
 
@@ -57,19 +57,19 @@ The following list defines the **Inversion Principle**: as structural shorthand 
 
 * **Level 01: Functional (Descriptive Technical)**
     * **Logic**: High-verbosity; instructional "User Manual" language.
-    * **Lexicon**: `filter`, `search`, `sort`, `analyze`, `display`.
+    * **Lexicon**: `filter`, `search`, `split`, `join`, `fuse`, `Detect`.
     * **Example**: `anchor:stdin("I am reading a book") @ Anodic + utilize:library(Grammar_Core) + utilize:Logic_Flow_Visualizer`
 * **Level 02: Transition (Operational Hybrid)**
-    * **Logic**: Relational; describes the "External Hand-off" between states.
-    * **Lexicon**: `Hand-off`, `Stream`, `Bridge`, `Ingest`.
-    * **Example**: `stdin("I am reading a book") @ Vellum | utilize:Grammar_Core`
+    * **Logic**: Relational; describes the "External Hand-off" and structural joints.
+    * **Lexicon**: `Conjunction`, `Infuse`, `Magnetize`, `Soft-Start`.
+    * **Example**: `stdin("I am reading a book") @ Vellum | utilize:Hand-off(Grammar_Core)`
 * **Level 03: Brevity (Abstracted Metadata)**
-    * **Logic**: Proprietary; uses high-fidelity terms that imply material state.
-    * **Lexicon**: `Valency`, `Knoll`, `Accrete`, **`Pivot`**, `Vellum`.
+    * **Logic**: Proprietary; uses high-fidelity terms for state triggers and shifts.
+    * **Lexicon**: `Invert`, `Muffle`, `Saturate`, `Ripple`, `Pivot`.
     * **Example**: `stdin("I am reading a book") @ Vellum + activate:Pivot(index:1) > Knoll`
 * **Level 04: Sovereign (Primordial Logic)**
     * **Logic**: Evocative; single-word concepts trigger massive state collapses.
-    * **Lexicon**: `Fracture`, `Pour`, `Collapse`, `Drift`, `Ghost`.
+    * **Lexicon**: `Fracture`, `Pour`, `Ignite`, `Fade`, `Ghost`.
     * **Example**: `stdin("I am reading a book") -> Fracture > Ghost`
 
 ---
@@ -81,10 +81,10 @@ The following list defines the **Inversion Principle**: as structural shorthand 
 ```
 
 ```
-* How will you revise the chain when chain brevity and own vocabulary is enabled?
 * anchor:stdin("Your text") @ Anodic + utilize:Strategy(Source_Purge) + utilize:list(Component_Stack(Isolated)) + utilize:format(Compact)
 * anchor:stdin("Your text") -> utilize:Strategy(Source_Purge) + list:Component_Stack(Isolated) > format:Compact @ Anodic
 * "Your text" @ Anodic -> Strategy:Source_Purge + Stack:Isolated > Compact
+* "Your text" @ Anodic -> Purge > Ghost
 ```
 
 ```
@@ -92,6 +92,7 @@ The following list defines the **Inversion Principle**: as structural shorthand 
 * Codify shorthand chains for different deconstruction strategies.
 * The step by step transition for this atomic chain.
 * You can combine a Syntactic deconstruction with a Chromatographic overlay to analyze the "Color" of individual sentences.
+* Multi-Layered Probe: `anchor:stdin("I'm really into you") @ Anodic + utilize:analyze(Z_Depth) + utilize:overlay(Chromatography) > materialize:Metric_Manifold`
 ```
 
 ```
