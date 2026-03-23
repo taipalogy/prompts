@@ -62,7 +62,7 @@ This library codifies the **IIA Protocol**, where sovereign **Modules** are deco
 
 1.  **The Law of Synthesized Interfaces**: Interfaces are "poured" at runtime based on **Type Synthesis** and deconstruction.
 2.  **The Law of Material Density**: Every `reduce` must increase type-safety and harden security.
-3.  **The Law of Primitive Selection**: All primitives are ground-level execution. Use **Functional** for data-shaping and **Shell** for file-shaping.
+3.  **The Law of Primitive Selection**: All primitives are ground-level logic. Use Functional to define the Architectural Intent (Utilizes / Tethers / Anchors) and Shell to identify the Underlying Engine (Command Equivalent).
 4.  **The Law of Gateway Agnosticism**: Intent is independent of the commit tool (**OpenClaw** or similar).
 
 ---
