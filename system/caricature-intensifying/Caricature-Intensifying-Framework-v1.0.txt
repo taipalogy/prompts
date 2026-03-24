@@ -26,7 +26,7 @@
 
 ---
 
-### **3. The Revised Formula**
+### **3. The Formula**
 
 **Equation:**
 $$[Caricature] + [Intensifier] = Intensified\_result$$
@@ -39,6 +39,12 @@ $$[Caricature] + [Intensifier] = Intensified\_result$$
 
 ---
 
-```
-How can I further adjust the caricature by utilizing intensifier?
-```
+### **4. Formula Stacking**
+
+To achieve deeper complexity, you can trigger a **Double Pass** by layering the logic within the `operation_formula.md`:
+`[Caricature] + [Intensifier] + [Intensifier]`
+
+This creates a **Recursive Exaggeration** effect. The second pass treats the already-mutated result as the new baseline, compounding the distortion and detail for a more extreme final output.
+
+---
+
