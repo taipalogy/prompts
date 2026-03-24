@@ -1,0 +1,51 @@
+# Caricature Intensifying Framework v2.0
+
+### **1. Folder Structure**
+
+```plaintext
+/PromptFramework/
+    /Nouns/
+        caricature.md (Awaiting User Input)
+        intensifier.md (Awaiting Logic Circuit)
+    /Rules/
+        operation_formula.md (Mutation Manifold & Transition Logic)
+    /SemanticParsingLayer/ (Status: OFF)
+```
+
+---
+
+### **2. Core Nouns & Logic**
+
+**A. Noun: Caricature**
+* **File:** `caricature.md`
+* **Status:** **Empty.** Awaiting your input for subject primitives (e.g., "A woman as an office lady").
+
+**B. Noun: Intensifier**
+* **File:** `intensifier.md`
+* **Status:** **Decoupled.** Awaiting logic injection (e.g., *Reflectance*, *Exaggeration*, or *Atmospheric* variables).
+
+---
+
+### **3. The Revised Formula & Operators**
+
+**Primary Equation (Synthesis):**
+$$[Caricature] + [Intensifier] = Intensified\_result$$
+* **Logic:** Used for **Initial State Generation**. Combines all Nouns and Intensifiers into a single static volume.
+
+**Secondary Equation (Evolution):**
+$$[State\_A] \rightarrow swap([State\_B]) + Purge(X) = Intensified\_result$$
+* **Logic:** Used for **Thematic Evolution**. Replaces the "Skin" or "Context" of an existing result while maintaining the core structural primitives.
+* **Purge(X):** Mandatory cleanup function to remove residual tokens (ghosting) from the previous state.
+
+---
+
+### **4. Evaluation Process**
+
+1.  **Extraction:** Identify the base primitives from the `caricature.md` input or the current active state.
+2.  **Operation Selection:** * If **Synthesis ($+$)**: Merge all operands simultaneously.
+    * If **Transition ($\rightarrow$ swap)**: Isolate the current theme, displace it, and inject the new theme.
+3.  **Amplification:** Apply the **Gain Ripple** (e.g., 1.2x) defined in the `intensifier.md` logic.
+4.  **Result Generation:** Produce the final **Intensified_result**.
+
+---
+
