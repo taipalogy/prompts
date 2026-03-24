@@ -30,15 +30,15 @@ The following shorthand chain initiates the **Interactive State Collapse** on th
 
 In this framework, editing is performed via **State Declarations**. Each selection from the **Mutation Manifold** authorizes the **SIP** engine to autonomously re-align the sentence structure.
 
-* **Sovereign Plurality (Level 03 Brevity)**
+* **Sovereign Plurality**
     * **Command**: `+ select:Plural`
     * **Logic**: Triggers **Valency Sync**. `Grammar_Core` identifies dependencies to mutate indices 02 and 05 while voiding index 04.
     * **Manifest Mutation**: `[I am reading a book]` → **`[We are reading books]`**.
-* **Technical Identity (Level 01 Brevity)**
+* **Technical Identity**
     * **Command**: `+ shift:Identity(Technical)`
     * **Logic**: Materializes a formal primitive. `String_Core` executes the replacement while maintaining singular valency.
     * **Manifest Mutation**: `[I am reading a book]` → **`[The_Agent is reading a book]`**.
-* **Shared_Anchor (Level 04 Brevity)**
+* **Shared_Anchor**
     * **Command**: `+ lock:Shared_Anchor`
     * **Logic**: Overrides the default plural ripple. Prevents mutation of the object node while allowing subject mutation.
     * **Manifest Mutation**: `[I was reading a book]` → **`[We were reading a book]`**.
@@ -51,29 +51,6 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 
 ---
 
-### V. Levels of Brevity & Lexical Scale
-
-The following list defines the **Inversion Principle**: as structural shorthand contracts, the sophistication of the **Own Vocabulary** must expand to maintain **Valency = 1.0**.
-
-* **Level 01: Functional (Descriptive Technical)**
-    * **Logic**: High-verbosity; instructional "User Manual" language.
-    * **Lexicon**: `filter`, `search`, `split`, `join`, `fuse`, `detect`, `find`, `sort`.
-    * **Example**: `anchor:stdin("I am reading a book") @ Anodic + utilize:library(Grammar_Core) + utilize:Logic_Flow_Visualizer`
-* **Level 02: Transition (Operational Hybrid)**
-    * **Logic**: Relational; describes the "External Hand-off" and structural joints.
-    * **Lexicon**: `conjunction`, `infuse`, `magnetize`, `soft-start`, `parallel`, `escalate`.
-    * **Example**: `stdin("I am reading a book") @ Vellum | utilize:Hand-off(Grammar_Core)`
-* **Level 03: Brevity (Abstracted Metadata)**
-    * **Logic**: Proprietary; uses high-fidelity terms for state triggers and shifts.
-    * **Lexicon**: `invert`, `muffle`, `saturate`, `ripple`, `pivot`, `omit`, `contrast`.
-    * **Example**: `stdin("I am reading a book") @ Vellum + activate:Pivot(index:1) > Knoll`
-* **Level 04: Sovereign (Primordial Logic)**
-    * **Logic**: Evocative; single-word concepts trigger massive state collapses.
-    * **Lexicon**: `fracture`, `pour`, `fade`, `ghost`, `reiterate`, `amplify`.
-    * **Example**: `stdin("I am reading a book") -> Fracture > Ghost`
-
----
-
 ```
 * activate:Active_Pivot(index:1)
 * A text output for Predictive Ghosting at index 1.
@@ -81,10 +58,9 @@ The following list defines the **Inversion Principle**: as structural shorthand 
 ```
 
 ```
-* anchor:stdin("Your text") @ Anodic + utilize:Strategy(Source_Purge) + utilize:list(Component_Stack(Isolated)) + utilize:format(Compact)
-* anchor:stdin("Your text") -> utilize:Strategy(Source_Purge) + list:Component_Stack(Isolated) > format:Compact @ Anodic
-* "Your text" @ Anodic -> Strategy:Source_Purge + Stack:Isolated > Compact
-* "Your text" @ Anodic -> Purge > Ghost
+Levels of Brevity, own vocabulary, lexical scale.
+* Explicit Instruction: `anchor:stdin("Your text") @ Anodic + utilize:Strategy(Source_Purge) + utilize:list(Component_Stack(Isolated)) + utilize:format(Compact)`
+* Implicit Intent: `"Your text" @ Anodic -> Purge > Ghost`
 ```
 
 ```
