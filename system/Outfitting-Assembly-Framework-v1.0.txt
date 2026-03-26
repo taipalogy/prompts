@@ -1,0 +1,73 @@
+# Outfitting Assembly Framework v1.0
+
+This is a step-by-step system for designing a digital **"Outfit of the day."** It takes individual clothing items and a person's description and assembles them into a high-quality, professional image.
+
+---
+
+### 1. Folder Structure
+
+```plaintext
+/PromptFramework/
+    /Items/:
+        - person.md (Who is wearing the clothes?)
+        - top.md (Shirt, blouse, or sweater)
+        - bottom.md (Pants, skirt, or jeans)
+        - footwear.md (Shoes, boots, or heels)
+    /Instructions/:
+        - assembly_formula.md (The mathematical assembly logic)
+        - reminder.md (CHECK: Provide Person + Clothing items)
+    /Automatic_Adjustments/:
+        - clothing_fit.md (How the fabric sits on the body)
+        - edge_detail.md (Ensuring clean lines and boundaries)
+```
+
+---
+
+### 2. Core Items (The Ingredients) — The Nouns
+
+These are the building blocks of your outfit. You must provide a description for each one to get a result.
+
+| Item | Status | Role |
+| :--- | :--- | :--- |
+| **Person** | **Awaiting Description** | The base figure for the outfit. |
+| **Top** | **Awaiting Description** | The upper-body clothing. |
+| **Bottom** | **Awaiting Description** | The lower-body clothing. |
+| **Footwear** | **Awaiting Description** | The shoes that complete the look. |
+
+---
+
+### 3. Global Rules
+
+These rules ensure the outfit looks realistic and organized.
+
+| Rule | Instruction |
+| :--- | :--- |
+| **Mandatory Reminder** | **REMINDER:** You must provide a description for the **Person** and all **Clothing Items**. Missing items will cause the final image to look incomplete or "ghostly." |
+| **Clean Spacing** | All items must be perfectly aligned with no messy overlapping. |
+| **Material Quality** | Describe textures (like silk, leather, or denim) for the best visual result. |
+| **Sharp Focus** | The final image must be crystal clear with sharp, defined edges. |
+
+---
+
+### 4. The Assembly Formula
+
+The framework uses a simple equation to "stitch" your descriptions together. To test the capability, we fill these brackets with descriptive placeholders.
+
+**Equation:**
+$$[Person] + [Top] + [Bottom] + [Footwear] \ | \ check:Reminder \ = "Outfit\ of\ the\ day"$$
+
+**The Process:**
+1.  **Check:** The system ensures no brackets are left empty (based on the **Reminder**).
+2.  **Adjust Fit:** It automatically calculates how the **Top** should tuck into or sit over the **Bottom**.
+3.  **Finalize:** It cleans up the edges where different fabrics meet to ensure a seamless look.
+4.  **Deliver:** Your final **"Outfit of the day"** is generated.
+
+---
+
+### 5. Visual Standards
+
+* **View 1 (The Layout)**: Items are shown separately and neatly organized (like a museum display).
+* **View 2 (The Result)**: The final outfit is shown fully assembled on the person in a high-quality setting.
+
+---
+
