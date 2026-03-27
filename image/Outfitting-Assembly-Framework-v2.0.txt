@@ -1,0 +1,77 @@
+# Outfitting Assembly Framework v2.0 [High-Complexity Edition]
+
+The **OAF v2.0** represents the peak of **Modular Elasticity**. It is engineered to handle high-density manifests while maintaining absolute clarity through **Grid-Based Knolling**, **Sub-Group Injection**, and **Component Magnification**. This triple-view system bridges the gap between individual garments, high-fidelity materials, and a fully realized, professional **"Outfit of the day."**
+
+---
+
+### 1. Folder Structure
+
+The structure maintains the integrity of the modular logic.
+
+```plaintext
+/PromptFramework/
+    /Nouns/:
+        - person.md (The Alpha Anchor / Figure Core)
+        /Garments/: (Primary chassis / complex drape logic)
+        /Accessories/: (Detail and personality layers)
+        /Footwear/: (Grounding elements)
+    /Instructions/:
+        - assembly_formula.md (The Mathematical Equation)
+    /Automatic_Adjustments/:
+        - fit_hierarchy.md (Layer collision and drape logic)
+        - texture_fidelity.md (View 3: Component macro verification)
+```
+
+---
+
+### 2. The Nouns — Core Ingredients
+
+The framework utilizes **Sub-Group Injection** to organize complex manifests. **Bold** items are mandatory for a successful build.
+
+| Port ID | Role | Complexity Capacity | Status |
+| :--- | :--- | :--- | :--- |
+| **Figure** | The base model and posture anchor. | 1 Node | Verified |
+| **Garments** | The primary chassis of the look. | 3–4 Nodes | Verified |
+| **Footwear** | The grounding elements. | 1–2 Nodes | Verified |
+| *Accessories* | The detail and personality layers. | 3–5 Nodes | Verified |
+| **TOTAL** | | **Up to 10 Nodes** | |
+
+---
+
+### 3. Global Operational Rules
+
+| Rule | Instruction |
+| :--- | :--- |
+| **Mandatory Reminder** | Descriptions for Figure, Garments, and Footwear must be provided. Missing core nodes result in an incomplete "ghost" manifest. |
+| **Fit Hierarchy** | Outer layers (e.g., Jackets, Aprons) automatically mask the geometry of mid-layers (e.g., Shirts). |
+| **The 0/64 Law** | Assembled items = 0px spacing. Knolled items (View 1) = 64px spacing to ensure texture clarity. |
+| **Texture Integrity Verification** | Every high-fidelity material (e.g., "mercerized cotton," "polished black calfskin") must undergo texture validation in **View 3** (Macro Close-Up). |
+
+---
+
+### 4. The Assembly Formula
+
+The formula utilizes brackets to "stitch" the modular nouns into a single manifest, now with an added micro-verification step.
+
+**Equation:**
+$$[Figure] + \{[Garments]\} + \{[Footwear]\} + \{[Accessories]\} \ | \ verify:Component \ | \ check:Reminder \ = "Outfit\ of\ the\ day"$$
+
+**The Process:**
+1.  **Extraction:** The system pulls all nouns from their respective folders.
+2.  **Logic Gate:** The **Reminder** check confirms all mandatory ports are filled.
+3.  **Micro-Verification:** **Verify:Component** isolates critical textures (the leather grain of the loafer, the mesh of the compression shirt).
+4.  **Synthesis:** The **Fit Hierarchy** is applied, ensuring a realistic drape.
+5.  **Finalization:** The manifest is cleaned for edge fidelity and material contrast.
+
+---
+
+### 5. Visual Standards
+
+The framework now demands three distinct visual outputs to ensure cross-view consistency and professional fidelity.
+
+* **View 1 (The Layout)**: **Grid-Based Knolling** is mandatory. Components are arranged in clean, logical rows on a neutral, high-integrity surface (e.g., Marble or Concrete) with 64px spacing. (Example: Image_0.png, Image_3.png)
+* **View 2 (The Result)**: The fully materialized **"Outfit of the day"** is shown in a professional, deep-focus environment relevant to the theme. It must validate the Fit Hierarchy and overall aesthetic harmonization. (Example: Image_2.png, Image_5.png)
+* **View 3 (The Component)**: **NEW STANDARD.** A **Single Unit Macro Close-up** focusing solely on a specific texture or intricate accessory (e.g., the notebook stitching, the solar panel lamination). This view validates the high-fidelity material integrity described in the port definition and confirmed during the pre-synthesis verification.
+
+---
+
