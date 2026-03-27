@@ -1,0 +1,78 @@
+# Mecha Combining Framework v1.0
+
+The **MCF v1.0** is a high-fidelity system designed for merging five independent machines into a single, cohesive mechanical entity. It replaces the "layering" logic of apparel with **Structural Anchoring**, ensuring a balanced and mechanically sound humanoid silhouette across any theme—from industrial construction to heroic myth.
+
+---
+
+### 1. Folder Structure
+
+The directory organizes the five machines by their physical placement and functional role within the final combined form.
+
+```plaintext
+/PromptFramework/
+    /Nouns/:
+        - node_0_core.md (Torso + Head / Central Command)
+        /Lateral_Units/:
+            - node_1_right.md (Right Arm / Right Side Manipulator)
+            - node_2_left.md (Left Arm / Left Side Manipulator)
+        /Grounding_Units/:
+            - node_3_right.md (Right Leg / Right Side Support)
+            - node_4_left.md (Left Leg / Left Side Support)
+    /Instructions/:
+        - assembly_formula.md (Mathematical Fusion)
+        - synthesis_process.md (4-Step Integration Sequence)
+        - reminder.md (CHECK: Provide exact 5 machine operands)
+    /Automatic_Adjustments/:
+        - connection_lock.md (Zero-gap joint and pivot alignment)
+        - texture_sync.md (Unified material and paint-scheme matching)
+```
+
+---
+
+### 2. The Nouns — Core Ingredients
+
+Exactly five machine units are required for a valid synthesis. **Bold** items are mandatory.
+
+| Port ID | Role | Mechanical Function | Status |
+| :--- | :--- | :--- | :--- |
+| **Node 0** | **Torso + Head** | **Central Command & Body** | **Validated** |
+| **Node 1** | **Right Arm** | **Right Side Manipulator** | **Validated** |
+| **Node 2** | **Left Arm** | **Left Side Manipulator** | **Validated** |
+| **Node 3** | **Right Leg** | **Right Side Grounding** | **Validated** |
+| **Node 4** | **Left Leg** | **Left Side Grounding** | **Validated** |
+| **TOTAL** | | | **Exact 5 Nodes** |
+
+---
+
+### 3. Global Operational Rules
+
+| Rule | Instruction | Operational Logic |
+| :--- | :--- | :--- |
+| **Exact Count** | **REMINDER:** Provide exactly **5 machine units**. Fewer or more will break the assembly. | Ensures a standard humanoid form. |
+| **Connection Points** | **JOINT LOCK:** Arms connect at shoulders; legs connect at hips. | Parts must touch with no gaps. |
+| **The 0/64 Law** | **Layout (View 1)** = 64px gaps. **Combined (View 2)** = 0px fused assembly. | Maintains grid-based clarity. |
+| **Texture Match** | Ensure paint, metal type, and wear levels are consistent across all units. | Ensures the units look like a set. |
+
+---
+
+### 4. The Assembly Formula & Synthesis Process
+
+**Equation:**
+$$[Node\_0] + \{[Node\_1] + [Node\_2]\} + \{[Node\_3] + [Node\_4]\} \ | \ check:Reminder \ = "Combined\ Entity"$$
+
+**The Technical Synthesis Sequence:**
+1.  **Chassis Initialization:** Activate Node 0 (Core) and verify the structural integrity of the primary torso housing.
+2.  **Limb Synchronization:** Align Nodes 1 & 2 to the shoulder pivots and Nodes 3 & 4 to the hip-stabilizers.
+3.  **Zero-Gap Fusion:** Execute the 0px join command, removing all spatial gaps to create a solid, unified silhouette.
+4.  **Surface Integration:** Apply a global material pass (texture, weathering, lighting) across all nodes for visual continuity.
+
+---
+
+### 5. Visual Standards
+
+* **View 1 (The Layout):** All 5 machines are knolled on a flat industrial surface with 64px spacing. Central note: **"Check: Exact 5 Items in Status: PASS."**
+* **View 2 (The Result):** The fully merged **"Combined Entity"** is shown in a detailed environment. Focus is on the **0px fusion** points and total structural scale.
+* **View 3 (The Component):** **Single Unit Close-up**. A macro-focus look at one of the 5 machines, highlighting specific mechanical details and markings.
+
+---
+
