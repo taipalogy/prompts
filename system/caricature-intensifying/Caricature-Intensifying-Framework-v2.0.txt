@@ -1,6 +1,6 @@
 # Caricature Intensifying Framework v2.0
 
-### **1. Folder Structure**
+## **1. Folder Structure**
 
 ```plaintext
 /PromptFramework/
@@ -14,7 +14,7 @@
 
 ---
 
-### **2. Core Nouns & Logic**
+## **2. Core Nouns & Logic**
 
 **A. Noun: Caricature**
 * **File:** `caricature.md`
@@ -26,7 +26,7 @@
 
 ---
 
-### **3. The Revised Formula & Operators**
+## **3. The Revised Formula & Operators**
 
 **Primary Equation (Synthesis):**
 $$[Caricature] + [Intensifier] = Intensified\_result$$
@@ -39,7 +39,7 @@ $$[State\_A] \rightarrow swap([State\_B]) + Purge(X) = Intensified\_result$$
 
 ---
 
-### **4. Evaluation Process**
+## **4. Evaluation Process**
 
 1.  **Extraction:** Identify the base primitives from the `caricature.md` input or the current active state.
 2.  **Operation Selection:** * If **Synthesis ($+$)**: Merge all operands simultaneously.

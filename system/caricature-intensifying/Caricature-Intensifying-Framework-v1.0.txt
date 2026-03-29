@@ -1,6 +1,6 @@
 # Caricature Intensifying Framework v1.0
 
-### **1. Folder Structure**
+## **1. Folder Structure**
 
 ```plaintext
 /PromptFramework/
@@ -14,7 +14,7 @@
 
 ---
 
-### **2. Core Nouns & Logic**
+## **2. Core Nouns & Logic**
 
 **A. Noun: Caricature**
 * **File:** `caricature.md`
@@ -26,7 +26,7 @@
 
 ---
 
-### **3. The Formula**
+## **3. The Formula**
 
 **Equation:**
 $$[Caricature] + [Intensifier] = Intensified\_result$$
@@ -39,7 +39,7 @@ $$[Caricature] + [Intensifier] = Intensified\_result$$
 
 ---
 
-### **4. Formula Stacking**
+## **4. Formula Stacking**
 
 To achieve deeper complexity, you can trigger a **Double Pass** by layering the logic within the `operation_formula.md`:
 `[Caricature] + [Intensifier] + [Intensifier]`
