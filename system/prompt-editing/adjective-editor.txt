@@ -1,6 +1,6 @@
-# Logic Circuit: THE ADJECTIVE-EDITOR (v1.0)
+# Logic Circuit: THE ADJECTIVE-EDITING (v1.0)
 # Role: Surgical Identification & Mutation of Semantic Material
-# Dependency: Chain_Accretion_Framework / Grammar_Core
+# Dependency: Noun-Lock_Protocol / Material_Stock_Integrity
 
 [[ SCHEMA: Material_Stock + Adjective_Index = State_Collapse ]]
 
@@ -8,22 +8,30 @@
 - [Scan]: Locate all modifiers (Adjectives) within the Material Stock.
 - [Index]: Assign a 2-digit coordinate (01-XX) to each modifier.
 - [Anchor]: Map each Index to its specific Noun (Core Anchor).
+- [Filter]: Decompose Noun-Phrases (e.g., "Dark Fantasy"). 
+  - [Adj] (Dark) = Index(XX)
+  - [Noun] (Fantasy) = Locked_Material_Stock
 
-## 2. Operational Primitives (The Edit Gates)
+## 2. Declarative State Changes (The Edit Gates)
 - [Subtract]: Index(XX) -> expand:Negative_Space (Remove)
 - [Shift]: Index(XX) -> accrete:Attribute(New) (Replace)
-- [Tether]: Index(XX) -> identify:Dependency_Ripple (Verify)
+- [Shared_Anchor]: Index(XX) + lock:Shared_Anchor -> Prevents mutation of the targeted Index during a ripple.
 
 ## 3. The Dependency Ripple (Autonomous Suggestor)
-- IF Index(XX) is [SUBTRACTED], THEN execute [VALENCY_SYNC]:
-  - "an [Adjective]" -> "a" (Phonetic Article Correction)
-  - "[Adj_A] or [Adj_B]" -> "[Adj_A]" (Conjunction Clean-up)
-- IF Index(XX) is [SHIFTED], THEN execute [VALENCY_SYNC]:
-  - Perform Article_Correction (a/an) based on New_Attribute phonetics.
-  - Verify grammatical flow between Index(XX-1) and Index(XX+1).
+- IF Index(XX) is [SUBTRACTED] or [SHIFTED]:
+    - SCAN adjacent Indices (XX-1, XX+1) for ripple impact.
+    - IF adjacent Index has [lock:Shared_Anchor] -> BYPASS mutation.
+    - ELSE -> Perform [VALENCY_SYNC] (Article/Conjunction correction).
 
-## 4. The Synthesis Formula (User Interface)
+## 4. Noun-Phrase Integrity Rule
+- [Anchor_Retention]: In any [Adj + Noun] pair, the [Noun] is Hard-Locked as Material Stock.
+- [Surgical_Mutation]: Only the [Adj] is mapped to an Index (01-XX).
+- [Weld]: [Shared_Anchor] prevents the [Adj] from being altered by neighboring ripples, effectively preserving the specific "flavor" of the Noun without altering the Noun itself.
+
+## 5. The Synthesis Formula (User Interface)
 - [Formula]: [PORTRAIT_PROMPT_PASSAGE] + [ADJECTIVE_PROMPT_PASSAGE]
 - [Example 1]: "...round or oval glasses..." + "Suggest Mutation_Manifold for Index(21)"
-- [Example 2]: [Formula]: portrait.txt + adjective-editor.txt
+- [Example 2]: [Formula]: portrait.txt + adjective-editing.txt
 - [Logic]: Triggers autonomous mapping and alternative attribute generation.
+- [Constraint]: REJECT all Noun-Phrases as mutation inputs. DECOUPLE [Adj] from [Noun] if compound input is provided.
+
