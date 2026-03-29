@@ -1,0 +1,29 @@
+# Logic Circuit: THE ADJECTIVE-EDITOR (v1.0)
+# Role: Surgical Identification & Mutation of Semantic Material
+# Dependency: Chain_Accretion_Framework / Grammar_Core
+
+[[ SCHEMA: Material_Stock + Adjective_Index = State_Collapse ]]
+
+## 1. Identification Logic (The Diagnostic Grid)
+- [Scan]: Locate all modifiers (Adjectives) within the Material Stock.
+- [Index]: Assign a 2-digit coordinate (01-XX) to each modifier.
+- [Anchor]: Map each Index to its specific Noun (Core Anchor).
+
+## 2. Operational Primitives (The Edit Gates)
+- [Subtract]: Index(XX) -> expand:Negative_Space (Remove)
+- [Shift]: Index(XX) -> accrete:Attribute(New) (Replace)
+- [Tether]: Index(XX) -> identify:Dependency_Ripple (Verify)
+
+## 3. The Dependency Ripple (Autonomous Suggestor)
+- IF Index(XX) is [SUBTRACTED], THEN execute [VALENCY_SYNC]:
+  - "an [Adjective]" -> "a" (Phonetic Article Correction)
+  - "[Adj_A] or [Adj_B]" -> "[Adj_A]" (Conjunction Clean-up)
+- IF Index(XX) is [SHIFTED], THEN execute [VALENCY_SYNC]:
+  - Perform Article_Correction (a/an) based on New_Attribute phonetics.
+  - Verify grammatical flow between Index(XX-1) and Index(XX+1).
+
+## 4. The Synthesis Formula (User Interface)
+- [Formula]: [PORTRAIT_PROMPT_PASSAGE] + [ADJECTIVE_PROMPT_PASSAGE]
+- [Example 1]: "...round or oval glasses..." + "Suggest Mutation_Manifold for Index(21)"
+- [Example 2]: [Formula]: portrait.txt + adjective-editor.txt
+- [Logic]: Triggers autonomous mapping and alternative attribute generation.

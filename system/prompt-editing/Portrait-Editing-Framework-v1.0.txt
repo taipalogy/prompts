@@ -1,0 +1,49 @@
+# Portrait Editing Framework v1.0
+
+---
+
+## 1. Folder Structure
+
+```plaintext
+/PromptFramework/
+    /Nouns/
+        portrait.md (STATUS: EMPTY / Awaiting User Input)
+        adjective-editor.md (STATUS: DECOUPLED / Awaiting Logic Injection)
+    /Rules/
+        operation_formula.md (STATUS: ACTIVE / Logic: Adj-Only)
+    /SemanticParsingLayer/ (STATUS: ON / Rule: Noun-Lock)
+```
+
+---
+
+## 2. Core Nouns: `portrait.md`
+
+* **File Status:** **Empty.**
+* **Instruction:** This file serves as the **Locked Material Stock**. Once populated, all **Nouns** (Anchors) within this file are immutable. Only identified **Adjectives** (Modifiers) are subject to mutation.
+
+---
+
+## 3. Adjective-Editor: `adjective-editor.md`
+
+* **File Status:** **Decoupled.**
+* **Awaiting Logic Injection:** This module is currently a "Cold Circuit." It requires the injection of specific mutation logic (e.g., *Temporal, Textural, or Chromatic* modifiers) to begin indexing the `portrait.md` material.
+* **Constraint:** Once injected, the editor is strictly prohibited from processing **Noun Phrases**. It must decompose inputs (e.g., "Dark Fantasy") and only accept the **Adjective** ("Dark").
+
+---
+
+## 4. The Rules: `operation_formula.md`
+
+**Equation:**
+$$[Portrait (Material Stock)] + [Adjective\_Editor (Edit Gate)] = Edited\_result$$
+
+**Operational Logic:**
+1.  **Surgical Identification:** Scan `portrait.md` for single-word adjectives only.
+2.  **Noun-Lock Protocol:** All Nouns, Noun-Phrases, and Core Anchors are flagged as **Read-Only**.
+3.  **POS Decomposition:** If a user provides a Noun-Phrase as a modifier, the framework **Surgically Extracts** the Adjective and **Discards** the Noun.
+4.  **Edit Gates:**
+    * **[Subtract]:** Removes the indexed adjective and executes `VALENCY_SYNC` (Conjunction/Article cleanup).
+    * **[Shift]:** Replaces the indexed adjective with a new, single-word modifier.
+5.  **State Collapse:** The final string is generated, preserving every Noun from the original `portrait.md` while reflecting the modified Adjectives.
+
+---
+
