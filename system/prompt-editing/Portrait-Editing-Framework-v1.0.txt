@@ -5,8 +5,8 @@
 ```plaintext
 /PromptFramework/
     /Nouns/
-        portrait.md (STATUS: EMPTY / Awaiting User Input)
-        adjective-editing.md (STATUS: DECOUPLED / Awaiting Logic Circuit)
+        portrait.md (Awaiting User Input)
+        adjectiv*-editing.md (Flexible: adjective / adjectival)
     /Rules/
         operation_formula.md (Mutation Manifold)
     /SemanticParsingLayer/ (Status: OFF)
@@ -20,20 +20,20 @@
 * **File:** `portrait.md`
 * **Status:** **Empty.** Awaiting your input for subject primitives and foundational traits.
 
-**B. Noun: Adjective-Editing**
-* **File:** `adjective-editing.md`
-* **Status:** **Decoupled.** Awaiting logic injection.
+**B. Noun: Adjectival/Adjective Modifier**
+* **File:** `adjectiv*-editing.md`
+* **Status:** **Swappable.** This slot accepts either `adjective-editing.md` or `adjectival-editing.md` depending on the desired linguistic layer.
 
 ---
 
 ## **3. The Formula**
 
 **Equation:**
-$$[Portrait] + [Adjective-editing] = Edited\_result$$
+$$[Portrait] + [Adjectiv*\_editing] = Edited\_result$$
 
 **Evaluation Process:**
 1.  **Extraction:** Identify the base primitives from your `portrait.md` input.
-2.  **Modification:** Apply the **Adjective Overlay** defined in the `adjective-editing.md` logic.
+2.  **Modification:** Apply the **Adjective Overlay** defined in whichever active file is loaded into the `adjectiv*-editing.md` slot.
 3.  **Dependency Check:** Match base terms to specific modified outputs (ensuring thematic alignment).
 4.  **Result Generation:** Produce the final **Edited_result**.
 
