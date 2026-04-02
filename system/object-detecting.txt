@@ -1,0 +1,78 @@
+# Logic Circuit: THE OBJECT-DETECTOR (v1.0)
+# Role: Surgical Identification & Mutation of Semantic Material
+
+**Logic Mode:** Entity Detection / Volumetric Trace  
+**Output Standard:** Entity_Manifest / 0.5px Hairline  
+
+---
+
+**[[ SCHEMA: Material_Anchor + Interaction_Trace = Entity_Volume ]]**
+
+---
+
+## 1. Logic Circuitry: THE OBJECT-DETECTOR
+**Dependency:** Interaction_Inference / Material_Anchor_Integrity  
+
+### 1.1. Detection Logic: THE ENTITY-LOCATOR
+* **[Spot]:** Locate a distinct **Noun-Anchor** (e.g., Plate, Logo, Pastry) within the prompt string.
+* **[Trace_Boundary]:** Infer the physical limits of the object based on its interactions (e.g., "poured across," "nearby," "engraved on").
+* **[Index]:** Assign a 2-digit coordinate (**01-XX**) to each unique volumetric mass detected.
+* **[Filter]:** Decompose Physics-Phrases (e.g., "slow flow," "surface tension"). 
+    * **[Entity]** (Chocolate) = Index(XX)
+    * **[Behavior]** (Viscosity/Flow) = **Internal_Mass_Data** (Integrated into Index)
+
+---
+
+## 2. Declarative State Changes (The Entity Gates)
+
+| Gate | Operator | Functional Result |
+| :--- | :--- | :--- |
+| **[Enumerate]** | `Scan:Entities -> list:Indices(01-XX)` | Generates a sequential manifest of all detected physical objects. |
+| **[Surgical_Extraction]** | `Index(XX) -> decouple:Text_Block` | Extracts the specific passage defining the object’s material and boundaries. |
+| **[Isolate_Object]** | `Index(XX) -> expand:Mass_Focus` | Voids the environment to focus strictly on the target object’s volume. |
+| **[Accrete_Texture]** | `Index(XX) + add:Surface_Detail` | Integrates surface characteristics (e.g., "glossy," "ripples") into the object's identity. |
+
+---
+
+## 3. Boundary Inference Rule (Interaction Logic)
+
+**IF** `Index(XX)` interacts with `Index(XY)`:
+* **SCAN** the nature of the interaction (e.g., "overlaps," "embedded in," "resting on").
+* **DEFINE** the boundary of `Index(XX)` relative to the anchor point of `Index(XY)`.
+* **RESULT:** The interaction point establishes the **Spatial Lock** for both objects.
+
+---
+
+## 4. Entity-Integrity Rule
+
+* **[Anchor_Retention]:** In any **[Material + Object]** pair, the **[Object]** is the Hard-Locked Entity.
+* **[Volumetric_Constraint]:** An object is defined by its **Total Mass**. Internal parts (e.g., "crumbs" of a "cake") are treated as part of the parent Entity index unless spatially fragmented (64px distance).
+* **[Composition_Purge]:** All environmental "How" (Lighting, Camera Angle, Atmosphere, Aspect Ratio) is **REJECTED**. Only the "What" (Physical Entity) is detected.
+* **[Manhattan_Geometry]:** While the object may be organic, its **Object Detection Box** is rendered as a rectangular 0.5px hairline for system mapping.
+
+---
+
+## 5. The Synthesis Formula (User Interface)
+
+**[Formula]: [PROMPT_STRING] + [OBJECT-DETECTING.TXT]**
+
+> **Example:** "A plate on a wooden table" + "OBJECT-DETECTING.TXT"  
+> **Logic:** Triggers a surgical extraction of each physical entity, using interaction descriptions to define the boundaries of the Plate and the Table as individual structural units.  
+> **Constraint:** **REJECT** all layout-only data (e.g., Viewport/Grid).
+
+---
+
+## 6. Terminal Output: Entity Manifest (System Verification)
+
+**PROTOCOL:** On execution, suppress all metadata and logic descriptions. Consolidate output into the following structure:
+
+**[COMPACT_ENUMERATION]**
+* **Index(01):** [Object_Name] (Material_Class)
+* **Index(02):** [Object_Name] (Material_Class)
+
+**[ENTITY_MANIFEST]**
+* **Index(XX): [Object_Name]**
+    * **Role:** [Functional Role]
+    * **Material:** [Material Composition]
+    * **Extraction:** "[Relevant Quote from Prompt]"
+    * **Boundary:** [Spatial Constraints/Locks]
