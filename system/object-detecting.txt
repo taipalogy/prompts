@@ -27,10 +27,10 @@
 
 | Gate | Operator | Functional Result |
 | :--- | :--- | :--- |
-| **[Enumerate]** | `Scan:Entities -> list:Indices(01-XX)` | Generates a sequential manifest of all detected physical objects. |
-| **[Surgical_Extraction]** | `Index(XX) -> decouple:Text_Block` | Extracts the specific passage defining the object’s material and boundaries. |
-| **[Isolate_Object]** | `Index(XX) -> expand:Mass_Focus` | Voids the environment to focus strictly on the target object’s volume. |
-| **[Accrete_Texture]** | `Index(XX) + add:Surface_Detail` | Integrates surface characteristics (e.g., "glossy," "ripples") into the object's identity. |
+| **[Enumerate]** | `scan:Entities -> list:Indices(01-XX)` | Generates a sequential manifest of all detected physical objects. |
+| **[Surgical_Extraction]** | `index(XX) -> decouple:Text_Block` | Extracts the specific passage defining the object’s material and boundaries. |
+| **[Isolate_Object]** | `index(XX) -> expand:Mass_Focus` | Voids the environment to focus strictly on the target object’s volume. |
+| **[Accrete_Texture]** | `index(XX) + add:Surface_Detail` | Integrates surface characteristics (e.g., "glossy," "ripples") into the object's identity. |
 
 ---
 
