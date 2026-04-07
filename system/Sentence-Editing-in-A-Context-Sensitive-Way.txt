@@ -34,10 +34,17 @@ In this framework, editing is performed via **State Declarations**. Each selecti
     * **Command**: `+ select:Plural`
     * **Logic**: Triggers **Valency Sync**. `Grammar_Core` identifies dependencies to mutate indices 02 and 05 while voiding index 04.
     * **Manifest Mutation**: `[I am reading a book]` → **`[We are reading books]`**.
+
 * **Technical Identity**
     * **Command**: `+ shift:Identity(Technical)`
     * **Logic**: Materializes a formal primitive. `String_Core` executes the replacement while maintaining singular valency.
     * **Manifest Mutation**: `[I am reading a book]` → **`[The_Agent is reading a book]`**.
+
+* **Temporal Shift**
+    * **Command**: `+ shift:Tense(Past)`
+    * **Logic**: Targets the **Auxiliary/Verb Anchor**. `Grammar_Core` re-maps the temporal coordinate, triggering a cascading update to the predicate logic.
+    * **Manifest Mutation**: `[I am reading a book]` → **`[I was reading a book]`**.
+
 * **Shared_Anchor**
     * **Command**: `+ lock:Shared_Anchor`
     * **Logic**: Overrides the default plural ripple. Prevents mutation of the object node while allowing subject mutation.
