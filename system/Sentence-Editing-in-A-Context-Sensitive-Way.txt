@@ -60,7 +60,7 @@ In this framework, editing is performed via **State Declarations**. Each selecti
 
 ```
 * activate:Active_Pivot(index:1)
-* A text output for Predictive Ghosting at index 1.
+* A text output for mutation manifold at index 1.
 * Isolate the third word in the sentence as the primary anchor for editing.
 ```
 
