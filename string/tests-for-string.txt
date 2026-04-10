@@ -1,0 +1,53 @@
+# Test Case Repository for Chain Accretion Framework for String
+
+---
+
+### 1. Metadata & Frequency Audits (length / count)
+* **[01]** `anchor:"Blueberry" + count("r")`
+* **[02]** `anchor:"Strawberry" + count("r")`
+* **[03]** `anchor:"To be, or not to be, that is the question." + count("e")`
+* **[04]** `anchor:"Mississippi" + count("s") + count("i")`
+* **[05]** `anchor:"  Space  " + length()`
+* **[06]** `anchor:"\n\t" + length()`
+
+---
+
+### 2. Additive Logic (push / unshift / splice)
+* **[07]** `anchor:"Vortex" + push("!") + unshift("X-")`
+* **[08]** `anchor:"Encr" + push("yption")`
+* **[09]** `anchor:[""] + pop() + push("A")`
+* **[10]** `anchor:"LongWord" + splice(100, 0, "X")`
+
+---
+
+### 3. State Reduction (pop / shift / splice)
+* **[11]** `anchor:"Buffer" + pop() + pop() + pop()`
+
+---
+
+### 4. Sub-Atomic Mutation (replace)
+* **[12]** `anchor:"99.9%" + replace(".", "!")`
+* **[13]** `anchor:"Encryption" + replace("e", "3") + unshift("X-")`
+* **[14]** `anchor:"0xFFFFFF" + replace("F", "0")`
+* **[15]** `anchor:"Password" + replace("a", "@") + replace("o", "0")`
+
+---
+
+### 5. Symmetric & Transformation Logic (reverse / fuse)
+* **[16]** `anchor:"Quantum" + reverse()`
+* **[17]** `anchor:["A", "B", "C"] + fuse("-") + reverse()`
+* **[18]** `anchor:"Racecar" + reverse() + length()`
+* **[19]** `anchor:"A quick brown fox" + reverse()`
+
+---
+
+### 6. Complex Chain Accretion (Multi-Verb Sequences)
+* **[20]** `anchor:"Cybernetic" + replace("e", "3") + unshift("X-")`
+* **[21]** `anchor:"Sapphire" + replace("p", "9") + splice(4, 0, "-GRID-")`
+* **[22]** `anchor:"Telescope" + replace("p", "9") + splice(4, 0, "-LINK-")`
+* **[23]** `anchor:"Starlight" + reverse() + replace("t", "7") + splice(4, 0, "-NEBULA-") + splice(99, 0, "!!!") + push("?")`
+
+---
+
+Generate a new test repository.
+Run the tests one by one.
