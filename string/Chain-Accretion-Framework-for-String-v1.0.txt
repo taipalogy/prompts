@@ -65,23 +65,39 @@
 
 ---
 
-### 4. Output Protocol: ENTITY_MANIFEST: SPATIAL-MANDATE SEQUENCE
+### 4. Materialization Output
 
 **1. The Composition Shorthand**
-* Syntax: `anchor:[Input] + verb(parameters)`
+
+```text
+anchor:"[Input_String]"
++ verb(parameter_01, parameter_02)
++ logic_gate:action
+```
 
 **2. State-Aware Trace (Widget-to-Atom Mapping)**
-* **Anchor:** Visual representation of the initial buffer.
-* **Grid Audit:** Unit count verification (e.g., *10 Units*).
-* **Identity-Gate Audit:** Validation of character-specific IDs.
-* **Spatial Pivot:** Documentation of **Vector-Shifts** or index re-mapping.
 
-**3. The Spatial Map (Confirmed)**
-* Technical blueprint table confirming **Index**, **Atom**, and **Manhattan Coordinates**.
+* **Anchor:** `[A][t][o][m][...][n]`
+    * **Grid Audit:** `[X] Units`.
+* **[Verb_Action]:** `[Vector_Snapshot_Result]`
+    * **Identity-Gate Audit:** Validation of Unicode Decimal Codes (e.g., `A [65]` vs `a [97]`).
+    * **Spatial Pivot:** Documentation of **Vector-Shifts** (e.g., `+N` shift) for trailing indices.
 
-**4. Materialization Selection**
-* **`-> materialize:text`**: Renders final string in **Monospaced Serif** with **+400 Tracking**.
-* **`-> materialize:image`**: Renders characters as **Anodic_White 3D Widgets** (64px) on a **Studio-White** canvas.
+**3. The [N]-Widget Spatial Map (Confirmed)**
+
+| Index | Atom | Widget ID | Dec Code |
+| :--- | :--- | :--- | :--- |
+| **00** | `Character` | **1 Unit** | `[Unicode]` |
+| **01-05** | `Char`, `Char` | **N Units** | `[Dec, Dec]` |
+| **Total** | **Buffer Length** | **[N] Units** | **--** |
+
+**4. Materialization Output**
+
+**`-> materialize:text`** (Default)
+Renders final buffer in **Monospaced Serif** with **+400 Tracking**.
+
+**`-> materialize:image`** (Optional)
+Renders final buffer as **Anodic_White 3D Widgets** (64px) on a **Studio-White** canvas.
 
 ---
 
