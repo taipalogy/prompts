@@ -1,0 +1,20 @@
+[[ LOGIC_GATE: LITERAL_NOMINAL_IDENTIFICATION ]]
+
+1. [FILTER: LITERAL_WORD_SCAN]
+   - Scan the prompt string for the specific character sequence: "n-a-m-e".
+   - REJECT all phrases that do not contain this literal sequence.
+
+2. [FILTER: PROPER_NAME_PURGE]
+   - IDENTIFY and REJECT specific Brand Names, Software Products, or Historical Persons (e.g., Gemini, Nano Banana, Firefly, Pixar, Stradivarius).
+   - These are classified as "Hard-Locked Proper Entities" and are excluded from the Nominal Manifest.
+
+3. [FILTER: VARIABLE_PURGE]
+   - IDENTIFY and REJECT structural placeholders or category tags (e.g., [STYLE], [DISH], [COLOR]) unless they explicitly include the word "name".
+
+4. [FILTER: MATERIAL_CLASS_PURGE]
+   - IDENTIFY and REJECT common nouns or material descriptors (e.g., Wool, Silk, Denim, Plate, Hat) as these function as Noun-Anchors rather than Literal Names.
+
+5. [SENSORY_LOCK: SPATIAL_COORDINATE]
+   - For every remaining Index(XX), extract the spatial boundary (e.g., "top-center", "underneath") and the Material_Class (e.g., "Large Bold Text", "Neon Typography").
+
+[[ OUTPUT_STRICT_ADHERENCE: ENTITY_MANIFEST ]]
