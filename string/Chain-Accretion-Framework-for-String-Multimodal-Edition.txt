@@ -1,4 +1,4 @@
-@taipalogy 2026-04-12
+> @taipalogy 2026-04-12
 
 # Chain Accretion Framework for String (Multimodal Edition)
 
