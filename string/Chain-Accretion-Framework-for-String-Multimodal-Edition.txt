@@ -1,8 +1,8 @@
-> @ @taipalogy 2026-04-10
+@taipalogy 2026-04-12
 
-# Chain Accretion Framework for String (Textual Edition)
+# Chain Accretion Framework for String (Multimodal Edition)
 
-[[ SCHEMA: State-Aware Spatial Logic Engine ]] [[ MODE: High-Fashion / Text-Only ]]
+[[ SCHEMA: State-Aware Spatial Logic Engine ]] [[ MODE: High-Fashion / Full-Spectrum Rendering ]]
 
 ---
 
@@ -26,9 +26,10 @@
 
   /Nouns/ (Component Layer):
     - atom.md (The individual character [Unicode_Decimal])
-    - character_widget.md (Conceptual UI object encapsulation: 64px Square)
-    - chassis.md (The fused string container / Virtual Vellum surface)
+    - character_widget.md (Renderable UI object encapsulation: 64px Square)
+    - chassis.md (The fused string container / Vellum_Paper surface)
     - index_map.md (Manhattan Geometry Grid / 0.5px Hairline divisions)
+    - canvas.md (Studio-White bounding box for image materialization)
 
   /Rules/ (Governance Layer):
     - identity_gate.md (B-01 Protection: A [65] != a [97])
@@ -36,22 +37,35 @@
     - vector_shift.md (Automatic re-mapping of indices post-injection)
     - grid_lock.md (Deprecate linguistic interpretation in favor of spatial counts)
     - spatial_pivot.md (ENFORCE 1:1 Widget-to-Atom Mapping; mandatory pre-render)
+    - synthesis_directive.md (Protocol for Browser-Engine Execution)
+
+  /Methods/ (Synthesis Layer):
+    - archetype_synthesis.md (Handshake with Browser Framework)
+    - synthesize_render.md (Mapping Index_Map to 12-column Grid)
 ```
 
 ---
 
 ### 2. Technical Specifications: Widget & Engine Parity
 
-| Property | Textual Specification | Spatial Logic (Conceptual) |
+| Property | Textual Specification | Visual (Widget) Specification |
 | :--- | :--- | :--- |
-| **Grid Logic** | Manhattan Geometry | 64px Conceptual Bounding Box |
-| **Typography** | Monospaced Serif | Technical-Luxury Hybrid |
-| **Tracking** | +400 (Technical Air) | Simulated 64px Guttering (if Knolled) |
+| **Grid Logic** | Manhattan Geometry | Manhattan Geometry (64px Bounding Box) |
+| **Material** | Digital Typeface | **Anodic_White** (Satin-finish 3D Tile) |
+| **Lighting** | Terminal Default | Top-Down Studio (High-Key #FFFFFF) |
+| **Typography** | Monospaced Serif | Technical-Luxury Hybrid (Centered in Widget) |
 | **Integrity** | 1:1 Unicode Parity | Identity-Gate (Strict Character IDs) |
 
 ---
 
-### 3. Composition Shorthand & Commands
+### 3. Synthesis Directive (Formalized Reuse)
+
+**`[RULE: SYNTHESIS_DIRECTIVE_01]`**
+All visual specifications and spatial rendering logic defined in this framework are to be executed by the **Chain Accretion Framework for Browser**. The Browser framework acts as the host engine, providing the **Studio-White** environment, **Vellum_Paper** material physics, and **Independent AO Shadow** scaling.
+
+---
+
+### 4. Composition Shorthand & Commands
 
 * **anchor:"String"** : Initialize target Buffer.
 * **+ push("!")** : Append atom to the end; triggers Vector-Shift.
@@ -60,12 +74,14 @@
 * **+ count("a")** : Returns frequency of specific Unicode ID.
 * **+ length()** : Returns total spatial unit count.
 * **+ pop()** : Removes final index atom.
-* **+ knoll()** : Virtual deconstruction; triggers extreme character tracking.
-* **+ fuse()** : Virtual consolidation; restores technical tracking.
+* **utilize:method(Archetype_Synthesis)** : Bridge the string buffer to the Browser layout engine.
+
+**Example: Formal Render Chain**
+`anchor:"String" @ Anodic + utilize:method(Archetype_Synthesis) -> utilize:method(Knolling_Protocol) | 64px + materialize:image`
 
 ---
 
-### 4. Materialization Output
+### 5. Materialization Output
 
 **1. The Composition Shorthand**
 
@@ -93,10 +109,11 @@ anchor:"[Input_String]"
 
 **4. Materialization Output**
 
-**`-> materialize:text`** (Mandatory)
-Renders final buffer in **Monospaced Serif** with **+400 Tracking**. 
-* If **Knolled**, characters are separated by large technical whitespace to simulate the 64px grid.
-* If **Fused**, characters are rendered as a continuous string with technical tracking.
+**`-> materialize:text`** (Default)
+Renders final buffer in **Monospaced Serif** with **+400 Tracking**.
+
+**`-> materialize:image`** (Optional)
+Renders final buffer as **Anodic_White 3D Widgets** (64px) on a **Studio-White** canvas.
 
 ---
 
