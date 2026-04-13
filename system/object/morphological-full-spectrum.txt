@@ -1,0 +1,24 @@
+[[ LOGIC_GATE: MORPHOLOGICAL_FULL_SPECTRUM ]]
+
+1. [ROOT_EXPANSION: TOTAL_LEMMA_SCAN]
+   - Scan the prompt string for the linguistic Lemma (root): "name".
+   - RETAIN Nominal Inflections: {name, names}.
+   - RETAIN Action-Based Inflections: {named, naming, names (verb), rename}.
+   - RETAIN Descriptive Inflections: {nameless, unnamed}.
+
+2. [GATE: DUAL_TRACK_INDEXING]
+   - IF inflection is Nominal -> Categorize as [ENTITY].
+   - IF inflection is Action-Based -> Categorize as [BEHAVIOR_OR_PROCESS].
+   - *Logic:* Differentiates "The Name" from "The act of naming."
+
+3. [FILTER: PROPER_NAME_PURGE]
+   - REJECT Platform/Brand identities (e.g., Nano Banana) unless they are being used as a verb (e.g., "The scene is Nano-Banana-fied").
+
+4. [FILTER: VARIABLE_PURGE]
+   - RETAIN structural placeholders that match the root (e.g., [SUBJECT NAME]).
+
+5. [SENSORY_LOCK: TEMPORAL_&_SPATIAL_TRACE]
+   - For Nominals: Map to Spatial Coordinate (e.g., "Top-center").
+   - For Actions: Map to Chronological Sequence (e.g., "Step 1: Naming the file").
+
+[[ OUTPUT_STRICT_ADHERENCE: ENTITY_MANIFEST_FULL_MORPH ]]
