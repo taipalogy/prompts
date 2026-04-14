@@ -3,7 +3,7 @@
 ---
 
 ### 1. Metadata & Frequency Audits (length / count)
-* **[01]** `anchor:"Blueberry" + count("r")`
+* **[01]** `anchor:"Raspberry" + count("r")`
 * **[02]** `anchor:"Strawberry" + count("r")`
 * **[03]** `anchor:"To be, or not to be, that is the question." + count("e")`
 * **[04]** `anchor:"Mississippi" + count("s") + count("i")`
