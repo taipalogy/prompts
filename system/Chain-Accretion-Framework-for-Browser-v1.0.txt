@@ -197,8 +197,9 @@ anchor:Editorial_Layout + utilize:Kinetic_Docking_Protocol
 ```
 Hierarchy,Entity,Classification,Functional Role
 L3: Polymer,The String,Composition Shorthand,The complete architectural command or sequence.
-L2: Molecule,The Segment,Link / Member,+ utilize:Agent / + utilize:method / + tether / (branch:A | branch:B)
+L2: Molecule,The Segment,Link / Member,"+ utilize:Agent / + utilize:(map, reduce, curry, filter) / + tether (Inheritance/Spec) / (branch:A | branch:B)"
 L1: Event,The Action,Operation,"The resulting state-transformation (e.g., Accretion)."
-L0: Atom,The Symbol,Operator / Sigil,+ / - / @ / > / | / -> / ( )
+L0: Atom,The Symbol,Operator / Sigil,+ / - / @ / > / | / -> / ( ) (The Lisp-Gutter)
 L0: Atom,The Target,Operand / Nucleus,anchor: / Safari / Vellum / Method / branch:A
 ```
+
