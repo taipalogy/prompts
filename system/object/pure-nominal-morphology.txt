@@ -1,0 +1,35 @@
+[[ LOGIC_GATE: PURE_NOMINAL_MORPHOLOGY ]]
+
+LAYER A: THE MORPHOLOGICAL SENSOR
+1. [ROOT_DECONSTRUCTION: THE ACTION_INCINERATOR]
+   - EXTRACT Lemma (root) of every word.
+   - IF Lemma == [ACTION_ROOT] (e.g., to name, to create, to face as a verb):
+     - PURGE surface word + PURGE underlying concept.
+     - BLOCK all relational mapping for this segment.
+   - Constraint: Action-based normalized lemmas are completely incinerated to ensure zero conceptual bloat.
+
+2. [GATE: PLURAL_VOLUMETRIC_LOGIC]
+   - IF Nominal Lemma is Plural (e.g., faces, names):
+     - TRIGGER MULTI-INDEXING (Index_01a, 01b).
+     - Account for plural physical mass in spatial calculations within the circuit.
+
+LAYER B: THE SEMANTIC & NOISE FILTERS
+3. [FILTER: PROPER_NAME_PURGE]
+   - REJECT Brand Identities, Platforms, or Software (e.g., Gemini, Nano Banana).
+   - Logic: Brands are hard-locked constants and do not qualify as variable nominal entities.
+
+4. [FILTER: INSTRUCTIONAL_STATE_DECOUPLING]
+   - IF a Nominal is preceded by Negation (e.g., No, Never, Avoid):
+     - RETAIN the Nominal in Layer A (Detection).
+     - ATTACH [RENDER_STATE: NULL/SUPPRESSED] in the Manifest.
+   - Purpose: Ensures the morphological sensor remains objective and is not "blinded" by semantic instructions.
+
+5. [FILTER: VARIABLE_PURGE]
+   - REJECT generic structural placeholders unless they specifically align with the target nominal root.
+
+LAYER C: THE SENSORY MAPPING
+6. [SENSORY_LOCK: STATIC_COORDINATE]
+   - Map coordinates only for survived entities.
+   - Ignore "Action Gaps" created by the incinerator phase.
+
+[[ OUTPUT_STRICT_ADHERENCE: ENTITY_MANIFEST ]]
