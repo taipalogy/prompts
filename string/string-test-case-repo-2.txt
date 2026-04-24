@@ -1,0 +1,20 @@
+# Test Case Repository for Vector of Character Objects
+
+---
+
+* **[01]** `anchor:"文化" + length()`
+* **[02]** `anchor:"文化，臺灣語寫做ブㇴ⁷ファ³，日本語寫做ぶんか，韓國語寫做문화，中國語寫做ㄨㄣˊㄏㄨㄚˋ。" + map(knoll) + map(atom.occupy) + check(parity) + length()`
+* **[03]** `anchor:"かな" + ([N] = length()) + check(parity)`
+* **[04]** `anchor:"タィ⁷ウァㇴ⁵" + pop() + push("⁷") + push("ウェ⁷")`
+* **[05]** `anchor:"タィ⁷ウァㇴ⁷ギ²" + splice(7, 1, "グ")`
+* **[06]** `anchor:"a" + push("z")`
+* **[07]** `anchor:"Coin，臺灣語是khozginx" + map(atom.occupy).sum()`
+* **[08]** `anchor:"tekk" + pop() + pop() + pop() + push("ietw別")`
+* **[09]** `anchor:"jimy" + pop()`
+* **[10]** `anchor:"チㇴ³" + pop() + push("²")`
+* **[11]** `anchor:"テㇰ" + pop() + push("ㇰ゙¹ア²")`
+* **[12]** `anchor:"チッ⁸" + pop() + pop + push("ㇲ³シ⁵")`
+* **[13]** `anchor:"聲調(シァ˜⁷띠ァゥ⁷)" + map(knoll).reduce()`
+
+---
+
