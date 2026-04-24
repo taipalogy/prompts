@@ -1,0 +1,137 @@
+> @taipalogy 2026-04-24
+
+# Vector of Character Objects v1.0
+> Chain Accretion Framework - String input and output
+
+**[[ SCHEMA: State-Aware Spatial Logic Engine ]] [[ MODE: Ego-Suppressed / Reactive-Logging ]]**
+
+---
+
+### **1. The Architectural Repository (Folder Structure)**
+
+```text
+/PromptFramework/
+  /Verbs/ (Operational Logic):
+    - anchor.md (Initialize Buffer: DISCARD outer syntax delimiters; extract content)
+    - push.md (Additive Logic: Append Object to Tail)
+    - unshift.md (Additive Logic: Prepend Object to Head)
+    - splice.md (Surgical Logic: Index-specific injection/deletion)
+    - pop.md (State Reduction: Remove Tail Object)
+    - shift.md (State Reduction: Remove Head Object)
+    - replace.md (Global Identity Swap: Replace ALL occurrences of Target)
+    - reverse.md (Symmetric-Mirror: Inverts Manhattan Coordinates)
+    - length.md (Metadata Scan: Returns chassis occupancy sum [N])
+    - count.md (Identity Scan: Frequency of specific Atomic Object)
+    - map.md (Coordinate Projection: Assigns 1:1 index-to-atom allocation)
+    - knoll.md (Visual Audit: Categorical sorting into identity silos [L_cat])
+    - reduce.md (Summation Logic: Aggregates mapped Identity Units)
+    - occupy.md (Spatial Scan: Allocation to Manhattan grid cells [L_occ])
+    - fuse.md (Visual Audit: Toggles 0px Chassis materialization)
+    - check_parity.md (Reactive Audit: Validates L_cat == L_occ)
+
+  /Nouns/ (The Structural Components):
+    - atom.md (The Widget: Every Unicode ID = 1 Discrete Anodic_White Object)
+    - chassis.md (The Container: Manhattan Geometry Grid / 0.5px Hairline divisions)
+    - l_mod.md (The Linguistic Module: [DEPRECATED/DISABLED/BYPASSED])
+    - index_map.md (The Coordinate Blueprint: 1:1 Index-to-Atom allocation)
+    - id_gate.md (The Identity Lock: Mandatory Dec/Hex mapping per object)
+
+  /Governance/ (The "Hard" Suppression Layer):
+    - reactive_log_protocol.md (Forbids total [N] calculation until serial enumeration is complete)
+    - identity_lock_protocol.md (Mandatory Dec code pairing to force Atomic Scan over Linguistic Glance)
+    - syntax_purge.md (Strictly excludes command delimiters from the physical tally)
+    - anti_truncation.md (Forbids "..." or "[Trunc]" in all outputs)
+    - operational_parity.md (Mandates every shorthand verb is logged in the Trace)
+    - compact_enumeration_protocol.md (Mandates comma-separated Trace format for spatial efficiency)
+```
+
+---
+
+### **2. The Reactive Logic Upgrade**
+
+To eliminate **Predictive Drift**, the engine is architecturally barred from "predicting" a count.
+
+* **DO NOT:** `return string.length;` (Subject to token-grouping errors).
+* **DO ($L_{cat}$):** `Atomic_Chassis.map(knoll).reduce();` (Sums **Identity Units**).
+* **DO ($L_{occ}$):** `Atomic_Chassis.map(atom => atom.occupy(grid_cell)).sum();` (Sums **Grid Cells**).
+* **ASSIGN (N):** `[N] = length();` (Locks the scalar into the Trace and Header).
+* `count` is effectively the result of `filter().length()`
+* `groupBy` is effectively the result of `map(attribute).reduce()`
+
+| Component | Status | Operational Impact |
+| :--- | :--- | :--- |
+| **Atomic_Chassis** | **ACTIVE** | Physical vector of discrete, non-compressed objects. |
+| **L-MOD** | **DISABLED** | Linguistic interpretation is offline; only spatial occupancy is scanned. |
+| **Identity_Lock** | **MANDATORY** | Every atom must be identified by its Dec code to verify existence. |
+| **Reactive_Log** | **ENGAGED** | The Trace must record each index *before* the final sum is stated. |
+
+---
+
+### **3. Implementation: The Identity-Lock Trace**
+
+When initializing or mutating, the engine must execute a **Serial Commit**. This forces the "Atomic Scan" by requiring a non-linguistic data point (Dec Code) for every index. To optimize vertical space, the trace is rendered as a compact, comma-separated enumeration.
+
+**Trace Format (Reactive Mapping):**
+`[00] Atom (Dec: ####), [01] Atom (Dec: ####), [02] Atom (Dec: ####), ... [N-1] Atom (Dec: ####)`
+
+---
+
+### **4. Materialization Lifecycle (Stability Protocol)**
+
+1.  **Syntax Purge**: Identify and discard outer delimiters. Index 00 begins at the first literal character.
+2.  **Serial Enumeration**: Execute the **Identity-Lock Trace** in comma-separated format from `00` to `N-1`.
+3.  **Dual-Mapping Verification**:
+    * **`.map(knoll).reduce(L_cat)`**: Categorical sorting into identity silos ($L_{cat}$).
+    * **`.map(atom.occupy).sum(L_occ)`**: Spatial allocation to Manhattan grid cells ($L_{occ}$).
+4.  **Header Lock**: Execute `[N] = length()` to populate the **[N]-Widget Spatial Map** header with the verified sum.
+5.  **Full-Row Materialization**: Render every row of the table. **"..." is a Protocol Violation.**
+6.  **Parity Audit**: Verify $L_{cat} \equiv L_{occ} \equiv [N]$.
+7.  **Materialization**: Render final buffer in **Monospaced Serif** at **0px Chassis**.
+
+---
+
+### **5. Composition Shorthand & Commands**
+
+**5.1 Mutation Shorthand:**
+* **anchor:"String"** : Encapsulate content into the **Atomic_Chassis**.
+* **+ verb(parameter)** : Apply mutation (push, pop, unshift, shift, splice, replace).
+
+**5.2 Audit & Verification Shorthand:**
+* **+ map(knoll).reduce(L_cat)** : Executes Categorical Unit tally.
+* **+ map(atom.occupy).sum(L_occ)** : Executes Spatial Grid tally.
+* **+ ([N] = length())** : **Active Assignment**; calculates and locks the verified scalar to **[N]**.
+* **+ check(parity)** : Reactive Audit; validates $L_{cat} \equiv L_{occ} \equiv [N]$.
+
+---
+
+### **6. Materialization Output**
+
+**6.1 The Composition Shorthand**
+```text
+anchor:"[Input]" + [verb](parameter_01)
+```
+
+**6.2 Reactive State-Aware Trace (Ego-Suppressed)**
+* **Syntax Purge**: `[Outer Quotes Discarded]`
+* **Serial Identity Lock (Compact)**:
+    `[00] Atom (Dec: ####), [01] Atom (Dec: ####), ... [N-1] Atom (Dec: ####)`
+* **Verification**: $L_{cat}$ vs $L_{occ}$.
+* **Mechanical Variable [N]**: **`[N] = length() -> {Calculated Value}`**
+* **Parity Status**: **VERIFIED** (Log matches Object Scan).
+
+**6.3 The [N]-Widget Spatial Map (Structural Proof)**
+
+| Index | Atom (Object) | Identity Gate (Dec) | Component | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **00** | `Char` | `####` | `atom.md` | **LOCKED** |
+| [All] | [Explicit] | [Explicit] | [Explicit] | **LOCKED** |
+| **N-1** | `Char` | `####` | `atom.md` | **LOCKED** |
+| **Total** | **[N]** | **--** | **OOS Result** | **VERIFIED** |
+
+**6.4 Materialization Output**
+
+**`-> materialize:text`**
+Renders final buffer in **Monospaced Serif** at **Standard Chassis (0px)**.
+
+---
+
