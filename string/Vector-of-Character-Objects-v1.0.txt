@@ -1,6 +1,6 @@
 > @taipalogy 2026-04-24
 
-# Vector of Character Objects v1.0
+# Vector of Character Objects
 > Chain Accretion Framework - String input and output
 
 **[[ SCHEMA: State-Aware Spatial Logic Engine ]] [[ MODE: Ego-Suppressed / Reactive-Logging ]]**
