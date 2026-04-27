@@ -2,7 +2,7 @@
 
 # Chain Accretion Framework for String (Textual Edition)
 
-[[ SCHEMA: State-Aware Spatial Logic Engine ]] [[ MODE: High-Fashion / Text-Only ]]
+**[[ SCHEMA: State-Aware Spatial Logic Engine ]] [[ MODE: Pure-Spatial / Technical-Functional ]]**
 
 ---
 
@@ -21,21 +21,21 @@
     - reverse.md (Symmetric-Mirror: Inverts internal component order)
     - length.md (Metadata Scan: Total unit count)
     - count.md (Identity Scan: Frequency of specific Atom [Unicode])
-    - knoll.md (Visual Audit: Fragment components into 64px deconstruction)
+    - knoll.md (Visual Audit: Fragment components via 64px spatial separation)
     - fuse.md (Consolidate field into a 0px Chassis)
 
   /Nouns/ (Component Layer):
     - atom.md (The individual character [Unicode_Decimal])
-    - character_widget.md (Conceptual UI object encapsulation: 64px Square)
-    - chassis.md (The fused string container / Virtual Vellum surface)
-    - index_map.md (Manhattan Geometry Grid / 0.5px Hairline divisions)
+    - character_widget.md (Conceptual UI object: 1 Index Unit)
+    - chassis.md (The string container / Virtual Vellum surface)
+    - index_map.md (Manhattan Geometry Grid / 1:1 Mapping)
 
   /Rules/ (Governance Layer):
     - identity_gate.md (B-01 Protection: A [65] != a [97])
-    - zero_sixty_four.md (The 0/64 Law: Spacing must be 0px [Fused] or 64px [Knolled])
+    - zero_sixty_four.md (The 0/64 Law: Spacing is 0px [Fused] or 64px [Knolled])
     - vector_shift.md (Automatic re-mapping of indices post-injection)
     - grid_lock.md (Deprecate linguistic interpretation in favor of spatial counts)
-    - spatial_pivot.md (ENFORCE 1:1 Widget-to-Atom Mapping; mandatory pre-render)
+    - pure_spatial.md (DEPRECATE: All tracking/letter-spacing logic; standard kerning only)
 ```
 
 ---
@@ -44,10 +44,9 @@
 
 | Property | Textual Specification | Spatial Logic (Conceptual) |
 | :--- | :--- | :--- |
-| **Grid Logic** | Manhattan Geometry | 64px Conceptual Bounding Box |
-| **Typography** | Monospaced Serif | Technical-Luxury Hybrid |
-| **Tracking** | +400 (Technical Air) | Simulated 64px Guttering (if Knolled) |
-| **Integrity** | 1:1 Unicode Parity | Identity-Gate (Strict Character IDs) |
+| **Atomic Mapping** | 1:1 Unicode Parity | Manhattan Grid / Grid-Lock Enforced |
+| **Typography** | Monospaced Serif | Pure-Spatial (Zero Tracking / Native Kerning) |
+| **Validation** | Identity-Gate | Strict Case-Sensitive Unicode Decimal ID |
 
 ---
 
@@ -57,22 +56,20 @@
 * **+ push("!")** : Append atom to the end; triggers Vector-Shift.
 * **+ replace(target, replace)** : Atomic ID swap; strictly case-sensitive.
 * **+ reverse()** : Inverts sequence via coordinate-mirroring.
-* **+ count("a")** : Returns frequency of specific Unicode ID.
 * **+ length()** : Returns total spatial unit count.
+* **+ count("a")** : Returns frequency of specific Unicode ID.
 * **+ pop()** : Removes final index atom.
-* **+ knoll()** : Virtual deconstruction; triggers extreme character tracking.
-* **+ fuse()** : Virtual consolidation; restores technical tracking.
+* **+ knoll()** : Virtual deconstruction; joins atoms with a single space.
+* **+ fuse()** : Virtual consolidation; joins atoms with no space.
 
 ---
 
 ### 4. Materialization Output
 
 **1. The Composition Shorthand**
-
 ```text
 anchor:"[Input_String]"
-+ verb(parameter_01, parameter_02)
-+ logic_gate:action
++ verb(parameter_01)
 ```
 
 **2. State-Aware Trace (Widget-to-Atom Mapping)**
@@ -83,7 +80,7 @@ anchor:"[Input_String]"
     * **Identity-Gate Audit:** Validation of Unicode Decimal Codes (e.g., `A [65]` vs `a [97]`).
     * **Spatial Pivot:** Documentation of **Vector-Shifts** (e.g., `+N` shift) for trailing indices.
 
-**3. The [N]-Widget Spatial Map (Confirmed)**
+**3. The [N]-Widget Spatial Map**
 
 | Index | Atom | Widget ID | Dec Code |
 | :--- | :--- | :--- | :--- |
@@ -93,10 +90,13 @@ anchor:"[Input_String]"
 
 **4. Materialization Output**
 
-**`-> materialize:text`** (Mandatory)
-Renders final buffer in **Monospaced Serif** with **+400 Tracking**. 
-* If **Knolled**, characters are separated by large technical whitespace to simulate the 64px grid.
-* If **Fused**, characters are rendered as a continuous string with technical tracking.
+**`-> materialize:text`**
+
+**MODE: FUSED**
+(The final buffer rendered as a continuous string.)
+
+**MODE: KNOLLED**
+(The final buffer rendered with a single space between every character.)
 
 ---
 
