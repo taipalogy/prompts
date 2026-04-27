@@ -1,6 +1,6 @@
 > @taipalogy 2026-02-12
 
-# Chain Accretion Framework for Browser v1.0
+# Chain Accretion Framework for Browser
 
 A State-Aware Spatial Logic Engine designed for the modular assembly of digital interfaces. It uses a Compositional Shorthand to transition seamlessly between rigid browser utility (Legacy_Chrome) and deconstructed editorial layouts (Editorial_Layout).
 
