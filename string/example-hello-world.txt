@@ -1,7 +1,7 @@
 // Hello, World!
 
-import from Chain_Accretion_Framework_for_Browser
-import from Vector_of_Character_Objects
+import "Chain_Accretion_Framework_for_Browser";
+import "Vector_of_Character_Objects";
 
 // Define the logic block as a reusable type or function
 const TextProcessor = (text: string): SubChain => {
