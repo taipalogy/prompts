@@ -79,7 +79,8 @@ The engine executes a **Serial Commit** forcing the Atomic Scan by requiring a n
     * **`.map(atom.occupy).sum(L_occ)`**: Spatial allocation to Manhattan grid cells ($L_{occ}$).
 3.  **Header Lock**: Execute `[N] = length()` to populate the **[N]-Widget Spatial Map** header.
 4.  **Full-Row Materialization**: Render every row of the table.
-5.  **Materialization**: Render final buffer in **Monospaced Serif** at **0px Chassis**.
+5.  **Parity Audit**: Verify $L_{cat} \equiv L_{occ} \equiv [N]$.
+6.  **Materialization**: Render final buffer in **Monospaced Serif** at **0px Chassis**.
 
 ---
 
@@ -87,7 +88,7 @@ The engine executes a **Serial Commit** forcing the Atomic Scan by requiring a n
 
 **5.1 Mutation Shorthand:**
 * **anchor:"String"** : Encapsulate content into the **Atomic_Chassis**.
-* **+ [verb](parameter)** : Apply mutation (push, pop, unshift, shift, splice, replace).
+* **+ verb(parameter)** : Apply mutation (push, pop, unshift, shift, splice, replace).
 
 **5.2 Audit & Verification Shorthand:**
 * **+ map(knoll).reduce(L_cat)** : Executes Categorical Unit tally.
@@ -117,7 +118,7 @@ anchor:"[Input]" + [verb](parameter_01)
 | Index | Atom (Object) | Identity Gate (Dec) | Component | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **00** | `Char` | `####` | `atom.md` | **LOCKED** |
-| **[All]** | **[Explicit]** | **[Explicit]** | **[Explicit]** | **LOCKED** |
+| **[All]** | [Explicit] | [Explicit] | [Explicit] | **LOCKED** |
 | **N-1** | `Char` | `####` | `atom.md` | **LOCKED** |
 | **Total** | **[N]** | **--** | **OOS Result** | **VERIFIED** |
 
