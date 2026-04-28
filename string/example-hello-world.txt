@@ -1,4 +1,4 @@
-// Hello, World!
+// Example One
 
 import "Chain_Accretion_Framework_for_Browser";
 import "Vector_of_Character_Objects";
@@ -8,6 +8,6 @@ const TextProcessor = (text: string): SubChain => {
   return `anchor:"${text}" + map(atom.occupy)`;
 };
 
-const tp = TextProcessor("Hello, World!");
+const tp = TextProcessor("example one");
 
 anchor:Vellum_Paper + utilize:method(tp) + apply(Editorial_Air) -> materialize:image
