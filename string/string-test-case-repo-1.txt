@@ -33,9 +33,9 @@
 
 ---
 
-### 5. Symmetric & Transformation Logic (reverse / fuse)
+### 5. Symmetric & Transformation Logic (reverse / join)
 * **[16]** `anchor:"Quantum" + reverse()`
-* **[17]** `anchor:["A", "B", "C"] + fuse("-") + reverse()`
+* **[17]** `anchor:["A", "B", "C"] + join("-") + reverse()`
 * **[18]** `anchor:"Racecar" + reverse() + length()`
 * **[19]** `anchor:"A quick brown fox" + reverse()`
 
