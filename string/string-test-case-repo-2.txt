@@ -15,6 +15,7 @@
 * **[11]** `anchor:"テㇰ" + pop() + push("ㇰ゙¹ア²")`
 * **[12]** `anchor:"チッ⁸" + pop() + pop + push("ㇲ³シ⁵")`
 * **[13]** `anchor:"聲調(シァ˜⁷띠ァゥ⁷)" + map(knoll).reduce()`
+* **[14]** `anchor:"TngzToz" + filter("T").length()`
 
 ---
 
