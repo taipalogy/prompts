@@ -1,0 +1,73 @@
+// Example Two: Pure Vector Character Transformation
+import { anchor, copy, replace } from "Vector_of_Character_Objects";
+
+/**
+ * SUB-ROUTINE: Transform_Character_Format
+ * 
+ * Purpose: Converts linear parenthetical text into specialized 
+ * visual formats (Spatial Stacks or HTML Ruby).
+ */
+const Transform_Character_Format = (chassis, mode: "SPATIAL" | "LINEAR") => {
+  
+  /**
+   * internal_mutate: The core atomic transformation sub-routine.
+   * Targets the "Character(Phonetic)" pattern.
+   */
+  const internal_mutate = (base: string, phonetic: string) => {
+    const rawPattern = `${base}(${phonetic})`;
+    
+    // Branch A (SPATIAL): Materializes as LaTeX stacks
+    // Branch B (LINEAR): Materializes as HTML ruby tags
+    const spatialArg = ` $\\frac{${phonetic}}{\\text{${base}}}$ `;
+    const linearArg  = `<ruby>${base}<rt>${phonetic}</rt></ruby>`;
+    
+    return chassis.replace(rawPattern, mode === "SPATIAL" ? spatialArg : linearArg);
+  };
+
+  // 1. Initial Formatting & Structural Logic
+  if (mode === "SPATIAL") {
+    chassis = chassis.replace("ブッ⁸ 物。", "**ブッ⁸ 物。** ");
+    chassis = chassis.replace("。", " **。** ");
+    chassis = chassis.replace("=", " **=** ");
+  } else if (mode === "LINEAR") {
+    // Prepends the HTML list item tag for the Linear/HTML branch
+    chassis = chassis.replace("ブッ⁸ 物。", "<li>ブッ⁸ 物。");
+  }
+
+  // 2. Sequential Atomic Processing
+  chassis = internal_mutate("物", "ぶつ");
+  chassis = internal_mutate("物", "もの");
+
+  // 3. Compound Breakdown (Recursive call to internal_mutate)
+  chassis = internal_mutate("人", "ジㇴ⁵");
+  chassis = internal_mutate("物", "ブッ⁸");
+
+  // 4. Conclusion & Final Wrap
+  if (mode === "LINEAR") {
+    chassis = internal_mutate("人物", "じんぶつ");
+    chassis = chassis.replace("</ruby>", "</ruby></li>");
+    // Wrap in backticks to treat the HTML as a raw string
+    chassis = "
+```\n" + chassis + "\n```";
+  } else {
+    chassis = internal_mutate("人物", "じんぶつ");
+  }
+
+  return chassis;
+};
+
+// --- MAIN EXECUTION PATH ---
+
+// 1. ANCHOR: Define the Linear Gold Master as the source of truth
+const goldMaster = anchor:"ブッ⁸ 物。物(ぶつ)。物(もの)。人(ジㇴ⁵)物(ブッ⁸)=人物(じんぶつ)";
+
+// 2. FORK: Generate divergent outputs using the shared sub-routine
+const branchA = Transform_Character_Format(goldMaster.copy(), "SPATIAL");
+const branchB = Transform_Character_Format(goldMaster.copy(), "LINEAR");
+
+// 3. MATERIALIZE: Direct Projection
+// Output A: Visual Spatial Stack
+materialize(branchA);
+
+// Output B: HTML Source Code
+materialize(branchB);
