@@ -1,6 +1,4 @@
-> @taipalogy
-> 2026-01-31
----
+> @taipalogy 2026-01-31
 
 # Chain Accretion Framework for Architecture v1.0
 
