@@ -1,0 +1,121 @@
+> @taipalogy 2026-05-12
+
+# HTML Synthesis Engine - Preview
+
+The **HTML Synthesis Engine** is a logic-driven framework for the modular assembly of ephemeral HTML structures.
+
+**Primary Design References:**
+
+* [Markdown is dead, long live HTML](https://x.com/trq212/status/2052809885763747935)
+* [HTML tools: a new category of software](https://simonwillison.net/2025/Dec/10/html-tools/)
+
+---
+
+## 1. Folder Structure
+
+```
+/PromptFramework/
+  /Verbs/ (The Pulse):
+    - anchor.md (Initialize Document/Tool root)
+    - nest.md (Parent-Child accretion / Tree depth)
+    - sibling.md (Adjacent tag addition / Horizontal flow)
+    - branch.md (OPTIONAL: Parallel state paths / Side-by-side comparison)
+    - wrap.md (Enclosing existing nodes in a container)
+    - utilize.md (OPTIONAL: CDN Injection: Tailwind, Monaco, D3, Pyodide, WASM)
+    - hydrate.md (URL/Hash state injection and data-binding)
+    - sync.md (LocalStorage/Session persistence logic)
+    - prune.md (State reduction / Cleanup before export)
+  /Nouns/ (The Matter):
+    - chassis.md (The <body> / 100vw-100vh Root)
+    - node.md (Generic <div> or <section> unit)
+    - interface.md (Button, Input, Textarea, Canvas, Drop-zone)
+    - annotation.md (Side-notes / Marginalia / Metadata popups)
+    - portal.md (Self-contained <iframe> or <template> for live previews)
+    - text.md (P, H1, Blockquote, Code)
+    - tether.md (Metadata mapping / Logic-to-UI binding)
+  /Properties/ (The Skin):
+    - environment.md (Studio-White #FFFFFF / Vellum_Paper Texture)
+    - tactility.md (Material weight / Micro-AO for interactive nodes)
+    - grid_logic.md (Golden Ratio Spacing / 64px Guttering)
+    - material.md { border-color: #2C2C2C; border-width: 0.5px; } (Steel_Obsidian_Stroke)
+    - typography.md { font-color: #1A1A1A; font-family: Monospaced Serif; } (Deep Carbon)
+  /Methods/ (The Logic):
+    - hot_reload.md (OPTIONAL: Instant UI-to-Logic refresh cycles)
+    - interaction_handler.md (Event listeners / State management)
+    - archetype_synthesis.md (Toggle: Editorial vs. Tool vs. Sandbox)
+  /Rules/ (The Physics):
+    - ephemeral_protocol.md (Disposable/Self-contained laws)
+    - kinetic_docking.md (The 0/64 Law)
+    - dimensionality_check.md (OPTIONAL: Validates for "Live" elements if requested)
+    - zero_secret.md (Strict ban on hardcoded API keys/secrets)
+    - optical_logic.md (Independent AO Shadows / Sharpness)
+
+```
+
+---
+
+## 2. Composition Shorthand: Syntax Map
+
+### Available Operations (Operators)
+
+| Sigil | Operation | Functional Role |
+| --- | --- | --- |
+| `+` | **Accretion** | Connects Verbs and Nouns to the chain. |
+| `:` | **Targeting** | Identifies the specific Noun or Verb to act upon. |
+| `@` | **Styling** | Applies a Property or Material to the preceding element. |
+| ` | ` | **Piping/Parallel** |
+| `()` | **Grouping** | Defines logic blocks, specifically for `branch` operations. |
+| `->` | **Materialization** | The final trigger to compile the polymer into an `.html` file. |
+
+### Available Chain Members
+
+* **Initializers**: `anchor:Document`, `anchor:Tool`
+* **Structural**: `nest:`, `sibling:`, `wrap:`, `branch:`
+* **Logic/Data**: `utilize:lib()`, `utilize:agent()`, `hydrate:state()`, `sync:state()`, `tether:logic()`, `tether:method()`
+* **Aesthetic Presets**: `@ Vellum`, `@ Anodic`, `@ Serif`, `@ Tactile`
+
+---
+
+## 3. Operational Modes (Agnostic)
+
+### Archetype A: Editorial_Layout (Static or Dimensional)
+
+* **Trigger**: `anchor:Document`.
+* **Layout**: Fragmented State (**64px**). Can be completely static or accretion interactive `portals`.
+
+### Archetype B: Tool_Chassis (Utility or Sandbox)
+
+* **Trigger**: `anchor:Tool`.
+* **Layout**: Fused State (**0px**). Scales from simple calculators to multi-branch `hot_reload` sandboxes.
+
+---
+
+## 4. The Rules (The Physics)
+
+**Item 1: The Ephemeral Protocol**
+The final output is a single, portable HTML file. It requires no server or build-step to function. All logic is client-side.
+
+**Item 2: The Kinetic Docking Law (0/64)**
+Layout spacing is non-negotiable. Modules are either fused (**0px**) or fragmented (**64px**). This ensures the "Technical Luxury" aesthetic regardless of functional density.
+
+**Item 3: Dimensionality Agnosticism**
+Interactivity is an optional choice. The engine may be used to generate a perfectly knolled, static document that simply uses HTML as a "superior paper" for typography.
+
+**Item 4: Zero-Secret Mandate**
+Tools requiring API keys must use an input gate. Hardcoding credentials remains the only grounds for a Protocol Failure.
+
+---
+
+## 5. Implementation Archetypes (Examples)
+
+> **Ex 1: The Static Specimen (Pure Paper)**
+> `anchor:Document @ Vellum + nest:text(Essay) @ Serif -> materialize:Static_Specimen.html`
+
+> **Ex 2: The Markdown Editor (Reactive Utility)**
+> `anchor:Tool @ Anodic + utilize:lib(MarkedJS) + (branch:Editor_Pane | branch:Preview_Pane) + nest:interface(Textarea) + tether:method(hot_reload) + sync:state(LocalStorage) @ Vellum -> materialize:Markdown_Editor.html`
+
+> **Ex 3: The Prompt Sandbox (Multi-Stage)**
+> `anchor:Tool @ Anodic + nest:chassis(Multi_Stage) + (branch:Source | branch:Variables | branch:Output) + nest:annotation(Unicode_Symbols) + tether:method(hot_reload) + hydrate:state(URL_Hash) + sync:state(LocalStorage) @ Tactile -> materialize:Native_Sandbox.html`
+
+---
+
