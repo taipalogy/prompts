@@ -1,0 +1,33 @@
+/**
+ * Example Three: State-Aware Spatial Logic and Ephemeral Document Materialization
+ * Integration of Chain Accretion Framework for Browser + HTML Synthesis Engine
+ */
+
+import HTML_Synthesis_Engine;
+import Chain_Accretion_Framework_for_Browser;
+
+// --- CHAIN 1: THE HTML SYNTHESIS (Materialization Logic) ---
+// Intent: Compose a portable, ephemeral research document with logic-to-UI binding.
+
+const Research_Specimen_HTML = `
+  anchor:Document @ Vellum 
+  + nest:text(Research_Title) @ Serif 
+  + sibling:node(Content_Stream) @ Serif 
+  + nest:portal(Data_Viz) 
+  + tether:method(Interaction_Handler) 
+  -> materialize:Research_Specimen.html
+`;
+
+// --- CHAIN 2: THE BROWSER RENDERING (Spatial Logic) ---
+// Intent: Construct the high-fashion browser environment to host the previous specimen.
+// Applying the 0/64 Law: Fused chrome (0px) vs. Fragmented viewport (64px).
+
+const Browser_Render_Chain = `
+  anchor:Safari_Browser @ Anodic 
+  + accrete:widget(URL_Bar) @ Anodic 
+  + accrete:widget(Tab_Bar) @ Anodic 
+  + nest:chassis(Research_Specimen_HTML) @ Vellum 
+  + utilize:method(Alpha_Focus) 
+  + utilize:method(Grid_Floor)
+  -> materialize
+`;
