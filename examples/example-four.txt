@@ -1,0 +1,57 @@
+/**
+ * Example Four
+ * ARCHETYPE: Cross-Framework Pipeline
+ * DOMAIN: Logic-driven HTML assembly with Identity-Locked string mutation.
+ * 
+ * Aesthetic is maintained via native CSS and 0px Chassis docking.
+ */
+
+import HTML_Synthesis_Engine;
+import Vector_of_Character_Objects;
+
+// 1. COMPOSITE STATE DEFINITION
+const State_Alpha = {
+  label: "Synthesis Initialized.",
+  logic: `function main() {\n  // Intentionally blank\n}`
+};
+
+const State_Omega = { ...State_Alpha };
+
+// 2. CHAIN B: Multi-Object Mutation (VCO)
+const LabelMutation = Vector_of_Character_Objects.execute(`
+  anchor:"${State_Omega.label}"
+  + splice(21, 0, " -> System: Active")
+  + ([N] = length())
+  + check(parity)
+  -> materialize:text
+`);
+State_Omega.label = LabelMutation.output;
+
+const LogicMutation = Vector_of_Character_Objects.execute(`
+  anchor:"${State_Omega.logic}"
+  + replace("// Intentionally blank", "console.log('System: Active');")
+  + ([N] = length())
+  + check(parity)
+  -> materialize:text
+`);
+State_Omega.logic = LogicMutation.output;
+
+// 3. CHAIN C: Comparative Materialization (HSE)
+const FinalOutput = HTML_Synthesis_Engine.compose(`
+  anchor:Tool @ Anodic
+  + nest:chassis(Comparison_View)
+  + (
+      branch:Before_Pane @ Vellum + 
+      nest:annotation("STATE_ALPHA") +
+      nest:text("${State_Alpha.label}") @ Serif +
+      nest:text("${State_Alpha.logic}") @ Monospace
+    | 
+      branch:After_Pane @ Tactile + 
+      nest:annotation("STATE_OMEGA (MUTATED)") +
+      nest:text("${State_Omega.label}") @ Serif +
+      nest:text("${State_Omega.logic}") @ Monospace
+    )
+  + sync:state(LocalStorage)
+  -> materialize:Native_Composite_Synthesis.html
+`);
+
