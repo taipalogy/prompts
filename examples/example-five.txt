@@ -1,0 +1,93 @@
+// Example Five: Individual chain composition pipeline for layout and operations
+
+import "HTML_Synthesis_Engine";
+import "Movie_Selecting_Framework";
+
+// Initialize the engine and semantic framework runtimes
+const engine = new HTML_Synthesis_Engine();
+const framework = new Movie_Selecting_Framework();
+
+// Register the movie-selecting parameters into the synthesis system
+engine.register(framework);
+
+/**
+ * CHAIN 1: HTML PAGE COMPOSITION SHORTHAND
+ * Responsible for compiling the physical application interface, panels, and layout properties.
+ */
+const htmlLayoutChain = `
+  anchor:Tool @ Pastel_Cream 
+    + utilize:lib(Inter_Font) 
+    + wrap:chassis(App_Layout) 
+      + nest:chassis(Breadcrumb_Bar) @ Soft_Blue
+        + nest:interface(Breadcrumb_Display)
+        + sibling:interface(Back_Button) 
+        + sibling:interface(Clear_Button)
+      + nest:chassis(Results_Panel) @ White_Card
+        + nest:text(Results_Header)
+        + nest:interface(Movie_List_Viewport)
+      + nest:chassis(Suggestions_Panel) @ White_Card
+        + nest:interface(Tag_Scroll_Row) @ Pastel_Green
+      + nest:chassis(Network_Monitor_Panel) @ Steel_Obsidian_Stroke
+        + nest:text(JSON_Stream_Output) @ Deep_Carbon
+    + tether:method(InputOutputWrapper)
+    + tether:method(UIManager)
+    + tether:method(TagManager)
+    + sync:state(Transient_Memory)
+    -> materialize:Movie_Selector_UI.html
+`;
+
+/**
+ * CHAIN 2: MOVIE SELECTING OPERATION SHORTHAND
+ * Responsible for executing the logical data pipeline, valency checks, branching, and right-to-left tree parsing.
+ */
+const movieOperationChain = `
+  let + base_pool = recommend + user + filter
+  + branch(
+      genre('sci-fi') + platform('netflix') + tone('dark'),
+      compare(platform('hbo max'))
+    )
+  + merge
+  + select
+  -> hydrate:state(Contextual_Narrowing_Flow)
+`;
+
+// Execute both synthesis pipelines sequentially within the application scope
+engine.synthesize(htmlLayoutChain);
+framework.execute(movieOperationChain);
+
+/**
+ * LAYOUT ADJUSTMENT CONFIGURATION GUIDE (CHAIN 1):
+ * 
+ * The physical structure of the generated UI is governed linearly by the arrangement of 
+ * the Nouns and Verbs within the main `wrap:chassis(App_Layout)` tree container. 
+ * Because the system interprets elements sequentially, you can radically transform the UI 
+ * layout, hierarchy, and component hierarchy simply by shuffling the shorthand elements:
+ * 
+ * 1. REVERSING PANEL PRIORITY (Dashboard Focus):
+ *    Moving the `Suggestions_Panel` block above the `Results_Panel` forces the layout engine 
+ *    to mount the tag row directly beneath the breadcrumbs. This shifts the focus from viewing 
+ *    matching criteria to aggressive filter selection.
+ * 
+ *    Example:
+ *    + wrap:chassis(App_Layout)
+ *      + nest:chassis(Breadcrumb_Bar)...
+ *      + nest:chassis(Suggestions_Panel)...  <-- Now appears on top
+ *      + nest:chassis(Results_Panel)...      <-- Pushed below
+ * 
+ * 2. STRUCTURAL SIDE-BY-SIDE SPLITTING (Parallel UI Branching):
+ *    By wrapping adjacent layout chassis modules inside an explicit parallel operational group `( | )`, 
+ *    the grid spacing rules instantly switch into a multi-column side-by-side workspace. For instance,
+ *    splitting the movie viewport and the debug monitor console across parallel branches maps them 
+ *    as symmetric horizontal panels instead of stacked vertical sections.
+ * 
+ *    Example:
+ *    + wrap:chassis(App_Layout)
+ *      + nest:chassis(Breadcrumb_Bar)...
+ *      + ( branch:chassis(Results_Panel) | branch:chassis(Network_Monitor_Panel) ) <-- Side-by-side split
+ * 
+ * 3. CONTROL RE-ANCHORING (Sibling Context Shift):
+ *    The `Back_Button` and `Clear_Button` are currently declared as `sibling:interface` nodes to 
+ *    the `Breadcrumb_Display`, nesting them together neatly inside the header container. Moving those 
+ *    button lines to follow the `Movie_List_Viewport` instead will automatically detach them from the 
+ *    top card and re-anchor them cleanly to the bottom of the results table.
+ */
