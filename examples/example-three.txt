@@ -3,7 +3,7 @@
  * Integration of Chain Accretion Framework for Browser + HTML Synthesis Engine
  */
 
-import HTML_Synthesis_Engine;
+import Atomic_HTML_Accretion_Engine;
 import Chain_Accretion_Framework_for_Browser;
 
 // --- CHAIN 1: THE HTML SYNTHESIS (Materialization Logic) ---

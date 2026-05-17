@@ -6,7 +6,7 @@
  * Aesthetic is maintained via native CSS and 0px Chassis docking.
  */
 
-import HTML_Synthesis_Engine;
+import Atomic_HTML_Accretion_Engine;
 import Vector_of_Character_Objects;
 
 // 1. COMPOSITE STATE DEFINITION

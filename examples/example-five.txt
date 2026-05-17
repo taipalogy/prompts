@@ -1,7 +1,7 @@
 // Example Five: Individual chain composition pipeline for layout and operations
 
-import "HTML_Synthesis_Engine";
-import "Movie_Selecting_Framework";
+import Atomic_HTML_Accretion_Engine;
+import Movie_Selecting_Framework;
 
 // Initialize the engine and semantic framework runtimes
 const engine = new HTML_Synthesis_Engine();
