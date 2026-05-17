@@ -1,0 +1,96 @@
+// ============================================================================
+// Example Six: Comprehensive Noun & Canvas Weight Swapping
+// 
+// This script demonstrates targeting discrete Nouns (chassis, text) with 
+// unique aesthetic weights (@) within a single fixed document blueprint.
+// ============================================================================
+
+import { Engine } from 'atomic-html-accretion-engine';
+
+// ============================================================================
+// 1. EXTENDED WEIGHTS DICTIONARY (Targeted Aesthetic Profiles)
+// ============================================================================
+const WEIGHTS = {
+  // Global Canvas Base Profiles
+  Canvas: {
+    BrightStudio: '@ LightCanvas',
+    DarkLab:      '@ DeepNight'
+  },
+  // Structural Box Containment Profiles
+  Chassis: {
+    BrutalistBox: '@ Rigid @ HighContrast',
+    TactilePanel: '@ Anodic @ Tactile',
+    Invisible:    '@ Borderless @ Flush'
+  },
+  // Typographic Presentation Profiles
+  Text: {
+    EditorialSerif: '@ Serif @ HighReadability',
+    TerminalMono:   '@ JetBrainsMono @ PhosphorGlow',
+    SwissSans:      '@ Helvetica @ TightLeading'
+  }
+};
+
+// ============================================================================
+// 2. THE FIXED BLUEPRINT (Target-Ready Linear Blueprint)
+// ============================================================================
+// The blueprint defines the functional pipeline and structural entry points, 
+// leaving template slots available for localized weight interpolation.
+interface BlueprintSlots {
+  canvasWeight: string;
+  chassisWeight: string;
+  textWeight: string;
+}
+
+const FIXED_STATIC_BLUEPRINT = (slots: BlueprintSlots) => ({
+  canvas:  `anchor:Document ${slots.canvasWeight}`,
+  layout:  `+ nest:chassis(Specimen_Box) ${slots.chassisWeight} + nest:text(Main_Content) ${slots.textWeight}`,
+  runtime: `+ hydrate:state(Static) + tether:logic(NullHandler)`
+});
+
+// ============================================================================
+// 3. COMPOSITION ENGINE PIPELINE
+// ============================================================================
+interface AccretionManifest {
+  slots: BlueprintSlots;
+  targetFile: string;
+}
+
+function compileChassis(manifest: AccretionManifest): string {
+  const blueprint = FIXED_STATIC_BLUEPRINT(manifest.slots);
+  
+  // Linearly accrete components with strict evaluation mapping
+  const linearChain = `${blueprint.canvas} ${blueprint.layout} ${blueprint.runtime} -> materialize:${manifest.targetFile}`;
+  
+  return Engine.parse(linearChain);
+}
+
+// ============================================================================
+// 4. PRODUCTION RUN: HYBRID VARIANT GENERATION
+// ============================================================================
+
+// --- VARIANT A: The Hybrid Cyber-Editorial Specimen ---
+// Combines a dark terminal aesthetic on the wrapper, but reads like a textbook inside.
+const cyberEditorialHTML = compileChassis({
+  targetFile: 'Cyber_Editorial.html',
+  slots: {
+    canvasWeight:  WEIGHTS.Canvas.DarkLab,          // Deep dark wrapper
+    chassisWeight: WEIGHTS.Chassis.BrutalistBox,     // Heavy sharp black outline on white board
+    textWeight:    WEIGHTS.Text.EditorialSerif       // High-contrast beautiful serif writing inside
+  }
+});
+// Syntax String Evaluated:
+// "anchor:Document @ DeepNight + nest:chassis(Specimen_Box) @ Rigid @ HighContrast + nest:text(Main_Content) @ Serif @ HighReadability + hydrate:state(Static) + tether:logic(NullHandler) -> materialize:Cyber_Editorial.html"
+
+
+// --- VARIANT B: The Industrial Lab Report ---
+// A clean developer workspace printout sheet.
+const labReportHTML = compileChassis({
+  targetFile: 'Lab_Report.html',
+  slots: {
+    canvasWeight:  WEIGHTS.Canvas.BrightStudio,
+    chassisWeight: WEIGHTS.Chassis.TactilePanel,    // Soft technical grey container inset
+    textWeight:    WEIGHTS.Text.TerminalMono        // Pure glowing monospaced diagnostic code style
+  }
+});
+// Syntax String Evaluated:
+// "anchor:Document @ LightCanvas + nest:chassis(Specimen_Box) @ Anodic @ Tactile + nest:text(Main_Content) @ JetBrainsMono @ PhosphorGlow + hydrate:state(Static) + tether:logic(NullHandler) -> materialize:Lab_Report.html"
