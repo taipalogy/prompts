@@ -1,8 +1,9 @@
 > @taipalogy 2026-05-12
 
-# HTML Synthesis Engine - Preview
+# Atomic HTML Accretion Engine - Draft
+> A Universal String-Chassis Protocol for Multi-Framework Interoperability
 
-The **HTML Synthesis Engine** is a logic-driven framework for the modular assembly of ephemeral HTML structures.
+The **Atomic HTML Accretion Engine** is a logic-driven framework for the modular assembly of ephemeral HTML structures.
 
 **Primary Design References:**
 
