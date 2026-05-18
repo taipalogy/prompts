@@ -5,7 +5,7 @@
 // unique aesthetic weights (@) within a single fixed document blueprint.
 // ============================================================================
 
-import { Engine } from 'atomic-html-accretion-engine';
+import { Engine } from 'Atomic_HTML_Accretion_Engine';
 
 // ============================================================================
 // 1. EXTENDED WEIGHTS DICTIONARY (Targeted Aesthetic Profiles)
@@ -14,13 +14,14 @@ const WEIGHTS = {
   // Global Canvas Base Profiles
   Canvas: {
     BrightStudio: '@ LightCanvas',
-    DarkLab:      '@ DeepNight'
+    DarkLab:      '@ DeepNight',
+    NeutralGrey:  '@ SlateCanvas'
   },
   // Structural Box Containment Profiles
   Chassis: {
     BrutalistBox: '@ Rigid @ HighContrast',
     TactilePanel: '@ Anodic @ Tactile',
-    Invisible:    '@ Borderless @ Flush'
+    PaperSheet:   '@ Vellum @ SoftShadow'
   },
   // Typographic Presentation Profiles
   Text: {
@@ -65,32 +66,43 @@ function compileChassis(manifest: AccretionManifest): string {
 }
 
 // ============================================================================
-// 4. PRODUCTION RUN: HYBRID VARIANT GENERATION
+// 4. PRODUCTION RUN: VARIANT GENERATION
 // ============================================================================
 
-// --- VARIANT A: The Hybrid Cyber-Editorial Specimen ---
-// Combines a dark terminal aesthetic on the wrapper, but reads like a textbook inside.
-const cyberEditorialHTML = compileChassis({
-  targetFile: 'Cyber_Editorial.html',
-  slots: {
-    canvasWeight:  WEIGHTS.Canvas.DarkLab,          // Deep dark wrapper
-    chassisWeight: WEIGHTS.Chassis.BrutalistBox,     // Heavy sharp black outline on white board
-    textWeight:    WEIGHTS.Text.EditorialSerif       // High-contrast beautiful serif writing inside
-  }
-});
-// Syntax String Evaluated:
-// "anchor:Document @ DeepNight + nest:chassis(Specimen_Box) @ Rigid @ HighContrast + nest:text(Main_Content) @ Serif @ HighReadability + hydrate:state(Static) + tether:logic(NullHandler) -> materialize:Cyber_Editorial.html"
-
-
-// --- VARIANT B: The Industrial Lab Report ---
-// A clean developer workspace printout sheet.
-const labReportHTML = compileChassis({
-  targetFile: 'Lab_Report.html',
+// --- VARIANT A: Minimalist Literary Specimen ---
+const literarySpecimenHTML = compileChassis({
+  targetFile: 'Literary_Specimen.html',
   slots: {
     canvasWeight:  WEIGHTS.Canvas.BrightStudio,
-    chassisWeight: WEIGHTS.Chassis.TactilePanel,    // Soft technical grey container inset
-    textWeight:    WEIGHTS.Text.TerminalMono        // Pure glowing monospaced diagnostic code style
+    chassisWeight: WEIGHTS.Chassis.PaperSheet,
+    textWeight:    WEIGHTS.Text.EditorialSerif
   }
 });
 // Syntax String Evaluated:
-// "anchor:Document @ LightCanvas + nest:chassis(Specimen_Box) @ Anodic @ Tactile + nest:text(Main_Content) @ JetBrainsMono @ PhosphorGlow + hydrate:state(Static) + tether:logic(NullHandler) -> materialize:Lab_Report.html"
+// "anchor:Document @ LightCanvas + nest:chassis(Specimen_Box) @ Vellum @ SoftShadow + nest:text(Main_Content) @ Serif @ HighReadability + hydrate:state(Static) + tether:logic(NullHandler) -> materialize:Literary_Specimen.html"
+
+
+// --- VARIANT B: Dark Technical Specimen ---
+const technicalSpecimenHTML = compileChassis({
+  targetFile: 'Technical_Specimen.html',
+  slots: {
+    canvasWeight:  WEIGHTS.Canvas.DarkLab,
+    chassisWeight: WEIGHTS.Chassis.TactilePanel,
+    textWeight:    WEIGHTS.Text.TerminalMono
+  }
+});
+// Syntax String Evaluated:
+// "anchor:Document @ DeepNight + nest:chassis(Specimen_Box) @ Anodic @ Tactile + nest:text(Main_Content) @ JetBrainsMono @ PhosphorGlow + hydrate:state(Static) + tether:logic(NullHandler) -> materialize:Technical_Specimen.html"
+
+
+// --- VARIANT C: Stark Industrial Manifesto ---
+const swissManifestoHTML = compileChassis({
+  targetFile: 'Swiss_Manifesto.html',
+  slots: {
+    canvasWeight:  WEIGHTS.Canvas.NeutralGrey,
+    chassisWeight: WEIGHTS.Chassis.BrutalistBox,
+    textWeight:    WEIGHTS.Text.SwissSans
+  }
+});
+// Syntax String Evaluated:
+// "anchor:Document @ SlateCanvas + nest:chassis(Specimen_Box) @ Rigid @ HighContrast + nest:text(Main_Content) @ Helvetica @ TightLeading + hydrate:state(Static) + tether:logic(NullHandler) -> materialize:Swiss_Manifesto.html"
