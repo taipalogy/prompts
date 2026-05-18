@@ -1,0 +1,76 @@
+/**
+ * ============================================================================
+ * Example Seven
+ * 
+ * DESCRIPTION:
+ * This script demonstrates an immutable layout chain that alters user-visible 
+ * UI structure and functional variants solely by swapping fixed-arity operand 
+ * tokens under a static styling rule.
+ * 
+ * ARCHETYPE CONFIGURATIONS DETAILED:
+ * - Swap A: Code Studio (Center-weighted panes with integrated Action Shelf)
+ * - Swap B: Editorial Essay (Hierarchical text tracking with vertical flow)
+ * - Swap C: Media Sandbox (Grid viewport canvas matrix with asset inspector)
+ * ============================================================================
+ */
+
+import Atomic_HTML_Accretion_Engine;
+
+// ============================================================================
+// THE FIXED CHASSIS SPECIFICATION (IMMUTABLE FRAMEWORK CHAIN WITH FIXED STYLING)
+// ============================================================================
+
+interface ImmutableChassisArguments {
+  CONTAINER: string;  // Primary chassis frame
+  PRIMARY: string;    // Deep-nested central unit
+  SECONDARY: string;  // Deep-nested secondary unit
+  SIDEBAR: string;    // Adjacent horizontal flow layout unit
+  OVERLAY: string;    // Adjacent functional component (Now semantic dock)
+  TARGET_FILE: string;
+}
+
+class AtomicChainChassis {
+  /**
+   * The Immutable Accretion Chain. 
+   * The styling skin rule (@ Tactile) is completely hardcoded into the pipeline layout logic.
+   * The structural and styling operators NEVER change, ensuring absolute predictability.
+   */
+  public static execute(args: ImmutableChassisArguments): string {
+    return `anchor:Tool @ Tactile + nest:${args.CONTAINER} + nest:${args.PRIMARY} + nest:${args.SECONDARY} + sibling:${args.SIDEBAR} + sibling:${args.OVERLAY} -> materialize:${args.TARGET_FILE}`;
+  }
+}
+
+// ============================================================================
+// SWAPPING OPERANDS ONLY (AESTHETICS REMAIN INVARIANT UNDER '@ Tactile')
+// ============================================================================
+
+// --- SWAP A: The Split-Pane Coding Environment
+const codeStudioProps: ImmutableChassisArguments = {
+  CONTAINER:   'chassis(Workspace_Frame)',
+  PRIMARY:     'interface(Code_Editor_Pane)',
+  SECONDARY:   'portal(Live_Preview_Iframe)',
+  SIDEBAR:     'node(Console_Output_Stream)',
+  OVERLAY:     'interface(Action_Shelf_Inspector)', 
+  TARGET_FILE: 'Code_Studio.html'
+};
+
+// --- SWAP B: The Editorial Reading Layout
+const longformEssayProps: ImmutableChassisArguments = {
+  CONTAINER:   'chassis(Typography_Track)',
+  PRIMARY:     'text(Main_Article_Title)',
+  SECONDARY:   'text(Markdown_Body_Copy)',
+  SIDEBAR:     'annotation(Marginalia_Footnotes)',
+  OVERLAY:     'interface(Table_Of_Contents_Sticky)',
+  TARGET_FILE: 'Editorial_Essay.html'
+};
+
+// --- SWAP C: The Media Sandbox / Asset Manager
+const mediaSandboxProps: ImmutableChassisArguments = {
+  CONTAINER:   'chassis(Fluid_Viewport)',
+  PRIMARY:     'interface(WebGL_Canvas_Dropzone)',
+  SECONDARY:   'node(Timeline_Scrubber_Track)',
+  SIDEBAR:     'node(Asset_Inspector_Sidebar)',
+  OVERLAY:     'interface(Export_Settings_Popover)',
+  TARGET_FILE: 'Media_Sandbox.html'
+};
+
