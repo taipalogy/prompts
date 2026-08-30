@@ -4,13 +4,13 @@
 
 > A Universal String-Chassis Protocol for Multi-Framework Interoperability & Compositional Fluidity
 
-The **Compositional UI Engine (CUI)** evolves the accretion architecture into a dynamic composition framework. It ingests raw prose or text and maps it into structural layouts driven by semantic component containment and flex-based composition fluidly, featuring real-time string highlighting, reactive streaming, and strict kinetic docking physics.
+The **Compositional UI Engine (CUI)** evolves the accretion architecture into a dynamic composition framework. It ingests raw prose or text and maps it into structural layouts driven by semantic component containment and flex-based composition fluidly, featuring real-time string highlighting, reactive streaming, strict kinetic docking physics, swappable layout templates, optional autonomous bundling, and pure shorthand manual synthesis modes.
 
 ---
 
 ## 1. Folder Structure
 
-```
+```text
 /PromptFramework/
   /Verbs/ (The Pulse)
     - anchor.md (Initialize Document/Tool root)
@@ -23,6 +23,7 @@ The **Compositional UI Engine (CUI)** evolves the accretion architecture into a 
     - hydrate.md (URL/Hash state injection and data-binding)
     - sync.md (LocalStorage/Session persistence logic)
     - prune.md (State reduction / Cleanup before export)
+    - override.md (Strict-mode configuration flags to bypass automated heuristics)
   /Nouns/ (The Matter)
     - chassis.md (The 100vw-100vh Root)
     - composition.md (Maps text to dynamic component boxes and structural containers)
@@ -31,7 +32,7 @@ The **Compositional UI Engine (CUI)** evolves the accretion architecture into a 
     - annotation.md (Side-notes / Marginalia / Metadata popups)
     - portal.md (Self-contained for live previews)
     - text.md (P, H1, Blockquote, Code)
-  /Properties/ (The Skin)
+  /Properties/ (The Skin & Layout Templates)
     - environment.md (Studio-Dark #1e293b / Fluid Surface Texture)
     - tactility.md (Material weight / Micro-AO for interactive nodes)
     - grid_logic.md (Fluid Grid Spacing / 0px to 64px Fluid Guttering)
@@ -40,7 +41,11 @@ The **Compositional UI Engine (CUI)** evolves the accretion architecture into a 
   /Methods/ (The Logic)
     - highlight.md (Reactive string-matching and marker injection via input field)
     - interaction_handler.md (Event listeners / State management)
-    - archetype_synthesis.md (Toggle: Editorial vs. Tool vs. Sandbox vs. Nested Markdown Viewer)
+    - auto_bundle.md (Optional autonomous compilation bundler for zero-dependency runtime scripts)
+    - archetype_synthesis.md (Toggle: Editorial vs. Tool vs. Sandbox vs. Custom Shorthand)
+  /Registry/ (The State Bindings)
+    - default_template.md (Stores fallback schema layout definitions when enabled)
+    - behavior_bindings.md (Maps UI widgets to modular event controllers)
   /Rules/ (The Physics)
     - ephemeral_protocol.md (Disposable/Self-contained laws)
     - kinetic_docking.md (The 0/64 Law)
@@ -56,9 +61,9 @@ The **Compositional UI Engine (CUI)** evolves the accretion architecture into a 
 | --- | --- | --- |
 | `+` | **Accretion** | Connects Verbs and Nouns to the chain. |
 | `:` | **Targeting** | Identifies the specific Noun or Verb to act upon. |
-| `@` | **Styling** | Applies a Property or Material to the preceding element. |
+| `@` | **Styling & Overrides** | Applies a Property, Material, Swappable Template, or Strict Override Flag. |
 | `>>` | **Ingest** | Feeds raw text or prose into the synthesis engine. |
-| `::` | **Mapping** | Assigns ingested content blocks to specific layout zones. |
+| `::` | **Mapping & Fallback** | Assigns ingested content blocks or resolves layout fallbacks (if active). |
 | `??` | **Query/Highlight** | Binds input fields to real-time string-matching filters. |
 | `()` | **Grouping** | Defines logic blocks and parallel branches. |
 | `->` | **Materialization** | Compiles the polymer into a single `.html` file. |
@@ -76,21 +81,34 @@ Static pre-defined layout slots are replaced by a **Compositional Hierarchy Engi
 * `composition:passage` (Prose Block or Editable Text/Code Area)
 * `composition:button` (Interactive Action Control)
 * `composition:widget` (Parametric Control Widget)
-* `composition:archetype` (Complex Integrated Application Archetypes)
+* `composition:archetype` (Complex Integrated Application Archetypes with Swappable Layouts & Strict Override Toggles)
 
 ---
 
 ## 4. Implementation Archetypes (Examples)
 
-> **Ex 1: The Nested Markdown Viewer Archetype**
+> **Ex 1: The Nested Markdown Viewer Archetype (With Defaults Enabled)**
 > ```text
-> + widget:box(Nested_Markdown_Viewer)
+> + widget:box(Nested_Markdown_Viewer) @ template:Nested_Markdown_Viewer_Layout
 >   + nest:box(Viewer_Split_Workspace)
 >     + nest:box(Markdown_File_Loader) @ type:drop-zone @ text:`📂 Click to browse or drop a .md file here`
 >     + sibling:passage(Tinted_Preview_Canvas) @ text:Visual_Hierarchical_Render_Zone
 >   + nest:button(Toggle_Collapse_Button) @ text:Collapse_All_Sections @ background:#0284c7 @ color:#ffffff
 > + sibling:widget(Theme_Mode_Selector) @ default:light @ options:[slate, light] @ script:collapse_controller.js
+> :: resolve_fallback(default_template.md)
 > -> materialize:Nested_Markdown_Viewer.html
+> 
+> ```
+> 
+> 
+
+> **Ex 2: Pure Shorthand Synthesis (Strict Mode with Overrides Disabled)**
+> ```text
+> anchor:Tool @ Strict_Mode + override:disable_auto_bundle + override:disable_fallback
+>   + widget:box(Custom_Experimental_UI)
+>     + nest:textbox(Raw_Input_Field)
+>     + sibling:canvas(Custom_Render_Surface)
+> -> materialize:Manual_Synthesis.html
 > 
 > ```
 > 
@@ -103,3 +121,5 @@ Static pre-defined layout slots are replaced by a **Compositional Hierarchy Engi
 * **Item 1: The Ephemeral Protocol**: The final output compiles down to a single self-contained HTML file requiring no external server dependencies.
 * **Item 2: Kinetic Docking (0/64)**: Structural spacing adheres strictly to binary boundaries (fused **0px** or structured **64px** gutters).
 * **Item 3: Reactive Highlighting**: Input queries (`??`) perform client-side DOM node traversal, dynamically wrapping target substrings in highlighted spans without altering underlying layout flow.
+* **Item 4: Optional Autonomous Auto-Bundling**: When controller scripts or behavior bindings are absent, the engine defaults to auto-injecting runtime logic unless explicitly disabled via the `override:disable_auto_bundle` flag for pure manual synthesis.
+* **Item 5: Optional Fallback Template Resolution**: Shorthand chains automatically apply layout templates from `default_template.md` unless explicitly overridden and bypassed via the `override:disable_fallback` flag.
