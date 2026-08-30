@@ -1,0 +1,105 @@
+> @taipalogy 2026-08-30
+
+# Compositional UI Engine (CUI)
+
+> A Universal String-Chassis Protocol for Multi-Framework Interoperability & Compositional Fluidity
+
+The **Compositional UI Engine (CUI)** evolves the accretion architecture into a dynamic composition framework. It ingests raw prose or text and maps it into structural layouts driven by semantic component containment and flex-based composition fluidly, featuring real-time string highlighting, reactive streaming, and strict kinetic docking physics.
+
+---
+
+## 1. Folder Structure
+
+```
+/PromptFramework/
+  /Verbs/ (The Pulse)
+    - anchor.md (Initialize Document/Tool root)
+    - nest.md (Parent-Child accretion / Tree depth)
+    - sibling.md (Adjacent tag addition / Horizontal flow)
+    - branch.md (Parallel state paths / Side-by-side comparison)
+    - wrap.md (Enclosing existing nodes in a container)
+    - utilize.md (CDN Injection: Tailwind, HighlightJS, etc.)
+    - ingest.md (Pipes raw prose/text input into the composition engine)
+    - hydrate.md (URL/Hash state injection and data-binding)
+    - sync.md (LocalStorage/Session persistence logic)
+    - prune.md (State reduction / Cleanup before export)
+  /Nouns/ (The Matter)
+    - chassis.md (The 100vw-100vh Root)
+    - composition.md (Maps text to dynamic component boxes and structural containers)
+    - node.md (Generic unit)
+    - interface.md (Button, Input, Textarea, Canvas, Drop-zone)
+    - annotation.md (Side-notes / Marginalia / Metadata popups)
+    - portal.md (Self-contained for live previews)
+    - text.md (P, H1, Blockquote, Code)
+  /Properties/ (The Skin)
+    - environment.md (Studio-Dark #1e293b / Fluid Surface Texture)
+    - tactility.md (Material weight / Micro-AO for interactive nodes)
+    - grid_logic.md (Fluid Grid Spacing / 0px to 64px Fluid Guttering)
+    - material.md { border-color: #334155; border-width: 1px; }
+    - typography.md { font-color: #e2e8f0; font-family: Monospaced Sans; }
+  /Methods/ (The Logic)
+    - highlight.md (Reactive string-matching and marker injection via input field)
+    - interaction_handler.md (Event listeners / State management)
+    - archetype_synthesis.md (Toggle: Editorial vs. Tool vs. Sandbox vs. Nested Markdown Viewer)
+  /Rules/ (The Physics)
+    - ephemeral_protocol.md (Disposable/Self-contained laws)
+    - kinetic_docking.md (The 0/64 Law)
+    - zero_secret.md (Strict ban on hardcoded API keys/secrets)
+
+```
+
+---
+
+## 2. Composition Shorthand: Syntax Map
+
+| Sigil | Operation | Functional Role |
+| --- | --- | --- |
+| `+` | **Accretion** | Connects Verbs and Nouns to the chain. |
+| `:` | **Targeting** | Identifies the specific Noun or Verb to act upon. |
+| `@` | **Styling** | Applies a Property or Material to the preceding element. |
+| `>>` | **Ingest** | Feeds raw text or prose into the synthesis engine. |
+| `::` | **Mapping** | Assigns ingested content blocks to specific layout zones. |
+| `??` | **Query/Highlight** | Binds input fields to real-time string-matching filters. |
+| `()` | **Grouping** | Defines logic blocks and parallel branches. |
+| `->` | **Materialization** | Compiles the polymer into a single `.html` file. |
+
+---
+
+## 3. Compositional Hierarchy Registry (Dynamic Layout Paradigm)
+
+Static pre-defined layout slots are replaced by a **Compositional Hierarchy Engine**. Layout structures are derived dynamically from semantic element containment, indent-driven node stacks, and container-aware box primitives.
+
+* `composition:box` (Flexible Structural Container with Header Bar)
+* `composition:textbox` (Form Input Group with Label & Input Field)
+* `composition:list` (Grouped List Container)
+* `composition:radio` (Selectable Option Item)
+* `composition:passage` (Prose Block or Editable Text/Code Area)
+* `composition:button` (Interactive Action Control)
+* `composition:widget` (Parametric Control Widget)
+* `composition:archetype` (Complex Integrated Application Archetypes)
+
+---
+
+## 4. Implementation Archetypes (Examples)
+
+> **Ex 1: The Nested Markdown Viewer Archetype**
+> ```text
+> + widget:box(Nested_Markdown_Viewer)
+>   + nest:box(Viewer_Split_Workspace)
+>     + nest:box(Markdown_File_Loader) @ type:drop-zone @ text:`📂 Click to browse or drop a .md file here`
+>     + sibling:passage(Tinted_Preview_Canvas) @ text:Visual_Hierarchical_Render_Zone
+>   + nest:button(Toggle_Collapse_Button) @ text:Collapse_All_Sections @ background:#0284c7 @ color:#ffffff
+> + sibling:widget(Theme_Mode_Selector) @ default:light @ options:[slate, light] @ script:collapse_controller.js
+> -> materialize:Nested_Markdown_Viewer.html
+> 
+> ```
+> 
+> 
+
+---
+
+## 5. Execution Rules (The Physics)
+
+* **Item 1: The Ephemeral Protocol**: The final output compiles down to a single self-contained HTML file requiring no external server dependencies.
+* **Item 2: Kinetic Docking (0/64)**: Structural spacing adheres strictly to binary boundaries (fused **0px** or structured **64px** gutters).
+* **Item 3: Reactive Highlighting**: Input queries (`??`) perform client-side DOM node traversal, dynamically wrapping target substrings in highlighted spans without altering underlying layout flow.
