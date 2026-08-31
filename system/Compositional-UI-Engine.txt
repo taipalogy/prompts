@@ -87,16 +87,27 @@ Static pre-defined layout slots are replaced by a **Compositional Hierarchy Engi
 
 ## 4. Implementation Archetypes (Examples)
 
-> **Ex 1: The Nested Markdown Viewer Archetype (With Defaults Enabled)**
+> **Ex 1: The Color Palette Gallery Archetype**
 > ```text
-> + widget:box(Nested_Markdown_Viewer) @ template:Nested_Markdown_Viewer_Layout
->   + nest:box(Viewer_Split_Workspace)
->     + nest:box(Markdown_File_Loader) @ type:drop-zone @ text:`📂 Click to browse or drop a .md file here`
->     + sibling:passage(Tinted_Preview_Canvas) @ text:Visual_Hierarchical_Render_Zone
->   + nest:button(Toggle_Collapse_Button) @ text:Collapse_All_Sections @ background:#0284c7 @ color:#ffffff
-> + sibling:widget(Theme_Mode_Selector) @ default:light @ options:[slate, light] @ script:collapse_controller.js
+> chassis:root @ template:editorial_studio @ environment:Studio-Dark
+>   + verb:anchor:Tool @ Strict_Mode
+>   + verb:utilize:CDN(TailwindCSS, HighlightJS)
+>   + verb:ingest >> text:`A 3x3 matrix gallery showcasing curated chromatic design tokens and harmonic color palettes.`
+>   + widget:box(Color_Palette_Studio) @ template:Grid_3x3_Layout @ layout:fluid_grid_64px
+>     + nest:textbox(Palette_Query_Filter) ?? search:palette_sigil
+>     + sibling:box(Palette_Matrix_Grid) @ style:display_grid @ style:grid_template_columns_3x3
+>       + nest:portal(Palette_Card_1) @ text:Solarized_Dark @ annotation:#002b36,#2aa198,#b58900
+>       + sibling:portal(Palette_Card_2) @ text:Nordic_Frost @ annotation:#2e3440,#88c0d0,#5e81ac
+>       + sibling:portal(Palette_Card_3) @ text:Dracula_Vivid @ annotation:#282a36,#ff79c6,#50fa7b
+>       + sibling:portal(Palette_Card_4) @ text:Cyberpunk_Neon @ annotation:#050505,#ff0055,#00f0ff
+>       + sibling:portal(Palette_Card_5) @ text:Monokai_Pro @ annotation:#2d2a2e,#fd971f,#a6e22e
+>       + sibling:portal(Palette_Card_6) @ text:Tokyo_Night @ annotation:#1a1b26,#7aa2f7,#bb9af7
+>       + sibling:portal(Palette_Card_7) @ text:Gruvbox_Dark @ annotation:#282828,#fb4934,#b8bb26
+>       + sibling:portal(Palette_Card_8) @ text:Catppuccin_Mocha @ annotation:#1e1e2e,#f38ba8,#a6e3a1
+>       + sibling:portal(Palette_Card_9) @ text:Synthwave_84 @ annotation:#262335,#ff7edb,#36f9f6
+>     + sibling:widget(Export_Controller) @ default:enabled @ script:auto_bundle.js
 > :: resolve_fallback(default_template.md)
-> -> materialize:Nested_Markdown_Viewer.html
+> -> materialize:Color_Palette_Gallery.html
 > 
 > ```
 > 
