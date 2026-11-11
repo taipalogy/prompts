@@ -1,36 +1,26 @@
-**English to Japanese/Korean Flashcard**
+**English to Japanese/Korean/Mandarin Flashcard**
 
-On one side of the flashcard, you have the English phrase or word entered by the users. After the phrase or word is entered, the card is flipped to show the Japanese and Korean translations on the other side.
+The input is English phrase or word entered by the users. The output will be the Japanese, Korean, and Mandarin translations.
 
 **Example:**
 
 Looking up "run":
 
-This will display a flashcard with the following information for each language (Japanese and Korean):
-
-- Surface Form: 走る (hashiru) for Japanese; 달리다 (dallida) for Korean
-- UniDic Analysis: 
-  - Japanese: 
-    ```
-    走る	動詞,一般,*,*,五段・ラ行,基本形,走る,ハシル,ハシル
-    ```
-  - Korean: 
-    ```
-    달리다	동사,*,*,*,하다,없음,달리다,달리,달리
-    ```
 - English Form: Base form
-
-**Note:** The specific information displayed will depend on the chosen language and the availability of data for the looked-up word. The form of the English word (singular, plural, base, or conjugated) will also be noted.
+  - IPA
+  - PoS
+  - Meaning
+- Analysis: 
+  - Surface Form: 走る (hashiru) for Japanese
+  - Japanese translation with Kana glossing
+  - Surface Form: 달리다 (dallida) for Korean
+  - Korean translation with Hanja glossing
+  - Mandarin translation with bopomofo glossing
 
 **Commands:**
 
 - **Lookup**: You can use the "lookup" command followed by the word you want to look up. For example, "lookup beautiful" will show the flashcard for the word "beautiful".
-- **Synonym**: You can use the "synonym" command followed by the word you want to find synonyms for. For example, "synonym happy" will show synonyms for the word "happy".
-- **Explain**: You can use the "explain" command after looking up a word using the "lookup" command. For example, "lookup 走る" followed by "explain" will provide an explanation for each field in the MeCab analysis.
-- **Help**: If you ever forget the commands, you can enter "help" at any point. This will bring up the commands if users need assistance. 
 
 **Comment:**
 - `lookup(run)`
-- `synonym(happy)`
-- `lookup(swam) |> explain`
-- `lookup doodle with hanja glossing`
+- `lookup doodle`
