@@ -1,8 +1,9 @@
-### **Understanding Korean Phonological Rules, Processes, and KIMMO Parsing**
+# Understanding Korean Phonological Rules, Processes, and KIMMO Parsing
 
 Show examples where the actual pronunciation has changed. List all Korean phonological rules including nasal assimilation, fortition, lenition, consonant assimilation, vowel assimilation, final consonant reduction, syllable structure, pitch accent, palatalization, devoicing, addition, dropping, combination of sounds, regressive and progressive assimilation, vowel harmony (모음조화), assimilation types such as complete, partial, absolute, direct, indirect, simple, double assimilation, and 사이시옷.
 
 Additionally, include 連声 (れんじょう, Renjou) and 連濁 (れんだく, Rendaku) from Japanese phonology, where:
+
 - 連声 (れんじょう, Renjou) involves the combination or insertion of sounds at morpheme or word boundaries, resulting in smoother transitions between sounds, often by nasal insertion or consonant transformation.
 - 連濁 (れんだく, Rendaku) involves the voicing of the initial consonant of the second element in a compound word, where voiceless consonants like /k/, /t/, and /h/ become voiced (/g/, /d/, /b/) in certain contexts.
 
@@ -12,7 +13,7 @@ Special focus is given to examples involving **lenition**, **사이시옷**, dif
 
 ---
 
-### **Example: Saeki (さえき) → Saek (さえく)**
+### Example: Saeki (さえき) → Saek (さえく)
 
 - **Underlying form**: **Saeki** (さえき)
 - **Surface form**: **Saek** (さえく)
@@ -32,38 +33,12 @@ Thus, **"Saeki"** (さえき) as the underlying form becomes **"Saek"** (さえ�
 **Output:**
 
 1. **Witton (English word example)**
-
    - **Base Form / Underlying Form**: Wit-ton (/ˈwɪt tɒn/)
    - **Inflected Form**: N/A (not applicable for English in this case)
    - **Surface Form**: Witton (/ˈwɪtən/)
    - **Actual Pronunciation**: /ˈwɪtən/ (surface pronunciation with vowel reduction and softened "t")
    - **Written Form**: Witton
-
    **Explanation**: In English, the word "Witton" exhibits a difference between its underlying form ("Wit-ton") and surface form. The underlying form separates the syllables, with a full vowel in the second syllable and a clear "t." In the surface form, vowel reduction (to a schwa in the second syllable) and a softened "t" create a more natural pronunciation. This is comparable to lenition and vowel reduction processes found in Korean phonology.
-
----
-
-### **Examples with Isolation Form, Standalone Form, and Combining Form**
-
-#### **Example: English – Morphological Changes (Child → Children)**
-
-1. **Isolation Form**:  
-   - **Base Form**: *Child*  
-   - **Surface Form**: /tʃaɪld/  
-   - **Written Form**: Child  
-   - **Explanation**: When the word "child" stands alone, it retains its singular form and pronunciation.  
-
-2. **Standalone Form**:  
-   - **Base Form**: *Children*  
-   - **Surface Form**: /ˈtʃɪl.drən/  
-   - **Written Form**: Children  
-   - **Explanation**: The standalone plural form “children” introduces a morphemic change with the addition of "-ren" as a plural marker, along with vowel alternation in the root (*i* → *ɪ*).  
-
-3. **Combining Form**:  
-   - **Base Form**: *Children's*  
-   - **Surface Form**: /ˈtʃɪl.drənz/  
-   - **Written Form**: Children's  
-   - **Explanation**: In the possessive form “children’s,” the plural form *children* is combined with the possessive marker "-’s," modifying the noun to indicate possession (e.g., “children’s toys”).
 
 ---
 
@@ -76,13 +51,13 @@ Generates parsing results from the KIMMO parser for a given word, showing the un
 **Output:**
 
 1. **chase+ed** (English)
-
    - **Lexical Form**: chase+ed
    - **Surface Form**: chas00ed → chased
    - **Parsing Explanation**: The KIMMO parser handles **chas00ed** by merging the two "e"s (from "chase" and "-ed"). The "00" in the surface form represents the two identical "e"s collapsing into one, which results in the written form "chased." Phonological rules, such as vowel merging and past tense pronunciation, account for the transformation from **chase+ed** to **chased.**
 
-### **Comment**
-```
-show all derivative forms of the word nature.
+### Comment
 
 ```
+show all derivative forms of the word nature.
+```
+
